@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T13:02:04.882Z",
+ "generatedAt": "2026-11-09T13:18:58.340Z",
  "today": "2026-11-09",
  "budgetEur": 40,
  "assumptions": {
@@ -198,7 +198,71 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (66 %). Pelaajat aliarvostavat: tasapeli (arvio 19 %, pelaajat 11 %) ja vierasvoitto (arvio 15 %, pelaajat 7 %). Ylipelattu: kotivoitto (82 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 66 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 70 %",
+          "Leicester City pelaa ylemmässä sarjassa (League One vs League Two)"
+         ],
+         "cons": [
+          "82 % pelaajista veikkaa tätä (oma arvio 66 %), joten voitto jaetaan monen kanssa",
+          "Walsall: ei yhtään tappiota 7 vierasottelussa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 11 % pelaajista veikkaa tätä (oma arvio 19 %), joten voitto jaetaan harvempien kesken",
+          "Walsall: 5 tasapeliä 7 vierasottelussa"
+         ],
+         "cons": [
+          "Oma arvio vain 19 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 7 % pelaajista veikkaa tätä (oma arvio 15 %), joten voitto jaetaan harvempien kesken",
+          "Walsall: ei yhtään tappiota 7 vierasottelussa"
+         ],
+         "cons": [
+          "Oma arvio vain 15 %",
+          "Kertoimet antavat vain 13 %"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -295,7 +359,55 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (74 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 74 % — ottelun todennäköisin lopputulos",
+          "Oxford United: 4 voittoa 7 kotiottelussa",
+          "Cheltenham Town: 4 tappiota 7 vierasottelussa"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [
+          "Oxford United: 3 tasapeliä 7 kotiottelussa"
+         ],
+         "cons": [
+          "Oma arvio vain 17 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "epätodennäköinen",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 9 %",
+          "Cheltenham Town: vain 1 voitto 7 vierasottelussa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -392,7 +504,49 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (41 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 41 % — ottelun todennäköisin lopputulos",
+          "Barnet: 4 voittoa 7 kotiottelussa"
+         ],
+         "cons": [
+          "Leyton Orient pelaa ylemmässä sarjassa (League One vs League Two)"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 29 %, pelaajista 30 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [
+          "Oma arvio: 30 %",
+          "Leyton Orient pelaa ylemmässä sarjassa (League One vs League Two)"
+         ],
+         "cons": [
+          "Barnet: 4 voittoa 7 kotiottelussa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -509,7 +663,47 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (39 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 39 % — ottelun todennäköisin lopputulos"
+         ],
+         "cons": [
+          "Northampton Town: vain 2 voittoa 7 kotiottelussa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [
+          "Joukkueet ovat arviossamme lähes yhtä vahvat"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [
+          "Oma arvio: 33 %",
+          "Northampton Town: vain 2 voittoa 7 kotiottelussa"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -617,7 +811,66 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisimmät: kotivoitto ja vierasvoitto (noin 38 %). Pelaajat aliarvostavat: kotivoitto (arvio 38 %, pelaajat 31 %). Ylipelattu: vierasvoitto (48 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "yksi todennäköisimmistä",
+           "tone": "neutral"
+          },
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 38 % — yksi ottelun todennäköisimmistä lopputuloksista",
+          "Vain 31 % pelaajista veikkaa tätä (oma arvio 38 %), joten voitto jaetaan harvempien kesken",
+          "Wigan Athletic: ei yhtään voittoa 7 vierasottelussa"
+         ],
+         "cons": [
+          "Wigan Athletic pelaa ylemmässä sarjassa (League One vs League Two)"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [
+          "Joukkueet ovat arviossamme lähes yhtä vahvat",
+          "Crewe Alexandra: 4 tasapeliä 7 kotiottelussa"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "yksi todennäköisimmistä",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 38 % — yksi ottelun todennäköisimmistä lopputuloksista",
+          "Wigan Athletic pelaa ylemmässä sarjassa (League One vs League Two)"
+         ],
+         "cons": [
+          "48 % pelaajista veikkaa tätä (oma arvio 38 %), joten voitto jaetaan monen kanssa",
+          "Wigan Athletic: ei yhtään voittoa 7 vierasottelussa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -726,7 +979,67 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (44 %). Pelaajat aliarvostavat: kotivoitto (arvio 32 %, pelaajat 23 %) ja tasapeli (arvio 24 %, pelaajat 20 %). Ylipelattu: vierasvoitto (57 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 32 %",
+          "Vain 23 % pelaajista veikkaa tätä (oma arvio 32 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Burton Albion: vain 2 voittoa 7 kotiottelussa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 20 % pelaajista veikkaa tätä (oma arvio 24 %), joten voitto jaetaan harvempien kesken",
+          "Burton Albion: 4 tasapeliä 7 kotiottelussa",
+          "Notts County: 3 tasapeliä 6 vierasottelussa"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 44 % — ottelun todennäköisin lopputulos",
+          "Burton Albion: vain 2 voittoa 7 kotiottelussa"
+         ],
+         "cons": [
+          "57 % pelaajista veikkaa tätä (oma arvio 44 %), joten voitto jaetaan monen kanssa",
+          "Notts County: vain 1 voitto 6 vierasottelussa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -824,7 +1137,62 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (71 %). Pelaajat aliarvostavat: tasapeli (arvio 17 %, pelaajat 13 %) ja vierasvoitto (arvio 12 %, pelaajat 8 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 71 % — ottelun todennäköisin lopputulos",
+          "Swindon Town: 4 tappiota 7 vierasottelussa",
+          "Plymouth Argyle pelaa ylemmässä sarjassa (League One vs League Two)"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 13 % pelaajista veikkaa tätä (oma arvio 17 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 17 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 8 % pelaajista veikkaa tätä (oma arvio 12 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 12 %",
+          "Swindon Town: vain 1 voitto 7 vierasottelussa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -921,7 +1289,50 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (52 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [],
+         "pros": [
+          "Bristol Rovers: 4 voittoa 7 kotiottelussa"
+         ],
+         "cons": [
+          "Reading pelaa ylemmässä sarjassa (League One vs League Two)"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [
+          "Reading: 3 tasapeliä 7 vierasottelussa"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 52 % — ottelun todennäköisin lopputulos",
+          "Reading pelaa ylemmässä sarjassa (League One vs League Two)"
+         ],
+         "cons": [
+          "Reading: vain 1 voitto 7 vierasottelussa",
+          "Bristol Rovers: 4 voittoa 7 kotiottelussa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1018,7 +1429,61 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (74 %). Pelaajat aliarvostavat: tasapeli (arvio 16 %, pelaajat 13 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 74 % — ottelun todennäköisin lopputulos",
+          "Stockport County: 5 voittoa 7 kotiottelussa",
+          "Stockport County pelaa ylemmässä sarjassa (League One vs League Two)"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 13 % pelaajista veikkaa tätä (oma arvio 16 %), joten voitto jaetaan harvempien kesken",
+          "Tranmere Rovers: 4 tasapeliä 7 vierasottelussa"
+         ],
+         "cons": [
+          "Oma arvio vain 16 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "epätodennäköinen",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 10 %",
+          "Tranmere Rovers: vain 1 voitto 7 vierasottelussa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1115,7 +1580,46 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (51 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 51 % — ottelun todennäköisin lopputulos",
+          "Chesterfield: 4 tappiota 7 vierasottelussa",
+          "Mansfield Town pelaa ylemmässä sarjassa (League One vs League Two)"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 26 %, pelaajista 26 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [
+          "Chesterfield: vain 2 voittoa 7 vierasottelussa",
+          "Mansfield Town pelaa ylemmässä sarjassa (League One vs League Two)"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1233,7 +1737,63 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (74 %). Pelaajat aliarvostavat: tasapeli (arvio 14 %, pelaajat 9 %) ja vierasvoitto (arvio 11 %, pelaajat 7 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 74 % — ottelun todennäköisin lopputulos",
+          "York City: ei yhtään voittoa 7 vierasottelussa",
+          "York City: 4 tappiota 7 vierasottelussa"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 9 % pelaajista veikkaa tätä (oma arvio 14 %), joten voitto jaetaan harvempien kesken",
+          "York City: 3 tasapeliä 7 vierasottelussa"
+         ],
+         "cons": [
+          "Oma arvio vain 14 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 7 % pelaajista veikkaa tätä (oma arvio 11 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 11 %",
+          "York City: ei yhtään voittoa 7 vierasottelussa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1319,7 +1879,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     }
    ],
@@ -1386,7 +1947,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1428,7 +1990,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1470,7 +2033,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1512,7 +2076,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1554,7 +2119,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1596,7 +2162,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1638,7 +2205,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1680,7 +2248,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1722,7 +2291,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1764,7 +2334,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1806,7 +2377,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1848,7 +2420,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
        }
-      ]
+      ],
+      "quick": null
      }
     }
    ],
@@ -1921,7 +2494,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -1964,7 +2538,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2007,7 +2582,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2050,7 +2626,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2093,7 +2670,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2136,7 +2714,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2179,7 +2758,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2222,7 +2802,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2265,7 +2846,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2308,7 +2890,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2351,7 +2934,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2394,7 +2978,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -2437,7 +3022,8 @@
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
        }
-      ]
+      ],
+      "quick": null
      }
     }
    ],
@@ -2554,7 +3140,45 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (60 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 60 % — ottelun todennäköisin lopputulos",
+          "Tällä kaudella Chelsea on kerännyt enemmän pisteitä (1,9 vs 0,9 per ottelu)"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 22 %, pelaajista 21 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 18 %",
+          "Tällä kaudella Chelsea on kerännyt enemmän pisteitä (1,9 vs 0,9 per ottelu)"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -2607,7 +3231,53 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (73 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 73 % — ottelun todennäköisin lopputulos",
+          "Tällä kaudella Arsenal on kerännyt enemmän pisteitä (2,6 vs 1,4 per ottelu)",
+          "Viime kaudella Arsenal keräsi kotona 2,5 ja Everton vieraissa 1,4 pistettä per ottelu"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 18 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "epätodennäköinen",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 9 %",
+          "Tällä kaudella Arsenal on kerännyt enemmän pisteitä (2,6 vs 1,4 per ottelu)"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -2661,7 +3331,55 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (40 %). Pelaajat aliarvostavat: kotivoitto (arvio 40 %, pelaajat 30 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 40 % — ottelun todennäköisin lopputulos",
+          "Vain 30 % pelaajista veikkaa tätä (oma arvio 40 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 28 %, pelaajista 29 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 32 %"
+         ],
+         "cons": [
+          "41 % pelaajista veikkaa tätä (oma arvio 32 %), joten voitto jaetaan monen kanssa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -2716,7 +3434,62 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (58 %). Pelaajat aliarvostavat: tasapeli (arvio 23 %, pelaajat 20 %) ja vierasvoitto (arvio 19 %, pelaajat 13 %). Ylipelattu: kotivoitto (67 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 58 % — ottelun todennäköisin lopputulos"
+         ],
+         "cons": [
+          "67 % pelaajista veikkaa tätä (oma arvio 58 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 20 % pelaajista veikkaa tätä (oma arvio 23 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 13 % pelaajista veikkaa tätä (oma arvio 19 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 19 %"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -2769,7 +3542,52 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisimmät: kotivoitto ja vierasvoitto (noin 37 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "yksi todennäköisimmistä",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 37 % — yksi ottelun todennäköisimmistä lopputuloksista"
+         ],
+         "cons": [
+          "Tällä kaudella Swansea on kerännyt enemmän pisteitä (2,1 vs 1,5 per ottelu)"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [
+          "Joukkueet ovat arviossamme lähes yhtä vahvat"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "yksi todennäköisimmistä",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 35 % — yksi ottelun todennäköisimmistä lopputuloksista",
+          "Tällä kaudella Swansea on kerännyt enemmän pisteitä (2,1 vs 1,5 per ottelu)"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -2823,7 +3641,58 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (41 %). Pelaajat aliarvostavat: kotivoitto (arvio 32 %, pelaajat 26 %). Ylipelattu: vierasvoitto (48 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 32 %",
+          "Vain 26 % pelaajista veikkaa tätä (oma arvio 32 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Tällä kaudella Birmingham on kerännyt enemmän pisteitä (1,8 vs 1,0 per ottelu)"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 27 %, pelaajista 26 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 41 % — ottelun todennäköisin lopputulos",
+          "Tällä kaudella Birmingham on kerännyt enemmän pisteitä (1,8 vs 1,0 per ottelu)"
+         ],
+         "cons": [
+          "48 % pelaajista veikkaa tätä (oma arvio 41 %), joten voitto jaetaan monen kanssa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -2877,7 +3746,57 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (56 %). Pelaajat aliarvostavat: kotivoitto (arvio 22 %, pelaajat 18 %) ja tasapeli (arvio 22 %, pelaajat 19 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 18 % pelaajista veikkaa tätä (oma arvio 22 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Tällä kaudella West Brom on kerännyt enemmän pisteitä (1,8 vs 0,4 per ottelu)"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 19 % pelaajista veikkaa tätä (oma arvio 22 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 56 % — ottelun todennäköisin lopputulos",
+          "Tällä kaudella West Brom on kerännyt enemmän pisteitä (1,8 vs 0,4 per ottelu)"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -2930,7 +3849,44 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (54 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 54 % — ottelun todennäköisin lopputulos",
+          "Tällä kaudella Stoke on kerännyt enemmän pisteitä (1,7 vs 1,3 per ottelu)"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 24 %, pelaajista 23 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [
+          "Tällä kaudella Stoke on kerännyt enemmän pisteitä (1,7 vs 1,3 per ottelu)"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -2983,7 +3939,42 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (41 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 41 % — ottelun todennäköisin lopputulos"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 29 %, pelaajista 30 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 30 %, pelaajista 31 % veikkaa tätä"
+        }
+       ]
+      }
      }
     },
     {
@@ -3037,7 +4028,61 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (71 %). Pelaajat aliarvostavat: tasapeli (arvio 18 %, pelaajat 14 %) ja vierasvoitto (arvio 11 %, pelaajat 8 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 71 % — ottelun todennäköisin lopputulos",
+          "Tällä kaudella Wolves on kerännyt enemmän pisteitä (1,6 vs 1,0 per ottelu)"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 14 % pelaajista veikkaa tätä (oma arvio 18 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 18 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 8 % pelaajista veikkaa tätä (oma arvio 11 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 11 %",
+          "Tällä kaudella Wolves on kerännyt enemmän pisteitä (1,6 vs 1,0 per ottelu)"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -3091,7 +4136,56 @@
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
         "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
-      ]
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (38 %). Pelaajat aliarvostavat: kotivoitto (arvio 38 %, pelaajat 29 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 38 % — ottelun todennäköisin lopputulos",
+          "Vain 29 % pelaajista veikkaa tätä (oma arvio 38 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [
+          "Joukkueet ovat arviossamme lähes yhtä vahvat"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 34 %"
+         ],
+         "cons": [
+          "44 % pelaajista veikkaa tätä (oma arvio 34 %), joten voitto jaetaan monen kanssa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -3132,7 +4226,8 @@
         "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
         "what": "pelaajien osuudet"
        }
-      ]
+      ],
+      "quick": null
      }
     },
     {
@@ -3173,7 +4268,8 @@
         "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
         "what": "pelaajien osuudet"
        }
-      ]
+      ],
+      "quick": null
      }
     }
    ],
