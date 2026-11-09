@@ -114,6 +114,7 @@ export const DEFAULT_LEAGUES = [
   'germany/bundesliga',
   'france/ligue-1',
   'finland/veikkausliiga',
+  'england/efl-trophy',
 ];
 
 export const fixturesUrl = (league: string): string => `https://www.betexplorer.com/football/${league}/fixtures/`;

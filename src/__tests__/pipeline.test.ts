@@ -138,3 +138,36 @@ describe('buildRound', () => {
     expect(r.matches[0]!.basis).toBe('model');
   });
 });
+
+describe('buildRound: Futisvakio 6 (12 ottelua, EFL Trophy)', () => {
+  const coupon = data<Coupon>('coupons/2026-11-10-futisvakio-6.json');
+  const odds = data<NonNullable<Parameters<typeof buildRound>[2]>>('odds/2026-11-10-futisvakio-6.json');
+  const r = buildRound(coupon, null, odds, { today: '2026-11-09', budgetEur: 20 });
+
+  it('avoin kierros ilman polkua ja ilman keksittyä pottia', () => {
+    expect(r.status).toBe('open');
+    expect(r.matches).toHaveLength(12);
+    expect(r.path).toEqual([]);
+    expect(r.pools).toBeNull();
+    expect(r.noPathReason).toContain('12 ottelua');
+    expect(r.rowPriceEur).toBe(0.1);
+    expect(r.rowPriceEstimated).toBe(false);
+  });
+
+  it('jokaisella ottelulla on selitys, ja jokaisella faktalla on oma linkki', () => {
+    for (const m of r.matches) {
+      expect(m.explain.headline.length).toBeGreaterThan(5);
+      expect(m.explain.sources.some((s) => /Yle Teksti-TV/.test(s.label))).toBe(true);
+      for (const f of m.explain.facts) expect(f.url).toMatch(/^https:\/\//);
+    }
+    expect(r.links.length).toBeGreaterThanOrEqual(2);
+  });
+
+  it('Leicester–Walsall: kertoimista tuleva arvio ja kertoimen lähde linkitettynä', () => {
+    const m = r.matches[0]!;
+    expect(m.basis).toBe('market');
+    expect(m.explain.sources.map((s) => s.url)).toContain(odds.matches[0]!.url);
+    // muilla otteluilla ei ole kertoimia → ei väitetä etua
+    expect(r.matches[1]!.explain.headline).toBe('Ei omaa tietoa tästä ottelusta');
+  });
+});

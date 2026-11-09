@@ -7,6 +7,7 @@ import { sheetProbs, type TeamSheet } from '../engine/sheet.js';
 import { DEFAULT_PRIZE_MODEL, evConfigFor, type PrizeModel } from '../engine/prize.js';
 import { evaluate, expectedOtherWinners, hitCounts } from '../engine/ev.js';
 import { describeSelection, optimize } from '../engine/optimize.js';
+import { explainMatch, type MatchExplain } from './explain.js';
 import { MATCHES_PER_COUPON, type Coupon, type CouponMatch, type Sign, type Triple } from '../engine/types.js';
 
 export interface SheetFile {
@@ -18,7 +19,7 @@ export interface SheetFile {
 export interface OddsFile {
   fetchedAt: string;
   source: string;
-  matches: Array<{ n: number; odds: [number, number, number] }>;
+  matches: Array<{ n: number; odds: [number, number, number]; event?: string; league?: string; url?: string; label?: string }>;
 }
 
 export interface BuildOptions {
@@ -41,6 +42,8 @@ export interface MatchView {
   /** p / crowd per merkki: >1 = oma arvio pitää merkkiä aliarvostettuna */
   ratio: Triple | null;
   result: Sign | null;
+  /** Selkokielinen selitys ja lähdelinkit */
+  explain: MatchExplain;
 }
 
 export interface StepView {
@@ -80,6 +83,7 @@ export interface RoundView {
   pools: [number, number, number, number] | null;
   source: string;
   note: string | null;
+  links: Array<{ label: string; url: string }>;
   hasEdge: boolean;
   /** Miksi polkua ei ole laskettu, jos ei ole */
   noPathReason: string | null;
@@ -111,6 +115,7 @@ export function buildRound(c: Coupon, sheet: SheetFile | null, odds: OddsFile | 
     return { ...m, model, market };
   });
 
+  const status = statusOf(c, opts.today);
   const views: MatchView[] = matches.map((m) => {
     let f: Fused | null = null;
     try {
@@ -118,7 +123,7 @@ export function buildRound(c: Coupon, sheet: SheetFile | null, odds: OddsFile | 
     } catch {
       f = null;
     }
-    return {
+    const base = {
       n: m.n,
       home: m.home,
       away: m.away,
@@ -130,11 +135,21 @@ export function buildRound(c: Coupon, sheet: SheetFile | null, odds: OddsFile | 
       basis: f?.basis ?? null,
       ratio: f && m.crowd ? (f.p.map((x, i) => x / m.crowd![i]!) as Triple) : null,
       result: m.result ?? null,
+      facts: m.facts,
     };
+    const sh = sheet?.matches.find((x) => x.n === m.n);
+    const od = odds?.matches.find((x) => x.n === m.n);
+    const explain = explainMatch(base, {
+      status,
+      couponId: c.id,
+      couponSource: c.source,
+      fromSheet: Boolean(sh?.home && sh?.away),
+      odds: od ? { league: od.league, event: od.event, url: od.url, label: od.label } : null,
+    });
+    return { ...base, explain };
   });
 
   const hasEdge = views.some((v) => v.basis && v.basis !== 'crowd');
-  const status = statusOf(c, opts.today);
 
   const base: RoundView = {
     id: c.id,
@@ -151,6 +166,7 @@ export function buildRound(c: Coupon, sheet: SheetFile | null, odds: OddsFile | 
     pools: null,
     source: c.source,
     note: c.note ?? null,
+    links: c.sources ?? [],
     hasEdge,
     noPathReason: null,
     matches: views,
@@ -159,7 +175,8 @@ export function buildRound(c: Coupon, sheet: SheetFile | null, odds: OddsFile | 
     calibration: null,
   };
 
-  if (c.turnoverEur != null) {
+  // Potit lasketaan vain 13 ottelun Vakiolle: muiden pelien palkintoluokkia ei tunneta
+  if (c.turnoverEur != null && c.matches.length === MATCHES_PER_COUPON) {
     const cfg = evConfigFor(c, prize);
     base.avgRowEv = cfg.avgRowEv;
     base.pools = cfg.pools;
@@ -175,7 +192,7 @@ export function buildRound(c: Coupon, sheet: SheetFile | null, odds: OddsFile | 
   }
 
   if (c.matches.length !== MATCHES_PER_COUPON) {
-    base.noPathReason = `Kierroksella on ${c.matches.length} ottelua; moottori laskee vain 13 ottelun Vakion (palkintoluokat 13–10 oikein).`;
+    base.noPathReason = `Kierroksella on ${c.matches.length} ottelua. Rivisuositusta ei lasketa, koska tämän pelin palkintoluokkia ei tunneta (moottori osaa vain 13 ottelun Vakion). Ottelukohtaiset selitykset löytyvät silti alta.`;
     return base;
   }
   if (!hasEdge) {

@@ -11,10 +11,13 @@ const mult = (x) => '×' + nf(x >= 10 ? 0 : 1).format(x);
 const oneIn = (p) => (p > 0 ? '1 : ' + nf(0).format(Math.round(1 / p)) : '–');
 const probText = (p) => (p >= 0.01 ? pct(p, 1) : oneIn(p));
 const statusLabel = { open: 'Avoin', closed: 'Suljettu', played: 'Pelattu' };
-const basisLabel = { 'model+market': 'malli+markkina', market: 'markkina', model: 'taulukko', crowd: 'pelijakauma' };
+const basisLabel = { 'model+market': 'kertoimet + taulukko', market: 'kertoimet', model: 'taulukko', crowd: 'ei omaa tietoa' };
 const dateFi = (iso) => { const [y, m, d] = iso.split('-').map(Number); return `${d}.${m}.${y}`; };
 
-const state = { data: null, roundId: null, step: 0 };
+const state = { data: null, roundId: null, step: 0, open: new Set() };
+const safeUrl = (u) => (/^https?:\/\//.test(u) ? u : '#');
+const link = (u, t) => `<a href="${esc(safeUrl(u))}" target="_blank" rel="noopener noreferrer">${esc(t)}</a>`;
+const signWord = { '1': 'kotivoitto', X: 'tasapeli', '2': 'vierasvoitto' };
 
 /* ---------- Teema ---------- */
 const THEMES = [['winter', 'Talvi'], ['dark', 'Titaani'], ['light', 'Timantti']];
@@ -67,11 +70,14 @@ function renderTiles(r) {
   $('#tiles').innerHTML =
     tile('Vaihto', eur(r.turnoverEur) + (r.turnoverEstimated ? '<span class="est">arvio</span>' : ''), r.rowPriceEur ? `≈ ${nf(0).format(r.turnoverEur / r.rowPriceEur)} riviä à ${eur(r.rowPriceEur, 2)}${r.rowPriceEstimated ? ' (hinta oletettu)' : ''}` : '') +
     pot +
-    tile('13 oikein -potti', r.pools ? eur(r.pools[0]) + '<span class="est">arvio</span>' : '–', r.pools ? `12 oikein ≈ ${eur(r.pools[1])}` : '') +
-    tile('Ottelut', String(r.matches.length), r.hasEdge ? 'oma data mukana' : 'vain pelijakauma');
+    tile(r.matches.length === 13 ? '13 oikein -potti' : 'Potti', r.pools ? eur(r.pools[0]) + '<span class="est">arvio</span>' : '–', r.pools ? `12 oikein ≈ ${eur(r.pools[1])}` : 'ei arvioitu: palkintoluokkia ei tunneta') +
+    tile('Ottelut', String(r.matches.length), (n => (n === 0 ? 'vain pelaajien osuudet' : `oma arvio ${n}/${r.matches.length} ottelulle`))(r.matches.filter((m) => m.basis && m.basis !== 'crowd').length));
   const note = $('#round-note');
   const msg = [r.note, r.source ? 'Lähde: ' + r.source : ''].filter(Boolean).join(' · ');
   note.textContent = msg; note.hidden = !msg;
+  const lk = $('#round-links');
+  lk.innerHTML = r.links && r.links.length ? 'Lähteet: ' + r.links.map((l) => link(l.url, l.label)).join(' · ') : '';
+  lk.hidden = !(r.links && r.links.length);
 }
 
 function cellHtml(m, s, pickSigns, i) {
@@ -94,13 +100,24 @@ function cellHtml(m, s, pickSigns, i) {
       <div class="bar" style="width:${bar}%"></div></div>`;
 }
 
+function whyHtml(r, m, i, step) {
+  const ex = m.explain;
+  if (!ex) return '';
+  const key = `${r.id}:${m.n}`;
+  const pickLine = step && step.selection[i] ? `<p class="pickline">Nykyisessä rivissä tähän otteluun pelataan: <strong>${esc(step.selection[i].split('').map((c) => signWord[c]).join(' ja '))}</strong>.</p>` : '';
+  const facts = ex.facts && ex.facts.length ? `<h4>Mitä ottelusta tiedetään</h4><ul class="facts">${ex.facts.map((f) => `<li>${esc(f.text)} <span class="src">${link(f.url, f.label)}</span></li>`).join('')}</ul>` : '';
+  const srcs = ex.sources && ex.sources.length ? `<h4>Mistä luvut ovat</h4><ul class="srcs">${ex.sources.map((s) => `<li>${s.url ? link(s.url, s.label) : esc(s.label)} — ${esc(s.what)}${s.note ? `<br><small>${esc(s.note)}</small>` : ''}</li>`).join('')}</ul>` : '';
+  return `<details class="why ${esc(ex.tone)}" data-k="${esc(key)}"${state.open.has(key) ? ' open' : ''}><summary><span class="why-h">${esc(ex.headline)}</span><span class="why-more">Selitys ja lähteet</span></summary><div class="why-body">${ex.lines.map((l) => `<p>${esc(l)}</p>`).join('')}${pickLine}${facts}${srcs}</div></details>`;
+}
+
 function renderMatches(r) {
   const step = r.path[state.step];
   const html = r.matches.map((m, i) => `<article class="match">
       <div class="m-head"><span class="m-n">${m.n}.</span><span class="m-teams">${esc(m.home)} – ${esc(m.away)}</span>
-      <span class="m-basis" title="Mistä oma arvio syntyy">${m.basis ? basisLabel[m.basis] : 'ei dataa'}${m.crowdEstimated ? ' · peli arvio' : ''}</span></div>
-      <div class="cells">${[0, 1, 2].map((s) => cellHtml(m, s, step ? step.selection[i] : null, i)).join('')}</div></article>`).join('');
-  $('#matches').innerHTML = `<p class="legend">Iso luku = oma arvio, pieni = pelaajien osuus. Kerroin = oma ÷ peli: <span class="ok">vihreä</span> aliarvostettu, punainen yliarvostettu. ● = valittu merkki${r.status === 'played' ? ', ✓ = toteutunut' : ''}.</p>` + html;
+      <span class="m-basis" title="Mistä oma arvio syntyy">${m.basis ? basisLabel[m.basis] : 'ei dataa'}${m.crowdEstimated ? ' · pelaajaosuudet arvioitu' : ''}</span></div>
+      <div class="cells">${[0, 1, 2].map((s) => cellHtml(m, s, step ? step.selection[i] : null, i)).join('')}</div>${whyHtml(r, m, i, step)}</article>`).join('');
+  $('#matches').innerHTML = `<p class="legend">Iso luku = meidän arvio (todennäköisyys). Pieni luku = kuinka suuri osa pelaajista veikkaa samaa. <span class="ok">Vihreä</span> = pelaajat aliarvioivat, punainen = pelaajat yliarvioivat. ● = valittu merkki${r.status === 'played' ? ', ✓ = toteutunut' : ''}. Avaa kunkin ottelun “Selitys ja lähteet”, niin näet asian selkokielellä ja linkit lähteisiin.</p>` + html;
+  $('#matches').querySelectorAll('details.why').forEach((d) => d.addEventListener('toggle', () => { d.open ? state.open.add(d.dataset.k) : state.open.delete(d.dataset.k); }));
 }
 
 /* ---------- Rivi ---------- */
@@ -253,7 +270,7 @@ async function main() {
     return;
   }
   const rs = state.data.rounds;
-  const first = rs.find((r) => r.path.length && r.status !== 'played') || rs.find((r) => r.path.length) || rs[0];
+  const first = rs.find((r) => r.status === 'open' && r.path.length) || rs.find((r) => r.status === 'open') || rs.find((r) => r.path.length && r.status !== 'played') || rs.find((r) => r.path.length) || rs[0];
   state.roundId = first.id; state.step = defaultStep(first);
   renderAbout(); render();
 }

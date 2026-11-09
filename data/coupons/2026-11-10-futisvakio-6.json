@@ -1,0 +1,329 @@
+{
+  "id": "2026-11-10-futisvakio-6",
+  "label": "Futisvakio 6 (krs 46)",
+  "date": "2026-11-10",
+  "turnoverEur": 5971,
+  "guaranteeEur": null,
+  "bonusPoolEur": 10000,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-10T18:58:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 14.35)",
+  "note": "EFL Trophy -lohkovaiheen viimeinen ottelupäivä (ti 10.11.). Vakiossa ratkaisee 90 minuutin tulos: tasapeli on tasapeli, vaikka rangaistuspotkukilpailu ratkaisee jatkopaikan. Ipswich on tässä Valioliiga-seuran alle 21-vuotiaiden joukkue. Vaihto 5 971 € on lukema iltapäivältä, ja se kasvaa vielä.",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Leicester City",
+      "away": "Walsall",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.82,
+        0.11,
+        0.07
+      ],
+      "facts": [
+        {
+          "text": "Leicester voitti Fulham U21:n 6–1 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        },
+        {
+          "text": "Leicester hävisi Stevenagelle 1–2 (6.10.).",
+          "label": "Football Web Pages, EFL Trophy 6.10.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+        },
+        {
+          "text": "Walsall hävisi Stevenagelle 1–6 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        },
+        {
+          "text": "Walsall teki kolme maalia Fulham U21:tä vastaan (ennakkoteksti).",
+          "label": "Mr Fixit's Tips, ennakko 9.11.",
+          "url": "https://mrfixitstips.co.uk/previews/leicester-city-vs-walsall-prediction-and-betting-tips-2026-11-10/"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Oxford United",
+      "away": "Cheltenham Town",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.76,
+        0.16,
+        0.08
+      ],
+      "facts": [
+        {
+          "text": "Oxford pelasi Exeteriä vastaan 2–2, Exeter voitti rangaistuspotkukilpailun (6.10.).",
+          "label": "Football Web Pages, EFL Trophy 6.10.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Barnet",
+      "away": "Leyton Orient",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.39,
+        0.3,
+        0.31
+      ],
+      "facts": [
+        {
+          "text": "Barnet voitti Arsenal U21:n 5–1 (18.8.).",
+          "label": "Football Web Pages, EFL Trophy 18.8.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+        },
+        {
+          "text": "Leyton Orient pelasi AFC Wimbledonia vastaan 1–1 ja voitti rangaistuspotkukilpailun (18.8.).",
+          "label": "Football Web Pages, EFL Trophy 18.8.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Northampton Town",
+      "away": "Gillingham",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.34,
+        0.28,
+        0.38
+      ],
+      "facts": [
+        {
+          "text": "Northampton hävisi Brighton U21:lle 0–3 (18.8.).",
+          "label": "Football Web Pages, EFL Trophy 18.8.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+        },
+        {
+          "text": "Northampton hävisi Cambridgelle 1–2 (6.10.).",
+          "label": "Football Web Pages, EFL Trophy 6.10.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+        },
+        {
+          "text": "Gillingham hävisi Cambridgelle 1–4 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Crewe Alexandra",
+      "away": "Wigan Athletic",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.3069,
+        0.2178,
+        0.4752
+      ],
+      "facts": [
+        {
+          "text": "Crewe voitti Aston Villa U21:n 4–1 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        },
+        {
+          "text": "Wigan voitti Aston Villa U21:n 3–2 (18.8.).",
+          "label": "Football Web Pages, EFL Trophy 18.8.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+        },
+        {
+          "text": "Wigan voitti Blackpoolin 3–2 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Burton Albion",
+      "away": "Notts County",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.2323,
+        0.202,
+        0.5657
+      ],
+      "facts": [
+        {
+          "text": "Burton pelasi Grimsbyä vastaan 0–0 ja voitti rangaistuspotkukilpailun (6.10.).",
+          "label": "Football Web Pages, EFL Trophy 6.10.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+        },
+        {
+          "text": "Notts County voitti Grimsbyn 2–1 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Plymouth Argyle",
+      "away": "Swindon Town",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.79,
+        0.13,
+        0.08
+      ],
+      "facts": [
+        {
+          "text": "Plymouth voitti Crystal Palace U21:n 5–1 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        },
+        {
+          "text": "Swindon hävisi Newportille 0–2 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Bristol Rovers",
+      "away": "Reading",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.21,
+        0.26,
+        0.53
+      ],
+      "facts": [
+        {
+          "text": "Bristol Rovers hävisi Wycombelle 1–4 (6.10.).",
+          "label": "Football Web Pages, EFL Trophy 6.10.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+        },
+        {
+          "text": "Reading pelasi Wycombea vastaan 1–1 ja voitti rangaistuspotkukilpailun (18.8.).",
+          "label": "Football Web Pages, EFL Trophy 18.8.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Stockport County",
+      "away": "Tranmere Rovers",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.79,
+        0.13,
+        0.08
+      ],
+      "facts": [
+        {
+          "text": "Stockport voitti Everton U21:n 6–3 (18.8.).",
+          "label": "Football Web Pages, EFL Trophy 18.8.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+        },
+        {
+          "text": "Stockport voitti Shrewsburyn 2–0 (6.10.).",
+          "label": "Football Web Pages, EFL Trophy 6.10.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Mansfield Town",
+      "away": "Chesterfield",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.4851,
+        0.2574,
+        0.2574
+      ],
+      "facts": [
+        {
+          "text": "Mansfield hävisi Port Valelle 0–2 (6.10.).",
+          "label": "Football Web Pages, EFL Trophy 6.10.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+        },
+        {
+          "text": "Chesterfield pelasi Port Valea vastaan 1–1 ja voitti rangaistuspotkukilpailun (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Bradford City",
+      "away": "York City",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.84,
+        0.09,
+        0.07
+      ],
+      "facts": [
+        {
+          "text": "Bradford voitti Newcastle U21:n 2–1 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        },
+        {
+          "text": "Bradford voitti Rotherhamin vieraissa 4–0 (6.10.).",
+          "label": "Football Web Pages, EFL Trophy 6.10.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+        },
+        {
+          "text": "York pelasi Rotherhamia vastaan 1–1 ja hävisi rangaistuspotkukilpailun (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Colchester United",
+      "away": "Ipswich Town U21",
+      "league": "EFL Trophy",
+      "crowd": [
+        0.3737,
+        0.2424,
+        0.3838
+      ],
+      "facts": [
+        {
+          "text": "Colchester hävisi Peterboroughille 1–3 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        },
+        {
+          "text": "Ipswich U21 hävisi Lutonille 0–6 (22.9.).",
+          "label": "Football Web Pages, EFL Trophy 22.9.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+        },
+        {
+          "text": "Ipswich U21 hävisi Peterboroughille 1–4 (6.10.).",
+          "label": "Football Web Pages, EFL Trophy 6.10.",
+          "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Yle Teksti-TV 479, alasivu 5 (pelaajien osuudet, vaihto, bonus, sulkeutumisaika)",
+      "url": "https://yle.fi/tekstitv/txt/479_0005.htm"
+    },
+    {
+      "label": "Ottelulista ja kellonajat 10.11. (Football Web Pages)",
+      "url": "https://www.footballwebpages.co.uk/20261110"
+    },
+    {
+      "label": "EFL Trophyn kertoimet (BetExplorer)",
+      "url": "https://www.betexplorer.com/football/england/efl-trophy/"
+    }
+  ]
+}

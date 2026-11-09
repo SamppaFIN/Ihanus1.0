@@ -5,6 +5,13 @@ export type Sign = '1' | 'X' | '2';
 export const SIGNS: Sign[] = ['1', 'X', '2'];
 export type Triple = [number, number, number];
 
+/** Yksi lähteistetty tieto ottelusta (esim. ryhmävaiheen tulos). Jokaisella on oma linkki. */
+export interface MatchFact {
+  text: string;
+  label: string;
+  url: string;
+}
+
 export interface CouponMatch {
   n: number;
   home: string;
@@ -21,6 +28,8 @@ export interface CouponMatch {
   model?: Triple | null;
   /** Toteutunut tulos, jos ottelu on pelattu */
   result?: Sign | null;
+  /** Käsin kerätyt, lähteistetyt taustatiedot (näytetään selityksessä) */
+  facts?: MatchFact[];
 }
 
 export interface PrizeClass {
@@ -57,6 +66,8 @@ export interface Coupon {
   /** Maksettujen voittojen yhteissumma, jos tiedossa mutta vaihto ei ole */
   paidOutEur?: number | null;
   note?: string;
+  /** Kierroksen yleiset lähteet (linkit), näytetään kierrosnäkymässä */
+  sources?: Array<{ label: string; url: string }>;
 }
 
 export const MATCHES_PER_COUPON = 13;
