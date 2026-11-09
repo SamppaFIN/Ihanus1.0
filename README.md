@@ -37,13 +37,13 @@ Järjestelmä kasvatetaan ahneesti: lisätään merkki jolla ΔEV/Δeuro on suur
 ```
 src/engine/     prob (devig, fuse) · poisson · sheet (paperimalli) · prize (potit) · ev (tarkka EV) · optimize
 src/scrape/     yle-vakio (Teksti-TV 479 -jäsennin, alasivut, sulkeutumisaika, rivihinta) · names (sumea joukkuenimien täsmäytys) · odds-table (BetExplorer-rivien tulkinta)
-src/pipeline/   merge-coupon (Yle → kuponki, kierroksen tunnistus) · build-round (kuponki → UI-näkymä) · cron-plan/cron-run (milloin päivitetään, GitHub-dispatch)
+src/pipeline/   merge-coupon (Yle → kuponki, kierroksen tunnistus) · build-round (kuponki → UI-näkymä) · explain (selkokielinen ottelukohtainen selitys + lähdelinkit) · cron-plan/cron-run (milloin päivitetään, GitHub-dispatch)
 src/tools/      scrape-percent · scrape-odds (Playwright) · build-data · serve
 workers/cron/   Cloudflare Worker: scheduled-tikki 10 min välein + GET /status (dry-run)
 data/           coupons/ (kierrokset) · sheets/ (käsin täytetyt taulukot) · odds/ · crowd-history/
 fixtures/       oikeat Teksti-TV-sivut testeihin
 web/            UI (index.html, styles.css, app.js, data/rounds.json)
-.github/        ci · pages-deploy · odds-morning (05:30 UTC) · percent-hourly (Workerin dispatch + varmistus: pe/la/su tunnin välein)
+.github/        ci · pages-deploy · odds-morning (05:30 UTC) · percent-hourly (Workerin dispatch + varmistus: tunnin välein joka päivä)
 ```
 
 ## Uuden kierroksen kulku
@@ -67,9 +67,9 @@ npx wrangler secret put GITHUB_TOKEN   # fine-grained PAT: vain tämä repo, Act
 npx wrangler deploy
 ```
 
-Tarkista `https://ihanus-cron.<tilisi>.workers.dev/status`: näet mitkä kierrokset Worker löytää ja milloin ne sulkeutuvat (dry-run, ei käynnistä mitään). Tikki ajetaan pe/la/su 10 min välein (`wrangler.toml`); ajoikkuna on rakennettu niin, että jokainen kierros laukaisee täsmälleen yhden päivityksen (testattu). Useampi päivityshetki: `REFRESH_BEFORE_MIN = "60,10"`.
+Tarkista `https://ihanus-cron.<tilisi>.workers.dev/status`: näet mitkä kierrokset Worker löytää ja milloin ne sulkeutuvat (dry-run, ei käynnistä mitään). Tikki ajetaan joka päivä 10 min välein (`wrangler.toml`), koska kierroksia on myös arkisin; ajoikkuna on rakennettu niin, että jokainen kierros laukaisee täsmälleen yhden päivityksen (testattu). Useampi päivityshetki: `REFRESH_BEFORE_MIN = "60,10"`.
 
-Data on avaimetonta (scraperit), mutta workflow'n käynnistäminen Cloudflaresta vaatii GitHub-tokenin — se on ainoa salaisuus, ja se on vain Workerissa. Ilman Workeria `percent-hourly` ajaa silti tunnin välein pe/la/su (GitHubin schedule voi myöhästyä kymmeniä minuutteja).
+Data on avaimetonta (scraperit), mutta workflow'n käynnistäminen Cloudflaresta vaatii GitHub-tokenin — se on ainoa salaisuus, ja se on vain Workerissa. Ilman Workeria `percent-hourly` ajaa silti tunnin välein joka päivä (GitHubin schedule voi myöhästyä kymmeniä minuutteja).
 
 
 ## Mikä EI ole vahvistettu — lue tämä
@@ -80,8 +80,9 @@ Data on avaimetonta (scraperit), mutta workflow'n käynnistäminen Cloudflaresta
 | Palautus 65 % | oletus (asetus 1414/2016: keskimäärin 60–70 %) |
 | Luokkaosuudet 13/12/11/10 = 56/16/11/17 % | arvioitu kahdesta kierroksesta |
 | BetExplorer-scraper | tulkintalogiikka testattu fixtureilla ja synteettisellä HTML:llä oikeassa Chromiumissa; **oikeaa sivun rakennetta, ikävahvistusta ja aikavyöhykettä ei ole nähty** (kehitysympäristön verkko rajattu). Aja ensin `odds-morning` käsin valinnalla `debug=true` ja tarkista artefakti. Käytä harvoin ja sivuston käyttöehtoja noudattaen |
-| Cloudflare-cron | Worker ajettu paikallisesti (`wrangler dev --test-scheduled`) feikkipalvelinta vasten: Teksti-TV → ikkuna → GitHub-dispatch toimii. Oikeaa Cloudflare-deployta ja cron-lausekkeen (`FRI,SAT,SUN`) hyväksymistä ei ole ajettu |
-| 12 ottelun kierros (Sunnuntaivakio) | jäsennetään, mutta polkua ei lasketa — palkintoluokkia ei tunneta |
+| Cloudflare-cron | Worker ajettu paikallisesti (`wrangler dev --test-scheduled`) feikkipalvelinta vasten: Teksti-TV → ikkuna → GitHub-dispatch toimii. Oikeaa Cloudflare-deployta ei ole ajettu |
+| 12 ottelun kierros (Sunnuntaivakio, Futisvakio) | jäsennetään ja selitetään ottelu kerrallaan, mutta riviä/pottia ei lasketa — palkintoluokkia ei tunneta |
+| Käsin kerätyt taustatiedot (`facts` kuponkitiedostossa) | jokaisella lauseella on oma lähdelinkki; poimittu käsin hakutuloksista, eli lukuvirhe on mahdollinen — tarkista linkistä. Futisvakio 6:n kertoimet on vain yhdelle ottelulle (yksi ennakkoteksti), muille BetExplorer-haku täydentää |
 | Muiden pelaajien riippumattomuus | virheellinen: rivit kasautuvat (24.10. toteutui 32 kpl 12 oikein vs ~15 mallin mukaan). `crowdScale` kalibroitava; varovainen arvio käyttää ×1,5 |
 | Mallin toimivuus | **ei todistettu.** Takautuvia kierroksia on kaksi (24.10., 7.11.), ja 7.11. ei ole omaa dataa. Yksi kierros on anekdootti |
 

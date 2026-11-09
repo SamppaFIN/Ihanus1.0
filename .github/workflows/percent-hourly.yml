@@ -3,11 +3,11 @@
 #
 # Pääasiallinen käynnistäjä on Cloudflare Worker (workers/cron), joka kutsuu workflow_dispatchia tuntia ennen
 # jokaisen kierroksen "Pelaaminen päättyy" -hetkeä. Alla oleva schedule on varmistus ilman Workeria ja ilman
-# yhtään salaisuutta: tunnin välein pe, la ja su. GitHubin schedule voi myöhästyä, siksi Worker on tarkempi.
+# yhtään salaisuutta: tunnin välein joka päivä. GitHubin schedule voi myöhästyä, siksi Worker on tarkempi.
 name: Peliprosentit
 on:
   schedule:
-    - cron: '10 7-20 * * 0,5,6' # su, pe, la; 07–20 UTC = 09–22 Suomen aikaa (±1 h kesäajasta riippuen)
+    - cron: '10 7-20 * * *' # joka päivä 07–20 UTC = 09–22 Suomen aikaa (±1 h kesäajasta riippuen); kierroksia on myös arkisin
   workflow_dispatch:
     inputs:
       odds:

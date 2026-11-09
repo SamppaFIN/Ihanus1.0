@@ -14,9 +14,10 @@ main = "src/index.ts"
 compatibility_date = "2026-11-01"
 
 [triggers]
-# Joka 10. minuutti pe, la ja su. Muuta jos pelataan muinakin päivinä (esim. "*/10 * * * *" = päivittäin).
+# Joka 10. minuutti joka päivä: Veikkauksella on kierroksia myös arkisin (esim. Futisvakio ti, Lätkävakio ke).
+# Worker käynnistää workflow'n vain jos jonkin kierroksen sulkeutumiseen on tasan REFRESH_BEFORE_MIN minuuttia.
 # Jos INTERVAL_MIN muuttuu, muuta se myös alla.
-crons = ["*/10 * * * FRI,SAT,SUN"]
+crons = ["*/10 * * * *"]
 
 [vars]
 GITHUB_REPO = "SamppaFIN/Ihanus1.0"

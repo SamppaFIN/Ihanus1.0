@@ -20,6 +20,7 @@ Vakio-arvomoottori (Samin SamppaFIN-reposarja, sisarprojekti Toni1.0:lle). Lue R
 - Kierroksen identiteetti = otsikko + kierrosnumero (`merge-coupon.ts: findExisting`), ei haun päivä.
 - **Ei API-avaimia dataan.** Peliprosentit = Teksti-TV 479 (HTTP), kertoimet = BetExplorer (Playwright, `scrape/odds-table.ts` + `tools/scrape-odds.ts`). Selaimessa ajetaan vain `ROW_SNAPSHOT_SCRIPT` (rivien raaka kuvaus); kaikki tulkinta on puhtaissa funktioissa, jotta se on testattavissa fixtureilla.
 - Verkko on kehitysympäristössä rajattu (vain npm/GitHub): BetExplorerin oikeaa DOMia ei ole nähty. Merkitse tällaiset asiat näkyviin äläkä väitä scraperin toimivan oikealla sivulla ennen kuin `odds-morning` on ajettu debug-tilassa.
+- Ottelukohtainen selitys (`pipeline/explain.ts`) on selkokielinen eikä käytä termejä; jokainen tieto linkitetään lähteeseensä (`sources`, `facts`). Älä lisää tietoa ilman lähdelinkkiä.
 - Rivihinta on kuponkikohtainen (`rowPriceEur`, Sunnuntaivakio 0,10 €, Teksti-TV:ltä). Jos sivu ei kerro, `rowPriceEstimated: true` ja UI näyttää “hinta oletettu”. Älä käytä globaalia hintaa.
 - Ajastus: `workers/cron` (Cloudflare Worker) → `src/pipeline/cron-run.ts` → GitHub `workflow_dispatch` (`percent-hourly.yml`, input `odds=true`). Ikkunalogiikka `cron-plan.ts` (`dueRounds`): osuu täsmälleen yhdelle tikille. Aikavyöhyke: “Pelaaminen päättyy” on Suomen aikaa (`helsinkiToUtcMs`). Ainoa salaisuus on Workerin `GITHUB_TOKEN`.
 - UI on vanilla JS (`web/`), ei buildia. `npm run build:data` ennen `npm run serve`.
