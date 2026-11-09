@@ -1,0 +1,24 @@
+{
+  "name": "ihanus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ihanus1.0 — Vakio-moottori: oma todennäköisyys vs. peliprosentit → rivi jonka osuessa kukaan muu ei ollut samalla rivillä",
+  "scripts": {
+    "scrape:percent": "tsx src/tools/scrape-percent.ts",
+    "scrape:odds": "tsx src/tools/scrape-odds.ts",
+    "scrape:veikkaus:capture": "tsx src/tools/veikkaus-capture.ts",
+    "build:data": "tsx src/tools/build-data.ts",
+    "backtest": "tsx src/tools/backtest.ts",
+    "serve": "tsx src/tools/serve.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "playwright": "^1.52.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.1.0"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "id": "2026-11-08-sunnuntaivakio-2",
+  "label": "Sunnuntaivakio 2 (krs 45)",
+  "date": "2026-11-08",
+  "turnoverEur": 88770,
+  "turnoverEstimated": false,
+  "guaranteeEur": 50000,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.25,
+  "source": "Yle Teksti-TV 479 (pelijakauma 14.58)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "KuPS",
+      "away": "FC Inter",
+      "crowd": [
+        0.27,
+        0.27,
+        0.46
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 2,
+      "home": "HJK",
+      "away": "AC Oulu",
+      "crowd": [
+        0.7821782178217822,
+        0.13861386138613863,
+        0.07920792079207921
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 3,
+      "home": "IF Gnistan",
+      "away": "VPS",
+      "crowd": [
+        0.54,
+        0.25,
+        0.21
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 4,
+      "home": "Crystal P",
+      "away": "Liverpool",
+      "crowd": [
+        0.13,
+        0.18,
+        0.69
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 5,
+      "home": "Sunderland",
+      "away": "Chelsea",
+      "crowd": [
+        0.16831683168316833,
+        0.19801980198019803,
+        0.6336633663366337
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 6,
+      "home": "Brighton",
+      "away": "Brentford",
+      "crowd": [
+        0.61,
+        0.23,
+        0.16
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 7,
+      "home": "Ipswich T",
+      "away": "Bournemouth",
+      "crowd": [
+        0.22772277227722773,
+        0.26732673267326734,
+        0.504950495049505
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 8,
+      "home": "Genoa",
+      "away": "Milan",
+      "crowd": [
+        0.1919191919191919,
+        0.26262626262626265,
+        0.5454545454545454
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 9,
+      "home": "Monza",
+      "away": "Atalanta",
+      "crowd": [
+        0.26262626262626265,
+        0.2727272727272727,
+        0.46464646464646464
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 10,
+      "home": "Elche",
+      "away": "Betis",
+      "crowd": [
+        0.16831683168316833,
+        0.22772277227722773,
+        0.6039603960396039
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 11,
+      "home": "FC Köln",
+      "away": "Leverkusen",
+      "crowd": [
+        0.20202020202020202,
+        0.24242424242424243,
+        0.5555555555555556
+      ],
+      "crowdEstimated": false
+    },
+    {
+      "n": 12,
+      "home": "Rennes",
+      "away": "Lille",
+      "crowd": [
+        0.39,
+        0.32,
+        0.29
+      ],
+      "crowdEstimated": false
+    }
+  ]
+}

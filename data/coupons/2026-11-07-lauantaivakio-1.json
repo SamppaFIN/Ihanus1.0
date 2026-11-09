@@ -1,0 +1,178 @@
+{
+  "id": "2026-11-07-lauantaivakio-1",
+  "label": "Lauantaivakio 1 (krs 45)",
+  "date": "2026-11-07",
+  "turnoverEur": 645440,
+  "guaranteeEur": null,
+  "bonusPoolEur": 300000,
+  "rowPriceEur": 0.25,
+  "source": "Yle Teksti-TV 479 (pelijakauma 16.58) ja 478 (tulokset 7.11.2026)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Arsenal",
+      "away": "Hull",
+      "crowd": [
+        0.89,
+        0.08,
+        0.03
+      ],
+      "result": "1"
+    },
+    {
+      "n": 2,
+      "home": "Fulham",
+      "away": "Newcastle U",
+      "crowd": [
+        0.47,
+        0.28,
+        0.25
+      ],
+      "result": "X"
+    },
+    {
+      "n": 3,
+      "home": "Nottingham",
+      "away": "Manchester C",
+      "crowd": [
+        0.15,
+        0.21,
+        0.64
+      ],
+      "result": "1"
+    },
+    {
+      "n": 4,
+      "home": "Watford",
+      "away": "Middlesbrough",
+      "crowd": [
+        0.14,
+        0.2,
+        0.66
+      ],
+      "result": "X"
+    },
+    {
+      "n": 5,
+      "home": "Birmingham",
+      "away": "Swansea",
+      "crowd": [
+        0.55,
+        0.26,
+        0.19
+      ],
+      "result": "1"
+    },
+    {
+      "n": 6,
+      "home": "Blackburn",
+      "away": "West Ham",
+      "crowd": [
+        0.18,
+        0.23,
+        0.59
+      ],
+      "result": "1"
+    },
+    {
+      "n": 7,
+      "home": "West Bromwich",
+      "away": "Millwall",
+      "crowd": [
+        0.55,
+        0.26,
+        0.19
+      ],
+      "result": "1"
+    },
+    {
+      "n": 8,
+      "home": "Preston",
+      "away": "Southampton",
+      "crowd": [
+        0.13,
+        0.19,
+        0.68
+      ],
+      "result": "1"
+    },
+    {
+      "n": 9,
+      "home": "QPR",
+      "away": "Lincoln C",
+      "crowd": [
+        0.67,
+        0.2,
+        0.13
+      ],
+      "result": "1"
+    },
+    {
+      "n": 10,
+      "home": "Cardiff C",
+      "away": "Burnley",
+      "crowd": [
+        0.5051,
+        0.2626,
+        0.2323
+      ],
+      "result": "1"
+    },
+    {
+      "n": 11,
+      "home": "Charlton",
+      "away": "Sheffield U",
+      "crowd": [
+        0.2,
+        0.26,
+        0.54
+      ],
+      "result": "1"
+    },
+    {
+      "n": 12,
+      "home": "Crewe",
+      "away": "AFC Wimbledon",
+      "crowd": [
+        0.4059,
+        0.2871,
+        0.3069
+      ],
+      "result": "1"
+    },
+    {
+      "n": 13,
+      "home": "Oxford U",
+      "away": "Stevenage",
+      "crowd": [
+        0.5,
+        0.26,
+        0.24
+      ],
+      "result": "2"
+    }
+  ],
+  "prizes": [
+    {
+      "correct": 13,
+      "winners": 1,
+      "eur": 300000
+    },
+    {
+      "correct": 12,
+      "winners": null,
+      "eur": 1864.6
+    },
+    {
+      "correct": 11,
+      "winners": null,
+      "eur": 97.79
+    },
+    {
+      "correct": 10,
+      "winners": null,
+      "eur": 18.99
+    }
+  ],
+  "note": "Voitonjako luettu Teksti-TV 478/2:sta (voittajamäärät 12–10 oikein eivät näkyneet). Ei omaa mallia tai kertoimia tälle kierrokselle → vain pelijakauma."
+}

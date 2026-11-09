@@ -1,0 +1,17 @@
+# Testit ja typecheck jokaisella pushilla / PR:llä. Rikkinäinen laskenta ei saa päätyä Pagesiin.
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22', cache: npm }
+      # --ignore-scripts: Playwrightin selainlataus (~130 MB) ei kuulu yksikkötesteihin
+      - run: npm ci --ignore-scripts
+      - run: npm run typecheck
+      - run: npm test

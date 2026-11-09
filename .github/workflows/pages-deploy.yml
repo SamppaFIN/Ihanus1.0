@@ -1,0 +1,29 @@
+# Julkaisee web/-kansion GitHub Pagesiin (gh-pages-haara) kun koodi muuttuu.
+# Data-workflowt (odds-morning, percent-hourly) julkaisevat itse, ja kaikki jakavat concurrency-ryhmän
+# koska ne kirjoittavat samaan haaraan. Repon asetuksissa: Pages → Source: Deploy from branch → gh-pages / (root).
+name: Julkaise Pagesiin
+on:
+  push:
+    branches: [main]
+    paths: ['web/**', '.github/workflows/pages-deploy.yml']
+  workflow_dispatch:
+concurrency:
+  group: gh-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22', cache: npm }
+      - run: npm ci --ignore-scripts
+      - run: npm run typecheck && npm test
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web
+          publish_branch: gh-pages
+          enable_jekyll: false
+          commit_message: 'Deploy: ${{ github.event.head_commit.message }}'

@@ -1,0 +1,1515 @@
+{
+ "generatedAt": "2026-11-09T12:05:38.686Z",
+ "today": "2026-11-09",
+ "budgetEur": 40,
+ "assumptions": {
+  "prize": {
+   "payoutRatio": 0.65,
+   "shares": [
+    0.56,
+    0.16,
+    0.11,
+    0.17
+   ],
+   "crowdScale": 1
+  },
+  "fuse": {
+   "modelWeight": 0.35,
+   "trust": {
+    "model": 0.4,
+    "market": 0.85,
+    "model+market": 0.85
+   }
+  },
+  "rowPriceEur": 0.25
+ },
+ "rounds": [
+  {
+   "id": "2026-11-08-sunnuntaivakio-2",
+   "label": "Sunnuntaivakio 2 (krs 45)",
+   "date": "2026-11-08",
+   "status": "closed",
+   "turnoverEur": 88770,
+   "turnoverEstimated": false,
+   "guaranteeEur": 50000,
+   "bonusPoolEur": null,
+   "rowPriceEur": 0.25,
+   "avgRowEv": 0.1625,
+   "pools": [
+    32312.280000000002,
+    9232.08,
+    6347.055,
+    9809.085000000001
+   ],
+   "source": "Yle Teksti-TV 479 (pelijakauma 14.58)",
+   "note": null,
+   "hasEdge": false,
+   "noPathReason": "Kierroksella on 12 ottelua; moottori laskee vain 13 ottelun Vakion (palkintoluokat 13–10 oikein).",
+   "matches": [
+    {
+     "n": 1,
+     "home": "KuPS",
+     "away": "FC Inter",
+     "crowd": [
+      0.27,
+      0.27,
+      0.46
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.27,
+      0.27,
+      0.46
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 2,
+     "home": "HJK",
+     "away": "AC Oulu",
+     "crowd": [
+      0.7821782178217822,
+      0.13861386138613863,
+      0.07920792079207921
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.7821782178217822,
+      0.13861386138613863,
+      0.07920792079207921
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 3,
+     "home": "IF Gnistan",
+     "away": "VPS",
+     "crowd": [
+      0.54,
+      0.25,
+      0.21
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.54,
+      0.25,
+      0.21
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 4,
+     "home": "Crystal P",
+     "away": "Liverpool",
+     "crowd": [
+      0.13,
+      0.18,
+      0.69
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.13,
+      0.18,
+      0.69
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 5,
+     "home": "Sunderland",
+     "away": "Chelsea",
+     "crowd": [
+      0.16831683168316833,
+      0.19801980198019803,
+      0.6336633663366337
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.16831683168316833,
+      0.19801980198019803,
+      0.6336633663366337
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 6,
+     "home": "Brighton",
+     "away": "Brentford",
+     "crowd": [
+      0.61,
+      0.23,
+      0.16
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.61,
+      0.23,
+      0.16
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 7,
+     "home": "Ipswich T",
+     "away": "Bournemouth",
+     "crowd": [
+      0.22772277227722773,
+      0.26732673267326734,
+      0.504950495049505
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.22772277227722773,
+      0.26732673267326734,
+      0.504950495049505
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 8,
+     "home": "Genoa",
+     "away": "Milan",
+     "crowd": [
+      0.1919191919191919,
+      0.26262626262626265,
+      0.5454545454545454
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.1919191919191919,
+      0.26262626262626265,
+      0.5454545454545454
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 9,
+     "home": "Monza",
+     "away": "Atalanta",
+     "crowd": [
+      0.26262626262626265,
+      0.2727272727272727,
+      0.46464646464646464
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.26262626262626265,
+      0.2727272727272727,
+      0.46464646464646464
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 10,
+     "home": "Elche",
+     "away": "Betis",
+     "crowd": [
+      0.16831683168316833,
+      0.22772277227722773,
+      0.6039603960396039
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.16831683168316833,
+      0.22772277227722773,
+      0.6039603960396039
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 11,
+     "home": "FC Köln",
+     "away": "Leverkusen",
+     "crowd": [
+      0.20202020202020202,
+      0.24242424242424243,
+      0.5555555555555556
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.20202020202020202,
+      0.24242424242424243,
+      0.5555555555555556
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    },
+    {
+     "n": 12,
+     "home": "Rennes",
+     "away": "Lille",
+     "crowd": [
+      0.39,
+      0.32,
+      0.29
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.39,
+      0.32,
+      0.29
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null
+    }
+   ],
+   "path": [],
+   "prizes": null,
+   "calibration": null,
+   "oddsFetchedAt": null
+  },
+  {
+   "id": "2026-11-07-lauantaivakio-1",
+   "label": "Lauantaivakio 1 (krs 45)",
+   "date": "2026-11-07",
+   "status": "played",
+   "turnoverEur": 645440,
+   "turnoverEstimated": false,
+   "guaranteeEur": null,
+   "bonusPoolEur": 300000,
+   "rowPriceEur": 0.25,
+   "avgRowEv": 0.1625,
+   "pools": [
+    300000,
+    67125.76,
+    46148.96,
+    71321.12000000001
+   ],
+   "source": "Yle Teksti-TV 479 (pelijakauma 16.58) ja 478 (tulokset 7.11.2026)",
+   "note": "Voitonjako luettu Teksti-TV 478/2:sta (voittajamäärät 12–10 oikein eivät näkyneet). Ei omaa mallia tai kertoimia tälle kierrokselle → vain pelijakauma.",
+   "hasEdge": false,
+   "noPathReason": "Ei omaa dataa (ei taulukkoa eikä kertoimia) → oma arvio = pelijakauma, jolloin ei ole etua. Lisää data/sheets tai data/odds.",
+   "matches": [
+    {
+     "n": 1,
+     "home": "Arsenal",
+     "away": "Hull",
+     "crowd": [
+      0.89,
+      0.08,
+      0.03
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.89,
+      0.08,
+      0.03
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "1"
+    },
+    {
+     "n": 2,
+     "home": "Fulham",
+     "away": "Newcastle U",
+     "crowd": [
+      0.47,
+      0.28,
+      0.25
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.47,
+      0.28,
+      0.25
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "X"
+    },
+    {
+     "n": 3,
+     "home": "Nottingham",
+     "away": "Manchester C",
+     "crowd": [
+      0.15,
+      0.21,
+      0.64
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.15,
+      0.21,
+      0.64
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "1"
+    },
+    {
+     "n": 4,
+     "home": "Watford",
+     "away": "Middlesbrough",
+     "crowd": [
+      0.14,
+      0.2,
+      0.66
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.14,
+      0.2,
+      0.66
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "X"
+    },
+    {
+     "n": 5,
+     "home": "Birmingham",
+     "away": "Swansea",
+     "crowd": [
+      0.55,
+      0.26,
+      0.19
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.55,
+      0.26,
+      0.19
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "1"
+    },
+    {
+     "n": 6,
+     "home": "Blackburn",
+     "away": "West Ham",
+     "crowd": [
+      0.18,
+      0.23,
+      0.59
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.18,
+      0.23,
+      0.59
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "1"
+    },
+    {
+     "n": 7,
+     "home": "West Bromwich",
+     "away": "Millwall",
+     "crowd": [
+      0.55,
+      0.26,
+      0.19
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.55,
+      0.26,
+      0.19
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "1"
+    },
+    {
+     "n": 8,
+     "home": "Preston",
+     "away": "Southampton",
+     "crowd": [
+      0.13,
+      0.19,
+      0.68
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.13,
+      0.19,
+      0.68
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "1"
+    },
+    {
+     "n": 9,
+     "home": "QPR",
+     "away": "Lincoln C",
+     "crowd": [
+      0.67,
+      0.2,
+      0.13
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.67,
+      0.2,
+      0.13
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "1"
+    },
+    {
+     "n": 10,
+     "home": "Cardiff C",
+     "away": "Burnley",
+     "crowd": [
+      0.5051,
+      0.2626,
+      0.2323
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.5051,
+      0.2626,
+      0.2323
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "1"
+    },
+    {
+     "n": 11,
+     "home": "Charlton",
+     "away": "Sheffield U",
+     "crowd": [
+      0.2,
+      0.26,
+      0.54
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.2,
+      0.26,
+      0.54
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "1"
+    },
+    {
+     "n": 12,
+     "home": "Crewe",
+     "away": "AFC Wimbledon",
+     "crowd": [
+      0.4059,
+      0.2871,
+      0.3069
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.4059,
+      0.2871,
+      0.3069
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "1"
+    },
+    {
+     "n": 13,
+     "home": "Oxford U",
+     "away": "Stevenage",
+     "crowd": [
+      0.5,
+      0.26,
+      0.24
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.5,
+      0.26,
+      0.24
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "2"
+    }
+   ],
+   "path": [],
+   "prizes": [
+    {
+     "correct": 13,
+     "winners": 1,
+     "eur": 300000
+    },
+    {
+     "correct": 12,
+     "winners": null,
+     "eur": 1864.6
+    },
+    {
+     "correct": 11,
+     "winners": null,
+     "eur": 97.79
+    },
+    {
+     "correct": 10,
+     "winners": null,
+     "eur": 18.99
+    }
+   ],
+   "calibration": {
+    "expectedWinners": [
+     0.9008217362322769,
+     31.842776944572062,
+     494.79096686687996,
+     4455.097418715709
+    ],
+    "impliedWinners": [
+     0.7831338666666667,
+     36.000085809288855,
+     471.9190101237345,
+     3755.7198525539766
+    ]
+   },
+   "oddsFetchedAt": null
+  },
+  {
+   "id": "2026-10-24-lauantaivakio",
+   "label": "Lauantaivakio 24.10.",
+   "date": "2026-10-24",
+   "status": "played",
+   "turnoverEur": 565842,
+   "turnoverEstimated": true,
+   "guaranteeEur": null,
+   "bonusPoolEur": null,
+   "rowPriceEur": 0.25,
+   "avgRowEv": 0.1625,
+   "pools": [
+    205966.488,
+    58847.568,
+    40457.703,
+    62525.541000000005
+   ],
+   "source": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+   "note": "Vaihtoa ei julkaistu: arvio = maksetut voitot 367 797 € / 0,65. Pelijakauma = paperin lukemat, joissa toteutuneen merkin osuus on korvattu Veikkauksen lopullisella luvulla ja loput skaalattu. Ottelun 13 jakauma on arvio (vain X = 31 % tunnetaan).",
+   "hasEdge": true,
+   "noPathReason": null,
+   "matches": [
+    {
+     "n": 1,
+     "home": "Chelsea",
+     "away": "Tottenham",
+     "crowd": [
+      0.6325,
+      0.2075,
+      0.16
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.5443531406288107,
+      0.25057317040093874,
+      0.20507368897025063
+     ],
+     "p": [
+      0.597974175013908,
+      0.2246355592287376,
+      0.17739026575735437
+     ],
+     "basis": "model",
+     "ratio": [
+      0.9454137154370088,
+      1.0825810083312655,
+      1.1086891609834648
+     ],
+     "result": "2"
+    },
+    {
+     "n": 2,
+     "home": "Arsenal",
+     "away": "Everton",
+     "crowd": [
+      0.77,
+      0.1629,
+      0.0671
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.6505026998197413,
+      0.21210295306649699,
+      0.13739434711376175
+     ],
+     "p": [
+      0.7269049462539422,
+      0.1828331258031663,
+      0.09026192794289149
+     ],
+     "basis": "model",
+     "ratio": [
+      0.9440323977323924,
+      1.1223641854092468,
+      1.3451852152442845
+     ],
+     "result": "1"
+    },
+    {
+     "n": 3,
+     "home": "Coventry",
+     "away": "Fulham",
+     "crowd": [
+      0.3048,
+      0.2852,
+      0.41
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.5530369918122181,
+      0.2480768336628586,
+      0.1988861745249233
+     ],
+     "p": [
+      0.4014629489704703,
+      0.2799361703317911,
+      0.31860088069773873
+     ],
+     "basis": "model",
+     "ratio": [
+      1.3171356593519365,
+      0.9815433742348916,
+      0.7770753187749726
+     ],
+     "result": "2"
+    },
+    {
+     "n": 4,
+     "home": "West Ham",
+     "away": "Southampton",
+     "crowd": [
+      0.6732,
+      0.1968,
+      0.13
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.4213237973912541,
+      0.27311112125800624,
+      0.30556508135073973
+     ],
+     "p": [
+      0.5780874496308253,
+      0.23238681895817365,
+      0.1895257314110012
+     ],
+     "basis": "model",
+     "ratio": [
+      0.858715759998255,
+      1.1808273321045408,
+      1.4578902416230861
+     ],
+     "result": "2"
+    },
+    {
+     "n": 5,
+     "home": "QPR",
+     "away": "Swansea",
+     "crowd": [
+      0.33,
+      0.28,
+      0.39
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.426239103178851,
+      0.2726946325743187,
+      0.3010662642468302
+     ],
+     "p": [
+      0.3676767025503888,
+      0.27865182206194783,
+      0.35367147538766325
+     ],
+     "basis": "model",
+     "ratio": [
+      1.114171825910269,
+      0.9951850787926707,
+      0.9068499368914442
+     ],
+     "result": "1"
+    },
+    {
+     "n": 6,
+     "home": "Cardiff",
+     "away": "Birmingham",
+     "crowd": [
+      0.26,
+      0.2606,
+      0.4794
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.4058116420802255,
+      0.27413910128411073,
+      0.3200492566356638
+     ],
+     "p": [
+      0.3155817836691555,
+      0.2701289668484468,
+      0.4142892494823978
+     ],
+     "basis": "model",
+     "ratio": [
+      1.2137760910352136,
+      1.0365654905926585,
+      0.8641828316278636
+     ],
+     "result": "1"
+    },
+    {
+     "n": 7,
+     "home": "Preston",
+     "away": "West Brom",
+     "crowd": [
+      0.1846,
+      0.19,
+      0.6254
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.2822948154223956,
+      0.26434415874116113,
+      0.4533610258364433
+     ],
+     "p": [
+      0.22200488070189564,
+      0.22002011704585045,
+      0.5579750022522538
+     ],
+     "basis": "model",
+     "ratio": [
+      1.2026266560232701,
+      1.1580006160307919,
+      0.8921890026419154
+     ],
+     "result": "X"
+    },
+    {
+     "n": 8,
+     "home": "Stoke",
+     "away": "Bristol C",
+     "crowd": [
+      0.55,
+      0.23,
+      0.22
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.5268063200305365,
+      0.25526376609783796,
+      0.21792991387162558
+     ],
+     "p": [
+      0.5408389094799163,
+      0.2398956067405022,
+      0.21926548377958147
+     ],
+     "basis": "model",
+     "ratio": [
+      0.9833434717816659,
+      1.0430243771326182,
+      0.9966612899071885
+     ],
+     "result": "X"
+    },
+    {
+     "n": 9,
+     "home": "Blackburn",
+     "away": "Wrexham",
+     "crowd": [
+      0.39,
+      0.2998,
+      0.3102
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.45258359105740864,
+      0.2697423044948373,
+      0.27767410444775414
+     ],
+     "p": [
+      0.4147212886954262,
+      0.2879497103739749,
+      0.29732900093059894
+     ],
+     "basis": "model",
+     "ratio": [
+      1.0633879197318619,
+      0.9604726830352731,
+      0.958507417571241
+     ],
+     "result": "1"
+    },
+    {
+     "n": 10,
+     "home": "Wolves",
+     "away": "Watford",
+     "crowd": [
+      0.78,
+      0.14,
+      0.08
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.5789067446685799,
+      0.23995653725037108,
+      0.1811367180810491
+     ],
+     "p": [
+      0.7086702064503296,
+      0.17777628448556634,
+      0.11355350906410405
+     ],
+     "basis": "model",
+     "ratio": [
+      0.9085515467311918,
+      1.2698306034683309,
+      1.4194188633013005
+     ],
+     "result": "1"
+    },
+    {
+     "n": 11,
+     "home": "Lincoln",
+     "away": "Burnley",
+     "crowd": [
+      0.29,
+      0.2739,
+      0.4361
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": [
+      0.5251069321828153,
+      0.2556928108656967,
+      0.21920025695148806
+     ],
+     "p": [
+      0.38091632299332834,
+      0.2760160333751109,
+      0.3430676436315608
+     ],
+     "basis": "model",
+     "ratio": [
+      1.3135045620459598,
+      1.007725569094965,
+      0.7866719643007585
+     ],
+     "result": "1"
+    },
+    {
+     "n": 12,
+     "home": "Cambridge",
+     "away": "Plymouth",
+     "crowd": [
+      0.426,
+      0.284,
+      0.29
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.426,
+      0.284,
+      0.29
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "2"
+    },
+    {
+     "n": 13,
+     "home": "Oxford U",
+     "away": "Bradford",
+     "crowd": [
+      0.4002,
+      0.31,
+      0.2898
+     ],
+     "crowdEstimated": true,
+     "market": null,
+     "model": null,
+     "p": [
+      0.4002,
+      0.31,
+      0.2898
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": "X"
+    }
+   ],
+   "path": [
+    {
+     "rows": 1,
+     "costEur": 0.25,
+     "evEur": 0.4939440095459897,
+     "roi": 1.9757760381839589,
+     "valueMultiple": 3.0396554433599365,
+     "pAtLeast": [
+      0.000008794253179366358,
+      0.00019655957699135865,
+      0.00197841566116565,
+      0.01194184616005885
+     ],
+     "valueMultipleLow": 1.158172103485569,
+     "roiLow": 0.7528118672656199,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+     ],
+     "added": null,
+     "hits": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "payoutEur": null
+    },
+    {
+     "rows": 2,
+     "costEur": 0.5,
+     "evEur": 0.978937071484519,
+     "roi": 1.957874142969038,
+     "valueMultiple": 3.0121140661062125,
+     "pAtLeast": [
+      0.000015606393323303316,
+      0.00033179528094784096,
+      0.0031559794064453437,
+      0.01789477149798521
+     ],
+     "valueMultipleLow": 1.1496138573022883,
+     "roiLow": 0.7472490072464875,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1X"
+     ],
+     "added": {
+      "match": 12,
+      "sign": "X"
+     },
+     "hits": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "payoutEur": null
+    },
+    {
+     "rows": 3,
+     "costEur": 0.75,
+     "evEur": 1.4608595998829315,
+     "roi": 1.9478127998439085,
+     "valueMultiple": 2.996635076682936,
+     "pAtLeast": [
+      0.000021974645625603093,
+      0.0004582188519368365,
+      0.004256811578645511,
+      0.023459796539698326
+     ],
+     "valueMultipleLow": 1.1450292563656173,
+     "roiLow": 0.7442690166376512,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1X2"
+     ],
+     "added": {
+      "match": 12,
+      "sign": "2"
+     },
+     "hits": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "payoutEur": null
+    },
+    {
+     "rows": 6,
+     "costEur": 1.5,
+     "evEur": 2.875952246300794,
+     "roi": 1.9173014975338625,
+     "valueMultiple": 2.9496946115905573,
+     "pAtLeast": [
+      0.00004375283395777067,
+      0.0008142433539824599,
+      0.0067737899875492695,
+      0.033670590437957566
+     ],
+     "valueMultipleLow": 1.1366265523326713,
+     "roiLow": 0.7388072590162363,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1X",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1X2"
+     ],
+     "added": {
+      "match": 6,
+      "sign": "X"
+     },
+     "hits": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "payoutEur": null
+    },
+    {
+     "rows": 12,
+     "costEur": 3,
+     "evEur": 5.6375130309913395,
+     "roi": 1.8791710103304464,
+     "valueMultiple": 2.891032323585302,
+     "pAtLeast": [
+      0.00007353762702761455,
+      0.0012986231182666602,
+      0.010178096417209466,
+      0.04739359569615853
+     ],
+     "valueMultipleLow": 1.1218840685342975,
+     "roiLow": 0.7292246445472933,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1X",
+      "1",
+      "1",
+      "1",
+      "1",
+      "12",
+      "1X2"
+     ],
+     "added": {
+      "match": 11,
+      "sign": "2"
+     },
+     "hits": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "payoutEur": null
+    },
+    {
+     "rows": 18,
+     "costEur": 4.5,
+     "evEur": 8.387733035125066,
+     "roi": 1.8639406744722369,
+     "valueMultiple": 2.867601037649595,
+     "pAtLeast": [
+      0.00010270618299946164,
+      0.0017729812322553242,
+      0.013511968920738783,
+      0.060832676707637576
+     ],
+     "valueMultipleLow": 1.1160358175940908,
+     "roiLow": 0.7254232814361591,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1X",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1X2",
+      "1X2"
+     ],
+     "added": {
+      "match": 11,
+      "sign": "X"
+     },
+     "hits": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "payoutEur": null
+    },
+    {
+     "rows": 36,
+     "costEur": 9,
+     "evEur": 15.769193743690701,
+     "roi": 1.7521326381878557,
+     "valueMultiple": 2.6955886741351627,
+     "pAtLeast": [
+      0.0001805443077196584,
+      0.0029049711659181704,
+      0.020461842772686326,
+      0.08474345004240785
+     ],
+     "valueMultipleLow": 1.0800093675544407,
+     "roiLow": 0.7020060889103865,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1X",
+      "1",
+      "1X",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1X2",
+      "1X2"
+     ],
+     "added": {
+      "match": 4,
+      "sign": "X"
+     },
+     "hits": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "payoutEur": null
+    },
+    {
+     "rows": 54,
+     "costEur": 13.5,
+     "evEur": 22.817584062828132,
+     "roi": 1.690191412061343,
+     "valueMultiple": 2.600294480094374,
+     "pAtLeast": [
+      0.00027933829445009805,
+      0.004341719531674471,
+      0.029282786848300445,
+      0.11509156842323234
+     ],
+     "valueMultipleLow": 1.0618501909118863,
+     "roiLow": 0.690202624092726,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1X2",
+      "1",
+      "1X",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1X2",
+      "1X2"
+     ],
+     "added": {
+      "match": 4,
+      "sign": "2"
+     },
+     "hits": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "payoutEur": null
+    },
+    {
+     "rows": 108,
+     "costEur": 27,
+     "evEur": 42.84975034443625,
+     "roi": 1.587027790534676,
+     "valueMultiple": 2.4415812162071937,
+     "pAtLeast": [
+      0.0004796062292642702,
+      0.006971560886793449,
+      0.04345257419300396,
+      0.15661382659894665
+     ],
+     "valueMultipleLow": 1.0264745692219626,
+     "roiLow": 0.6672084699942757,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "2",
+      "1X2",
+      "1",
+      "1X",
+      "1",
+      "12",
+      "1",
+      "1",
+      "1X2",
+      "1X2"
+     ],
+     "added": {
+      "match": 8,
+      "sign": "2"
+     },
+     "hits": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "payoutEur": null
+    }
+   ],
+   "prizes": null,
+   "calibration": {
+    "expectedWinners": [
+     0.4419556725273126,
+     15.52854843802671,
+     242.84460176656873,
+     2236.395426902799
+    ],
+    "impliedWinners": null
+   },
+   "oddsFetchedAt": null
+  }
+ ]
+}

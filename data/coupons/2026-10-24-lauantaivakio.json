@@ -1,0 +1,160 @@
+{
+  "id": "2026-10-24-lauantaivakio",
+  "label": "Lauantaivakio 24.10.",
+  "date": "2026-10-24",
+  "turnoverEur": 565842,
+  "turnoverEstimated": true,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.25,
+  "paidOutEur": 367797,
+  "source": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "crowd": [
+        0.6325,
+        0.2075,
+        0.16
+      ],
+      "result": "2"
+    },
+    {
+      "n": 2,
+      "home": "Arsenal",
+      "away": "Everton",
+      "crowd": [
+        0.77,
+        0.1629,
+        0.0671
+      ],
+      "result": "1"
+    },
+    {
+      "n": 3,
+      "home": "Coventry",
+      "away": "Fulham",
+      "crowd": [
+        0.3048,
+        0.2852,
+        0.41
+      ],
+      "result": "2"
+    },
+    {
+      "n": 4,
+      "home": "West Ham",
+      "away": "Southampton",
+      "crowd": [
+        0.6732,
+        0.1968,
+        0.13
+      ],
+      "result": "2"
+    },
+    {
+      "n": 5,
+      "home": "QPR",
+      "away": "Swansea",
+      "crowd": [
+        0.33,
+        0.28,
+        0.39
+      ],
+      "result": "1"
+    },
+    {
+      "n": 6,
+      "home": "Cardiff",
+      "away": "Birmingham",
+      "crowd": [
+        0.26,
+        0.2606,
+        0.4794
+      ],
+      "result": "1"
+    },
+    {
+      "n": 7,
+      "home": "Preston",
+      "away": "West Brom",
+      "crowd": [
+        0.1846,
+        0.19,
+        0.6254
+      ],
+      "result": "X"
+    },
+    {
+      "n": 8,
+      "home": "Stoke",
+      "away": "Bristol C",
+      "crowd": [
+        0.55,
+        0.23,
+        0.22
+      ],
+      "result": "X"
+    },
+    {
+      "n": 9,
+      "home": "Blackburn",
+      "away": "Wrexham",
+      "crowd": [
+        0.39,
+        0.2998,
+        0.3102
+      ],
+      "result": "1"
+    },
+    {
+      "n": 10,
+      "home": "Wolves",
+      "away": "Watford",
+      "crowd": [
+        0.78,
+        0.14,
+        0.08
+      ],
+      "result": "1"
+    },
+    {
+      "n": 11,
+      "home": "Lincoln",
+      "away": "Burnley",
+      "crowd": [
+        0.29,
+        0.2739,
+        0.4361
+      ],
+      "result": "1"
+    },
+    {
+      "n": 12,
+      "home": "Cambridge",
+      "away": "Plymouth",
+      "crowd": [
+        0.426,
+        0.284,
+        0.29
+      ],
+      "result": "2"
+    },
+    {
+      "n": 13,
+      "home": "Oxford U",
+      "away": "Bradford",
+      "crowd": [
+        0.4002,
+        0.31,
+        0.2898
+      ],
+      "result": "X",
+      "crowdEstimated": true
+    }
+  ],
+  "prizes": null,
+  "note": "Vaihtoa ei julkaistu: arvio = maksetut voitot 367 797 € / 0,65. Pelijakauma = paperin lukemat, joissa toteutuneen merkin osuus on korvattu Veikkauksen lopullisella luvulla ja loput skaalattu. Ottelun 13 jakauma on arvio (vain X = 31 % tunnetaan)."
+}
