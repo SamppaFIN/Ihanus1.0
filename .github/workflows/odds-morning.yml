@@ -1,16 +1,17 @@
-# Aamuisin: hae 1X2-kertoimet avoimelle kierrokselle, rakenna UI:n data ja julkaise.
+# Aamuisin: hae peliprosentit (Teksti-TV 479) ja 1X2-kertoimet (BetExplorer, Playwright — ei API-avaimia),
+# rakenna UI:n data ja julkaise.
 #
-# Kertoimet haetaan The Odds API:sta (Pinnacle ensisijainen). Lisää repon secrets-kohtaan THE_ODDS_API_KEY.
-# Ilman avainta askel päättyy koodiin 2 ja ajo jatkuu ilman uusia kertoimia (UI käyttää edellistä dataa).
-# Playwright-kaappaus (veikkaus-capture) on erillinen käsin ajettava askel: ks. input "capture".
+# Kertoimet ovat "paras yritys": jos sivun rakenne on muuttunut tai kertoimia ei löydy, askel ei kaada ajoa
+# ja UI käyttää edellistä dataa / pelkkää malliarviota. Ensimmäisellä ajolla (tai kun jokin näyttää väärältä) aja
+# käsin "Run workflow" valinnalla debug=true: HTML ja kuvakaappaukset tulevat artefaktina tarkistettavaksi.
 name: Kertoimet aamulla
 on:
   schedule:
     - cron: '30 5 * * *' # 05:30 UTC = 07:30 / 08:30 Suomen aikaa
   workflow_dispatch:
     inputs:
-      capture:
-        description: 'Aja myös Veikkaus-sivun Playwright-kaappaus (tulos artefaktina)'
+      debug:
+        description: 'Tallenna BetExplorer-sivujen HTML ja kuvakaappaukset artefaktiksi'
         type: boolean
         default: false
 concurrency:
@@ -25,35 +26,32 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: '22', cache: npm }
       - run: npm ci --ignore-scripts
-      - name: Hae kertoimet
-        id: odds
-        env:
-          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+      - name: Hae peliprosentit (jotta uuden kierroksen kuponki on olemassa)
         run: |
           set +e
-          npm run scrape:odds
+          npm run scrape:percent
           code=$?
-          if [ "$code" = "2" ]; then echo "::warning::THE_ODDS_API_KEY puuttuu — kertoimia ei haettu"; exit 0; fi
+          if [ "$code" = "3" ]; then echo "Ei Vakio-kohteita sivulla"; exit 0; fi
           exit $code
-      - name: Playwright-kaappaus (valinnainen)
-        if: ${{ inputs.capture }}
-        run: |
-          npx playwright install --with-deps chromium
-          npm run scrape:veikkaus:capture
+      - run: npx playwright install --with-deps chromium
+      - name: Hae kertoimet (BetExplorer)
+        continue-on-error: true
+        run: npm run scrape:odds -- ${{ inputs.debug && '--debug' || '' }}
       - uses: actions/upload-artifact@v4
-        if: ${{ inputs.capture }}
+        if: ${{ inputs.debug }}
         with:
-          name: veikkaus-capture
-          path: data/raw/veikkaus-capture-*.json
+          name: betexplorer-debug
+          path: data/raw/odds-*
+          if-no-files-found: warn
       - run: npm run typecheck && npm test
       - run: npm run build:data
       - name: Commitoi data
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/odds web/data
+          git add data/coupons data/crowd-history data/odds web/data
           if git diff --cached --quiet; then echo "Ei muutoksia"; else
-            git commit -m "Data: aamun kertoimet [skip ci]"
+            git commit -m "Data: aamun kertoimet ja peliprosentit [skip ci]"
             git pull --rebase origin main || true
             git push origin HEAD:main
           fi
@@ -63,4 +61,4 @@ jobs:
           publish_dir: ./web
           publish_branch: gh-pages
           enable_jekyll: false
-          commit_message: 'Deploy: aamun kertoimet'
+          commit_message: 'Deploy: aamun data'

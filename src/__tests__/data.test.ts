@@ -23,6 +23,16 @@ describe.each(files)('data/coupons/%s', (f) => {
     });
   });
 
+  it('rivihinta: joko luettu sivulta tai merkitty oletukseksi (ei hiljaa arvattua hintaa)', () => {
+    if (c.rowPriceEstimated) {
+      expect(c.rowPriceEur).toBe(0.25);
+    } else {
+      // luettu Teksti-TV:ltä: Sunnuntaivakio 0,10 €
+      expect(c.rowPriceEur).toBeGreaterThan(0);
+      expect(c.rowPriceEur).toBeLessThan(0.25);
+    }
+  });
+
   it('pelijakaumat summaavat ≈ 1 ja ovat positiivisia', () => {
     for (const m of c.matches) {
       if (!m.crowd) continue;

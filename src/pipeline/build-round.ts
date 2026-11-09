@@ -73,6 +73,8 @@ export interface RoundView {
   guaranteeEur: number | null;
   bonusPoolEur: number | null;
   rowPriceEur: number;
+  /** true = hintaa ei ole luettu Teksti-TV:ltä vaan oletettu */
+  rowPriceEstimated: boolean;
   avgRowEv: number | null;
   /** Arvioidut potit luokille 13, 12, 11, 10 oikein (oletetuilla luokkaosuuksilla) */
   pools: [number, number, number, number] | null;
@@ -144,6 +146,7 @@ export function buildRound(c: Coupon, sheet: SheetFile | null, odds: OddsFile | 
     guaranteeEur: c.guaranteeEur,
     bonusPoolEur: c.bonusPoolEur,
     rowPriceEur: c.rowPriceEur,
+    rowPriceEstimated: Boolean(c.rowPriceEstimated),
     avgRowEv: null,
     pools: null,
     source: c.source,

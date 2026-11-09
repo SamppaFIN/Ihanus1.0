@@ -7,7 +7,6 @@
   "scripts": {
     "scrape:percent": "tsx src/tools/scrape-percent.ts",
     "scrape:odds": "tsx src/tools/scrape-odds.ts",
-    "scrape:veikkaus:capture": "tsx src/tools/veikkaus-capture.ts",
     "build:data": "tsx src/tools/build-data.ts",
     "backtest": "tsx src/tools/backtest.ts",
     "serve": "tsx src/tools/serve.ts",

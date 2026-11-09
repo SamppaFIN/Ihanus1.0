@@ -6,7 +6,8 @@
   "turnoverEstimated": false,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
-  "rowPriceEur": 0.25,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-08T12:58:00.000Z",
   "source": "Yle Teksti-TV 479 (pelijakauma 14.58)",
   "matches": [
     {

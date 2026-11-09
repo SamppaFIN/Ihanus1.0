@@ -1,11 +1,19 @@
-# Pe–su tunnin välein: hae peliprosentit ja vaihto Ylen Teksti-TV:stä (sivu 479), laske uudelleen ja julkaise.
-# Näin viimeinen snapshot ennen ottelujen alkua on tuore ("tuntia ennen matsia"); jokainen haku tallentuu
-# myös data/crowd-history/-tiedostoon. Jos kierroksia pelataan muinakin päivinä (esim. keskiviikkovakio), lisää päivä cron-riville.
+# Tuore data ennen kierroksen sulkeutumista: peliprosentit ja vaihto Ylen Teksti-TV:stä (sivu 479), valinnaisesti
+# myös kertoimet, uudelleenlaskenta ja julkaisu.
+#
+# Pääasiallinen käynnistäjä on Cloudflare Worker (workers/cron), joka kutsuu workflow_dispatchia tuntia ennen
+# jokaisen kierroksen "Pelaaminen päättyy" -hetkeä. Alla oleva schedule on varmistus ilman Workeria ja ilman
+# yhtään salaisuutta: tunnin välein pe, la ja su. GitHubin schedule voi myöhästyä, siksi Worker on tarkempi.
 name: Peliprosentit
 on:
   schedule:
-    - cron: '10 7-20 * * 0,5,6' # su, pe, la; 07–20 UTC = 09–22 Suomen aikaa (hetkellä ±1 h kesäajasta riippuen)
+    - cron: '10 7-20 * * 0,5,6' # su, pe, la; 07–20 UTC = 09–22 Suomen aikaa (±1 h kesäajasta riippuen)
   workflow_dispatch:
+    inputs:
+      odds:
+        description: 'Hae myös kertoimet (BetExplorer)'
+        type: string
+        default: 'false'
 concurrency:
   group: gh-pages
   cancel-in-progress: false
@@ -26,12 +34,18 @@ jobs:
           # 3 = sivulla ei Vakio-kohteita (esim. tauko) → ei virhe
           if [ "$code" = "3" ]; then echo "Ei Vakio-kohteita sivulla"; exit 0; fi
           exit $code
+      - name: Hae kertoimet (BetExplorer)
+        if: ${{ inputs.odds == 'true' }}
+        continue-on-error: true
+        run: |
+          npx playwright install --with-deps chromium
+          npm run scrape:odds
       - run: npm run build:data
       - name: Commitoi data
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/coupons data/crowd-history web/data
+          git add data/coupons data/crowd-history data/odds web/data
           if git diff --cached --quiet; then echo "Ei muutoksia"; else
             git commit -m "Data: peliprosentit [skip ci]"
             git pull --rebase origin main || true

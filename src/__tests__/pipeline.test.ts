@@ -2,7 +2,8 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { parseYleVakio } from '../scrape/yle-vakio.js';
 import { couponId, findExisting, mergeYleIntoCoupon, playDateFor, slug } from '../pipeline/merge-coupon.js';
-import { h2h, matchEvents, type OddsApiEvent } from '../scrape/odds-api.js';
+import { matchFixtures, parseRow, parseRows, type RowSnapshot } from '../scrape/odds-table.js';
+import { devig } from '../engine/prob.js';
 import { buildRound } from '../pipeline/build-round.js';
 import type { Coupon } from '../engine/types.js';
 
@@ -65,27 +66,48 @@ describe('playDateFor / findExisting', () => {
   });
 });
 
-describe('odds-api', () => {
-  const ev = (home: string, away: string, prices: [number, number, number], book = 'pinnacle'): OddsApiEvent => ({
-    home_team: home,
-    away_team: away,
-    commence_time: '2026-11-14T15:00:00Z',
-    bookmakers: [{ key: book, markets: [{ key: 'h2h', outcomes: [{ name: home, price: prices[0] }, { name: 'Draw', price: prices[1] }, { name: away, price: prices[2] }] }] }],
+describe('odds-table (ilman API-avainta)', () => {
+  const snap = (...cells: Array<string | [string, string]>): RowSnapshot => ({ cells: cells.map((c) => (Array.isArray(c) ? { text: c[0], odd: c[1] } : { text: c, odd: null })) });
+
+  it('lukee rivin: nimipari + kolme kerrointa + aika (teksti- ja data-odd-muodot)', () => {
+    const textual = parseRow(snap('Manchester City - Fulham', '1.45', '4.80', '7,00', '21.11. 13:30'), 'england/premier-league');
+    expect(textual).toMatchObject({ home: 'Manchester City', away: 'Fulham', odds: [1.45, 4.8, 7], when: '21.11. 13:30' });
+    const attr = parseRow(snap('QPR - Lincoln', ['', '2.10'], ['', '3.40'], ['', '3.60']), 'x');
+    expect(attr?.odds).toEqual([2.1, 3.4, 3.6]);
   });
 
-  it('h2h palauttaa [koti, tasa, vieras] ja suosii pinnaclea', () => {
-    const e = ev('Arsenal', 'Hull City', [1.2, 7, 15]);
-    e.bookmakers.unshift({ key: 'x', markets: [{ key: 'h2h', outcomes: [{ name: 'Arsenal', price: 1.1 }, { name: 'Draw', price: 6 }, { name: 'Hull City', price: 12 }] }] });
-    expect(h2h(e, ['pinnacle'])).toEqual({ odds: [1.2, 7, 15], bookmaker: 'pinnacle' });
+  it('hylkää: otsikkorivi, rivi ilman kertoimia (JS ei ehtinyt), pelattu ottelu (tulos), liian vähän lukuja', () => {
+    expect(parseRow(snap('', '1', 'X', '2', ''), 'x')).toBeNull();
+    expect(parseRow(snap('Millwall - QPR', '', '', '', '21.11. 13:30'), 'x')).toBeNull();
+    expect(parseRow(snap('Birmingham - Swansea', '2:1', '1.90', '3.50', '4.00', '07.11.'), 'x')).toBeNull();
+    expect(parseRow(snap('Bolton - Portsmouth', '2.20', '3.30'), 'x')).toBeNull();
   });
 
-  it('täsmäyttää Ylen katkaistut nimet tapahtumiin', () => {
-    const events = [ev('Arsenal', 'Hull City', [1.2, 7, 15]), ev('Nottingham Forest', 'Manchester City', [5, 4, 1.6]), ev('Middlesbrough', 'Watford', [2, 3.3, 3.8])];
+  it('täsmäyttää kuponin Yle-nimet BetExplorer-nimiin; epäselvä ja tuntematon jäävät pois', () => {
     const coupon = data<Coupon>('coupons/2026-11-07-lauantaivakio-1.json');
-    const m = [coupon.matches[0]!, coupon.matches[2]!, { ...coupon.matches[3]!, home: 'Watford', away: 'Middlesbrou' }];
-    const r = matchEvents(m, events);
-    expect(r.matched.map((x) => x.n)).toEqual([1, 3]);
-    expect(r.unmatched).toEqual([4]); // Watford–Middlesbrough on tapahtumissa toisin päin → ei arvata
+    const rows = parseRows(
+      [
+        snap('Nottingham - Manchester City', '5.50', '4.40', '1.55', 'Today 17:00'),
+        snap('West Brom - Millwall', '2.30', '3.20', '3.30', 'Today 17:00'),
+        snap('Sheffield Utd - Charlton', '2.0', '3.4', '3.8', 'Today 17:00'), // väärin päin → ei saa täsmätä ottelun 11 kanssa
+        snap('Watford - Middlesbrough', '2.9', '3.1', '2.5', 'Today 17:00'),
+        snap('Cardiff - Burnley', '2.7', '3.3', '2.6', 'Today 17:00'),
+      ],
+      'england/championship',
+    );
+    const { matched, unmatched } = matchFixtures(coupon.matches, rows);
+    const by = Object.fromEntries(matched.map((m) => [m.n, m.odds]));
+    expect(by[3]).toEqual([5.5, 4.4, 1.55]); // Nottingham – Manchester C
+    expect(by[7]).toEqual([2.3, 3.2, 3.3]); // West Bromwi – Millwall
+    expect(by[4]).toEqual([2.9, 3.1, 2.5]); // Watford – Middlesbrou
+    expect(by[10]).toEqual([2.7, 3.3, 2.6]);
+    expect(unmatched).toContain(11);
+    expect(unmatched).toContain(1);
+  });
+
+  it('devig toimii skreipatuilla kertoimilla (summa 1, marginaali > 0)', () => {
+    const p = devig([2.1, 3.4, 3.6]);
+    expect(p[0] + p[1] + p[2]).toBeCloseTo(1, 12);
   });
 });
 

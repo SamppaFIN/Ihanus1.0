@@ -1,0 +1,31 @@
+# Cloudflare Worker "ihanus-cron": tunti ennen Vakio-kierroksen sulkeutumista käynnistää GitHub-workflow'n,
+# joka hakee tuoreet peliprosentit (Teksti-TV 479) ja julkaisee UI:n. Ei API-avaimia dataan; ainoa salaisuus on
+# GitHub-token jolla workflow käynnistetään.
+#
+# Käyttöönotto (kerran):
+#   cd workers/cron && npm i
+#   npx wrangler login
+#   npx wrangler secret put GITHUB_TOKEN      # fine-grained PAT: vain Ihanus1.0, Actions: Read and write
+#   npx wrangler deploy
+# Tarkista: https://ihanus-cron.<tilisi>.workers.dev/status
+
+name = "ihanus-cron"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+[triggers]
+# Joka 10. minuutti pe, la ja su. Muuta jos pelataan muinakin päivinä (esim. "*/10 * * * *" = päivittäin).
+# Jos INTERVAL_MIN muuttuu, muuta se myös alla.
+crons = ["*/10 * * * FRI,SAT,SUN"]
+
+[vars]
+GITHUB_REPO = "SamppaFIN/Ihanus1.0"
+WORKFLOW = "percent-hourly.yml"
+REF = "main"
+REFRESH_BEFORE_MIN = "60"   # minuuttia ennen "Pelaaminen päättyy" -hetkeä; useita: "60,10"
+INTERVAL_MIN = "10"
+
+# Valinnainen: estää kaksoislaukaisun jos cron ajautuu päällekkäin.
+# [[kv_namespaces]]
+# binding = "STATE"
+# id = "<kv-namespace-id>"

@@ -6,6 +6,7 @@
   "guaranteeEur": null,
   "bonusPoolEur": 300000,
   "rowPriceEur": 0.25,
+  "rowPriceEstimated": true,
   "source": "Yle Teksti-TV 479 (pelijakauma 16.58) ja 478 (tulokset 7.11.2026)",
   "matches": [
     {

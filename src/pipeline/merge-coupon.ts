@@ -56,11 +56,15 @@ export function mergeYleIntoCoupon(existing: Coupon | null, page: YleVakioPage, 
     turnoverEstimated: page.turnoverEur != null ? undefined : existing?.turnoverEstimated,
     guaranteeEur: page.guaranteeEur ?? existing?.guaranteeEur ?? null,
     bonusPoolEur: page.bonusPoolEur ?? existing?.bonusPoolEur ?? null,
-    rowPriceEur: existing?.rowPriceEur ?? 0.25,
+    rowPriceEur: page.rowPriceEur ?? existing?.rowPriceEur ?? 0.25,
+    rowPriceEstimated: page.rowPriceEur != null ? undefined : (existing ? existing.rowPriceEstimated : true),
+    closesAt: page.closesAt ?? existing?.closesAt ?? undefined,
     source: existing?.source.includes('Yle Teksti-TV 479') ? existing.source : now,
     matches,
   };
   if (coupon.turnoverEstimated === undefined) delete coupon.turnoverEstimated;
+  if (coupon.rowPriceEstimated === undefined) delete coupon.rowPriceEstimated;
+  if (coupon.closesAt === undefined) delete coupon.closesAt;
   return { coupon, created: !existing, warnings };
 }
 

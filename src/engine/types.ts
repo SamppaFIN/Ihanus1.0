@@ -46,6 +46,10 @@ export interface Coupon {
   /** "Bonuskierros, X e jaetaan täysosumille" */
   bonusPoolEur: number | null;
   rowPriceEur: number;
+  /** true kun rivin hinta on oletus (ei luettu Teksti-TV:n "Rivihinta"-riviltä) */
+  rowPriceEstimated?: boolean;
+  /** Pelaaminen päättyy (UTC-ISO), Teksti-TV 479 "Pelaaminen päättyy …" */
+  closesAt?: string | null;
   source: string;
   matches: CouponMatch[];
   /** Toteutunut voitonjako (Veikkauksen tiedote / Teksti-TV 478) */

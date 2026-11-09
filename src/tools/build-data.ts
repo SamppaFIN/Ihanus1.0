@@ -39,7 +39,6 @@ const payload = {
   assumptions: {
     prize: DEFAULT_PRIZE_MODEL,
     fuse: DEFAULT_FUSE,
-    rowPriceEur: 0.25,
   },
   rounds,
 };

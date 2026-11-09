@@ -3,7 +3,8 @@
 Etsii Vakio-rivin tai -järjestelmän, jonka **osuessa kukaan muu ei ole samalla rivillä**: oma todennäköisyys-arvio vastaan pelaajien peliprosentit, ja siitä rivin odotettu voitto pari-mutuel-potissa.
 
 - **Peliprosentit, vaihto, takuupotti/bonus:** Ylen Teksti-TV sivu 479 (staattinen HTML → pelkkä HTTP-haku, ei selainta)
-- **Kertoimet:** The Odds API (Pinnacle, devig) aamuisin; Playwright-kaappaustyökalu Veikkauksen sivulle erikseen
+- **Kertoimet:** BetExplorerin liigasivut Playwrightilla (keskimääräiset 1X2-kertoimet, devig) — ei API-avaimia
+- **Ajastus:** Cloudflare Worker (`workers/cron/`) lukee Teksti-TV:ltä kunkin kierroksen “Pelaaminen päättyy” -ajan ja käynnistää tuntia ennen GitHub-workflow'n, joka hakee tuoreet peliprosentit + kertoimet ja julkaisee UI:n
 - **Oma arvio:** kertoimista ja/tai käsin täytetystä taulukosta (`data/sheets/`), kutistettuna kohti pelijakaumaa
 - **UI:** mobile-first, Infinite-portfolion lasi/OKLCH-kieli, teemat Talvi/Titaani/Timantti (`web/`, vanilla JS, ei buildia)
 
@@ -11,7 +12,7 @@ Etsii Vakio-rivin tai -järjestelmän, jonka **osuessa kukaan muu ei ole samalla
 
 ```bash
 npm ci
-npm test                # 78 testiä
+npm test                # 97 testiä
 npm run build:data      # data/ → web/data/rounds.json
 npm run serve           # http://localhost:5173
 ```
@@ -35,34 +36,51 @@ Järjestelmä kasvatetaan ahneesti: lisätään merkki jolla ΔEV/Δeuro on suur
 
 ```
 src/engine/     prob (devig, fuse) · poisson · sheet (paperimalli) · prize (potit) · ev (tarkka EV) · optimize
-src/scrape/     yle-vakio (Teksti-TV 479 -jäsennin) · names (sumea joukkuenimien täsmäytys) · odds-api
-src/pipeline/   merge-coupon (Yle → kuponki, kierroksen tunnistus) · build-round (kuponki → UI-näkymä)
-src/tools/      scrape-percent · scrape-odds · veikkaus-capture · build-data · serve
+src/scrape/     yle-vakio (Teksti-TV 479 -jäsennin, alasivut, sulkeutumisaika, rivihinta) · names (sumea joukkuenimien täsmäytys) · odds-table (BetExplorer-rivien tulkinta)
+src/pipeline/   merge-coupon (Yle → kuponki, kierroksen tunnistus) · build-round (kuponki → UI-näkymä) · cron-plan/cron-run (milloin päivitetään, GitHub-dispatch)
+src/tools/      scrape-percent · scrape-odds (Playwright) · build-data · serve
+workers/cron/   Cloudflare Worker: scheduled-tikki 10 min välein + GET /status (dry-run)
 data/           coupons/ (kierrokset) · sheets/ (käsin täytetyt taulukot) · odds/ · crowd-history/
 fixtures/       oikeat Teksti-TV-sivut testeihin
 web/            UI (index.html, styles.css, app.js, data/rounds.json)
-.github/        ci · pages-deploy · odds-morning (05:30 UTC) · percent-hourly (pe–su tunnin välein)
+.github/        ci · pages-deploy · odds-morning (05:30 UTC) · percent-hourly (Workerin dispatch + varmistus: pe/la/su tunnin välein)
 ```
 
 ## Uuden kierroksen kulku
 
-1. `percent-hourly` hakee Teksti-TV 479:n ja luo/päivittää `data/coupons/<pvm>-<kierros>.json`. Kierros tunnistetaan otsikosta + kierrosnumerosta, joten sama kierros ei monistu.
-2. `odds-morning` hakee kertoimet `data/odds/<id>.json`:iin (tai kirjoita ne käsin samaan muotoon: `{fetchedAt, source, matches:[{n, odds:[1,X,2]}]}`).
+1. `percent-hourly` hakee Teksti-TV 479:n kaikki alasivut (jokainen voi olla eri kuponki) ja luo/päivittää `data/coupons/<pvm>-<kierros>.json`. Kierros tunnistetaan otsikosta + kierrosnumerosta, joten sama kierros ei monistu. Sivulta luetaan myös sulkeutumisaika (`closesAt`) ja rivihinta.
+2. `odds-morning` (ja Workerin laukaisema ajo) hakee kertoimet `data/odds/<id>.json`:iin (tai kirjoita ne käsin samaan muotoon: `{fetchedAt, source, matches:[{n, odds:[1,X,2]}]}`).
 3. Käsintäytetty taulukko: `data/sheets/<id>.json` (muoto: katso `2026-10-24-lauantaivakio.json`).
 4. `build-data` yhdistää kaiken → `web/data/rounds.json` → UI.
 5. Pelin jälkeen lisää tulokset (`result: "1"|"X"|"2"` otteluille) ja halutessasi voitonjako (`prizes`) kuponkitiedostoon; Teksti-TV 478 näyttää molemmat.
 
-Käyttöönotto GitHubissa: Pages → Source: *Deploy from branch* → `gh-pages` / root. Lisää secret `THE_ODDS_API_KEY`.
+## Käyttöönotto
+
+**GitHub Pages:** Settings → Pages → Source: *Deploy from branch* → `gh-pages` / root.
+
+**Cloudflare-cron** (tunti ennen sulkeutumista):
+
+```bash
+cd workers/cron && npm i
+npx wrangler login
+npx wrangler secret put GITHUB_TOKEN   # fine-grained PAT: vain tämä repo, Actions: Read and write
+npx wrangler deploy
+```
+
+Tarkista `https://ihanus-cron.<tilisi>.workers.dev/status`: näet mitkä kierrokset Worker löytää ja milloin ne sulkeutuvat (dry-run, ei käynnistä mitään). Tikki ajetaan pe/la/su 10 min välein (`wrangler.toml`); ajoikkuna on rakennettu niin, että jokainen kierros laukaisee täsmälleen yhden päivityksen (testattu). Useampi päivityshetki: `REFRESH_BEFORE_MIN = "60,10"`.
+
+Data on avaimetonta (scraperit), mutta workflow'n käynnistäminen Cloudflaresta vaatii GitHub-tokenin — se on ainoa salaisuus, ja se on vain Workerissa. Ilman Workeria `percent-hourly` ajaa silti tunnin välein pe/la/su (GitHubin schedule voi myöhästyä kymmeniä minuutteja).
+
 
 ## Mikä EI ole vahvistettu — lue tämä
 
 | Asia | Tila |
 |---|---|
-| Rivin hinta 0,25 € | poimittu keskustelusta, ei Veikkauksen säännöistä |
+| Rivin hinta | luetaan Teksti-TV:ltä kun sivu sen kertoo (Sunnuntaivakio 0,10 €). Lauantaivakion 0,25 € on **oletus** (UI:ssa “hinta oletettu”); väärä hinta vääristää rivimäärää ja kaikkia arvokertoimia |
 | Palautus 65 % | oletus (asetus 1414/2016: keskimäärin 60–70 %) |
 | Luokkaosuudet 13/12/11/10 = 56/16/11/17 % | arvioitu kahdesta kierroksesta |
-| The Odds API -muoto | dokumentaation mukaan; elävää rajapintaa ei voitu testata kehitysympäristöstä (verkko rajattu) |
-| Veikkaus-Playwright | vain kaappausharness; ei tiedetä missä rajapinnassa 1X2-kertoimet kulkevat. Käytä harvoin ja käyttöehtoja noudattaen |
+| BetExplorer-scraper | tulkintalogiikka testattu fixtureilla ja synteettisellä HTML:llä oikeassa Chromiumissa; **oikeaa sivun rakennetta, ikävahvistusta ja aikavyöhykettä ei ole nähty** (kehitysympäristön verkko rajattu). Aja ensin `odds-morning` käsin valinnalla `debug=true` ja tarkista artefakti. Käytä harvoin ja sivuston käyttöehtoja noudattaen |
+| Cloudflare-cron | Worker ajettu paikallisesti (`wrangler dev --test-scheduled`) feikkipalvelinta vasten: Teksti-TV → ikkuna → GitHub-dispatch toimii. Oikeaa Cloudflare-deployta ja cron-lausekkeen (`FRI,SAT,SUN`) hyväksymistä ei ole ajettu |
 | 12 ottelun kierros (Sunnuntaivakio) | jäsennetään, mutta polkua ei lasketa — palkintoluokkia ei tunneta |
 | Muiden pelaajien riippumattomuus | virheellinen: rivit kasautuvat (24.10. toteutui 32 kpl 12 oikein vs ~15 mallin mukaan). `crowdScale` kalibroitava; varovainen arvio käyttää ×1,5 |
 | Mallin toimivuus | **ei todistettu.** Takautuvia kierroksia on kaksi (24.10., 7.11.), ja 7.11. ei ole omaa dataa. Yksi kierros on anekdootti |

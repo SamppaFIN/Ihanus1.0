@@ -7,6 +7,7 @@
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.25,
+  "rowPriceEstimated": true,
   "paidOutEur": 367797,
   "source": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
   "matches": [
