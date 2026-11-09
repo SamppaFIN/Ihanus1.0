@@ -1,0 +1,480 @@
+{
+  "couponId": "2026-11-10-futisvakio-6",
+  "note": "Täytetty paperitaulukon tapaan sarjataulukoista (Sports Mole), haettu 9.11.2026. thisSeason = joukkueen 2026–27 kokonaistilasto omassa sarjassaan (League One / League Two). lastSeasonVenue = viime kauden (2025–26) kotijoukkueen KOTItilasto ja vierasjoukkueen VIERAStilasto omassa silloisessa sarjassaan (League One, League Two, Championship tai National League). leagueChange: Leicester ja Oxford putosivat Championshipista, Northampton League Onesta; Notts County ja York nousivat. tier: 3 = League One, 4 = League Two; eri tasojen välille malli lisää 0,5 maalia/ottelu/taso (oletus, ei validoitu). Puuttuu: kolmen viimeisen ottelun pisteet (muotobonus 0) ja Ipswich Town U21 (ei sarjataulukkoa → ottelu 12 ilman taulukkomallia). Trophy-ottelussa joukkueet kierrättävät pelaajia, mikä ei näy tilastoissa.",
+  "matches": [
+    {
+      "n": 1,
+      "home": {
+        "name": "Leicester City",
+        "lastSeasonVenue": {
+          "w": 7,
+          "d": 7,
+          "l": 9,
+          "gf": 31,
+          "ga": 34
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 4,
+          "l": 4,
+          "gf": 22,
+          "ga": 19
+        },
+        "leagueChange": "relegated",
+        "tier": 3
+      },
+      "away": {
+        "name": "Walsall",
+        "lastSeasonVenue": {
+          "w": 10,
+          "d": 6,
+          "l": 7,
+          "gf": 33,
+          "ga": 26
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 7,
+          "l": 1,
+          "gf": 21,
+          "ga": 12
+        },
+        "leagueChange": null,
+        "tier": 4
+      }
+    },
+    {
+      "n": 2,
+      "home": {
+        "name": "Oxford United",
+        "lastSeasonVenue": {
+          "w": 7,
+          "d": 8,
+          "l": 8,
+          "gf": 24,
+          "ga": 27
+        },
+        "thisSeason": {
+          "w": 7,
+          "d": 5,
+          "l": 1,
+          "gf": 22,
+          "ga": 11
+        },
+        "leagueChange": "relegated",
+        "tier": 3
+      },
+      "away": {
+        "name": "Cheltenham Town",
+        "lastSeasonVenue": {
+          "w": 5,
+          "d": 6,
+          "l": 12,
+          "gf": 25,
+          "ga": 46
+        },
+        "thisSeason": {
+          "w": 6,
+          "d": 3,
+          "l": 5,
+          "gf": 23,
+          "ga": 25
+        },
+        "leagueChange": null,
+        "tier": 4
+      }
+    },
+    {
+      "n": 3,
+      "home": {
+        "name": "Barnet",
+        "lastSeasonVenue": {
+          "w": 10,
+          "d": 6,
+          "l": 7,
+          "gf": 38,
+          "ga": 29
+        },
+        "thisSeason": {
+          "w": 7,
+          "d": 5,
+          "l": 1,
+          "gf": 28,
+          "ga": 18
+        },
+        "leagueChange": null,
+        "tier": 4
+      },
+      "away": {
+        "name": "Leyton Orient",
+        "lastSeasonVenue": {
+          "w": 6,
+          "d": 3,
+          "l": 14,
+          "gf": 27,
+          "ga": 41
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 2,
+          "l": 6,
+          "gf": 19,
+          "ga": 14
+        },
+        "leagueChange": null,
+        "tier": 3
+      }
+    },
+    {
+      "n": 4,
+      "home": {
+        "name": "Northampton Town",
+        "lastSeasonVenue": {
+          "w": 6,
+          "d": 4,
+          "l": 13,
+          "gf": 23,
+          "ga": 31
+        },
+        "thisSeason": {
+          "w": 3,
+          "d": 5,
+          "l": 5,
+          "gf": 9,
+          "ga": 10
+        },
+        "leagueChange": "relegated",
+        "tier": 4
+      },
+      "away": {
+        "name": "Gillingham",
+        "lastSeasonVenue": {
+          "w": 5,
+          "d": 7,
+          "l": 11,
+          "gf": 24,
+          "ga": 36
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 5,
+          "l": 4,
+          "gf": 20,
+          "ga": 19
+        },
+        "leagueChange": null,
+        "tier": 4
+      }
+    },
+    {
+      "n": 5,
+      "home": {
+        "name": "Crewe Alexandra",
+        "lastSeasonVenue": {
+          "w": 12,
+          "d": 5,
+          "l": 6,
+          "gf": 34,
+          "ga": 28
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 7,
+          "l": 2,
+          "gf": 17,
+          "ga": 17
+        },
+        "leagueChange": null,
+        "tier": 4
+      },
+      "away": {
+        "name": "Wigan Athletic",
+        "lastSeasonVenue": {
+          "w": 3,
+          "d": 10,
+          "l": 10,
+          "gf": 25,
+          "ga": 41
+        },
+        "thisSeason": {
+          "w": 3,
+          "d": 2,
+          "l": 9,
+          "gf": 11,
+          "ga": 22
+        },
+        "leagueChange": null,
+        "tier": 3
+      }
+    },
+    {
+      "n": 6,
+      "home": {
+        "name": "Burton Albion",
+        "lastSeasonVenue": {
+          "w": 9,
+          "d": 5,
+          "l": 9,
+          "gf": 27,
+          "ga": 28
+        },
+        "thisSeason": {
+          "w": 4,
+          "d": 5,
+          "l": 5,
+          "gf": 18,
+          "ga": 21
+        },
+        "leagueChange": null,
+        "tier": 3
+      },
+      "away": {
+        "name": "Notts County",
+        "lastSeasonVenue": {
+          "w": 11,
+          "d": 4,
+          "l": 8,
+          "gf": 29,
+          "ga": 27
+        },
+        "thisSeason": {
+          "w": 3,
+          "d": 5,
+          "l": 4,
+          "gf": 13,
+          "ga": 14
+        },
+        "leagueChange": "promoted",
+        "tier": 3
+      }
+    },
+    {
+      "n": 7,
+      "home": {
+        "name": "Plymouth Argyle",
+        "lastSeasonVenue": {
+          "w": 10,
+          "d": 4,
+          "l": 9,
+          "gf": 33,
+          "ga": 33
+        },
+        "thisSeason": {
+          "w": 7,
+          "d": 2,
+          "l": 5,
+          "gf": 21,
+          "ga": 19
+        },
+        "leagueChange": null,
+        "tier": 3
+      },
+      "away": {
+        "name": "Swindon Town",
+        "lastSeasonVenue": {
+          "w": 11,
+          "d": 3,
+          "l": 9,
+          "gf": 32,
+          "ga": 32
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 4,
+          "l": 5,
+          "gf": 15,
+          "ga": 17
+        },
+        "leagueChange": null,
+        "tier": 4
+      }
+    },
+    {
+      "n": 8,
+      "home": {
+        "name": "Bristol Rovers",
+        "lastSeasonVenue": {
+          "w": 12,
+          "d": 1,
+          "l": 10,
+          "gf": 31,
+          "ga": 28
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 1,
+          "l": 8,
+          "gf": 17,
+          "ga": 23
+        },
+        "leagueChange": null,
+        "tier": 4
+      },
+      "away": {
+        "name": "Reading",
+        "lastSeasonVenue": {
+          "w": 6,
+          "d": 8,
+          "l": 9,
+          "gf": 31,
+          "ga": 32
+        },
+        "thisSeason": {
+          "w": 6,
+          "d": 4,
+          "l": 4,
+          "gf": 25,
+          "ga": 15
+        },
+        "leagueChange": null,
+        "tier": 3
+      }
+    },
+    {
+      "n": 9,
+      "home": {
+        "name": "Stockport County",
+        "lastSeasonVenue": {
+          "w": 13,
+          "d": 4,
+          "l": 6,
+          "gf": 38,
+          "ga": 26
+        },
+        "thisSeason": {
+          "w": 8,
+          "d": 2,
+          "l": 4,
+          "gf": 26,
+          "ga": 14
+        },
+        "leagueChange": null,
+        "tier": 3
+      },
+      "away": {
+        "name": "Tranmere Rovers",
+        "lastSeasonVenue": {
+          "w": 6,
+          "d": 5,
+          "l": 12,
+          "gf": 32,
+          "ga": 42
+        },
+        "thisSeason": {
+          "w": 4,
+          "d": 7,
+          "l": 3,
+          "gf": 19,
+          "ga": 17
+        },
+        "leagueChange": null,
+        "tier": 4
+      }
+    },
+    {
+      "n": 10,
+      "home": {
+        "name": "Mansfield Town",
+        "lastSeasonVenue": {
+          "w": 9,
+          "d": 8,
+          "l": 6,
+          "gf": 38,
+          "ga": 27
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 4,
+          "l": 4,
+          "gf": 20,
+          "ga": 18
+        },
+        "leagueChange": null,
+        "tier": 3
+      },
+      "away": {
+        "name": "Chesterfield",
+        "lastSeasonVenue": {
+          "w": 10,
+          "d": 8,
+          "l": 5,
+          "gf": 33,
+          "ga": 32
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 4,
+          "l": 5,
+          "gf": 24,
+          "ga": 21
+        },
+        "leagueChange": null,
+        "tier": 4
+      }
+    },
+    {
+      "n": 11,
+      "home": {
+        "name": "Bradford City",
+        "lastSeasonVenue": {
+          "w": 15,
+          "d": 5,
+          "l": 3,
+          "gf": 32,
+          "ga": 17
+        },
+        "thisSeason": {
+          "w": 6,
+          "d": 4,
+          "l": 3,
+          "gf": 10,
+          "ga": 8
+        },
+        "leagueChange": null,
+        "tier": 3
+      },
+      "away": {
+        "name": "York City",
+        "lastSeasonVenue": {
+          "w": 16,
+          "d": 5,
+          "l": 2,
+          "gf": 45,
+          "ga": 20
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 5,
+          "l": 4,
+          "gf": 24,
+          "ga": 21
+        },
+        "leagueChange": "promoted",
+        "tier": 4
+      }
+    },
+    {
+      "n": 12,
+      "home": {
+        "name": "Colchester United",
+        "lastSeasonVenue": {
+          "w": 10,
+          "d": 6,
+          "l": 7,
+          "gf": 35,
+          "ga": 23
+        },
+        "thisSeason": {
+          "w": 2,
+          "d": 6,
+          "l": 5,
+          "gf": 12,
+          "ga": 19
+        },
+        "leagueChange": null,
+        "tier": 4
+      },
+      "away": null
+    }
+  ]
+}

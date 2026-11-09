@@ -116,7 +116,7 @@ export function explainMatch(m: ExplainMatch, ctx: ExplainContext): MatchExplain
   const fromModel = m.basis === 'model' || m.basis === 'model+market';
   const basisParts = [
     fromOdds ? `vedonvälittäjien kertoimista${ctx.odds?.event ? ` (haettu ottelu: ${ctx.odds.event})` : ''}` : null,
-    fromModel ? 'käsin täytetystä taulukosta (joukkueiden aiemmat tulokset)' : null,
+    fromModel ? 'joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa)' : null,
   ].filter(Boolean);
   lines.push(`Arvio on laskettu ${basisParts.join(' ja ')}. Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.`);
   lines.push(`Pelaajat veikkaavat: ${triple(q)}.${m.crowdEstimated ? ' Nämä osuudet on arvioitu, ei luettu suoraan.' : ''}`);
@@ -167,7 +167,7 @@ export function sourceLinks(m: ExplainMatch, ctx: ExplainContext): SourceLink[] 
     });
   }
   if (ctx.fromSheet) {
-    out.push({ label: 'Käsin täytetty taulukko', url: `${REPO}/blob/main/data/sheets/${ctx.couponId}.json`, what: 'joukkueiden aiemmat tulokset' });
+    out.push({ label: 'Tilastotaulukko (sheet)', url: `${REPO}/blob/main/data/sheets/${ctx.couponId}.json`, what: 'joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä' });
   }
   return out;
 }

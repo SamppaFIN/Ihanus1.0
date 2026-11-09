@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { devig, fromPercents, fuse, geoMix, margin, normalize } from '../engine/prob.js';
 import { outcomeProbs } from '../engine/poisson.js';
-import { sheetProbs, SHEET_DEFAULTS, type TeamSheet } from '../engine/sheet.js';
+import { sheetProbs, tierEdge, SHEET_DEFAULTS, type TeamSheet } from '../engine/sheet.js';
 import { evConfigFor, DEFAULT_PRIZE_MODEL } from '../engine/prize.js';
 import {
   evaluate,
@@ -92,6 +92,25 @@ describe('sheet', () => {
     expect(sum(p)).toBeCloseTo(1, 9);
     expect(p[0]).toBeGreaterThan(p[1]);
     expect(p[0]).toBeGreaterThan(p[2]);
+  });
+
+  it('sarjataso: ylemmän sarjan joukkue saa edun vain, kun molempien taso tiedetään', () => {
+    const mid = { name: 'Keskitaso', lastSeasonVenue: { w: 10, d: 6, l: 7, gf: 33, ga: 30 }, thisSeason: { w: 5, d: 4, l: 5, gf: 20, ga: 20 } };
+    const l1: TeamSheet = { ...mid, name: 'L1', tier: 3 };
+    const l2: TeamSheet = { ...mid, name: 'L2', tier: 4 };
+    expect(tierEdge(l1, l2)).toBeCloseTo(SHEET_DEFAULTS.tierGap, 9);
+    expect(tierEdge(l2, l1)).toBeCloseTo(-SHEET_DEFAULTS.tierGap, 9);
+    // samalla tasolla tai tuntemattomalla tasolla ei vaikutusta → tulos täsmälleen sama kuin ilman kenttää
+    expect(tierEdge(l1, { ...l1, name: 'L1b' })).toBe(0);
+    expect(tierEdge(l1, mid)).toBe(0);
+    expect(sheetProbs({ ...mid, tier: 3 }, mid)).toEqual(sheetProbs(mid, mid));
+    // kotona ylempi sarja: kotivoitto todennäköisempi kuin saman tasoisten ottelussa; käänteisessä tapauksessa vähemmän
+    const same = sheetProbs(l1, { ...l1, name: 'L1b' });
+    const homeUp = sheetProbs(l1, l2);
+    const homeDown = sheetProbs(l2, l1);
+    expect(homeUp[0]).toBeGreaterThan(same[0]);
+    expect(homeDown[0]).toBeLessThan(same[0]);
+    expect(sum(homeUp)).toBeCloseTo(1, 9);
   });
 
   it('tiedoton joukkue ei kaada laskentaa', () => {

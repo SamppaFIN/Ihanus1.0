@@ -51,6 +51,7 @@ web/            UI (index.html, styles.css, app.js, data/rounds.json)
 1. `percent-hourly` hakee Teksti-TV 479:n kaikki alasivut (jokainen voi olla eri kuponki) ja luo/päivittää `data/coupons/<pvm>-<kierros>.json`. Kierros tunnistetaan otsikosta + kierrosnumerosta, joten sama kierros ei monistu. Sivulta luetaan myös sulkeutumisaika (`closesAt`) ja rivihinta.
 2. `odds-morning` (ja Workerin laukaisema ajo) hakee kertoimet `data/odds/<id>.json`:iin (tai kirjoita ne käsin samaan muotoon: `{fetchedAt, source, matches:[{n, odds:[1,X,2]}]}`).
 3. Käsintäytetty taulukko: `data/sheets/<id>.json` (muoto: katso `2026-10-24-lauantaivakio.json`).
+   Taulukon voi täyttää myös lähteistä (esim. `2026-11-10-futisvakio-6.json`: Sports Molen sarjataulukot, kotona/vieraissa). Valinnainen `tier` (3 = League One, 4 = League Two …) lisää eri sarjoissa pelaavien joukkueiden väliin oletuksen 0,5 maalia/ottelu/taso (`SHEET_DEFAULTS.tierGap`, ei validoitu); ilman `tier`-kenttää mikään ei muutu. Lähteet ja puuttuvat kentät kirjataan taulukon `note`-kenttään.
 4. `build-data` yhdistää kaiken → `web/data/rounds.json` → UI.
 5. Pelin jälkeen lisää tulokset (`result: "1"|"X"|"2"` otteluille) ja halutessasi voitonjako (`prizes`) kuponkitiedostoon; Teksti-TV 478 näyttää molemmat.
 

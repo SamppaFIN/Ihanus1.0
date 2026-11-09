@@ -171,3 +171,35 @@ describe('buildRound: Futisvakio 6 (12 ottelua, EFL Trophy)', () => {
     expect(r.matches[1]!.explain.headline).toBe('Ei omaa tietoa tästä ottelusta');
   });
 });
+
+describe('buildRound: Futisvakio 6 taulukkomallilla (paperitaulukon vastine)', () => {
+  const coupon = data<Coupon>('coupons/2026-11-10-futisvakio-6.json');
+  const odds = data<NonNullable<Parameters<typeof buildRound>[2]>>('odds/2026-11-10-futisvakio-6.json');
+  const sheet = data<NonNullable<Parameters<typeof buildRound>[1]>>('sheets/2026-11-10-futisvakio-6.json');
+  const r = buildRound(coupon, sheet, odds, { today: '2026-11-09', budgetEur: 20 });
+
+  it('11 ottelulle oma arvio taulukosta, Ipswich U21 -ottelulle ei', () => {
+    const own = r.matches.filter((m) => m.basis !== null && m.basis !== 'crowd');
+    expect(own).toHaveLength(11);
+    expect(r.matches[11]!.explain.headline).toBe('Ei omaa tietoa tästä ottelusta');
+    expect(r.matches[0]!.basis).toBe('model+market');
+    for (const m of r.matches.slice(1, 11)) expect(m.basis).toBe('model');
+  });
+
+  it('jokaisella taulukko-ottelulla on lähteistetyt taulukkofaktat ja linkki sheet-tiedostoon', () => {
+    for (const m of r.matches.slice(0, 11)) {
+      const t = m.explain.facts.filter((f) => /^Sports Mole/.test(f.label));
+      expect(t.length).toBeGreaterThanOrEqual(2);
+      for (const f of t) expect(f.url).toMatch(/^https:\/\/www\.sportsmole\.co\.uk\/football\//);
+      expect(m.explain.sources.some((s) => /data\/sheets\/2026-11-10-futisvakio-6\.json$/.test(s.url ?? ""))).toBe(true);
+    }
+  });
+
+  it('sarjataso näkyy: League One -kotijoukkue on suosikki League Two -vierasta vastaan samalla tilastolla', () => {
+    // Plymouth (L1) – Swindon (L2) ja Bristol Rovers (L2) – Reading (L1)
+    const plymouth = r.matches[6]!;
+    const bristol = r.matches[7]!;
+    expect(plymouth.p![0]).toBeGreaterThan(plymouth.p![2]);
+    expect(bristol.p![2]).toBeGreaterThan(bristol.p![0]);
+  });
+});

@@ -8,6 +8,10 @@
 //   gd = rating(koti) − rating(vieras) + kotietu
 //   λ_koti = 1.3 + gd/2,  λ_vieras = 1.3 − gd/2  → Poisson (Dixon–Coles) → 1X2
 //   lopuksi 25 % kutistus sarjan keskiarvoon, koska otos on pieni.
+//
+// Eri sarjatasojen ottelut (esim. EFL Trophy: League One vs League Two): jos molemmilla joukkueilla on
+// `tier`, ylempää sarjaa pelaavalle lisätään tierGap maalia/ottelu per sarjataso. Se on karkea,
+// validoimaton oletus; ilman `tier`-kenttiä (kuten 24.10. taulukko) mikään ei muutu.
 
 import { outcomeProbs } from './poisson.js';
 import { normalize } from './prob.js';
@@ -31,6 +35,11 @@ export interface TeamSheet {
   recentPts?: number[];
   /** Nousija/putoaja: viime kauden luvut ovat toisesta sarjasta */
   leagueChange?: 'promoted' | 'relegated' | null;
+  /**
+   * Sarjataso tällä kaudella (1 = Valioliiga, 2 = Championship, 3 = League One, 4 = League Two,
+   * 5 = National League). Käytetään vain, kun molempien joukkueiden taso tiedetään.
+   */
+  tier?: number | null;
 }
 
 export const SHEET_DEFAULTS = {
@@ -41,6 +50,8 @@ export const SHEET_DEFAULTS = {
   formWeight: 0.08,
   avgPointsPerGame: 1.4,
   homeAdvantage: 0.3,
+  /** Maalia/ottelu per sarjataso, kun joukkueet pelaavat eri sarjoissa (oletus, ei validoitu) */
+  tierGap: 0.5,
   totalGoals: 2.6,
   shrinkToBase: 0.25,
   base: [0.43, 0.27, 0.3] as Triple,
@@ -65,8 +76,17 @@ export function teamRating(t: TeamSheet, cfg: SheetConfig = SHEET_DEFAULTS): num
   return wTs * gTs + (1 - wTs) * cfg.lastSeasonKeep * gLs + form;
 }
 
+/** Sarjatasoero maalia/ottelu kotijoukkueen eduksi (0, jos jommankumman taso on tuntematon). */
+export function tierEdge(home: TeamSheet, away: TeamSheet, cfg: SheetConfig = SHEET_DEFAULTS): number {
+  if (home.tier == null || away.tier == null) return 0;
+  return (away.tier - home.tier) * cfg.tierGap;
+}
+
 export function sheetProbs(home: TeamSheet, away: TeamSheet, cfg: SheetConfig = SHEET_DEFAULTS): Triple {
-  const gd = Math.max(-1.8, Math.min(1.8, teamRating(home, cfg) - teamRating(away, cfg) + cfg.homeAdvantage));
+  const gd = Math.max(
+    -1.8,
+    Math.min(1.8, teamRating(home, cfg) - teamRating(away, cfg) + cfg.homeAdvantage + tierEdge(home, away, cfg)),
+  );
   const half = cfg.totalGoals / 2;
   const raw = outcomeProbs(Math.max(0.3, half + gd / 2), Math.max(0.3, half - gd / 2));
   const k = 1 - cfg.shrinkToBase;

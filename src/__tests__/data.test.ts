@@ -73,6 +73,10 @@ describe('data/sheets', () => {
         for (const r of [t.lastSeasonVenue, t.thisSeason]) if (r) expect(r.w + r.d + r.l).toBeGreaterThan(0);
       }
     });
+    // tier on järkevä, jos annettu
+    sheet.matches.forEach((m) => {
+      for (const t of [m.home, m.away]) if (t?.tier != null) expect([1, 2, 3, 4, 5]).toContain(t.tier);
+    });
     // nimet täsmäävät kuponkiin
     sheet.matches.forEach((m, i) => {
       if (m.home) expect(c.matches[i]!.home.startsWith(m.home.name.slice(0, 4))).toBe(true);

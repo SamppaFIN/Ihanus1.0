@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T12:45:07.170Z",
+ "generatedAt": "2026-11-09T13:02:04.882Z",
  "today": "2026-11-09",
  "budgetEur": 40,
  "assumptions": {
@@ -37,7 +37,7 @@
    "avgRowEv": null,
    "pools": null,
    "source": "Yle Teksti-TV 479 (pelijakauma 14.35)",
-   "note": "EFL Trophy -lohkovaiheen viimeinen ottelupäivä (ti 10.11.). Vakiossa ratkaisee 90 minuutin tulos: tasapeli on tasapeli, vaikka rangaistuspotkukilpailu ratkaisee jatkopaikan. Ipswich on tässä Valioliiga-seuran alle 21-vuotiaiden joukkue. Vaihto 5 971 € on lukema iltapäivältä, ja se kasvaa vielä.",
+   "note": "EFL Trophy -lohkovaiheen viimeinen ottelupäivä (ti 10.11.). Vakiossa ratkaisee 90 minuutin tulos: tasapeli on tasapeli, vaikka rangaistuspotkukilpailu ratkaisee jatkopaikan. Ipswich on tässä Valioliiga-seuran alle 21-vuotiaiden joukkue. Vaihto 5 971 € on lukema iltapäivältä, ja se kasvaa vielä. Oma arvio tulee taulukkomallista (data/sheets/2026-11-10-futisvakio-6.json): se on täytetty paperitaulukon tapaan sarjataulukoista, ja eri sarjoissa pelaavien joukkueiden välille on lisätty oletus 0,5 maalia ottelua kohden sarjatasoa kohden (ei validoitu). Trophy-otteluissa joukkueet kierrättävät pelaajia, mikä ei näy tilastoissa.",
    "links": [
     {
      "label": "Yle Teksti-TV 479, alasivu 5 (pelaajien osuudet, vaihto, bonus, sulkeutumisaika)",
@@ -50,6 +50,14 @@
     {
      "label": "EFL Trophyn kertoimet (BetExplorer)",
      "url": "https://www.betexplorer.com/football/england/efl-trophy/"
+    },
+    {
+     "label": "Sarjataulukot 2026–27 kotona/vieraissa (Sports Mole: League One)",
+     "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+    },
+    {
+     "label": "Sarjataulukot 2026–27 kotona/vieraissa (Sports Mole: League Two)",
+     "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
     }
    ],
    "hasEdge": true,
@@ -70,20 +78,39 @@
       0.17246214245653393,
       0.12647223780145822
      ],
-     "model": null,
-     "p": [
-      0.7215740815053829,
-      0.16207371656377004,
-      0.11635220193084703
+     "model": [
+      0.48465761322175344,
+      0.2645708602189667,
+      0.25077152655927976
      ],
-     "basis": "market",
+     "p": [
+      0.6601425306421878,
+      0.1890324745574255,
+      0.1508249948003868
+     ],
+     "basis": "model+market",
      "ratio": [
-      0.8799683920797353,
-      1.4733974233070004,
-      1.6621743132978146
+      0.8050518666368144,
+      1.718477041431141,
+      2.1546427828626684
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Leicester City (League One, 10. sija): kotona 7 ottelua, 3 voittoa, 1 tasapeli, 3 tappiota, maalit 11–12.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
+      {
+       "text": "Walsall (League Two, 3. sija): vieraissa 7 ottelua, 2 voittoa, 5 tasapeliä, 0 tappiota, maalit 11–6.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
+      {
+       "text": "Leicester putosi viime kauden lopussa sarjasta Championship sarjaan League One (23. sija, 46 pistettä).",
+       "label": "Sports Mole, Championship 2025–26",
+       "url": "https://www.sportsmole.co.uk/football/championship/2025-26/table.html"
+      },
       {
        "text": "Leicester voitti Fulham U21:n 6–1 (22.9.).",
        "label": "Football Web Pages, EFL Trophy 22.9.",
@@ -109,14 +136,30 @@
       "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
       "tone": "good",
       "lines": [
-       "Meidän arvio: kotivoitto 72 %, tasapeli 16 %, vierasvoitto 12 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
-       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Leicester City vs Walsall). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Meidän arvio: kotivoitto 66 %, tasapeli 19 %, vierasvoitto 15 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Leicester City vs Walsall) ja joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 82 %, tasapeli 11 %, vierasvoitto 7 %.",
-       "Vierasvoitto: vain 7 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 12 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
-       "Tasapeli: vain 11 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 16 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: vain 7 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 15 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 11 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 19 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Kotivoitto: 82 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 66 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
        "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Leicester City (League One, 10. sija): kotona 7 ottelua, 3 voittoa, 1 tasapeli, 3 tappiota, maalit 11–12.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
+       {
+        "text": "Walsall (League Two, 3. sija): vieraissa 7 ottelua, 2 voittoa, 5 tasapeliä, 0 tappiota, maalit 11–6.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
+       {
+        "text": "Leicester putosi viime kauden lopussa sarjasta Championship sarjaan League One (23. sija, 46 pistettä).",
+        "label": "Sports Mole, Championship 2025–26",
+        "url": "https://www.sportsmole.co.uk/football/championship/2025-26/table.html"
+       },
        {
         "text": "Leicester voitti Fulham U21:n 6–1 (22.9.).",
         "label": "Football Web Pages, EFL Trophy 22.9.",
@@ -149,6 +192,11 @@
         "label": "Mr Fixit's Tips, ennakko 9.11. (6/17, 9/2, 13/2)",
         "url": "https://mrfixitstips.co.uk/previews/leicester-city-vs-walsall-prediction-and-betting-tips-2026-11-10/",
         "what": "vedonvälittäjän kertoimet"
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -164,20 +212,39 @@
      ],
      "crowdEstimated": false,
      "market": null,
-     "model": null,
-     "p": [
-      0.76,
-      0.16,
-      0.08
+     "model": [
+      0.6980568988837764,
+      0.18902930578405516,
+      0.11291379533216846
      ],
-     "basis": "crowd",
+     "p": [
+      0.7364694205278423,
+      0.1714722629878014,
+      0.09205831648435629
+     ],
+     "basis": "model",
      "ratio": [
-      1,
-      1,
-      1
+      0.9690387112208451,
+      1.0717016436737588,
+      1.1507289560544536
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Oxford United (League One, 3. sija): kotona 7 ottelua, 4 voittoa, 3 tasapeliä, 0 tappiota, maalit 11–4.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
+      {
+       "text": "Cheltenham Town (League Two, 5. sija): vieraissa 7 ottelua, 1 voitto, 2 tasapeliä, 4 tappiota, maalit 9–15.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
+      {
+       "text": "Oxford putosi viime kauden lopussa sarjasta Championship sarjaan League One (22. sija, 47 pistettä).",
+       "label": "Sports Mole, Championship 2025–26",
+       "url": "https://www.sportsmole.co.uk/football/championship/2025-26/table.html"
+      },
       {
        "text": "Oxford pelasi Exeteriä vastaan 2–2, Exeter voitti rangaistuspotkukilpailun (6.10.).",
        "label": "Football Web Pages, EFL Trophy 6.10.",
@@ -185,14 +252,31 @@
       }
      ],
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
+       "Meidän arvio: kotivoitto 74 %, tasapeli 17 %, vierasvoitto 9 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 76 %, tasapeli 16 %, vierasvoitto 8 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Oxford United (League One, 3. sija): kotona 7 ottelua, 4 voittoa, 3 tasapeliä, 0 tappiota, maalit 11–4.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
+       {
+        "text": "Cheltenham Town (League Two, 5. sija): vieraissa 7 ottelua, 1 voitto, 2 tasapeliä, 4 tappiota, maalit 9–15.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
+       {
+        "text": "Oxford putosi viime kauden lopussa sarjasta Championship sarjaan League One (22. sija, 47 pistettä).",
+        "label": "Sports Mole, Championship 2025–26",
+        "url": "https://www.sportsmole.co.uk/football/championship/2025-26/table.html"
+       },
        {
         "text": "Oxford pelasi Exeteriä vastaan 2–2, Exeter voitti rangaistuspotkukilpailun (6.10.).",
         "label": "Football Web Pages, EFL Trophy 6.10.",
@@ -205,6 +289,11 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -220,20 +309,34 @@
      ],
      "crowdEstimated": false,
      "market": null,
-     "model": null,
-     "p": [
-      0.39,
-      0.3,
-      0.31
+     "model": [
+      0.44272188352448283,
+      0.27098760376638453,
+      0.2862905127091326
      ],
-     "basis": "crowd",
+     "p": [
+      0.41085749068154503,
+      0.2884380641014619,
+      0.30070444521699297
+     ],
+     "basis": "model",
      "ratio": [
-      1,
-      1,
-      1
+      1.053480745337295,
+      0.9614602136715397,
+      0.9700143394096548
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Barnet (League Two, 2. sija): kotona 7 ottelua, 4 voittoa, 2 tasapeliä, 1 tappio, maalit 15–10.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
+      {
+       "text": "Leyton Orient (League One, 14. sija): vieraissa 6 ottelua, 2 voittoa, 2 tasapeliä, 2 tappiota, maalit 9–4.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
       {
        "text": "Barnet voitti Arsenal U21:n 5–1 (18.8.).",
        "label": "Football Web Pages, EFL Trophy 18.8.",
@@ -246,14 +349,26 @@
       }
      ],
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
+       "Meidän arvio: kotivoitto 41 %, tasapeli 29 %, vierasvoitto 30 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 39 %, tasapeli 30 %, vierasvoitto 31 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Barnet (League Two, 2. sija): kotona 7 ottelua, 4 voittoa, 2 tasapeliä, 1 tappio, maalit 15–10.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
+       {
+        "text": "Leyton Orient (League One, 14. sija): vieraissa 6 ottelua, 2 voittoa, 2 tasapeliä, 2 tappiota, maalit 9–4.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
        {
         "text": "Barnet voitti Arsenal U21:n 5–1 (18.8.).",
         "label": "Football Web Pages, EFL Trophy 18.8.",
@@ -271,6 +386,11 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -286,20 +406,39 @@
      ],
      "crowdEstimated": false,
      "market": null,
-     "model": null,
-     "p": [
-      0.34,
-      0.28,
-      0.38
+     "model": [
+      0.4615972657691159,
+      0.26846052746834553,
+      0.2699422067625386
      ],
-     "basis": "crowd",
+     "p": [
+      0.3877297425708952,
+      0.27783277071980855,
+      0.33443748670929613
+     ],
+     "basis": "model",
      "ratio": [
-      1,
-      1,
-      1
+      1.1403815957967505,
+      0.9922598954278876,
+      0.8800986492349898
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Northampton Town (League Two, 21. sija): kotona 7 ottelua, 2 voittoa, 2 tasapeliä, 3 tappiota, maalit 4–4.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
+      {
+       "text": "Gillingham (League Two, 8. sija): vieraissa 7 ottelua, 3 voittoa, 2 tasapeliä, 2 tappiota, maalit 12–10.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
+      {
+       "text": "Northampton putosi viime kauden lopussa sarjasta League One sarjaan League Two (24. sija, 35 pistettä).",
+       "label": "Sports Mole, League One 2025–26",
+       "url": "https://www.sportsmole.co.uk/football/league-one/2025-26/table.html"
+      },
       {
        "text": "Northampton hävisi Brighton U21:lle 0–3 (18.8.).",
        "label": "Football Web Pages, EFL Trophy 18.8.",
@@ -317,14 +456,31 @@
       }
      ],
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
+       "Meidän arvio: kotivoitto 39 %, tasapeli 28 %, vierasvoitto 33 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 34 %, tasapeli 28 %, vierasvoitto 38 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Northampton Town (League Two, 21. sija): kotona 7 ottelua, 2 voittoa, 2 tasapeliä, 3 tappiota, maalit 4–4.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
+       {
+        "text": "Gillingham (League Two, 8. sija): vieraissa 7 ottelua, 3 voittoa, 2 tasapeliä, 2 tappiota, maalit 12–10.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
+       {
+        "text": "Northampton putosi viime kauden lopussa sarjasta League One sarjaan League Two (24. sija, 35 pistettä).",
+        "label": "Sports Mole, League One 2025–26",
+        "url": "https://www.sportsmole.co.uk/football/league-one/2025-26/table.html"
+       },
        {
         "text": "Northampton hävisi Brighton U21:lle 0–3 (18.8.).",
         "label": "Football Web Pages, EFL Trophy 18.8.",
@@ -347,6 +503,11 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -362,20 +523,34 @@
      ],
      "crowdEstimated": false,
      "market": null,
-     "model": null,
-     "p": [
-      0.3069,
-      0.2178,
-      0.4752
+     "model": [
+      0.48398002446257854,
+      0.26469748070373494,
+      0.25132249483368657
      ],
-     "basis": "crowd",
+     "p": [
+      0.37883751722270503,
+      0.2422470640145898,
+      0.3789154187627051
+     ],
+     "basis": "model",
      "ratio": [
-      1,
-      1,
-      1
+      1.2344005122929456,
+      1.1122454729779148,
+      0.7973809317396994
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Crewe Alexandra (League Two, 4. sija): kotona 7 ottelua, 3 voittoa, 4 tasapeliä, 0 tappiota, maalit 12–8.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
+      {
+       "text": "Wigan Athletic (League One, 21. sija): vieraissa 7 ottelua, 0 voittoa, 1 tasapeli, 6 tappiota, maalit 4–12.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
       {
        "text": "Crewe voitti Aston Villa U21:n 4–1 (22.9.).",
        "label": "Football Web Pages, EFL Trophy 22.9.",
@@ -393,14 +568,27 @@
       }
      ],
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
       "lines": [
+       "Meidän arvio: kotivoitto 38 %, tasapeli 24 %, vierasvoitto 38 %. Todennäköisin tulos on vierasvoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 31 %, tasapeli 22 %, vierasvoitto 48 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Kotivoitto: vain 31 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 38 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: 48 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 38 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Crewe Alexandra (League Two, 4. sija): kotona 7 ottelua, 3 voittoa, 4 tasapeliä, 0 tappiota, maalit 12–8.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
+       {
+        "text": "Wigan Athletic (League One, 21. sija): vieraissa 7 ottelua, 0 voittoa, 1 tasapeli, 6 tappiota, maalit 4–12.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
        {
         "text": "Crewe voitti Aston Villa U21:n 4–1 (22.9.).",
         "label": "Football Web Pages, EFL Trophy 22.9.",
@@ -423,6 +611,11 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -438,20 +631,39 @@
      ],
      "crowdEstimated": false,
      "market": null,
-     "model": null,
-     "p": [
-      0.2323,
-      0.202,
-      0.5657
+     "model": [
+      0.4599559222973397,
+      0.26870404449469243,
+      0.2713400332079679
      ],
-     "basis": "crowd",
+     "p": [
+      0.3202243478144915,
+      0.23749738981438434,
+      0.4422782623711241
+     ],
+     "basis": "model",
      "ratio": [
-      1,
-      1,
-      1
+      1.3784948248579056,
+      1.1757296525464571,
+      0.7818247522911863
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Burton Albion (League One, 15. sija): kotona 7 ottelua, 2 voittoa, 4 tasapeliä, 1 tappio, maalit 12–10.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
+      {
+       "text": "Notts County (League One, 17. sija): vieraissa 6 ottelua, 1 voitto, 3 tasapeliä, 2 tappiota, maalit 6–8.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
+      {
+       "text": "Notts County nousi sarjasta League Two sarjaan League One (viime kaudella 5. sija, 80 pistettä).",
+       "label": "Sports Mole, League Two 2025–26",
+       "url": "https://www.sportsmole.co.uk/football/league-two/2025-26/table.html"
+      },
       {
        "text": "Burton pelasi Grimsbyä vastaan 0–0 ja voitti rangaistuspotkukilpailun (6.10.).",
        "label": "Football Web Pages, EFL Trophy 6.10.",
@@ -464,14 +676,33 @@
       }
      ],
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
       "lines": [
+       "Meidän arvio: kotivoitto 32 %, tasapeli 24 %, vierasvoitto 44 %. Todennäköisin tulos on vierasvoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 23 %, tasapeli 20 %, vierasvoitto 57 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Kotivoitto: vain 23 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 32 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 20 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 24 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: 57 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 44 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Burton Albion (League One, 15. sija): kotona 7 ottelua, 2 voittoa, 4 tasapeliä, 1 tappio, maalit 12–10.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
+       {
+        "text": "Notts County (League One, 17. sija): vieraissa 6 ottelua, 1 voitto, 3 tasapeliä, 2 tappiota, maalit 6–8.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
+       {
+        "text": "Notts County nousi sarjasta League Two sarjaan League One (viime kaudella 5. sija, 80 pistettä).",
+        "label": "Sports Mole, League Two 2025–26",
+        "url": "https://www.sportsmole.co.uk/football/league-two/2025-26/table.html"
+       },
        {
         "text": "Burton pelasi Grimsbyä vastaan 0–0 ja voitti rangaistuspotkukilpailun (6.10.).",
         "label": "Football Web Pages, EFL Trophy 6.10.",
@@ -489,6 +720,11 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -504,20 +740,34 @@
      ],
      "crowdEstimated": false,
      "market": null,
-     "model": null,
-     "p": [
-      0.79,
-      0.13,
-      0.08
+     "model": [
+      0.5572299191057608,
+      0.2468301671136622,
+      0.1959399137805769
      ],
-     "basis": "crowd",
+     "p": [
+      0.7086436988987442,
+      0.1732858937504218,
+      0.11807040735083393
+     ],
+     "basis": "model",
      "ratio": [
-      1,
-      1,
-      1
+      0.8970173403781572,
+      1.332968413464783,
+      1.4758800918854242
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Plymouth Argyle (League One, 5. sija): kotona 7 ottelua, 3 voittoa, 1 tasapeli, 3 tappiota, maalit 8–7.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
+      {
+       "text": "Swindon Town (League Two, 13. sija): vieraissa 7 ottelua, 1 voitto, 2 tasapeliä, 4 tappiota, maalit 3–10.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
       {
        "text": "Plymouth voitti Crystal Palace U21:n 5–1 (22.9.).",
        "label": "Football Web Pages, EFL Trophy 22.9.",
@@ -530,14 +780,27 @@
       }
      ],
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
       "lines": [
+       "Meidän arvio: kotivoitto 71 %, tasapeli 17 %, vierasvoitto 12 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 79 %, tasapeli 13 %, vierasvoitto 8 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Vierasvoitto: vain 8 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 12 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 13 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 17 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Plymouth Argyle (League One, 5. sija): kotona 7 ottelua, 3 voittoa, 1 tasapeli, 3 tappiota, maalit 8–7.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
+       {
+        "text": "Swindon Town (League Two, 13. sija): vieraissa 7 ottelua, 1 voitto, 2 tasapeliä, 4 tappiota, maalit 3–10.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
        {
         "text": "Plymouth voitti Crystal Palace U21:n 5–1 (22.9.).",
         "label": "Football Web Pages, EFL Trophy 22.9.",
@@ -555,6 +818,11 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -570,20 +838,34 @@
      ],
      "crowdEstimated": false,
      "market": null,
-     "model": null,
-     "p": [
-      0.21,
-      0.26,
-      0.53
+     "model": [
+      0.24595467682814087,
+      0.25370402914755247,
+      0.5003412940243066
      ],
-     "basis": "crowd",
+     "p": [
+      0.2239058490852322,
+      0.25769546897139606,
+      0.5183986819433717
+     ],
+     "basis": "model",
      "ratio": [
-      1,
-      1,
-      1
+      1.0662183289772962,
+      0.991136419120754,
+      0.9781107206478711
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Bristol Rovers (League Two, 17. sija): kotona 7 ottelua, 4 voittoa, 1 tasapeli, 2 tappiota, maalit 11–8.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
+      {
+       "text": "Reading (League One, 6. sija): vieraissa 7 ottelua, 1 voitto, 3 tasapeliä, 3 tappiota, maalit 8–8.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
       {
        "text": "Bristol Rovers hävisi Wycombelle 1–4 (6.10.).",
        "label": "Football Web Pages, EFL Trophy 6.10.",
@@ -596,14 +878,26 @@
       }
      ],
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
+       "Meidän arvio: kotivoitto 22 %, tasapeli 26 %, vierasvoitto 52 %. Todennäköisin tulos on vierasvoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 21 %, tasapeli 26 %, vierasvoitto 53 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Bristol Rovers (League Two, 17. sija): kotona 7 ottelua, 4 voittoa, 1 tasapeli, 2 tappiota, maalit 11–8.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
+       {
+        "text": "Reading (League One, 6. sija): vieraissa 7 ottelua, 1 voitto, 3 tasapeliä, 3 tappiota, maalit 8–8.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
        {
         "text": "Bristol Rovers hävisi Wycombelle 1–4 (6.10.).",
         "label": "Football Web Pages, EFL Trophy 6.10.",
@@ -621,6 +915,11 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -636,20 +935,34 @@
      ],
      "crowdEstimated": false,
      "market": null,
-     "model": null,
-     "p": [
-      0.79,
-      0.13,
-      0.08
+     "model": [
+      0.655579941620694,
+      0.2098200782513034,
+      0.1345999801280027
      ],
-     "basis": "crowd",
+     "p": [
+      0.7412484752588614,
+      0.15916300300851152,
+      0.09958852173262714
+     ],
+     "basis": "model",
      "ratio": [
-      1,
-      1,
-      1
+      0.9382892091884321,
+      1.2243307923731654,
+      1.244856521657839
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Stockport County (League One, 2. sija): kotona 7 ottelua, 5 voittoa, 0 tasapeliä, 2 tappiota, maalit 16–9.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
+      {
+       "text": "Tranmere Rovers (League Two, 11. sija): vieraissa 7 ottelua, 1 voitto, 4 tasapeliä, 2 tappiota, maalit 7–10.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
       {
        "text": "Stockport voitti Everton U21:n 6–3 (18.8.).",
        "label": "Football Web Pages, EFL Trophy 18.8.",
@@ -662,14 +975,26 @@
       }
      ],
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: tasapeli",
+      "tone": "good",
       "lines": [
+       "Meidän arvio: kotivoitto 74 %, tasapeli 16 %, vierasvoitto 10 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 79 %, tasapeli 13 %, vierasvoitto 8 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tasapeli: vain 13 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 16 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Stockport County (League One, 2. sija): kotona 7 ottelua, 5 voittoa, 0 tasapeliä, 2 tappiota, maalit 16–9.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
+       {
+        "text": "Tranmere Rovers (League Two, 11. sija): vieraissa 7 ottelua, 1 voitto, 4 tasapeliä, 2 tappiota, maalit 7–10.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
        {
         "text": "Stockport voitti Everton U21:n 6–3 (18.8.).",
         "label": "Football Web Pages, EFL Trophy 18.8.",
@@ -687,6 +1012,11 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -702,20 +1032,34 @@
      ],
      "crowdEstimated": false,
      "market": null,
-     "model": null,
-     "p": [
-      0.4851,
-      0.2574,
-      0.2574
+     "model": [
+      0.5442982081794102,
+      0.25058859385229804,
+      0.2051131979682918
      ],
-     "basis": "crowd",
+     "p": [
+      0.5091512994993611,
+      0.2552483686646541,
+      0.23560033183598464
+     ],
+     "basis": "model",
      "ratio": [
-      1,
-      1,
-      1
+      1.0495800855480544,
+      0.991640903903085,
+      0.9153082044910047
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Mansfield Town (League One, 11. sija): kotona 6 ottelua, 3 voittoa, 2 tasapeliä, 1 tappio, maalit 10–7.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
+      {
+       "text": "Chesterfield (League Two, 10. sija): vieraissa 7 ottelua, 2 voittoa, 1 tasapeli, 4 tappiota, maalit 8–12.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
       {
        "text": "Mansfield hävisi Port Valelle 0–2 (6.10.).",
        "label": "Football Web Pages, EFL Trophy 6.10.",
@@ -728,14 +1072,26 @@
       }
      ],
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
+       "Meidän arvio: kotivoitto 51 %, tasapeli 26 %, vierasvoitto 24 %. Todennäköisin tulos on kotivoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 49 %, tasapeli 26 %, vierasvoitto 26 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Mansfield Town (League One, 11. sija): kotona 6 ottelua, 3 voittoa, 2 tasapeliä, 1 tappio, maalit 10–7.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
+       {
+        "text": "Chesterfield (League Two, 10. sija): vieraissa 7 ottelua, 2 voittoa, 1 tasapeli, 4 tappiota, maalit 8–12.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
        {
         "text": "Mansfield hävisi Port Valelle 0–2 (6.10.).",
         "label": "Football Web Pages, EFL Trophy 6.10.",
@@ -753,6 +1109,11 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -768,20 +1129,39 @@
      ],
      "crowdEstimated": false,
      "market": null,
-     "model": null,
-     "p": [
-      0.84,
-      0.09,
-      0.07
+     "model": [
+      0.5407464936353779,
+      0.25157598164032724,
+      0.20767752472429485
      ],
-     "basis": "crowd",
+     "p": [
+      0.742763390159717,
+      0.1431853578986011,
+      0.11405125194168186
+     ],
+     "basis": "model",
      "ratio": [
-      1,
-      1,
-      1
+      0.8842421311425204,
+      1.5909484210955678,
+      1.6293035991668836
      ],
      "result": null,
      "facts": [
+      {
+       "text": "Bradford City (League One, 7. sija): kotona 6 ottelua, 3 voittoa, 1 tasapeli, 2 tappiota, maalit 6–5.",
+       "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+      },
+      {
+       "text": "York City (League Two, 7. sija): vieraissa 7 ottelua, 0 voittoa, 3 tasapeliä, 4 tappiota, maalit 8–16.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
+      {
+       "text": "York City nousi sarjasta National League sarjaan League Two (viime kaudella 1. sija, 108 pistettä).",
+       "label": "Sports Mole, National League 2025–26",
+       "url": "https://www.sportsmole.co.uk/football/national-league/2025-26/table.html"
+      },
       {
        "text": "Bradford voitti Newcastle U21:n 2–1 (22.9.).",
        "label": "Football Web Pages, EFL Trophy 22.9.",
@@ -799,14 +1179,32 @@
       }
      ],
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
       "lines": [
+       "Meidän arvio: kotivoitto 74 %, tasapeli 14 %, vierasvoitto 11 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 84 %, tasapeli 9 %, vierasvoitto 7 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Vierasvoitto: vain 7 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 11 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 9 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 14 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [
+       {
+        "text": "Bradford City (League One, 7. sija): kotona 6 ottelua, 3 voittoa, 1 tasapeli, 2 tappiota, maalit 6–5.",
+        "label": "Sports Mole, League One -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-one/table.html"
+       },
+       {
+        "text": "York City (League Two, 7. sija): vieraissa 7 ottelua, 0 voittoa, 3 tasapeliä, 4 tappiota, maalit 8–16.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
+       {
+        "text": "York City nousi sarjasta National League sarjaan League Two (viime kaudella 1. sija, 108 pistettä).",
+        "label": "Sports Mole, National League 2025–26",
+        "url": "https://www.sportsmole.co.uk/football/national-league/2025-26/table.html"
+       },
        {
         "text": "Bradford voitti Newcastle U21:n 2–1 (22.9.).",
         "label": "Football Web Pages, EFL Trophy 22.9.",
@@ -829,6 +1227,11 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Tilastotaulukko (sheet)",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-11-10-futisvakio-6.json",
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -859,6 +1262,11 @@
      "result": null,
      "facts": [
       {
+       "text": "Colchester United (League Two, 23. sija): kotona 6 ottelua, 2 voittoa, 3 tasapeliä, 1 tappio, maalit 6–6.",
+       "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+       "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+      },
+      {
        "text": "Colchester hävisi Peterboroughille 1–3 (22.9.).",
        "label": "Football Web Pages, EFL Trophy 22.9.",
        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
@@ -883,6 +1291,11 @@
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
       "facts": [
+       {
+        "text": "Colchester United (League Two, 23. sija): kotona 6 ottelua, 2 voittoa, 3 tasapeliä, 1 tappio, maalit 6–6.",
+        "label": "Sports Mole, League Two -taulukko 2026–27 (haettu 9.11.)",
+        "url": "https://www.sportsmole.co.uk/football/league-two/table.html"
+       },
        {
         "text": "Colchester hävisi Peterboroughille 1–3 (22.9.).",
         "label": "Football Web Pages, EFL Trophy 22.9.",
@@ -2124,7 +2537,7 @@
       "tone": "neutral",
       "lines": [
        "Meidän arvio: kotivoitto 60 %, tasapeli 22 %, vierasvoitto 18 %. Todennäköisin tulos on kotivoitto, noin 6 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 63 %, tasapeli 21 %, vierasvoitto 16 %.",
        "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
        "Oikea tulos oli vierasvoitto (Tottenham).",
@@ -2137,9 +2550,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -2177,7 +2590,7 @@
       "tone": "neutral",
       "lines": [
        "Meidän arvio: kotivoitto 73 %, tasapeli 18 %, vierasvoitto 9 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 77 %, tasapeli 16 %, vierasvoitto 7 %.",
        "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
        "Oikea tulos oli kotivoitto (Arsenal). Tämän merkin veikkasi yli puolet pelaajista.",
@@ -2190,9 +2603,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -2230,7 +2643,7 @@
       "tone": "good",
       "lines": [
        "Meidän arvio: kotivoitto 40 %, tasapeli 28 %, vierasvoitto 32 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 30 %, tasapeli 29 %, vierasvoitto 41 %.",
        "Kotivoitto: vain 30 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 40 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
        "Vierasvoitto: 41 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 32 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
@@ -2244,9 +2657,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -2284,7 +2697,7 @@
       "tone": "good",
       "lines": [
        "Meidän arvio: kotivoitto 58 %, tasapeli 23 %, vierasvoitto 19 %. Todennäköisin tulos on kotivoitto, noin 6 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 67 %, tasapeli 20 %, vierasvoitto 13 %.",
        "Vierasvoitto: vain 13 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 19 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
        "Tasapeli: vain 20 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 23 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
@@ -2299,9 +2712,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -2339,7 +2752,7 @@
       "tone": "neutral",
       "lines": [
        "Meidän arvio: kotivoitto 37 %, tasapeli 28 %, vierasvoitto 35 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 33 %, tasapeli 28 %, vierasvoitto 39 %.",
        "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
        "Oikea tulos oli kotivoitto (QPR).",
@@ -2352,9 +2765,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -2392,7 +2805,7 @@
       "tone": "good",
       "lines": [
        "Meidän arvio: kotivoitto 32 %, tasapeli 27 %, vierasvoitto 41 %. Todennäköisin tulos on vierasvoitto, noin 4 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 26 %, tasapeli 26 %, vierasvoitto 48 %.",
        "Kotivoitto: vain 26 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 32 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
        "Vierasvoitto: 48 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 41 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
@@ -2406,9 +2819,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -2446,7 +2859,7 @@
       "tone": "good",
       "lines": [
        "Meidän arvio: kotivoitto 22 %, tasapeli 22 %, vierasvoitto 56 %. Todennäköisin tulos on vierasvoitto, noin 6 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 18 %, tasapeli 19 %, vierasvoitto 63 %.",
        "Kotivoitto: vain 18 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 22 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
        "Tasapeli: vain 19 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 22 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
@@ -2460,9 +2873,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -2500,7 +2913,7 @@
       "tone": "neutral",
       "lines": [
        "Meidän arvio: kotivoitto 54 %, tasapeli 24 %, vierasvoitto 22 %. Todennäköisin tulos on kotivoitto, noin 5 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 55 %, tasapeli 23 %, vierasvoitto 22 %.",
        "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
        "Oikea tulos oli tasapeli.",
@@ -2513,9 +2926,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -2553,7 +2966,7 @@
       "tone": "neutral",
       "lines": [
        "Meidän arvio: kotivoitto 41 %, tasapeli 29 %, vierasvoitto 30 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 39 %, tasapeli 30 %, vierasvoitto 31 %.",
        "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
        "Oikea tulos oli kotivoitto (Blackburn).",
@@ -2566,9 +2979,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -2606,7 +3019,7 @@
       "tone": "good",
       "lines": [
        "Meidän arvio: kotivoitto 71 %, tasapeli 18 %, vierasvoitto 11 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 78 %, tasapeli 14 %, vierasvoitto 8 %.",
        "Vierasvoitto: vain 8 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 11 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
        "Tasapeli: vain 14 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 18 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
@@ -2620,9 +3033,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
@@ -2660,7 +3073,7 @@
       "tone": "good",
       "lines": [
        "Meidän arvio: kotivoitto 38 %, tasapeli 28 %, vierasvoitto 34 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
-       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Arvio on laskettu joukkueiden tilastotaulukosta (tämän ja viime kauden tulokset, kotona ja vieraissa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
        "Pelaajat veikkaavat: kotivoitto 29 %, tasapeli 27 %, vierasvoitto 44 %.",
        "Kotivoitto: vain 29 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 38 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
        "Vierasvoitto: 44 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 34 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
@@ -2674,9 +3087,9 @@
         "what": "pelaajien osuudet"
        },
        {
-        "label": "Käsin täytetty taulukko",
+        "label": "Tilastotaulukko (sheet)",
         "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
-        "what": "joukkueiden aiemmat tulokset"
+        "what": "joukkueiden tämän ja viime kauden tulokset; lähteet taulukon note-kentässä"
        }
       ]
      }
