@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-15-sunnuntaivakio-3",
+  "label": "Sunnuntaivakio 3 (krs 45)",
+  "date": "2026-11-15",
+  "turnoverEur": null,
+  "guaranteeEur": 50000,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.25,
+  "rowPriceEstimated": true,
+  "source": "Yle Teksti-TV 479",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Mancheste.U",
+      "away": "Aston Villa",
+      "crowd": [
+        0.43,
+        0.26,
+        0.31
+      ]
+    },
+    {
+      "n": 2,
+      "home": "At. Madrid",
+      "away": "Barcelona",
+      "crowd": [
+        0.2376,
+        0.2574,
+        0.505
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Celta",
+      "away": "Levante",
+      "crowd": [
+        0.58,
+        0.25,
+        0.17
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Villarreal",
+      "away": "Getafe",
+      "crowd": [
+        0.69,
+        0.19,
+        0.12
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Inter",
+      "away": "Como",
+      "crowd": [
+        0.48,
+        0.26,
+        0.26
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Fiorentina",
+      "away": "Juventus",
+      "crowd": [
+        0.22,
+        0.28,
+        0.5
+      ]
+    },
+    {
+      "n": 7,
+      "home": "SC Freiburg",
+      "away": "Union Berli",
+      "crowd": [
+        0.75,
+        0.15,
+        0.1
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Hoffenheim",
+      "away": "Schalke 04",
+      "crowd": [
+        0.66,
+        0.2,
+        0.14
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Angers",
+      "away": "Nice",
+      "crowd": [
+        0.2,
+        0.26,
+        0.54
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Le Mans",
+      "away": "Monaco",
+      "crowd": [
+        0.13,
+        0.2,
+        0.67
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Brest",
+      "away": "Lyon",
+      "crowd": [
+        0.28,
+        0.3,
+        0.42
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Lens",
+      "away": "Marseille",
+      "crowd": [
+        0.36,
+        0.27,
+        0.37
+      ]
+    }
+  ]
+}

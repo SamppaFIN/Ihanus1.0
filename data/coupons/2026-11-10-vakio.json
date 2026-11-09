@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-10-vakio",
+  "label": "",
+  "date": "2026-11-10",
+  "turnoverEur": null,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.25,
+  "rowPriceEstimated": true,
+  "source": "Yle Teksti-TV 479",
+  "matches": [
+    {
+      "n": 1,
+      "home": "WSH Command",
+      "away": "LA Rams",
+      "crowd": [
+        0.33,
+        0.08,
+        0.59
+      ]
+    },
+    {
+      "n": 2,
+      "home": "NO Saints",
+      "away": "CLE Browns",
+      "crowd": [
+        0.4949,
+        0.1111,
+        0.3939
+      ]
+    },
+    {
+      "n": 3,
+      "home": "MIA Dolphin",
+      "away": "DET Lions",
+      "crowd": [
+        0.2,
+        0.05,
+        0.75
+      ]
+    },
+    {
+      "n": 4,
+      "home": "PHI Eagles",
+      "away": "NY Giants",
+      "crowd": [
+        0.41,
+        0.09,
+        0.5
+      ]
+    },
+    {
+      "n": 5,
+      "home": "KC Chiefs",
+      "away": "NY Jets",
+      "crowd": [
+        0.84,
+        0.04,
+        0.12
+      ]
+    },
+    {
+      "n": 6,
+      "home": "CAR Panther",
+      "away": "DEN Broncos",
+      "crowd": [
+        0.2727,
+        0.0707,
+        0.6566
+      ]
+    },
+    {
+      "n": 7,
+      "home": "IND Colts",
+      "away": "DAL Cowboys",
+      "crowd": [
+        0.28,
+        0.07,
+        0.65
+      ]
+    },
+    {
+      "n": 8,
+      "home": "LA Chargers",
+      "away": "HOU Texans",
+      "crowd": [
+        0.28,
+        0.08,
+        0.64
+      ]
+    },
+    {
+      "n": 9,
+      "home": "NE Patriots",
+      "away": "GB Packers",
+      "crowd": [
+        0.52,
+        0.1,
+        0.38
+      ]
+    },
+    {
+      "n": 10,
+      "home": "SF 49ers",
+      "away": "LV Raiders",
+      "crowd": [
+        0.82,
+        0.05,
+        0.13
+      ]
+    },
+    {
+      "n": 11,
+      "home": "SEA Seahawk",
+      "away": "ARI Cardina",
+      "crowd": [
+        0.81,
+        0.05,
+        0.14
+      ]
+    },
+    {
+      "n": 12,
+      "home": "CHI Bears",
+      "away": "TB Buccanee",
+      "crowd": [
+        0.72,
+        0.06,
+        0.22
+      ]
+    }
+  ]
+}
