@@ -139,7 +139,7 @@ export function buildRound(c: Coupon, sheet: SheetFile | null, odds: OddsFile | 
     };
     const sh = sheet?.matches.find((x) => x.n === m.n);
     const od = odds?.matches.find((x) => x.n === m.n);
-    const explain = explainMatch(base, {
+    const explain = explainMatch({ ...base, homeSheet: sh?.home ?? null, awaySheet: sh?.away ?? null }, {
       status,
       couponId: c.id,
       couponSource: c.source,

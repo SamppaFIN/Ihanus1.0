@@ -4,6 +4,8 @@
 
 import type { MatchFact, Sign, Triple } from '../engine/types.js';
 import { fixturesUrl } from '../scrape/odds-table.js';
+import type { TeamSheet } from '../engine/sheet.js';
+import { quickTake, type QuickTake } from './quick.js';
 
 export interface SourceLink {
   label: string;
@@ -22,6 +24,8 @@ export interface MatchExplain {
   /** Lähteistetyt taustatiedot: yksi lause, yksi linkki */
   facts: MatchFact[];
   sources: SourceLink[];
+  /** Pikakatsaus: mikä puoltaa ja mikä on vastaan kullekin merkille (null jos ei omaa arviota) */
+  quick: QuickTake | null;
 }
 
 export interface ExplainMatch {
@@ -36,6 +40,9 @@ export interface ExplainMatch {
   ratio: Triple | null;
   result: Sign | null;
   facts?: MatchFact[];
+  /** Taulukkomallin joukkuetiedot, jos otteluun on sellaiset */
+  homeSheet?: TeamSheet | null;
+  awaySheet?: TeamSheet | null;
 }
 
 export interface ExplainContext {
@@ -76,6 +83,7 @@ export function explainMatch(m: ExplainMatch, ctx: ExplainContext): MatchExplain
       lines: ['Yle Teksti-TV ei ole vielä näyttänyt tämän ottelun pelijakaumaa. Se päivittyy yleensä muutamaa tuntia ennen kierroksen sulkeutumista.'],
       facts,
       sources,
+      quick: null,
     };
   }
 
@@ -85,7 +93,7 @@ export function explainMatch(m: ExplainMatch, ctx: ExplainContext): MatchExplain
     lines.push('Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.');
     if (ctx.status === 'open') lines.push('Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio.');
     if (m.result) lines.push(resultLine(m));
-    return { headline: 'Ei omaa tietoa tästä ottelusta', tone: 'neutral', lines, facts, sources };
+    return { headline: 'Ei omaa tietoa tästä ottelusta', tone: 'neutral', lines, facts, sources, quick: null };
   }
 
   const p = m.p;
@@ -131,7 +139,8 @@ export function explainMatch(m: ExplainMatch, ctx: ExplainContext): MatchExplain
 
   if (m.result) lines.push(resultLine(m));
   lines.push('Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa.');
-  return { headline, tone, lines, facts, sources };
+  const quick = quickTake({ home: m.home, away: m.away, p, crowd: q, market: m.market, homeSheet: m.homeSheet, awaySheet: m.awaySheet });
+  return { headline, tone, lines, facts, sources, quick };
 }
 
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);

@@ -195,6 +195,19 @@ describe('buildRound: Futisvakio 6 taulukkomallilla (paperitaulukon vastine)', (
     }
   });
 
+  it('pikakatsaus: jokaisella taulukko-ottelulla 1/X/2 perusteluineen, Ipswich U21 -ottelulla ei', () => {
+    for (const m of r.matches.slice(0, 11)) {
+      expect(m.explain.quick).not.toBeNull();
+      expect(m.explain.quick!.summary.length).toBeGreaterThan(10);
+      expect(m.explain.quick!.signs).toHaveLength(3);
+      // jokaiselle merkille löytyy jokin perustelu
+      for (const sg of m.explain.quick!.signs) expect(sg.pros.length + sg.cons.length > 0 || Boolean(sg.note)).toBe(true);
+    }
+    expect(r.matches[11]!.explain.quick).toBeNull();
+    // joukkuetaulukkoa ei vuodateta näkymään
+    expect(JSON.stringify(r)).not.toContain('"homeSheet"');
+  });
+
   it('sarjataso näkyy: League One -kotijoukkue on suosikki League Two -vierasta vastaan samalla tilastolla', () => {
     // Plymouth (L1) – Swindon (L2) ja Bristol Rovers (L2) – Reading (L1)
     const plymouth = r.matches[6]!;

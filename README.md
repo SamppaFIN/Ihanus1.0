@@ -5,6 +5,7 @@ Etsii Vakio-rivin tai -järjestelmän, jonka **osuessa kukaan muu ei ole samalla
 - **Peliprosentit, vaihto, takuupotti/bonus:** Ylen Teksti-TV sivu 479 (staattinen HTML → pelkkä HTTP-haku, ei selainta)
 - **Kertoimet:** BetExplorerin liigasivut Playwrightilla (keskimääräiset 1X2-kertoimet, devig) — ei API-avaimia
 - **Ajastus:** Cloudflare Worker (`workers/cron/`) lukee Teksti-TV:ltä kunkin kierroksen “Pelaaminen päättyy” -ajan ja käynnistää tuntia ennen GitHub-workflow'n, joka hakee tuoreet peliprosentit + kertoimet ja julkaisee UI:n
+- **Pikakatsaus:** jokaisen ottelun alla 1/X/2-rivit, joissa lyhyesti mikä puoltaa (+) ja mikä on vastaan (−): oma arvio, kertoimet, pelaajien osuus, koti-/vierastilastot, sarjataso (`src/pipeline/quick.ts`, sääntöpohjainen, ei keksi mitään datan ulkopuolelta)
 - **Oma arvio:** kertoimista ja/tai käsin täytetystä taulukosta (`data/sheets/`), kutistettuna kohti pelijakaumaa
 - **UI:** mobile-first, Infinite-portfolion lasi/OKLCH-kieli, teemat Talvi/Titaani/Timantti (`web/`, vanilla JS, ei buildia)
 

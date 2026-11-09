@@ -123,6 +123,23 @@ a { color: var(--accent); }
 .links { font-size: 14px; line-height: 1.7; color: var(--muted); margin: 8px 0 12px; }
 .links a { margin-right: 2px; }
 
+/* Pikakatsaus: mikä puoltaa ja mikä on vastaan, merkki kerrallaan */
+.quick { margin-top: 10px; border-top: 1px solid var(--line-soft); padding-top: 10px; }
+.q-sum { margin: 0 0 8px; font-size: 16px; line-height: 1.5; font-weight: 600; }
+.q-row { display: grid; grid-template-columns: 28px 1fr; gap: 8px; padding: 8px 0; border-top: 1px dashed var(--line-soft); }
+.q-row:first-of-type { border-top: 0; }
+.q-sign { font: 700 15px var(--font-mono); color: var(--muted); text-align: center; padding-top: 1px; }
+.q-title { font-size: 16px; font-weight: 600; line-height: 1.35; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; }
+.q-tag { font: 500 12px var(--font-body); border: 1px solid var(--line); border-radius: 999px; padding: 0 8px; color: var(--muted); white-space: nowrap; }
+.q-tag.good { color: var(--good); border-color: var(--good); }
+.q-tag.warn { color: var(--bad); border-color: var(--bad); }
+.q-note { margin: 4px 0 0; font-size: 15px; line-height: 1.45; color: var(--muted); }
+.q-main ul { list-style: none; margin: 4px 0 0; padding: 0; }
+.q-main li { position: relative; padding-left: 20px; font-size: 15px; line-height: 1.45; margin: 0 0 3px; overflow-wrap: anywhere; }
+.q-main .pm { position: absolute; left: 0; top: 0; width: 16px; text-align: center; font-weight: 700; }
+.q-main .pro .pm { color: var(--good); }
+.q-main .con .pm { color: var(--bad); }
+
 /* Selkokielinen selitys (ottelukohtainen) */
 .why { margin-top: 10px; border-top: 1px solid var(--line-soft); padding-top: 6px; }
 .why summary { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; min-height: 48px; padding: 8px 2px; cursor: pointer; list-style: none; }

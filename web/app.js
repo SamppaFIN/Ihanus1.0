@@ -100,6 +100,18 @@ function cellHtml(m, s, pickSigns, i) {
       <div class="bar" style="width:${bar}%"></div></div>`;
 }
 
+function quickHtml(m) {
+  const q = m.explain && m.explain.quick;
+  if (!q) return '';
+  const rows = q.signs.map((s) => {
+    const tags = s.tags.map((t) => `<span class="q-tag ${esc(t.tone)}">${esc(t.text)}</span>`).join('');
+    const items = s.pros.map((x) => `<li class="pro"><span class="pm" aria-label="puoltaa">+</span>${esc(x)}</li>`).join('')
+      + s.cons.map((x) => `<li class="con"><span class="pm" aria-label="vastaan">−</span>${esc(x)}</li>`).join('');
+    return `<div class="q-row"><span class="q-sign">${esc(s.sign)}</span><div class="q-main"><div class="q-title">${esc(s.label)}${tags}</div>${items ? `<ul>${items}</ul>` : s.note ? `<p class="q-note">${esc(s.note)}</p>` : ''}</div></div>`;
+  }).join('');
+  return `<section class="quick" aria-label="Pikakatsaus ottelusta ${m.n}"><p class="q-sum">${esc(q.summary)}</p>${rows}</section>`;
+}
+
 function whyHtml(r, m, i, step) {
   const ex = m.explain;
   if (!ex) return '';
@@ -115,8 +127,8 @@ function renderMatches(r) {
   const html = r.matches.map((m, i) => `<article class="match">
       <div class="m-head"><span class="m-n">${m.n}.</span><span class="m-teams">${esc(m.home)} – ${esc(m.away)}</span>
       <span class="m-basis" title="Mistä oma arvio syntyy">${m.basis ? basisLabel[m.basis] : 'ei dataa'}${m.crowdEstimated ? ' · pelaajaosuudet arvioitu' : ''}</span></div>
-      <div class="cells">${[0, 1, 2].map((s) => cellHtml(m, s, step ? step.selection[i] : null, i)).join('')}</div>${whyHtml(r, m, i, step)}</article>`).join('');
-  $('#matches').innerHTML = `<p class="legend">Iso luku = meidän arvio (todennäköisyys). Pieni luku = kuinka suuri osa pelaajista veikkaa samaa. <span class="ok">Vihreä</span> = pelaajat aliarvioivat, punainen = pelaajat yliarvioivat. ● = valittu merkki${r.status === 'played' ? ', ✓ = toteutunut' : ''}. Avaa kunkin ottelun “Selitys ja lähteet”, niin näet asian selkokielellä ja linkit lähteisiin.</p>` + html;
+      <div class="cells">${[0, 1, 2].map((s) => cellHtml(m, s, step ? step.selection[i] : null, i)).join('')}</div>${quickHtml(m)}${whyHtml(r, m, i, step)}</article>`).join('');
+  $('#matches').innerHTML = `<p class="legend">Iso luku = meidän arvio (todennäköisyys). Pieni luku = kuinka suuri osa pelaajista veikkaa samaa. <span class="ok">Vihreä</span> = pelaajat aliarvioivat, punainen = pelaajat yliarvioivat. ● = valittu merkki${r.status === 'played' ? ', ✓ = toteutunut' : ''}. Pikakatsaus kunkin ottelun alla kertoo, mikä puoltaa (+) ja mikä on vastaan (−) kutakin merkkiä. “Selitys ja lähteet” avaa asian selkokielellä ja linkit lähteisiin.</p>` + html;
   $('#matches').querySelectorAll('details.why').forEach((d) => d.addEventListener('toggle', () => { d.open ? state.open.add(d.dataset.k) : state.open.delete(d.dataset.k); }));
 }
 

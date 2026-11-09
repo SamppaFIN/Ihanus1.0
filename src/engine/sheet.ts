@@ -40,6 +40,11 @@ export interface TeamSheet {
    * 5 = National League). Käytetään vain, kun molempien joukkueiden taso tiedetään.
    */
   tier?: number | null;
+  /**
+   * Vain näyttöön (ei vaikuta laskentaan): sarja ja sijoitus nyt sekä tämän kauden koti- (kotijoukkue)
+   * tai vierastilasto (vierasjoukkue). Pikakatsaus käyttää näitä perusteluihin.
+   */
+  info?: { league: string; pos: number; venue: Record5 } | null;
 }
 
 export const SHEET_DEFAULTS = {
