@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T12:22:05.830Z",
+ "generatedAt": "2026-11-09T12:45:07.170Z",
  "today": "2026-11-09",
  "budgetEur": 40,
  "assumptions": {
@@ -24,6 +24,898 @@
  },
  "rounds": [
   {
+   "id": "2026-11-10-futisvakio-6",
+   "label": "Futisvakio 6 (krs 46)",
+   "date": "2026-11-10",
+   "status": "open",
+   "turnoverEur": 5971,
+   "turnoverEstimated": false,
+   "guaranteeEur": null,
+   "bonusPoolEur": 10000,
+   "rowPriceEur": 0.1,
+   "rowPriceEstimated": false,
+   "avgRowEv": null,
+   "pools": null,
+   "source": "Yle Teksti-TV 479 (pelijakauma 14.35)",
+   "note": "EFL Trophy -lohkovaiheen viimeinen ottelupäivä (ti 10.11.). Vakiossa ratkaisee 90 minuutin tulos: tasapeli on tasapeli, vaikka rangaistuspotkukilpailu ratkaisee jatkopaikan. Ipswich on tässä Valioliiga-seuran alle 21-vuotiaiden joukkue. Vaihto 5 971 € on lukema iltapäivältä, ja se kasvaa vielä.",
+   "links": [
+    {
+     "label": "Yle Teksti-TV 479, alasivu 5 (pelaajien osuudet, vaihto, bonus, sulkeutumisaika)",
+     "url": "https://yle.fi/tekstitv/txt/479_0005.htm"
+    },
+    {
+     "label": "Ottelulista ja kellonajat 10.11. (Football Web Pages)",
+     "url": "https://www.footballwebpages.co.uk/20261110"
+    },
+    {
+     "label": "EFL Trophyn kertoimet (BetExplorer)",
+     "url": "https://www.betexplorer.com/football/england/efl-trophy/"
+    }
+   ],
+   "hasEdge": true,
+   "noPathReason": "Kierroksella on 12 ottelua. Rivisuositusta ei lasketa, koska tämän pelin palkintoluokkia ei tunneta (moottori osaa vain 13 ottelun Vakion). Ottelukohtaiset selitykset löytyvät silti alta.",
+   "matches": [
+    {
+     "n": 1,
+     "home": "Leicester City",
+     "away": "Walsall",
+     "crowd": [
+      0.82,
+      0.11,
+      0.07
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.7010656197420079,
+      0.17246214245653393,
+      0.12647223780145822
+     ],
+     "model": null,
+     "p": [
+      0.7215740815053829,
+      0.16207371656377004,
+      0.11635220193084703
+     ],
+     "basis": "market",
+     "ratio": [
+      0.8799683920797353,
+      1.4733974233070004,
+      1.6621743132978146
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Leicester voitti Fulham U21:n 6–1 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      },
+      {
+       "text": "Leicester hävisi Stevenagelle 1–2 (6.10.).",
+       "label": "Football Web Pages, EFL Trophy 6.10.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+      },
+      {
+       "text": "Walsall hävisi Stevenagelle 1–6 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      },
+      {
+       "text": "Walsall teki kolme maalia Fulham U21:tä vastaan (ennakkoteksti).",
+       "label": "Mr Fixit's Tips, ennakko 9.11.",
+       "url": "https://mrfixitstips.co.uk/previews/leicester-city-vs-walsall-prediction-and-betting-tips-2026-11-10/"
+      }
+     ],
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 72 %, tasapeli 16 %, vierasvoitto 12 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Leicester City vs Walsall). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 82 %, tasapeli 11 %, vierasvoitto 7 %.",
+       "Vierasvoitto: vain 7 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 12 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 11 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 16 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [
+       {
+        "text": "Leicester voitti Fulham U21:n 6–1 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       },
+       {
+        "text": "Leicester hävisi Stevenagelle 1–2 (6.10.).",
+        "label": "Football Web Pages, EFL Trophy 6.10.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+       },
+       {
+        "text": "Walsall hävisi Stevenagelle 1–6 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       },
+       {
+        "text": "Walsall teki kolme maalia Fulham U21:tä vastaan (ennakkoteksti).",
+        "label": "Mr Fixit's Tips, ennakko 9.11.",
+        "url": "https://mrfixitstips.co.uk/previews/leicester-city-vs-walsall-prediction-and-betting-tips-2026-11-10/"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "Mr Fixit's Tips, ennakko 9.11. (6/17, 9/2, 13/2)",
+        "url": "https://mrfixitstips.co.uk/previews/leicester-city-vs-walsall-prediction-and-betting-tips-2026-11-10/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ]
+     }
+    },
+    {
+     "n": 2,
+     "home": "Oxford United",
+     "away": "Cheltenham Town",
+     "crowd": [
+      0.76,
+      0.16,
+      0.08
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.76,
+      0.16,
+      0.08
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Oxford pelasi Exeteriä vastaan 2–2, Exeter voitti rangaistuspotkukilpailun (6.10.).",
+       "label": "Football Web Pages, EFL Trophy 6.10.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 76 %, tasapeli 16 %, vierasvoitto 8 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Oxford pelasi Exeteriä vastaan 2–2, Exeter voitti rangaistuspotkukilpailun (6.10.).",
+        "label": "Football Web Pages, EFL Trophy 6.10.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    },
+    {
+     "n": 3,
+     "home": "Barnet",
+     "away": "Leyton Orient",
+     "crowd": [
+      0.39,
+      0.3,
+      0.31
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.39,
+      0.3,
+      0.31
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Barnet voitti Arsenal U21:n 5–1 (18.8.).",
+       "label": "Football Web Pages, EFL Trophy 18.8.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+      },
+      {
+       "text": "Leyton Orient pelasi AFC Wimbledonia vastaan 1–1 ja voitti rangaistuspotkukilpailun (18.8.).",
+       "label": "Football Web Pages, EFL Trophy 18.8.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 39 %, tasapeli 30 %, vierasvoitto 31 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Barnet voitti Arsenal U21:n 5–1 (18.8.).",
+        "label": "Football Web Pages, EFL Trophy 18.8.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+       },
+       {
+        "text": "Leyton Orient pelasi AFC Wimbledonia vastaan 1–1 ja voitti rangaistuspotkukilpailun (18.8.).",
+        "label": "Football Web Pages, EFL Trophy 18.8.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    },
+    {
+     "n": 4,
+     "home": "Northampton Town",
+     "away": "Gillingham",
+     "crowd": [
+      0.34,
+      0.28,
+      0.38
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.34,
+      0.28,
+      0.38
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Northampton hävisi Brighton U21:lle 0–3 (18.8.).",
+       "label": "Football Web Pages, EFL Trophy 18.8.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+      },
+      {
+       "text": "Northampton hävisi Cambridgelle 1–2 (6.10.).",
+       "label": "Football Web Pages, EFL Trophy 6.10.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+      },
+      {
+       "text": "Gillingham hävisi Cambridgelle 1–4 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 34 %, tasapeli 28 %, vierasvoitto 38 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Northampton hävisi Brighton U21:lle 0–3 (18.8.).",
+        "label": "Football Web Pages, EFL Trophy 18.8.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+       },
+       {
+        "text": "Northampton hävisi Cambridgelle 1–2 (6.10.).",
+        "label": "Football Web Pages, EFL Trophy 6.10.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+       },
+       {
+        "text": "Gillingham hävisi Cambridgelle 1–4 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    },
+    {
+     "n": 5,
+     "home": "Crewe Alexandra",
+     "away": "Wigan Athletic",
+     "crowd": [
+      0.3069,
+      0.2178,
+      0.4752
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.3069,
+      0.2178,
+      0.4752
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Crewe voitti Aston Villa U21:n 4–1 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      },
+      {
+       "text": "Wigan voitti Aston Villa U21:n 3–2 (18.8.).",
+       "label": "Football Web Pages, EFL Trophy 18.8.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+      },
+      {
+       "text": "Wigan voitti Blackpoolin 3–2 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 31 %, tasapeli 22 %, vierasvoitto 48 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Crewe voitti Aston Villa U21:n 4–1 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       },
+       {
+        "text": "Wigan voitti Aston Villa U21:n 3–2 (18.8.).",
+        "label": "Football Web Pages, EFL Trophy 18.8.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+       },
+       {
+        "text": "Wigan voitti Blackpoolin 3–2 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    },
+    {
+     "n": 6,
+     "home": "Burton Albion",
+     "away": "Notts County",
+     "crowd": [
+      0.2323,
+      0.202,
+      0.5657
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.2323,
+      0.202,
+      0.5657
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Burton pelasi Grimsbyä vastaan 0–0 ja voitti rangaistuspotkukilpailun (6.10.).",
+       "label": "Football Web Pages, EFL Trophy 6.10.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+      },
+      {
+       "text": "Notts County voitti Grimsbyn 2–1 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 23 %, tasapeli 20 %, vierasvoitto 57 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Burton pelasi Grimsbyä vastaan 0–0 ja voitti rangaistuspotkukilpailun (6.10.).",
+        "label": "Football Web Pages, EFL Trophy 6.10.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+       },
+       {
+        "text": "Notts County voitti Grimsbyn 2–1 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    },
+    {
+     "n": 7,
+     "home": "Plymouth Argyle",
+     "away": "Swindon Town",
+     "crowd": [
+      0.79,
+      0.13,
+      0.08
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.79,
+      0.13,
+      0.08
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Plymouth voitti Crystal Palace U21:n 5–1 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      },
+      {
+       "text": "Swindon hävisi Newportille 0–2 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 79 %, tasapeli 13 %, vierasvoitto 8 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Plymouth voitti Crystal Palace U21:n 5–1 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       },
+       {
+        "text": "Swindon hävisi Newportille 0–2 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    },
+    {
+     "n": 8,
+     "home": "Bristol Rovers",
+     "away": "Reading",
+     "crowd": [
+      0.21,
+      0.26,
+      0.53
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.21,
+      0.26,
+      0.53
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Bristol Rovers hävisi Wycombelle 1–4 (6.10.).",
+       "label": "Football Web Pages, EFL Trophy 6.10.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+      },
+      {
+       "text": "Reading pelasi Wycombea vastaan 1–1 ja voitti rangaistuspotkukilpailun (18.8.).",
+       "label": "Football Web Pages, EFL Trophy 18.8.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 21 %, tasapeli 26 %, vierasvoitto 53 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Bristol Rovers hävisi Wycombelle 1–4 (6.10.).",
+        "label": "Football Web Pages, EFL Trophy 6.10.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+       },
+       {
+        "text": "Reading pelasi Wycombea vastaan 1–1 ja voitti rangaistuspotkukilpailun (18.8.).",
+        "label": "Football Web Pages, EFL Trophy 18.8.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    },
+    {
+     "n": 9,
+     "home": "Stockport County",
+     "away": "Tranmere Rovers",
+     "crowd": [
+      0.79,
+      0.13,
+      0.08
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.79,
+      0.13,
+      0.08
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Stockport voitti Everton U21:n 6–3 (18.8.).",
+       "label": "Football Web Pages, EFL Trophy 18.8.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+      },
+      {
+       "text": "Stockport voitti Shrewsburyn 2–0 (6.10.).",
+       "label": "Football Web Pages, EFL Trophy 6.10.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 79 %, tasapeli 13 %, vierasvoitto 8 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Stockport voitti Everton U21:n 6–3 (18.8.).",
+        "label": "Football Web Pages, EFL Trophy 18.8.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260818"
+       },
+       {
+        "text": "Stockport voitti Shrewsburyn 2–0 (6.10.).",
+        "label": "Football Web Pages, EFL Trophy 6.10.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    },
+    {
+     "n": 10,
+     "home": "Mansfield Town",
+     "away": "Chesterfield",
+     "crowd": [
+      0.4851,
+      0.2574,
+      0.2574
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.4851,
+      0.2574,
+      0.2574
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Mansfield hävisi Port Valelle 0–2 (6.10.).",
+       "label": "Football Web Pages, EFL Trophy 6.10.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+      },
+      {
+       "text": "Chesterfield pelasi Port Valea vastaan 1–1 ja voitti rangaistuspotkukilpailun (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 49 %, tasapeli 26 %, vierasvoitto 26 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Mansfield hävisi Port Valelle 0–2 (6.10.).",
+        "label": "Football Web Pages, EFL Trophy 6.10.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+       },
+       {
+        "text": "Chesterfield pelasi Port Valea vastaan 1–1 ja voitti rangaistuspotkukilpailun (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    },
+    {
+     "n": 11,
+     "home": "Bradford City",
+     "away": "York City",
+     "crowd": [
+      0.84,
+      0.09,
+      0.07
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.84,
+      0.09,
+      0.07
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Bradford voitti Newcastle U21:n 2–1 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      },
+      {
+       "text": "Bradford voitti Rotherhamin vieraissa 4–0 (6.10.).",
+       "label": "Football Web Pages, EFL Trophy 6.10.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+      },
+      {
+       "text": "York pelasi Rotherhamia vastaan 1–1 ja hävisi rangaistuspotkukilpailun (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 84 %, tasapeli 9 %, vierasvoitto 7 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Bradford voitti Newcastle U21:n 2–1 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       },
+       {
+        "text": "Bradford voitti Rotherhamin vieraissa 4–0 (6.10.).",
+        "label": "Football Web Pages, EFL Trophy 6.10.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+       },
+       {
+        "text": "York pelasi Rotherhamia vastaan 1–1 ja hävisi rangaistuspotkukilpailun (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    },
+    {
+     "n": 12,
+     "home": "Colchester United",
+     "away": "Ipswich Town U21",
+     "crowd": [
+      0.3737,
+      0.2424,
+      0.3838
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.3737,
+      0.2424,
+      0.3838
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "facts": [
+      {
+       "text": "Colchester hävisi Peterboroughille 1–3 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      },
+      {
+       "text": "Ipswich U21 hävisi Lutonille 0–6 (22.9.).",
+       "label": "Football Web Pages, EFL Trophy 22.9.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+      },
+      {
+       "text": "Ipswich U21 hävisi Peterboroughille 1–4 (6.10.).",
+       "label": "Football Web Pages, EFL Trophy 6.10.",
+       "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+      }
+     ],
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 37 %, tasapeli 24 %, vierasvoitto 38 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [
+       {
+        "text": "Colchester hävisi Peterboroughille 1–3 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       },
+       {
+        "text": "Ipswich U21 hävisi Lutonille 0–6 (22.9.).",
+        "label": "Football Web Pages, EFL Trophy 22.9.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20260922"
+       },
+       {
+        "text": "Ipswich U21 hävisi Peterboroughille 1–4 (6.10.).",
+        "label": "Football Web Pages, EFL Trophy 6.10.",
+        "url": "https://www.footballwebpages.co.uk/efl-trophy/20261006"
+       }
+      ],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
+    }
+   ],
+   "path": [],
+   "prizes": null,
+   "calibration": null,
+   "oddsFetchedAt": "2026-11-09T12:50:00.000Z"
+  },
+  {
    "id": "2026-11-08-sunnuntaivakio-2",
    "label": "Sunnuntaivakio 2 (krs 45)",
    "date": "2026-11-08",
@@ -34,17 +926,13 @@
    "bonusPoolEur": null,
    "rowPriceEur": 0.1,
    "rowPriceEstimated": false,
-   "avgRowEv": 0.065,
-   "pools": [
-    32312.280000000002,
-    9232.08,
-    6347.055,
-    9809.085000000001
-   ],
+   "avgRowEv": null,
+   "pools": null,
    "source": "Yle Teksti-TV 479 (pelijakauma 14.58)",
    "note": null,
+   "links": [],
    "hasEdge": false,
-   "noPathReason": "Kierroksella on 12 ottelua; moottori laskee vain 13 ottelun Vakion (palkintoluokat 13–10 oikein).",
+   "noPathReason": "Kierroksella on 12 ottelua. Rivisuositusta ei lasketa, koska tämän pelin palkintoluokkia ei tunneta (moottori osaa vain 13 ottelun Vakion). Ottelukohtaiset selitykset löytyvät silti alta.",
    "matches": [
     {
      "n": 1,
@@ -69,7 +957,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 27 %, tasapeli 27 %, vierasvoitto 46 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 2,
@@ -94,7 +999,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 78 %, tasapeli 14 %, vierasvoitto 8 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 3,
@@ -119,7 +1041,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 54 %, tasapeli 25 %, vierasvoitto 21 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 4,
@@ -144,7 +1083,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 13 %, tasapeli 18 %, vierasvoitto 69 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 5,
@@ -169,7 +1125,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 17 %, tasapeli 20 %, vierasvoitto 63 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 6,
@@ -194,7 +1167,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 61 %, tasapeli 23 %, vierasvoitto 16 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 7,
@@ -219,7 +1209,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 23 %, tasapeli 27 %, vierasvoitto 50 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 8,
@@ -244,7 +1251,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 19 %, tasapeli 26 %, vierasvoitto 55 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 9,
@@ -269,7 +1293,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 26 %, tasapeli 27 %, vierasvoitto 46 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 10,
@@ -294,7 +1335,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 17 %, tasapeli 23 %, vierasvoitto 60 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 11,
@@ -319,7 +1377,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 20 %, tasapeli 24 %, vierasvoitto 56 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     },
     {
      "n": 12,
@@ -344,7 +1419,24 @@
       1,
       1
      ],
-     "result": null
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 39 %, tasapeli 32 %, vierasvoitto 29 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ]
+     }
     }
    ],
    "path": [],
@@ -372,6 +1464,7 @@
    ],
    "source": "Yle Teksti-TV 479 (pelijakauma 16.58) ja 478 (tulokset 7.11.2026)",
    "note": "Voitonjako luettu Teksti-TV 478/2:sta (voittajamäärät 12–10 oikein eivät näkyneet). Ei omaa mallia tai kertoimia tälle kierrokselle → vain pelijakauma.",
+   "links": [],
    "hasEdge": false,
    "noPathReason": "Ei omaa dataa (ei taulukkoa eikä kertoimia) → oma arvio = pelijakauma, jolloin ei ole etua. Lisää data/sheets tai data/odds.",
    "matches": [
@@ -398,7 +1491,25 @@
       1,
       1
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 89 %, tasapeli 8 %, vierasvoitto 3 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli kotivoitto (Arsenal). Tämän merkin veikkasi yli puolet pelaajista."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 2,
@@ -423,7 +1534,25 @@
       1,
       1
      ],
-     "result": "X"
+     "result": "X",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 47 %, tasapeli 28 %, vierasvoitto 25 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli tasapeli."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 3,
@@ -448,7 +1577,25 @@
       1,
       1
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 15 %, tasapeli 21 %, vierasvoitto 64 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli kotivoitto (Nottingham)."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 4,
@@ -473,7 +1620,25 @@
       1,
       1
      ],
-     "result": "X"
+     "result": "X",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 14 %, tasapeli 20 %, vierasvoitto 66 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli tasapeli."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 5,
@@ -498,7 +1663,25 @@
       1,
       1
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 55 %, tasapeli 26 %, vierasvoitto 19 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli kotivoitto (Birmingham). Tämän merkin veikkasi yli puolet pelaajista."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 6,
@@ -523,7 +1706,25 @@
       1,
       1
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 18 %, tasapeli 23 %, vierasvoitto 59 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli kotivoitto (Blackburn)."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 7,
@@ -548,7 +1749,25 @@
       1,
       1
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 55 %, tasapeli 26 %, vierasvoitto 19 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli kotivoitto (West Bromwich). Tämän merkin veikkasi yli puolet pelaajista."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 8,
@@ -573,7 +1792,25 @@
       1,
       1
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 13 %, tasapeli 19 %, vierasvoitto 68 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli kotivoitto (Preston)."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 9,
@@ -598,7 +1835,25 @@
       1,
       1
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 67 %, tasapeli 20 %, vierasvoitto 13 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli kotivoitto (QPR). Tämän merkin veikkasi yli puolet pelaajista."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 10,
@@ -623,7 +1878,25 @@
       1,
       1
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 51 %, tasapeli 26 %, vierasvoitto 23 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli kotivoitto (Cardiff C). Tämän merkin veikkasi yli puolet pelaajista."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 11,
@@ -648,7 +1921,25 @@
       1,
       1
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 20 %, tasapeli 26 %, vierasvoitto 54 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli kotivoitto (Charlton)."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 12,
@@ -673,7 +1964,25 @@
       1,
       1
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 41 %, tasapeli 29 %, vierasvoitto 31 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli kotivoitto (Crewe)."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     },
     {
      "n": 13,
@@ -698,7 +2007,25 @@
       1,
       1
      ],
-     "result": "2"
+     "result": "2",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 50 %, tasapeli 26 %, vierasvoitto 24 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli vierasvoitto (Stevenage)."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Kierros on jo poistunut sivulta; luvut näkyvät vain tallennetusta datasta."
+       }
+      ]
+     }
     }
    ],
    "path": [],
@@ -760,6 +2087,7 @@
    ],
    "source": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
    "note": "Vaihtoa ei julkaistu: arvio = maksetut voitot 367 797 € / 0,65. Pelijakauma = paperin lukemat, joissa toteutuneen merkin osuus on korvattu Veikkauksen lopullisella luvulla ja loput skaalattu. Ottelun 13 jakauma on arvio (vain X = 31 % tunnetaan).",
+   "links": [],
    "hasEdge": true,
    "noPathReason": null,
    "matches": [
@@ -790,7 +2118,31 @@
       1.0825810083312655,
       1.1086891609834648
      ],
-     "result": "2"
+     "result": "2",
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 60 %, tasapeli 22 %, vierasvoitto 18 %. Todennäköisin tulos on kotivoitto, noin 6 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 63 %, tasapeli 21 %, vierasvoitto 16 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Oikea tulos oli vierasvoitto (Tottenham).",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 2,
@@ -819,7 +2171,31 @@
       1.1223641854092468,
       1.3451852152442845
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 73 %, tasapeli 18 %, vierasvoitto 9 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 77 %, tasapeli 16 %, vierasvoitto 7 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Oikea tulos oli kotivoitto (Arsenal). Tämän merkin veikkasi yli puolet pelaajista.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 3,
@@ -848,7 +2224,32 @@
       0.9815433742348916,
       0.7770753187749726
      ],
-     "result": "2"
+     "result": "2",
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 40 %, tasapeli 28 %, vierasvoitto 32 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 30 %, tasapeli 29 %, vierasvoitto 41 %.",
+       "Kotivoitto: vain 30 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 40 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: 41 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 32 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Oikea tulos oli vierasvoitto (Fulham).",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 4,
@@ -877,7 +2278,33 @@
       1.1808273321045408,
       1.4578902416230861
      ],
-     "result": "2"
+     "result": "2",
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 58 %, tasapeli 23 %, vierasvoitto 19 %. Todennäköisin tulos on kotivoitto, noin 6 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 67 %, tasapeli 20 %, vierasvoitto 13 %.",
+       "Vierasvoitto: vain 13 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 19 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 20 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 23 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Kotivoitto: 67 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 58 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Oikea tulos oli vierasvoitto (Southampton). Pelaajat olivat aliarvostaneet tätä merkkiä.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 5,
@@ -906,7 +2333,31 @@
       0.9951850787926707,
       0.9068499368914442
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 37 %, tasapeli 28 %, vierasvoitto 35 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 33 %, tasapeli 28 %, vierasvoitto 39 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Oikea tulos oli kotivoitto (QPR).",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 6,
@@ -935,7 +2386,32 @@
       1.0365654905926585,
       0.8641828316278636
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 32 %, tasapeli 27 %, vierasvoitto 41 %. Todennäköisin tulos on vierasvoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 26 %, tasapeli 26 %, vierasvoitto 48 %.",
+       "Kotivoitto: vain 26 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 32 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: 48 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 41 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Oikea tulos oli kotivoitto (Cardiff). Pelaajat olivat aliarvostaneet tätä merkkiä.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 7,
@@ -964,7 +2440,32 @@
       1.1580006160307919,
       0.8921890026419154
      ],
-     "result": "X"
+     "result": "X",
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 22 %, tasapeli 22 %, vierasvoitto 56 %. Todennäköisin tulos on vierasvoitto, noin 6 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 18 %, tasapeli 19 %, vierasvoitto 63 %.",
+       "Kotivoitto: vain 18 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 22 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 19 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 22 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Oikea tulos oli tasapeli. Pelaajat olivat aliarvostaneet tätä merkkiä.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 8,
@@ -993,7 +2494,31 @@
       1.0430243771326182,
       0.9966612899071885
      ],
-     "result": "X"
+     "result": "X",
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 54 %, tasapeli 24 %, vierasvoitto 22 %. Todennäköisin tulos on kotivoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 55 %, tasapeli 23 %, vierasvoitto 22 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Oikea tulos oli tasapeli.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 9,
@@ -1022,7 +2547,31 @@
       0.9604726830352731,
       0.958507417571241
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 41 %, tasapeli 29 %, vierasvoitto 30 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 39 %, tasapeli 30 %, vierasvoitto 31 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Oikea tulos oli kotivoitto (Blackburn).",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 10,
@@ -1051,7 +2600,32 @@
       1.2698306034683309,
       1.4194188633013005
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 71 %, tasapeli 18 %, vierasvoitto 11 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 78 %, tasapeli 14 %, vierasvoitto 8 %.",
+       "Vierasvoitto: vain 8 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 11 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 14 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 18 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Oikea tulos oli kotivoitto (Wolves). Tämän merkin veikkasi yli puolet pelaajista.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 11,
@@ -1080,7 +2654,32 @@
       1.007725569094965,
       0.7866719643007585
      ],
-     "result": "1"
+     "result": "1",
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 38 %, tasapeli 28 %, vierasvoitto 34 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu käsin täytetystä taulukosta (joukkueiden aiemmat tulokset). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 29 %, tasapeli 27 %, vierasvoitto 44 %.",
+       "Kotivoitto: vain 29 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 38 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: 44 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 34 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Oikea tulos oli kotivoitto (Lincoln). Pelaajat olivat aliarvostaneet tätä merkkiä.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       },
+       {
+        "label": "Käsin täytetty taulukko",
+        "url": "https://github.com/SamppaFIN/Ihanus1.0/blob/main/data/sheets/2026-10-24-lauantaivakio.json",
+        "what": "joukkueiden aiemmat tulokset"
+       }
+      ]
+     }
     },
     {
      "n": 12,
@@ -1105,7 +2704,23 @@
       1,
       1
      ],
-     "result": "2"
+     "result": "2",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 43 %, tasapeli 28 %, vierasvoitto 29 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli vierasvoitto (Plymouth)."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       }
+      ]
+     }
     },
     {
      "n": 13,
@@ -1130,7 +2745,23 @@
       1,
       1
      ],
-     "result": "X"
+     "result": "X",
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 40 %, tasapeli 31 %, vierasvoitto 29 %. Nämä osuudet on arvioitu, ei luettu suoraan.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Oikea tulos oli tasapeli."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Samin paperitaulukko (pelijakauma-lukemat) + Veikkauksen tiedote (voittavien merkkien lopulliset osuudet)",
+        "what": "pelaajien osuudet"
+       }
+      ]
+     }
     }
    ],
    "path": [
