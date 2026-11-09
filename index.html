@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fi" data-theme="winter">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ihanus1.0 · Vakio-arvomoottori</title>
+  <meta name="description" content="Etsi Vakio-rivi, jonka osuessa kukaan muu ei ole samalla rivillä: oma todennäköisyys vs. peliprosentit.">
+  <meta name="theme-color" content="#0b1a22">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1a22'/%3E%3Cpath d='M14 32c0-8 6-12 11-12 7 0 10 6 14 12s7 12 14 12c5 0 11-4 11-12' transform='translate(-6 0) scale(.9 1)' fill='none' stroke='%2371e3b0' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Sora:wght@600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-in">
+      <a class="brand" href="#top" aria-label="Ihanus1.0 – alkuun"><span class="mark" aria-hidden="true">∞</span> Ihanus<span class="ver">1.0</span></a>
+      <div class="actions">
+        <button class="icon-btn" id="theme" type="button" aria-label="Vaihda teema"><span id="theme-name">Talvi</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="h1">
+      <canvas id="sky" aria-hidden="true"></canvas>
+      <div class="wrap hero-in">
+        <p class="eyebrow">Vakio-arvomoottori</p>
+        <h1 id="h1">Pelaa rivi, jota <em>kukaan muu</em> ei pelannut.</h1>
+        <p class="lede">Oma todennäköisyys vastaan pelaajien peliprosentit. Arvokerroin kertoo, kuinka paljon rivin odotettu voitto ylittää keskirivin, jos oma arvio pitää.</p>
+        <div class="chips" id="rounds" role="tablist" aria-label="Kierrokset"></div>
+      </div>
+    </section>
+
+    <div class="wrap stack">
+      <section id="kierros" class="block" aria-labelledby="h-kierros">
+        <h2 id="h-kierros">Kierros</h2>
+        <div class="tiles" id="tiles"></div>
+        <p class="note" id="round-note" hidden></p>
+        <div id="matches" class="matches"></div>
+      </section>
+
+      <section id="rivi" class="block" aria-labelledby="h-rivi">
+        <h2 id="h-rivi">Rivi ja järjestelmä</h2>
+        <div id="path"></div>
+      </section>
+
+      <section id="takautuva" class="block" aria-labelledby="h-taka">
+        <h2 id="h-taka">Takautuva</h2>
+        <div id="backtest"></div>
+      </section>
+
+      <section id="info" class="block" aria-labelledby="h-info">
+        <h2 id="h-info">Tietoa ja oletukset</h2>
+        <div id="about"></div>
+      </section>
+
+      <footer class="foot">
+        <p id="stamp" class="mono"></p>
+        <p>Ihanus1.0 · <a href="https://github.com/SamppaFIN/Ihanus1.0">SamppaFIN/Ihanus1.0</a></p>
+      </footer>
+    </div>
+  </main>
+
+  <nav class="dock" aria-label="Osiot">
+    <a href="#kierros" data-sec="kierros"><b>1</b><span>Kierros</span></a>
+    <a href="#rivi" data-sec="rivi"><b>X</b><span>Rivi</span></a>
+    <a href="#takautuva" data-sec="takautuva"><b>2</b><span>Takautuva</span></a>
+    <a href="#info" data-sec="info"><b>i</b><span>Info</span></a>
+  </nav>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
