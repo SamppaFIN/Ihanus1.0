@@ -65,7 +65,7 @@ function renderTiles(r) {
   const pot = r.bonusPoolEur ? tile('Bonus', eur(r.bonusPoolEur), 'jaetaan täysosumille')
     : r.guaranteeEur ? tile('Takuupotti', eur(r.guaranteeEur), 'ainoalle täysosumalle') : tile('Takuu / bonus', '–', 'ei tällä kierroksella');
   $('#tiles').innerHTML =
-    tile('Vaihto', eur(r.turnoverEur) + (r.turnoverEstimated ? '<span class="est">arvio</span>' : ''), r.rowPriceEur ? `≈ ${nf(0).format(r.turnoverEur / r.rowPriceEur)} riviä` : '') +
+    tile('Vaihto', eur(r.turnoverEur) + (r.turnoverEstimated ? '<span class="est">arvio</span>' : ''), r.rowPriceEur ? `≈ ${nf(0).format(r.turnoverEur / r.rowPriceEur)} riviä à ${eur(r.rowPriceEur, 2)}${r.rowPriceEstimated ? ' (hinta oletettu)' : ''}` : '') +
     pot +
     tile('13 oikein -potti', r.pools ? eur(r.pools[0]) + '<span class="est">arvio</span>' : '–', r.pools ? `12 oikein ≈ ${eur(r.pools[1])}` : '') +
     tile('Ottelut', String(r.matches.length), r.hasEdge ? 'oma data mukana' : 'vain pelijakauma');
@@ -187,7 +187,7 @@ function renderAbout() {
       <li><strong>Arvokerroin</strong> = rivin odotettu voitto ÷ keskirivin odotettu voitto. Laskenta on tarkka: käydään läpi kaikki tulokset joilla järjestelmä osuu vähintään 10, ja muiden voittajien määrä mallinnetaan pelijakaumasta.</li>
       <li><strong>Järjestelmä</strong> kasvaa lisäämällä merkki sinne, missä euro tuottaa eniten odotettua voittoa.</li></ul></div>
     <div class="glass"><h3>Oletukset (ei vahvistettu)</h3><ul>
-      <li>Rivin hinta ${eur(a.rowPriceEur, 2)} — poimittu keskustelusta, ei Veikkauksen säännöistä.</li>
+      <li>Rivin hinta luetaan Teksti-TV:ltä (Sunnuntaivakio 0,10 €). Jos sivu ei kerro hintaa, käytetään 0,25 € ja kierroksen vaihto-ruudussa lukee “hinta oletettu”; väärä hinta vääristää rivimäärää ja siten kaikkia arvokertoimia.</li>
       <li>Palautus ${pct(a.prize.payoutRatio)} vaihdosta (asetuksen mukaan keskimäärin 60–70 %).</li>
       <li>Luokkaosuudet 13/12/11/10 oikein: ${a.prize.shares.map((x) => pct(x)).join(' / ')} — arvioitu kahdesta kierroksesta.</li>
       <li>Luottamus omaan arvioon pelijakaumaan nähden: taulukko ${pct(a.fuse.trust.model)}, markkina ${pct(a.fuse.trust.market)}.</li>
