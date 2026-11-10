@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-10-futisvakio-9",
+  "label": "Futisvakio 9 (krs 46)",
+  "date": "2026-11-10",
+  "turnoverEur": null,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.25,
+  "rowPriceEstimated": true,
+  "source": "Yle Teksti-TV 479",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Albania",
+      "away": "Suomi",
+      "crowd": [
+        0.4851,
+        0.2871,
+        0.2277
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Italia",
+      "away": "Ranska",
+      "crowd": [
+        0.22,
+        0.37,
+        0.41
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Englanti",
+      "away": "Kroatia",
+      "crowd": [
+        0.7921,
+        0.1584,
+        0.0495
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Tshekki",
+      "away": "Espanja",
+      "crowd": [
+        0.03,
+        0.05,
+        0.92
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Montenegro",
+      "away": "Latvia",
+      "crowd": [
+        0.72,
+        0.19,
+        0.09
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Suomi U21",
+      "away": "Irlanti U21",
+      "crowd": [
+        0.6364,
+        0.2424,
+        0.1212
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Hollanti",
+      "away": "Kreikka",
+      "crowd": [
+        0.6634,
+        0.2673,
+        0.0693
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Serbia",
+      "away": "Saksa",
+      "crowd": [
+        0.0792,
+        0.1287,
+        0.7921
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Slovenia",
+      "away": "Sveitsi",
+      "crowd": [
+        0.12,
+        0.23,
+        0.65
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Skotlanti",
+      "away": "P-Makedonia",
+      "crowd": [
+        0.901,
+        0.0693,
+        0.0297
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Bulgaria",
+      "away": "Islanti",
+      "crowd": [
+        0.198,
+        0.2772,
+        0.5248
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Moldova",
+      "away": "Kazakstan",
+      "crowd": [
+        0.4059,
+        0.3465,
+        0.2475
+      ]
+    }
+  ]
+}
