@@ -64,9 +64,9 @@
       "away": "Cheltenham Town",
       "league": "EFL Trophy",
       "crowd": [
-        0.7677,
-        0.1515,
-        0.0808
+        0.78,
+        0.14,
+        0.08
       ],
       "facts": [
         {
@@ -97,9 +97,9 @@
       "away": "Leyton Orient",
       "league": "EFL Trophy",
       "crowd": [
-        0.4158,
-        0.2673,
-        0.3168
+        0.39,
+        0.25,
+        0.36
       ],
       "facts": [
         {
@@ -130,9 +130,9 @@
       "away": "Gillingham",
       "league": "EFL Trophy",
       "crowd": [
-        0.37,
-        0.29,
-        0.34
+        0.38,
+        0.27,
+        0.35
       ],
       "facts": [
         {
@@ -173,9 +173,9 @@
       "away": "Wigan Athletic",
       "league": "EFL Trophy",
       "crowd": [
-        0.3465,
+        0.3267,
         0.2673,
-        0.3861
+        0.4059
       ],
       "facts": [
         {
@@ -211,9 +211,9 @@
       "away": "Notts County",
       "league": "EFL Trophy",
       "crowd": [
-        0.29,
+        0.32,
         0.24,
-        0.47
+        0.44
       ],
       "facts": [
         {
@@ -249,9 +249,9 @@
       "away": "Swindon Town",
       "league": "EFL Trophy",
       "crowd": [
-        0.7677,
-        0.1313,
-        0.101
+        0.76,
+        0.14,
+        0.1
       ],
       "facts": [
         {
@@ -282,9 +282,9 @@
       "away": "Reading",
       "league": "EFL Trophy",
       "crowd": [
-        0.2,
-        0.24,
-        0.56
+        0.25,
+        0.23,
+        0.52
       ],
       "facts": [
         {
@@ -315,9 +315,9 @@
       "away": "Tranmere Rovers",
       "league": "EFL Trophy",
       "crowd": [
-        0.76,
-        0.14,
-        0.1
+        0.6832,
+        0.1782,
+        0.1386
       ],
       "facts": [
         {
@@ -348,9 +348,9 @@
       "away": "Chesterfield",
       "league": "EFL Trophy",
       "crowd": [
-        0.4848,
-        0.2424,
-        0.2727
+        0.47,
+        0.23,
+        0.3
       ],
       "facts": [
         {
@@ -381,9 +381,9 @@
       "away": "York City",
       "league": "EFL Trophy",
       "crowd": [
-        0.77,
-        0.13,
-        0.1
+        0.74,
+        0.15,
+        0.11
       ],
       "facts": [
         {
