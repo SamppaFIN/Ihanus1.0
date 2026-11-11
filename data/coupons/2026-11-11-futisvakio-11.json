@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-11-futisvakio-11",
+  "label": "Futisvakio 11 (krs 46)",
+  "date": "2026-11-11",
+  "turnoverEur": null,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.25,
+  "rowPriceEstimated": true,
+  "source": "Yle Teksti-TV 479",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Hollanti",
+      "away": "Kreikka",
+      "crowd": [
+        0.73,
+        0.19,
+        0.08
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Serbia",
+      "away": "Saksa",
+      "crowd": [
+        0.0707,
+        0.1515,
+        0.7778
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Slovenia",
+      "away": "Sveitsi",
+      "crowd": [
+        0.11,
+        0.19,
+        0.7
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Skotlanti",
+      "away": "P-Makedonia",
+      "crowd": [
+        0.88,
+        0.06,
+        0.06
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Slovakia",
+      "away": "F&auml;rsaaret",
+      "crowd": [
+        0.8614,
+        0.0891,
+        0.0495
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Luxemburg",
+      "away": "Viro",
+      "crowd": [
+        0.3737,
+        0.2828,
+        0.3434
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Bulgaria",
+      "away": "Islanti",
+      "crowd": [
+        0.26,
+        0.28,
+        0.46
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Andorra",
+      "away": "Gibraltar",
+      "crowd": [
+        0.47,
+        0.36,
+        0.17
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Liechtenste",
+      "away": "Azerbaidzha",
+      "crowd": [
+        0.0808,
+        0.1111,
+        0.8081
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Argentiina",
+      "away": "Uruguay",
+      "crowd": [
+        0.6869,
+        0.2222,
+        0.0909
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Kolumbia",
+      "away": "Chile",
+      "crowd": [
+        0.53,
+        0.32,
+        0.15
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Peru",
+      "away": "Bolivia",
+      "crowd": [
+        0.5556,
+        0.2929,
+        0.1515
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-15-sunnuntaivakio-2",
+  "label": "Sunnuntaivakio 2 (krs 46)",
+  "date": "2026-11-15",
+  "turnoverEur": null,
+  "guaranteeEur": 50000,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.25,
+  "rowPriceEstimated": true,
+  "source": "Yle Teksti-TV 479",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Suomi",
+      "away": "San Marino",
+      "crowd": [
+        0.94,
+        0.03,
+        0.03
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Espanja",
+      "away": "Englanti",
+      "crowd": [
+        0.47,
+        0.36,
+        0.17
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Kroatia",
+      "away": "Tshekki",
+      "crowd": [
+        0.74,
+        0.17,
+        0.09
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Belgia",
+      "away": "Italia",
+      "crowd": [
+        0.32,
+        0.34,
+        0.34
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Ranska",
+      "away": "Turkki",
+      "crowd": [
+        0.86,
+        0.11,
+        0.03
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Kypros",
+      "away": "Montenegro",
+      "crowd": [
+        0.2,
+        0.27,
+        0.53
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Latvia",
+      "away": "Armenia",
+      "crowd": [
+        0.19,
+        0.34,
+        0.47
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Tenerife",
+      "away": "AD Ceuta",
+      "crowd": [
+        0.7778,
+        0.1414,
+        0.0808
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Granada",
+      "away": "Las Palmas",
+      "crowd": [
+        0.46,
+        0.33,
+        0.21
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Eibar",
+      "away": "Cadiz",
+      "crowd": [
+        0.85,
+        0.12,
+        0.03
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Eldense",
+      "away": "Sabadell",
+      "crowd": [
+        0.63,
+        0.26,
+        0.11
+      ]
+    },
+    {
+      "n": 12,
+      "home": "MVV",
+      "away": "Vitesse",
+      "crowd": [
+        0.2277,
+        0.3762,
+        0.396
+      ]
+    }
+  ]
+}
