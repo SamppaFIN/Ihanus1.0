@@ -69,6 +69,8 @@ npx wrangler secret put GITHUB_TOKEN   # fine-grained PAT: vain tämä repo, Act
 npx wrangler deploy
 ```
 
+**Ilman omaa konetta (puhelin):** aja Actions-välilehdeltä "Julkaise cron-Worker" (`deploy-worker.yml`, Run workflow). Se tarvitsee kolme repon salaisuutta: `CLOUDFLARE_API_TOKEN` (malli "Edit Cloudflare Workers"), `CLOUDFLARE_ACCOUNT_ID` ja `DISPATCH_TOKEN` (GitHub fine-grained PAT, vain tämä repo, Actions: Read and write). Uudella Cloudflare-tilillä avaa kerran dashboardin Workers & Pages, jotta workers.dev-osoite syntyy.
+
 Tarkista `https://ihanus-cron.<tilisi>.workers.dev/status`: näet mitkä kierrokset Worker löytää ja milloin ne sulkeutuvat (dry-run, ei käynnistä mitään). Tikki ajetaan joka päivä 10 min välein (`wrangler.toml`), koska kierroksia on myös arkisin; ajoikkuna on rakennettu niin, että jokainen kierros laukaisee täsmälleen yhden päivityksen (testattu). Useampi päivityshetki: `REFRESH_BEFORE_MIN = "60,10"`.
 
 Data on avaimetonta (scraperit), mutta workflow'n käynnistäminen Cloudflaresta vaatii GitHub-tokenin — se on ainoa salaisuus, ja se on vain Workerissa. Ilman Workeria `percent-hourly` ajaa silti tunnin välein joka päivä (GitHubin schedule voi myöhästyä kymmeniä minuutteja).

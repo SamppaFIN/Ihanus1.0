@@ -1,0 +1,39 @@
+# Cloudflare-cronin käyttöönotto ilman omaa konetta (esim. puhelimelta): aja käsin Actions-välilehdeltä "Run workflow".
+# Tarvittavat repon salaisuudet (Settings → Secrets and variables → Actions):
+#   CLOUDFLARE_API_TOKEN   Cloudflare → My Profile → API Tokens → Create Token → malli "Edit Cloudflare Workers"
+#   CLOUDFLARE_ACCOUNT_ID  Cloudflare → Workers & Pages -sivun oikea reuna (Account ID)
+#   DISPATCH_TOKEN         GitHub fine-grained PAT: vain tämä repo, Repository permissions → Actions: Read and write
+# Workerin sisäinen muuttuja on GITHUB_TOKEN (GitHub ei salli tämän nimistä repon salaisuutta, siksi DISPATCH_TOKEN).
+name: Julkaise cron-Worker
+on:
+  workflow_dispatch:
+concurrency:
+  group: deploy-worker
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: workers/cron
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Tarkista salaisuudet
+        run: |
+          for v in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID; do
+            if [ -z "${!v}" ]; then echo "::error::Puuttuu repon salaisuus $v"; exit 1; fi
+          done
+      - run: npm ci
+      - name: Julkaise Worker
+        run: npx wrangler deploy
+      - name: Aseta GitHub-token Workerin salaisuudeksi
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$DISPATCH_TOKEN" ]; then echo "::error::Puuttuu repon salaisuus DISPATCH_TOKEN"; exit 1; fi
+          printf %s "$DISPATCH_TOKEN" | npx wrangler secret put GITHUB_TOKEN
