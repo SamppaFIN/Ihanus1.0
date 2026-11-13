@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-12T13:57:29.302Z",
+  "fetchedAt": "2026-11-13T13:21:37.920Z",
   "source": "betexplorer.com (Playwright, keskimääräiset kertoimet)",
   "matches": [
     {
       "n": 1,
       "odds": [
         3,
-        1.82,
+        1.84,
         3.72
       ],
       "event": "Stockport County - Reading",
@@ -16,7 +16,7 @@
       "n": 2,
       "odds": [
         3,
-        2.19,
+        2.24,
         3.57
       ],
       "event": "Sheffield Wed - Plymouth",
@@ -26,8 +26,8 @@
       "n": 3,
       "odds": [
         3,
-        2.21,
-        3.57
+        2.26,
+        3.58
       ],
       "event": "Wigan - Barnsley",
       "league": "england/league-one"
@@ -36,8 +36,8 @@
       "n": 4,
       "odds": [
         3,
-        2.58,
-        3.4
+        2.6,
+        3.43
       ],
       "event": "AFC Wimbledon - Blackpool",
       "league": "england/league-one"
@@ -45,9 +45,9 @@
     {
       "n": 6,
       "odds": [
-        3,
-        3.17,
-        3.57
+        17,
+        3.18,
+        3.62
       ],
       "event": "Swindon - Grimsby",
       "league": "england/league-two"
@@ -55,9 +55,9 @@
     {
       "n": 8,
       "odds": [
-        3,
-        1.59,
-        3.67
+        17,
+        1.57,
+        3.77
       ],
       "event": "Salford - Northampton",
       "league": "england/league-two"
@@ -65,8 +65,8 @@
     {
       "n": 10,
       "odds": [
-        3,
-        2.03,
+        17,
+        2.07,
         3.3
       ],
       "event": "Colchester - Gillingham",
@@ -75,8 +75,8 @@
     {
       "n": 11,
       "odds": [
-        3,
-        2.78,
+        17,
+        2.86,
         3.35
       ],
       "event": "Bristol Rovers - Chesterfield",
@@ -85,8 +85,8 @@
     {
       "n": 12,
       "odds": [
-        3,
-        4.03,
+        17,
+        3.98,
         3.85
       ],
       "event": "Rochdale - York City",
@@ -95,9 +95,9 @@
     {
       "n": 13,
       "odds": [
-        3,
-        1.89,
-        3.3
+        17,
+        1.96,
+        3.26
       ],
       "event": "Port Vale - Accrington",
       "league": "england/league-two"

@@ -14,9 +14,9 @@
       "home": "Stockport",
       "away": "Reading FC",
       "crowd": [
-        0.57,
+        0.58,
         0.22,
-        0.21
+        0.2
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "Sheffield W",
       "away": "Plymouth A",
       "crowd": [
-        0.45,
-        0.25,
-        0.3
+        0.4455,
+        0.2475,
+        0.3069
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Wigan",
       "away": "Barnsley",
       "crowd": [
-        0.4554,
-        0.2475,
-        0.297
+        0.46,
+        0.25,
+        0.29
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "AFC Wimbled",
       "away": "Blackpoo.FC",
       "crowd": [
-        0.37,
-        0.28,
-        0.35
+        0.3663,
+        0.2772,
+        0.3564
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "MK Dons",
       "away": "Burto.Albio",
       "crowd": [
-        0.61,
-        0.21,
-        0.18
+        0.63,
+        0.2,
+        0.17
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "Swindon T",
       "away": "Grimsby T",
       "crowd": [
-        0.29,
-        0.24,
-        0.47
+        0.297,
+        0.2475,
+        0.4554
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Crewe",
       "away": "Newport Co",
       "crowd": [
-        0.49,
+        0.51,
         0.25,
-        0.26
+        0.24
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Salford C",
       "away": "Northampt.T",
       "crowd": [
-        0.66,
+        0.68,
         0.19,
-        0.15
+        0.13
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Shrewsbury",
       "away": "Oldham Ath",
       "crowd": [
-        0.3861,
-        0.2871,
-        0.3267
+        0.41,
+        0.28,
+        0.31
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Colchester",
       "away": "Gillingh.FC",
       "crowd": [
-        0.45,
+        0.44,
         0.26,
-        0.29
+        0.3
       ]
     },
     {
@@ -114,8 +114,8 @@
       "home": "Bristol R",
       "away": "Chesterfiel",
       "crowd": [
-        0.34,
-        0.26,
+        0.35,
+        0.25,
         0.4
       ]
     },
@@ -134,9 +134,9 @@
       "home": "Port Vale",
       "away": "Accringto.S",
       "crowd": [
-        0.52,
-        0.26,
-        0.22
+        0.54,
+        0.25,
+        0.21
       ]
     }
   ]
