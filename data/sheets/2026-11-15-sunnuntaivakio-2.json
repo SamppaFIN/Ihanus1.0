@@ -1,0 +1,882 @@
+{
+  "couponId": "2026-11-15-sunnuntaivakio-2",
+  "note": "Täytetty paperitaulukon tapaan kokonaan haetuista lähteistä 13.11.2026. Seurat (ottelut 8–12): thisSeason ja sijoitus = Sports Mole -sarjataulukko 2026–27 (Segunda División, Eerste Divisie), tarkistettu BetExplorerin taulukkoa vasten (täsmäävät); lastSeasonVenue = viime kauden (2025–26) kotijoukkueen KOTItilasto ja vierasjoukkueen VIERAStilasto omassa silloisessa sarjassaan (Sports Mole; nousijoille Tenerife, Eldense ja Sabadell Primera Federación, BetExplorer); leagueChange: nousijat Tenerife, Eldense, Sabadell (Wikipedia). recentPts = kolme viimeisintä sarjaottelua (BetExplorer-muototaulukko). Maajoukkueet (ottelut 1–7): thisSeason = Nations League 2026–27 -lohkon tilanne (5 ottelua/joukkue), venue = lohkon koti-/vierastaulukko; lastSeasonVenue = EDELLISEN Nations League -kierroksen 2024–25 kotijoukkueen kotitilasto / vierasjoukkueen vierastilasto omassa silloisessa liigassaan (vain 3 kotipeliä tai 3 vieraspeliä, San Marinolla 2 – pieni otos, ja ne ovat yli vuoden vanhoja; ei MM-karsintoja, koska niitä ei ollut saatavilla samasta lähteestä); leagueChange = liigan vaihtuminen 2024–25 → 2026–27 (A–D); recentPts = kolme viimeisintä Nations League -ottelua. tier: seurat 2 (toinen taso), maajoukkueet liiga A=1 … D=4; kaikissa tämän kierroksen otteluissa molemmat joukkueet ovat samalla tasolla, joten tasoero ei vaikuta. Ei saatavilla: MM-karsintojen ja ystävyysottelujen tilastot (maajoukkueet), pelaajien loukkaantumiset ja kokoonpanot.",
+  "matches": [
+    {
+      "n": 1,
+      "home": {
+        "name": "Suomi",
+        "lastSeasonVenue": {
+          "w": 0,
+          "d": 0,
+          "l": 3,
+          "gf": 2,
+          "ga": 7
+        },
+        "thisSeason": {
+          "w": 2,
+          "d": 1,
+          "l": 2,
+          "gf": 9,
+          "ga": 4
+        },
+        "recentPts": [
+          3,
+          0,
+          0
+        ],
+        "leagueChange": "relegated",
+        "tier": 3,
+        "info": {
+          "league": "Nations League C",
+          "pos": 3,
+          "venue": {
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 2,
+            "ga": 1
+          }
+        }
+      },
+      "away": {
+        "name": "San Marino",
+        "lastSeasonVenue": {
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gf": 3,
+          "ga": 2
+        },
+        "thisSeason": {
+          "w": 0,
+          "d": 0,
+          "l": 5,
+          "gf": 1,
+          "ga": 18
+        },
+        "recentPts": [
+          0,
+          0,
+          0
+        ],
+        "leagueChange": "promoted",
+        "tier": 3,
+        "info": {
+          "league": "Nations League C",
+          "pos": 4,
+          "venue": {
+            "w": 0,
+            "d": 0,
+            "l": 2,
+            "gf": 1,
+            "ga": 6
+          }
+        }
+      }
+    },
+    {
+      "n": 2,
+      "home": {
+        "name": "Espanja",
+        "lastSeasonVenue": {
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gf": 7,
+          "ga": 2
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 0,
+          "l": 0,
+          "gf": 14,
+          "ga": 5
+        },
+        "recentPts": [
+          3,
+          3,
+          3
+        ],
+        "leagueChange": null,
+        "tier": 1,
+        "info": {
+          "league": "Nations League A",
+          "pos": 1,
+          "venue": {
+            "w": 2,
+            "d": 0,
+            "l": 0,
+            "gf": 7,
+            "ga": 2
+          }
+        }
+      },
+      "away": {
+        "name": "Englanti",
+        "lastSeasonVenue": {
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gf": 8,
+          "ga": 1
+        },
+        "thisSeason": {
+          "w": 4,
+          "d": 0,
+          "l": 1,
+          "gf": 16,
+          "ga": 4
+        },
+        "recentPts": [
+          3,
+          3,
+          3
+        ],
+        "leagueChange": "promoted",
+        "tier": 1,
+        "info": {
+          "league": "Nations League A",
+          "pos": 2,
+          "venue": {
+            "w": 2,
+            "d": 0,
+            "l": 0,
+            "gf": 9,
+            "ga": 0
+          }
+        }
+      }
+    },
+    {
+      "n": 3,
+      "home": {
+        "name": "Kroatia",
+        "lastSeasonVenue": {
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "gf": 4,
+          "ga": 2
+        },
+        "thisSeason": {
+          "w": 1,
+          "d": 0,
+          "l": 4,
+          "gf": 5,
+          "ga": 16
+        },
+        "recentPts": [
+          0,
+          0,
+          0
+        ],
+        "leagueChange": null,
+        "tier": 1,
+        "info": {
+          "league": "Nations League A",
+          "pos": 3,
+          "venue": {
+            "w": 0,
+            "d": 0,
+            "l": 2,
+            "gf": 1,
+            "ga": 9
+          }
+        }
+      },
+      "away": {
+        "name": "Tshekki",
+        "lastSeasonVenue": {
+          "w": 0,
+          "d": 2,
+          "l": 1,
+          "gf": 2,
+          "ga": 5
+        },
+        "thisSeason": {
+          "w": 0,
+          "d": 0,
+          "l": 5,
+          "gf": 2,
+          "ga": 12
+        },
+        "recentPts": [
+          0,
+          0,
+          0
+        ],
+        "leagueChange": "promoted",
+        "tier": 1,
+        "info": {
+          "league": "Nations League A",
+          "pos": 4,
+          "venue": {
+            "w": 0,
+            "d": 0,
+            "l": 2,
+            "gf": 1,
+            "ga": 6
+          }
+        }
+      }
+    },
+    {
+      "n": 4,
+      "home": {
+        "name": "Belgia",
+        "lastSeasonVenue": {
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gf": 4,
+          "ga": 4
+        },
+        "thisSeason": {
+          "w": 3,
+          "d": 0,
+          "l": 2,
+          "gf": 8,
+          "ga": 6
+        },
+        "recentPts": [
+          3,
+          0,
+          3
+        ],
+        "leagueChange": null,
+        "tier": 1,
+        "info": {
+          "league": "Nations League A",
+          "pos": 3,
+          "venue": {
+            "w": 1,
+            "d": 0,
+            "l": 1,
+            "gf": 3,
+            "ga": 1
+          }
+        }
+      },
+      "away": {
+        "name": "Italia",
+        "lastSeasonVenue": {
+          "w": 3,
+          "d": 0,
+          "l": 0,
+          "gf": 6,
+          "ga": 2
+        },
+        "thisSeason": {
+          "w": 3,
+          "d": 1,
+          "l": 1,
+          "gf": 11,
+          "ga": 6
+        },
+        "recentPts": [
+          1,
+          3,
+          3
+        ],
+        "leagueChange": null,
+        "tier": 1,
+        "info": {
+          "league": "Nations League A",
+          "pos": 1,
+          "venue": {
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 5,
+            "ga": 2
+          }
+        }
+      }
+    },
+    {
+      "n": 5,
+      "home": {
+        "name": "Ranska",
+        "lastSeasonVenue": {
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gf": 3,
+          "ga": 3
+        },
+        "thisSeason": {
+          "w": 3,
+          "d": 1,
+          "l": 1,
+          "gf": 8,
+          "ga": 5
+        },
+        "recentPts": [
+          1,
+          3,
+          0
+        ],
+        "leagueChange": null,
+        "tier": 1,
+        "info": {
+          "league": "Nations League A",
+          "pos": 2,
+          "venue": {
+            "w": 1,
+            "d": 1,
+            "l": 0,
+            "gf": 5,
+            "ga": 2
+          }
+        }
+      },
+      "away": {
+        "name": "Turkki",
+        "lastSeasonVenue": {
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gf": 5,
+          "ga": 5
+        },
+        "thisSeason": {
+          "w": 0,
+          "d": 0,
+          "l": 5,
+          "gf": 3,
+          "ga": 13
+        },
+        "recentPts": [
+          0,
+          0,
+          0
+        ],
+        "leagueChange": "promoted",
+        "tier": 1,
+        "info": {
+          "league": "Nations League A",
+          "pos": 4,
+          "venue": {
+            "w": 0,
+            "d": 0,
+            "l": 2,
+            "gf": 1,
+            "ga": 6
+          }
+        }
+      }
+    },
+    {
+      "n": 6,
+      "home": {
+        "name": "Kypros",
+        "lastSeasonVenue": {
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gf": 2,
+          "ga": 8
+        },
+        "thisSeason": {
+          "w": 2,
+          "d": 2,
+          "l": 1,
+          "gf": 6,
+          "ga": 4
+        },
+        "recentPts": [
+          3,
+          3,
+          1
+        ],
+        "leagueChange": null,
+        "tier": 3,
+        "info": {
+          "league": "Nations League C",
+          "pos": 2,
+          "venue": {
+            "w": 2,
+            "d": 0,
+            "l": 0,
+            "gf": 4,
+            "ga": 1
+          }
+        }
+      },
+      "away": {
+        "name": "Montenegro",
+        "lastSeasonVenue": {
+          "w": 0,
+          "d": 0,
+          "l": 3,
+          "gf": 0,
+          "ga": 4
+        },
+        "thisSeason": {
+          "w": 4,
+          "d": 1,
+          "l": 0,
+          "gf": 9,
+          "ga": 5
+        },
+        "recentPts": [
+          3,
+          1,
+          3
+        ],
+        "leagueChange": "relegated",
+        "tier": 3,
+        "info": {
+          "league": "Nations League C",
+          "pos": 1,
+          "venue": {
+            "w": 2,
+            "d": 0,
+            "l": 0,
+            "gf": 5,
+            "ga": 3
+          }
+        }
+      }
+    },
+    {
+      "n": 7,
+      "home": {
+        "name": "Latvia",
+        "lastSeasonVenue": {
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gf": 2,
+          "ga": 5
+        },
+        "thisSeason": {
+          "w": 0,
+          "d": 1,
+          "l": 4,
+          "gf": 3,
+          "ga": 8
+        },
+        "recentPts": [
+          0,
+          0,
+          0
+        ],
+        "leagueChange": null,
+        "tier": 3,
+        "info": {
+          "league": "Nations League C",
+          "pos": 4,
+          "venue": {
+            "w": 0,
+            "d": 1,
+            "l": 1,
+            "gf": 1,
+            "ga": 2
+          }
+        }
+      },
+      "away": {
+        "name": "Armenia",
+        "lastSeasonVenue": {
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gf": 4,
+          "ga": 5
+        },
+        "thisSeason": {
+          "w": 1,
+          "d": 2,
+          "l": 2,
+          "gf": 5,
+          "ga": 6
+        },
+        "recentPts": [
+          0,
+          1,
+          1
+        ],
+        "leagueChange": null,
+        "tier": 3,
+        "info": {
+          "league": "Nations League C",
+          "pos": 3,
+          "venue": {
+            "w": 0,
+            "d": 1,
+            "l": 1,
+            "gf": 0,
+            "ga": 2
+          }
+        }
+      }
+    },
+    {
+      "n": 8,
+      "home": {
+        "name": "Tenerife",
+        "lastSeasonVenue": {
+          "w": 13,
+          "d": 3,
+          "l": 3,
+          "gf": 37,
+          "ga": 11
+        },
+        "thisSeason": {
+          "w": 3,
+          "d": 6,
+          "l": 3,
+          "gf": 15,
+          "ga": 17
+        },
+        "recentPts": [
+          1,
+          1,
+          1
+        ],
+        "leagueChange": "promoted",
+        "tier": 2,
+        "info": {
+          "league": "Segunda División",
+          "pos": 14,
+          "venue": {
+            "w": 2,
+            "d": 3,
+            "l": 1,
+            "gf": 7,
+            "ga": 5
+          }
+        }
+      },
+      "away": {
+        "name": "AD Ceuta",
+        "lastSeasonVenue": {
+          "w": 5,
+          "d": 6,
+          "l": 10,
+          "gf": 23,
+          "ga": 40
+        },
+        "thisSeason": {
+          "w": 1,
+          "d": 2,
+          "l": 10,
+          "gf": 10,
+          "ga": 30
+        },
+        "recentPts": [
+          0,
+          0,
+          0
+        ],
+        "leagueChange": null,
+        "tier": 2,
+        "info": {
+          "league": "Segunda División",
+          "pos": 22,
+          "venue": {
+            "w": 0,
+            "d": 1,
+            "l": 5,
+            "gf": 4,
+            "ga": 18
+          }
+        }
+      }
+    },
+    {
+      "n": 9,
+      "home": {
+        "name": "Granada",
+        "lastSeasonVenue": {
+          "w": 6,
+          "d": 8,
+          "l": 7,
+          "gf": 28,
+          "ga": 25
+        },
+        "thisSeason": {
+          "w": 7,
+          "d": 2,
+          "l": 3,
+          "gf": 20,
+          "ga": 14
+        },
+        "recentPts": [
+          3,
+          3,
+          3
+        ],
+        "leagueChange": null,
+        "tier": 2,
+        "info": {
+          "league": "Segunda División",
+          "pos": 5,
+          "venue": {
+            "w": 3,
+            "d": 1,
+            "l": 1,
+            "gf": 9,
+            "ga": 5
+          }
+        }
+      },
+      "away": {
+        "name": "Las Palmas",
+        "lastSeasonVenue": {
+          "w": 8,
+          "d": 7,
+          "l": 6,
+          "gf": 24,
+          "ga": 26
+        },
+        "thisSeason": {
+          "w": 6,
+          "d": 2,
+          "l": 5,
+          "gf": 19,
+          "ga": 21
+        },
+        "recentPts": [
+          3,
+          3,
+          3
+        ],
+        "leagueChange": null,
+        "tier": 2,
+        "info": {
+          "league": "Segunda División",
+          "pos": 10,
+          "venue": {
+            "w": 3,
+            "d": 0,
+            "l": 3,
+            "gf": 11,
+            "ga": 13
+          }
+        }
+      }
+    },
+    {
+      "n": 10,
+      "home": {
+        "name": "Eibar",
+        "lastSeasonVenue": {
+          "w": 14,
+          "d": 4,
+          "l": 3,
+          "gf": 37,
+          "ga": 17
+        },
+        "thisSeason": {
+          "w": 7,
+          "d": 2,
+          "l": 3,
+          "gf": 21,
+          "ga": 14
+        },
+        "recentPts": [
+          1,
+          0,
+          1
+        ],
+        "leagueChange": null,
+        "tier": 2,
+        "info": {
+          "league": "Segunda División",
+          "pos": 4,
+          "venue": {
+            "w": 3,
+            "d": 2,
+            "l": 1,
+            "gf": 10,
+            "ga": 7
+          }
+        }
+      },
+      "away": {
+        "name": "Cadiz",
+        "lastSeasonVenue": {
+          "w": 4,
+          "d": 8,
+          "l": 9,
+          "gf": 20,
+          "ga": 33
+        },
+        "thisSeason": {
+          "w": 2,
+          "d": 4,
+          "l": 7,
+          "gf": 16,
+          "ga": 18
+        },
+        "recentPts": [
+          3,
+          0,
+          0
+        ],
+        "leagueChange": null,
+        "tier": 2,
+        "info": {
+          "league": "Segunda División",
+          "pos": 20,
+          "venue": {
+            "w": 0,
+            "d": 2,
+            "l": 3,
+            "gf": 6,
+            "ga": 10
+          }
+        }
+      }
+    },
+    {
+      "n": 11,
+      "home": {
+        "name": "Eldense",
+        "lastSeasonVenue": {
+          "w": 15,
+          "d": 3,
+          "l": 1,
+          "gf": 39,
+          "ga": 16
+        },
+        "thisSeason": {
+          "w": 4,
+          "d": 2,
+          "l": 7,
+          "gf": 13,
+          "ga": 19
+        },
+        "recentPts": [
+          0,
+          0,
+          0
+        ],
+        "leagueChange": "promoted",
+        "tier": 2,
+        "info": {
+          "league": "Segunda División",
+          "pos": 15,
+          "venue": {
+            "w": 2,
+            "d": 2,
+            "l": 2,
+            "gf": 9,
+            "ga": 8
+          }
+        }
+      },
+      "away": {
+        "name": "Sabadell",
+        "lastSeasonVenue": {
+          "w": 9,
+          "d": 6,
+          "l": 4,
+          "gf": 27,
+          "ga": 18
+        },
+        "thisSeason": {
+          "w": 4,
+          "d": 6,
+          "l": 3,
+          "gf": 12,
+          "ga": 11
+        },
+        "recentPts": [
+          1,
+          0,
+          1
+        ],
+        "leagueChange": "promoted",
+        "tier": 2,
+        "info": {
+          "league": "Segunda División",
+          "pos": 13,
+          "venue": {
+            "w": 1,
+            "d": 3,
+            "l": 3,
+            "gf": 4,
+            "ga": 7
+          }
+        }
+      }
+    },
+    {
+      "n": 12,
+      "home": {
+        "name": "MVV",
+        "lastSeasonVenue": {
+          "w": 6,
+          "d": 5,
+          "l": 8,
+          "gf": 26,
+          "ga": 35
+        },
+        "thisSeason": {
+          "w": 6,
+          "d": 2,
+          "l": 6,
+          "gf": 19,
+          "ga": 29
+        },
+        "recentPts": [
+          1,
+          0,
+          3
+        ],
+        "leagueChange": null,
+        "tier": 2,
+        "info": {
+          "league": "Eerste Divisie",
+          "pos": 8,
+          "venue": {
+            "w": 3,
+            "d": 1,
+            "l": 3,
+            "gf": 8,
+            "ga": 13
+          }
+        }
+      },
+      "away": {
+        "name": "Vitesse",
+        "lastSeasonVenue": {
+          "w": 8,
+          "d": 5,
+          "l": 6,
+          "gf": 31,
+          "ga": 27
+        },
+        "thisSeason": {
+          "w": 5,
+          "d": 3,
+          "l": 5,
+          "gf": 17,
+          "ga": 18
+        },
+        "recentPts": [
+          3,
+          0,
+          1
+        ],
+        "leagueChange": null,
+        "tier": 2,
+        "info": {
+          "league": "Eerste Divisie",
+          "pos": 10,
+          "venue": {
+            "w": 3,
+            "d": 1,
+            "l": 3,
+            "gf": 9,
+            "ga": 8
+          }
+        }
+      }
+    }
+  ]
+}

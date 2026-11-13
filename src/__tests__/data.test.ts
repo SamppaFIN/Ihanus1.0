@@ -27,9 +27,9 @@ describe.each(files)('data/coupons/%s', (f) => {
     if (c.rowPriceEstimated) {
       expect(c.rowPriceEur).toBe(0.25);
     } else {
-      // luettu Teksti-TV:ltä: Sunnuntaivakio 0,10 €
+      // luettu Teksti-TV:ltä: Sunnuntaivakio 0,10 €, Lauantaivakio 0,25 €
       expect(c.rowPriceEur).toBeGreaterThan(0);
-      expect(c.rowPriceEur).toBeLessThan(0.25);
+      expect(c.rowPriceEur).toBeLessThanOrEqual(0.25);
     }
   });
 

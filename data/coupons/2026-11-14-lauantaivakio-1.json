@@ -2,11 +2,10 @@
   "id": "2026-11-14-lauantaivakio-1",
   "label": "Lauantaivakio 1 (krs 46)",
   "date": "2026-11-14",
-  "turnoverEur": null,
+  "turnoverEur": 140985,
   "guaranteeEur": 200000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.25,
-  "rowPriceEstimated": true,
   "source": "Yle Teksti-TV 479",
   "matches": [
     {
@@ -64,9 +63,9 @@
       "home": "Swindon T",
       "away": "Grimsby T",
       "crowd": [
-        0.297,
-        0.2475,
-        0.4554
+        0.3,
+        0.24,
+        0.46
       ]
     },
     {
@@ -139,5 +138,6 @@
         0.21
       ]
     }
-  ]
+  ],
+  "closesAt": "2026-11-14T14:58:00.000Z"
 }

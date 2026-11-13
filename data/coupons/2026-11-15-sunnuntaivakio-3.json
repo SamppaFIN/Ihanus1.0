@@ -2,11 +2,10 @@
   "id": "2026-11-15-sunnuntaivakio-3",
   "label": "Sunnuntaivakio 3 (krs 46)",
   "date": "2026-11-15",
-  "turnoverEur": null,
+  "turnoverEur": 3085,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
-  "rowPriceEur": 0.25,
-  "rowPriceEstimated": true,
+  "rowPriceEur": 0.1,
   "source": "Yle Teksti-TV 479",
   "matches": [
     {
@@ -14,9 +13,9 @@
       "home": "Asto.Vill.N",
       "away": "Birmingha.N",
       "crowd": [
-        0.64,
-        0.24,
-        0.12
+        0.6436,
+        0.2376,
+        0.1188
       ]
     },
     {
@@ -34,9 +33,9 @@
       "home": "Arsenal N",
       "away": "London C N",
       "crowd": [
-        0.46,
-        0.33,
-        0.21
+        0.4653,
+        0.3267,
+        0.2079
       ]
     },
     {
@@ -74,9 +73,9 @@
       "home": "Como 1907 N",
       "away": "Como N",
       "crowd": [
-        0.5842,
-        0.2574,
-        0.1584
+        0.58,
+        0.26,
+        0.16
       ]
     },
     {
@@ -114,9 +113,9 @@
       "home": "Watford N",
       "away": "Ipswich T N",
       "crowd": [
-        0.4653,
-        0.2574,
-        0.2772
+        0.47,
+        0.26,
+        0.27
       ]
     },
     {
@@ -129,5 +128,6 @@
         0.68
       ]
     }
-  ]
+  ],
+  "closesAt": "2026-11-15T13:58:00.000Z"
 }

@@ -16,6 +16,26 @@ const ALIASES: Record<string, string> = {
   'fc koln': 'koln',
   milan: 'ac milan',
   inter: 'inter milan',
+  mvv: 'maastricht',
+  // Ylen katkaistut Lauantaivakion nimet
+  'mk dons': 'milton keynes dons',
+  'burto albio': 'burton',
+  'newport co': 'newport',
+  'oldham ath': 'oldham',
+};
+
+// Ylen Teksti-TV käyttää suomenkielisiä maanimiä (maaottelut): kerroinlähteessä ne ovat englanniksi.
+const COUNTRIES: Record<string, string> = {
+  suomi: 'finland', espanja: 'spain', englanti: 'england', kroatia: 'croatia', tshekki: 'czech republic', belgia: 'belgium',
+  italia: 'italy', ranska: 'france', turkki: 'turkey', kypros: 'cyprus', montenegro: 'montenegro', latvia: 'latvia', armenia: 'armenia',
+  saksa: 'germany', portugali: 'portugal', hollanti: 'netherlands', tanska: 'denmark', norja: 'norway', ruotsi: 'sweden', sveitsi: 'switzerland',
+  itavalta: 'austria', puola: 'poland', unkari: 'hungary', romania: 'romania', serbia: 'serbia', slovakia: 'slovakia', slovenia: 'slovenia',
+  skotlanti: 'scotland', walesin: 'wales', irlanti: 'ireland', islanti: 'iceland', kreikka: 'greece', ukraina: 'ukraine', georgia: 'georgia',
+  israel: 'israel', bosnia: 'bosnia herzegovina', kosovo: 'kosovo', luxemburg: 'luxembourg', viro: 'estonia', liettua: 'lithuania',
+  farsaaret: 'faroe islands', 'far saaret': 'faroe islands', albania: 'albania', bulgaria: 'bulgaria', moldova: 'moldova', kazakstan: 'kazakhstan',
+  azerbaidzha: 'azerbaijan', azerbaidzhan: 'azerbaijan', 'p makedonia': 'north macedonia', malta: 'malta', andorra: 'andorra', gibraltar: 'gibraltar',
+  liechtenste: 'liechtenstein', argentiina: 'argentina', uruguay: 'uruguay', kolumbia: 'colombia', chile: 'chile', peru: 'peru', bolivia: 'bolivia',
+  brasilia: 'brazil', meksiko: 'mexico', japani: 'japan', yhdysvallat: 'usa', kanada: 'canada', australia: 'australia',
 };
 
 export function normName(s: string): string {
@@ -30,12 +50,14 @@ export function normName(s: string): string {
     .trim();
 }
 
-const STOP = new Set(['fc', 'afc', 'sc', 'cf', 'ac', 'if', 'and', 'of', 'the', 'hove']);
+const STOP = new Set(['fc', 'afc', 'sc', 'cf', 'ac', 'ad', 'cd', 'ud', 'if', 'and', 'of', 'the', 'hove']);
 
 function tokens(s: string): string[] {
   const n = normName(s);
-  const aliased = ALIASES[n] ?? n;
-  return aliased.split(' ').filter((t) => t && !STOP.has(t));
+  const aliased = ALIASES[n] ?? COUNTRIES[n] ?? n;
+  // Maanimi myös ennen ikäryhmää ("Suomi U21" → "finland u21")
+  const parts = aliased.split(' ').flatMap((t) => (COUNTRIES[t] ?? t).split(' '));
+  return parts.filter((t) => t && !STOP.has(t));
 }
 
 /** Yhden Ylen tokenin ja ehdokkaan tokenin samankaltaisuus 0..1 */

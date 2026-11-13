@@ -28,7 +28,9 @@ async function main() {
   const stamp = new Date().toISOString().replace(/[:.]/g, '-');
   pages.forEach((p, i) => writeFileSync(join(root, 'data/raw', `yle-479-${stamp}-${i + 1}.txt`), p.raw));
 
-  const withMatches = pages.filter((p) => p.parsed.matches.length > 0);
+  // Ihanus on jalkapallopainotteinen: lätkä-, NHL- ja NFL-Vakiot ohitetaan (ei omaa mallia niille)
+  const NOT_FOOTBALL = /lätkä|nhl|nfl|nba|koris|jääkiekko|pesis/i;
+  const withMatches = pages.filter((p) => p.parsed.matches.length > 0 && !NOT_FOOTBALL.test(p.parsed.title));
   if (withMatches.length === 0) {
     console.error('Sivuilta ei löytynyt Vakio-kohteita — ei muutoksia.');
     process.exit(3);

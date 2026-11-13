@@ -3,7 +3,7 @@
 Etsii Vakio-rivin tai -järjestelmän, jonka **osuessa kukaan muu ei ole samalla rivillä**: oma todennäköisyys-arvio vastaan pelaajien peliprosentit, ja siitä rivin odotettu voitto pari-mutuel-potissa.
 
 - **Peliprosentit, vaihto, takuupotti/bonus:** Ylen Teksti-TV sivu 479 (staattinen HTML → pelkkä HTTP-haku, ei selainta)
-- **Kertoimet:** BetExplorerin liigasivut Playwrightilla (keskimääräiset 1X2-kertoimet, devig) — ei API-avaimia
+- **Kertoimet:** BetExplorerin staattinen päiväsivu (kaikki päivän ottelut, keskimääräiset 1X2-kertoimet, devig; selainta ei tarvita) — ei API-avaimia. Playwright vain valinnaisena lisälähteenä (`--playwright`)
 - **Ajastus:** Cloudflare Worker (`workers/cron/`) lukee Teksti-TV:ltä kunkin kierroksen “Pelaaminen päättyy” -ajan ja käynnistää tuntia ennen GitHub-workflow'n, joka hakee tuoreet peliprosentit + kertoimet ja julkaisee UI:n
 - **Pikakatsaus:** jokaisen ottelun alla 1/X/2-rivit, joissa lyhyesti mikä puoltaa (+) ja mikä on vastaan (−): oma arvio, kertoimet, pelaajien osuus, koti-/vierastilastot, sarjataso (`src/pipeline/quick.ts`, sääntöpohjainen, ei keksi mitään datan ulkopuolelta)
 - **Oma arvio:** kertoimista ja/tai käsin täytetystä taulukosta (`data/sheets/`), kutistettuna kohti pelijakaumaa
@@ -39,7 +39,7 @@ Järjestelmä kasvatetaan ahneesti: lisätään merkki jolla ΔEV/Δeuro on suur
 src/engine/     prob (devig, fuse) · poisson · sheet (paperimalli) · prize (potit) · ev (tarkka EV) · optimize
 src/scrape/     yle-vakio (Teksti-TV 479 -jäsennin, alasivut, sulkeutumisaika, rivihinta) · names (sumea joukkuenimien täsmäytys) · odds-table (BetExplorer-rivien tulkinta)
 src/pipeline/   merge-coupon (Yle → kuponki, kierroksen tunnistus) · build-round (kuponki → UI-näkymä) · explain (selkokielinen ottelukohtainen selitys + lähdelinkit) · cron-plan/cron-run (milloin päivitetään, GitHub-dispatch)
-src/tools/      scrape-percent · scrape-odds (Playwright) · build-data · serve
+src/tools/      scrape-percent · scrape-odds (päiväsivu) · build-data · serve
 workers/cron/   Cloudflare Worker: scheduled-tikki 10 min välein + GET /status (dry-run)
 data/           coupons/ (kierrokset) · sheets/ (käsin täytetyt taulukot) · odds/ · crowd-history/
 fixtures/       oikeat Teksti-TV-sivut testeihin

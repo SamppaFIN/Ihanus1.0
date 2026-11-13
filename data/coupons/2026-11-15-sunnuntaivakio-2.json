@@ -2,11 +2,10 @@
   "id": "2026-11-15-sunnuntaivakio-2",
   "label": "Sunnuntaivakio 2 (krs 46)",
   "date": "2026-11-15",
-  "turnoverEur": null,
+  "turnoverEur": 5069,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
-  "rowPriceEur": 0.25,
-  "rowPriceEstimated": true,
+  "rowPriceEur": 0.1,
   "source": "Yle Teksti-TV 479",
   "matches": [
     {
@@ -14,9 +13,52 @@
       "home": "Suomi",
       "away": "San Marino",
       "crowd": [
-        0.89,
+        0.88,
         0.07,
-        0.04
+        0.05
+      ],
+      "league": "UEFA Nations League C",
+      "facts": [
+        {
+          "text": "Suomi (Nations League C, lohkon 3. sija, 7 p): kotona 2 ottelua, 1 voittoa, 1 tasapeliä, 0 tappiota, maalit 2–1.",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), kotona -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "Suomi edellisellä Nations League -kierroksella 2024–25 (B-liiga) kotona: 3 ottelua, 0 voittoa, 0 tasapeliä, 3 tappiota, maalit 2–7.",
+          "label": "BetExplorer, Nations League 2024–25 (B-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=pvAMRqwm"
+        },
+        {
+          "text": "Suomi putosi liigasta B liigaan C.",
+          "label": "BetExplorer, Nations League 2024–25 vs 2026–27",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "Suomi: kolme viimeisintä Nations League -ottelua (uusin ensin): H Albania–Finland 2–0 (12.11.), H Belarus–Finland 1–0 (6.10.), V Finland–Albania 2–1 (3.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "San Marino (Nations League C, lohkon 4. sija, 0 p): vieraissa 2 ottelua, 0 voittoa, 0 tasapeliä, 2 tappiota, maalit 1–6.",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), vieraissa -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "San Marino edellisellä Nations League -kierroksella 2024–25 (D-liiga) vieraissa: 2 ottelua, 1 voittoa, 0 tasapeliä, 1 tappiota, maalit 3–2.",
+          "label": "BetExplorer, Nations League 2024–25 (D-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=h4DUPN7a"
+        },
+        {
+          "text": "San Marino nousi liigasta D liigaan C (edellinen kierros D-liigassa, nyt C-liigassa).",
+          "label": "BetExplorer, Nations League 2024–25 vs 2026–27",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "San Marino: kolme viimeisintä Nations League -ottelua (uusin ensin): H San Marino–Belarus 0–2 (12.11.), H Albania–San Marino 2–1 (6.10.), H Belarus–San Marino 4–0 (3.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        }
       ]
     },
     {
@@ -24,9 +66,47 @@
       "home": "Espanja",
       "away": "Englanti",
       "crowd": [
-        0.47,
-        0.35,
-        0.18
+        0.4653,
+        0.3465,
+        0.1881
+      ],
+      "league": "UEFA Nations League A",
+      "facts": [
+        {
+          "text": "Espanja (Nations League A, lohkon 1. sija, 15 p): kotona 2 ottelua, 2 voittoa, 0 tasapeliä, 0 tappiota, maalit 7–2.",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), kotona -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Espanja edellisellä Nations League -kierroksella 2024–25 (A-liiga) kotona: 3 ottelua, 3 voittoa, 0 tasapeliä, 0 tappiota, maalit 7–2.",
+          "label": "BetExplorer, Nations League 2024–25 (A-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=QgTkX5FP"
+        },
+        {
+          "text": "Espanja: kolme viimeisintä Nations League -ottelua (uusin ensin): V Czech Republic–Spain 0–2 (12.11.), V Croatia–Spain 1–2 (6.10.), V Spain–Czech Republic 3–1 (3.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Englanti (Nations League A, lohkon 2. sija, 12 p): vieraissa 2 ottelua, 2 voittoa, 0 tasapeliä, 0 tappiota, maalit 9–0.",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), vieraissa -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Englanti edellisellä Nations League -kierroksella 2024–25 (B-liiga) vieraissa: 3 ottelua, 3 voittoa, 0 tasapeliä, 0 tappiota, maalit 8–1.",
+          "label": "BetExplorer, Nations League 2024–25 (B-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=pvAMRqwm"
+        },
+        {
+          "text": "Englanti nousi liigasta B liigaan A (edellinen kierros B-liigassa, nyt A-liigassa).",
+          "label": "BetExplorer, Nations League 2024–25 vs 2026–27",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Englanti: kolme viimeisintä Nations League -ottelua (uusin ensin): V England–Croatia 2–1 (12.11.), V England–Czech Republic 3–0 (6.10.), V Croatia–England 0–7 (3.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        }
       ]
     },
     {
@@ -34,9 +114,47 @@
       "home": "Kroatia",
       "away": "Tshekki",
       "crowd": [
-        0.72,
-        0.19,
-        0.09
+        0.7129,
+        0.1881,
+        0.099
+      ],
+      "league": "UEFA Nations League A",
+      "facts": [
+        {
+          "text": "Kroatia (Nations League A, lohkon 3. sija, 3 p): kotona 2 ottelua, 0 voittoa, 0 tasapeliä, 2 tappiota, maalit 1–9.",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), kotona -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Kroatia edellisellä Nations League -kierroksella 2024–25 (A-liiga) kotona: 3 ottelua, 2 voittoa, 1 tasapeliä, 0 tappiota, maalit 4–2.",
+          "label": "BetExplorer, Nations League 2024–25 (A-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=QgTkX5FP"
+        },
+        {
+          "text": "Kroatia: kolme viimeisintä Nations League -ottelua (uusin ensin): H England–Croatia 2–1 (12.11.), H Croatia–Spain 1–2 (6.10.), H Croatia–England 0–7 (3.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Tshekki (Nations League A, lohkon 4. sija, 0 p): vieraissa 2 ottelua, 0 voittoa, 0 tasapeliä, 2 tappiota, maalit 1–6.",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), vieraissa -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Tshekki edellisellä Nations League -kierroksella 2024–25 (B-liiga) vieraissa: 3 ottelua, 0 voittoa, 2 tasapeliä, 1 tappiota, maalit 2–5.",
+          "label": "BetExplorer, Nations League 2024–25 (B-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=pvAMRqwm"
+        },
+        {
+          "text": "Tshekki nousi liigasta B liigaan A (edellinen kierros B-liigassa, nyt A-liigassa).",
+          "label": "BetExplorer, Nations League 2024–25 vs 2026–27",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Tshekki: kolme viimeisintä Nations League -ottelua (uusin ensin): H Czech Republic–Spain 0–2 (12.11.), H England–Czech Republic 3–0 (6.10.), H Spain–Czech Republic 3–1 (3.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        }
       ]
     },
     {
@@ -44,9 +162,42 @@
       "home": "Belgia",
       "away": "Italia",
       "crowd": [
-        0.2871,
-        0.3366,
-        0.3762
+        0.28,
+        0.34,
+        0.38
+      ],
+      "league": "UEFA Nations League A",
+      "facts": [
+        {
+          "text": "Belgia (Nations League A, lohkon 3. sija, 9 p): kotona 2 ottelua, 1 voittoa, 0 tasapeliä, 1 tappiota, maalit 3–1.",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), kotona -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Belgia edellisellä Nations League -kierroksella 2024–25 (A-liiga) kotona: 3 ottelua, 1 voittoa, 0 tasapeliä, 2 tappiota, maalit 4–4.",
+          "label": "BetExplorer, Nations League 2024–25 (A-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=QgTkX5FP"
+        },
+        {
+          "text": "Belgia: kolme viimeisintä Nations League -ottelua (uusin ensin): V Turkey–Belgium 1–2 (12.11.), H France–Belgium 4–1 (5.10.), V Belgium–Turkey 3–0 (2.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Italia (Nations League A, lohkon 1. sija, 10 p): vieraissa 2 ottelua, 1 voittoa, 1 tasapeliä, 0 tappiota, maalit 5–2.",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), vieraissa -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Italia edellisellä Nations League -kierroksella 2024–25 (A-liiga) vieraissa: 3 ottelua, 3 voittoa, 0 tasapeliä, 0 tappiota, maalit 6–2.",
+          "label": "BetExplorer, Nations League 2024–25 (A-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=QgTkX5FP"
+        },
+        {
+          "text": "Italia: kolme viimeisintä Nations League -ottelua (uusin ensin): V Italy–France 3–1 (12.11.), V Italy–Turkey 3–1 (5.10.), T France–Italy 1–1 (2.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        }
       ]
     },
     {
@@ -57,6 +208,44 @@
         0.86,
         0.1,
         0.04
+      ],
+      "league": "UEFA Nations League A",
+      "facts": [
+        {
+          "text": "Ranska (Nations League A, lohkon 2. sija, 10 p): kotona 2 ottelua, 1 voittoa, 1 tasapeliä, 0 tappiota, maalit 5–2.",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), kotona -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Ranska edellisellä Nations League -kierroksella 2024–25 (A-liiga) kotona: 3 ottelua, 1 voittoa, 1 tasapeliä, 1 tappiota, maalit 3–3.",
+          "label": "BetExplorer, Nations League 2024–25 (A-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=QgTkX5FP"
+        },
+        {
+          "text": "Ranska: kolme viimeisintä Nations League -ottelua (uusin ensin): H Italy–France 3–1 (12.11.), V France–Belgium 4–1 (5.10.), T France–Italy 1–1 (2.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Turkki (Nations League A, lohkon 4. sija, 0 p): vieraissa 2 ottelua, 0 voittoa, 0 tasapeliä, 2 tappiota, maalit 1–6.",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), vieraissa -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Turkki edellisellä Nations League -kierroksella 2024–25 (B-liiga) vieraissa: 3 ottelua, 1 voittoa, 1 tasapeliä, 1 tappiota, maalit 5–5.",
+          "label": "BetExplorer, Nations League 2024–25 (B-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=pvAMRqwm"
+        },
+        {
+          "text": "Turkki nousi liigasta B liigaan A (edellinen kierros B-liigassa, nyt A-liigassa).",
+          "label": "BetExplorer, Nations League 2024–25 vs 2026–27",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        },
+        {
+          "text": "Turkki: kolme viimeisintä Nations League -ottelua (uusin ensin): H Turkey–Belgium 1–2 (12.11.), H Italy–Turkey 3–1 (5.10.), H Belgium–Turkey 3–0 (2.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (A-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+        }
       ]
     },
     {
@@ -64,9 +253,47 @@
       "home": "Kypros",
       "away": "Montenegro",
       "crowd": [
-        0.198,
-        0.2673,
-        0.5347
+        0.19,
+        0.27,
+        0.54
+      ],
+      "league": "UEFA Nations League C",
+      "facts": [
+        {
+          "text": "Kypros (Nations League C, lohkon 2. sija, 8 p): kotona 2 ottelua, 2 voittoa, 0 tasapeliä, 0 tappiota, maalit 4–1.",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), kotona -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "Kypros edellisellä Nations League -kierroksella 2024–25 (C-liiga) kotona: 3 ottelua, 1 voittoa, 0 tasapeliä, 2 tappiota, maalit 2–8.",
+          "label": "BetExplorer, Nations League 2024–25 (C-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=OU8QQ3hg"
+        },
+        {
+          "text": "Kypros: kolme viimeisintä Nations League -ottelua (uusin ensin): T Armenia–Cyprus 1–1 (12.11.), V Cyprus–Latvia 2–1 (5.10.), V Cyprus–Armenia 2–0 (2.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "Montenegro (Nations League C, lohkon 1. sija, 13 p): vieraissa 2 ottelua, 2 voittoa, 0 tasapeliä, 0 tappiota, maalit 5–3.",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), vieraissa -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "Montenegro edellisellä Nations League -kierroksella 2024–25 (B-liiga) vieraissa: 3 ottelua, 0 voittoa, 0 tasapeliä, 3 tappiota, maalit 0–4.",
+          "label": "BetExplorer, Nations League 2024–25 (B-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=pvAMRqwm"
+        },
+        {
+          "text": "Montenegro putosi liigasta B liigaan C.",
+          "label": "BetExplorer, Nations League 2024–25 vs 2026–27",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "Montenegro: kolme viimeisintä Nations League -ottelua (uusin ensin): V Montenegro–Latvia 2–1 (12.11.), T Montenegro–Armenia 0–0 (5.10.), V Latvia–Montenegro 1–2 (2.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        }
       ]
     },
     {
@@ -75,8 +302,41 @@
       "away": "Armenia",
       "crowd": [
         0.19,
-        0.31,
-        0.5
+        0.3,
+        0.51
+      ],
+      "league": "UEFA Nations League C",
+      "facts": [
+        {
+          "text": "Latvia (Nations League C, lohkon 4. sija, 1 p): kotona 2 ottelua, 0 voittoa, 1 tasapeliä, 1 tappiota, maalit 1–2.",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), kotona -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "Latvia edellisellä Nations League -kierroksella 2024–25 (C-liiga) kotona: 3 ottelua, 1 voittoa, 0 tasapeliä, 2 tappiota, maalit 2–5.",
+          "label": "BetExplorer, Nations League 2024–25 (C-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=OU8QQ3hg"
+        },
+        {
+          "text": "Latvia: kolme viimeisintä Nations League -ottelua (uusin ensin): H Montenegro–Latvia 2–1 (12.11.), H Cyprus–Latvia 2–1 (5.10.), H Latvia–Montenegro 1–2 (2.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "Armenia (Nations League C, lohkon 3. sija, 5 p): vieraissa 2 ottelua, 0 voittoa, 1 tasapeliä, 1 tappiota, maalit 0–2.",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), vieraissa -taulukko (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        },
+        {
+          "text": "Armenia edellisellä Nations League -kierroksella 2024–25 (C-liiga) vieraissa: 3 ottelua, 1 voittoa, 1 tasapeliä, 1 tappiota, maalit 4–5.",
+          "label": "BetExplorer, Nations League 2024–25 (C-liiga) (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=OU8QQ3hg"
+        },
+        {
+          "text": "Armenia: kolme viimeisintä Nations League -ottelua (uusin ensin): T Armenia–Cyprus 1–1 (12.11.), T Montenegro–Armenia 0–0 (5.10.), H Cyprus–Armenia 2–0 (2.10.).",
+          "label": "BetExplorer, Nations League 2026–27 (C-liiga), muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+        }
       ]
     },
     {
@@ -85,8 +345,46 @@
       "away": "AD Ceuta",
       "crowd": [
         0.82,
-        0.11,
-        0.07
+        0.1,
+        0.08
+      ],
+      "league": "Segunda División",
+      "facts": [
+        {
+          "text": "Tenerife (Segunda División, 14. sija, 15 p): kotona 6 ottelua, 2 voittoa, 3 tasapeliä, 1 tappiota, maalit 7–5.",
+          "label": "Sports Mole, Segunda División -taulukko 2026–27 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/table.html"
+        },
+        {
+          "text": "Tenerife viime kaudella (Primera Federación, lohko 1) kotona: 19 ottelua, 13 voittoa, 3 tasapeliä, 3 tappiota, maalit 37–11.",
+          "label": "BetExplorer, Primera Federación, lohko 1 2025–26 (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/primera-rfef-group-1-2025-2026/standings/"
+        },
+        {
+          "text": "Tenerife nousi viime kauden jälkeen sarjasta Primera Federación sarjaan Segunda División.",
+          "label": "Wikipedia, Segunda División 2026–27 (nousijat ja putoajat)",
+          "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Segunda_Divisi%C3%B3n"
+        },
+        {
+          "text": "Tenerife: kolme viimeisintä sarjaottelua (uusin ensin): T Tenerife–Andorra 2–2 (2.11.), T Sabadell–Tenerife 1–1 (25.10.), T Celta Vigo B–Tenerife 1–1 (19.10.).",
+          "label": "BetExplorer, Segunda División 2026–27, muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/laliga2/standings/"
+        },
+        {
+          "text": "AD Ceuta (Segunda División, 22. sija, 5 p): vieraissa 6 ottelua, 0 voittoa, 1 tasapeliä, 5 tappiota, maalit 4–18.",
+          "label": "Sports Mole, Segunda División -taulukko 2026–27 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/table.html"
+        },
+        {
+          "text": "AD Ceuta viime kaudella (Segunda División) vieraissa: 21 ottelua, 5 voittoa, 6 tasapeliä, 10 tappiota, maalit 23–40.",
+          "label": "Sports Mole, Segunda División 2025–26 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/2025-26/table.html"
+        },
+        {
+          "text": "AD Ceuta: kolme viimeisintä sarjaottelua (uusin ensin): H Cordoba–Ceuta 3–0 (7.11.), H Ceuta–Gijon 0–2 (1.11.), H Cadiz CF–Ceuta 3–1 (25.10.).",
+          "label": "BetExplorer, Segunda División 2026–27, muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/laliga2/standings/"
+        }
       ]
     },
     {
@@ -94,9 +392,42 @@
       "home": "Granada",
       "away": "Las Palmas",
       "crowd": [
-        0.4554,
-        0.3267,
-        0.2178
+        0.46,
+        0.32,
+        0.22
+      ],
+      "league": "Segunda División",
+      "facts": [
+        {
+          "text": "Granada (Segunda División, 5. sija, 23 p): kotona 5 ottelua, 3 voittoa, 1 tasapeliä, 1 tappiota, maalit 9–5.",
+          "label": "Sports Mole, Segunda División -taulukko 2026–27 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/table.html"
+        },
+        {
+          "text": "Granada viime kaudella (Segunda División) kotona: 21 ottelua, 6 voittoa, 8 tasapeliä, 7 tappiota, maalit 28–25.",
+          "label": "Sports Mole, Segunda División 2025–26 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/2025-26/table.html"
+        },
+        {
+          "text": "Granada: kolme viimeisintä sarjaottelua (uusin ensin): V Eldense–Granada CF 0–2 (1.11.), V Granada CF–Valladolid 2–1 (23.10.), V Granada CF–Cadiz CF 2–0 (18.10.).",
+          "label": "BetExplorer, Segunda División 2026–27, muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/laliga2/standings/"
+        },
+        {
+          "text": "Las Palmas (Segunda División, 10. sija, 20 p): vieraissa 6 ottelua, 3 voittoa, 0 tasapeliä, 3 tappiota, maalit 11–13.",
+          "label": "Sports Mole, Segunda División -taulukko 2026–27 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/table.html"
+        },
+        {
+          "text": "Las Palmas viime kaudella (Segunda División) vieraissa: 21 ottelua, 8 voittoa, 7 tasapeliä, 6 tappiota, maalit 24–26.",
+          "label": "Sports Mole, Segunda División 2025–26 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/2025-26/table.html"
+        },
+        {
+          "text": "Las Palmas: kolme viimeisintä sarjaottelua (uusin ensin): V Las Palmas–Eldense 2–0 (9.11.), V Oviedo–Las Palmas 2–3 (2.11.), V Las Palmas–Real Sociedad B 1–0 (24.10.).",
+          "label": "BetExplorer, Segunda División 2026–27, muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/laliga2/standings/"
+        }
       ]
     },
     {
@@ -104,9 +435,42 @@
       "home": "Eibar",
       "away": "Cadiz",
       "crowd": [
-        0.84,
+        0.83,
         0.09,
-        0.07
+        0.08
+      ],
+      "league": "Segunda División",
+      "facts": [
+        {
+          "text": "Eibar (Segunda División, 4. sija, 23 p): kotona 6 ottelua, 3 voittoa, 2 tasapeliä, 1 tappiota, maalit 10–7.",
+          "label": "Sports Mole, Segunda División -taulukko 2026–27 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/table.html"
+        },
+        {
+          "text": "Eibar viime kaudella (Segunda División) kotona: 21 ottelua, 14 voittoa, 4 tasapeliä, 3 tappiota, maalit 37–17.",
+          "label": "Sports Mole, Segunda División 2025–26 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/2025-26/table.html"
+        },
+        {
+          "text": "Eibar: kolme viimeisintä sarjaottelua (uusin ensin): T Eibar–Almeria 1–1 (31.10.), H Cordoba–Eibar 2–0 (24.10.), T Eibar–Mallorca 1–1 (17.10.).",
+          "label": "BetExplorer, Segunda División 2026–27, muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/laliga2/standings/"
+        },
+        {
+          "text": "Cadiz (Segunda División, 20. sija, 10 p): vieraissa 5 ottelua, 0 voittoa, 2 tasapeliä, 3 tappiota, maalit 6–10.",
+          "label": "Sports Mole, Segunda División -taulukko 2026–27 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/table.html"
+        },
+        {
+          "text": "Cadiz viime kaudella (Segunda División) vieraissa: 21 ottelua, 4 voittoa, 8 tasapeliä, 9 tappiota, maalit 20–33.",
+          "label": "Sports Mole, Segunda División 2025–26 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/2025-26/table.html"
+        },
+        {
+          "text": "Cadiz: kolme viimeisintä sarjaottelua (uusin ensin): H Cadiz CF–Oviedo 1–2 (7.11.), H Mallorca–Cadiz CF 2–1 (2.11.), V Cadiz CF–Ceuta 3–1 (25.10.).",
+          "label": "BetExplorer, Segunda División 2026–27, muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/laliga2/standings/"
+        }
       ]
     },
     {
@@ -117,6 +481,49 @@
         0.65,
         0.24,
         0.11
+      ],
+      "league": "Segunda División",
+      "facts": [
+        {
+          "text": "Eldense (Segunda División, 15. sija, 14 p): kotona 6 ottelua, 2 voittoa, 2 tasapeliä, 2 tappiota, maalit 9–8.",
+          "label": "Sports Mole, Segunda División -taulukko 2026–27 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/table.html"
+        },
+        {
+          "text": "Eldense viime kaudella (Primera Federación, lohko 2) kotona: 19 ottelua, 15 voittoa, 3 tasapeliä, 1 tappiota, maalit 39–16.",
+          "label": "BetExplorer, Primera Federación, lohko 2 2025–26 (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/primera-rfef-group-2-2025-2026/standings/"
+        },
+        {
+          "text": "Eldense nousi viime kauden jälkeen sarjasta Primera Federación sarjaan Segunda División.",
+          "label": "Wikipedia, Segunda División 2026–27 (nousijat ja putoajat)",
+          "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Segunda_Divisi%C3%B3n"
+        },
+        {
+          "text": "Eldense: kolme viimeisintä sarjaottelua (uusin ensin): H Las Palmas–Eldense 2–0 (9.11.), H Eldense–Granada CF 0–2 (1.11.), H Albacete–Eldense 2–0 (25.10.).",
+          "label": "BetExplorer, Segunda División 2026–27, muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/laliga2/standings/"
+        },
+        {
+          "text": "Sabadell (Segunda División, 13. sija, 18 p): vieraissa 7 ottelua, 1 voittoa, 3 tasapeliä, 3 tappiota, maalit 4–7.",
+          "label": "Sports Mole, Segunda División -taulukko 2026–27 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/segunda-division/table.html"
+        },
+        {
+          "text": "Sabadell viime kaudella (Primera Federación, lohko 2) vieraissa: 19 ottelua, 9 voittoa, 6 tasapeliä, 4 tappiota, maalit 27–18.",
+          "label": "BetExplorer, Primera Federación, lohko 2 2025–26 (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/primera-rfef-group-2-2025-2026/standings/"
+        },
+        {
+          "text": "Sabadell nousi viime kauden jälkeen sarjasta Primera Federación sarjaan Segunda División.",
+          "label": "Wikipedia, Segunda División 2026–27 (nousijat ja putoajat)",
+          "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Segunda_Divisi%C3%B3n"
+        },
+        {
+          "text": "Sabadell: kolme viimeisintä sarjaottelua (uusin ensin): T Sabadell–Real Sociedad B 0–0 (9.11.), H Albacete–Sabadell 2–1 (31.10.), T Sabadell–Tenerife 1–1 (25.10.).",
+          "label": "BetExplorer, Segunda División 2026–27, muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/spain/laliga2/standings/"
+        }
       ]
     },
     {
@@ -124,10 +531,107 @@
       "home": "MVV",
       "away": "Vitesse",
       "crowd": [
-        0.25,
-        0.36,
-        0.39
+        0.2525,
+        0.3636,
+        0.3838
+      ],
+      "league": "Eerste Divisie",
+      "facts": [
+        {
+          "text": "MVV (Eerste Divisie, 8. sija, 20 p): kotona 7 ottelua, 3 voittoa, 1 tasapeliä, 3 tappiota, maalit 8–13.",
+          "label": "Sports Mole, Eerste Divisie -taulukko 2026–27 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/eerste-divisie/table.html"
+        },
+        {
+          "text": "MVV viime kaudella (Eerste Divisie) kotona: 19 ottelua, 6 voittoa, 5 tasapeliä, 8 tappiota, maalit 26–35.",
+          "label": "Sports Mole, Eerste Divisie 2025–26 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/eerste-divisie/2025-26/table.html"
+        },
+        {
+          "text": "MVV: kolme viimeisintä sarjaottelua (uusin ensin): V FC Emmen–Maastricht 0–2 (8.11.), H Maastricht–Venlo 1–2 (31.10.), T Den Bosch–Maastricht 2–2 (23.10.).",
+          "label": "BetExplorer, Eerste Divisie 2026–27, muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/netherlands/eerste-divisie/standings/"
+        },
+        {
+          "text": "Vitesse (Eerste Divisie, 10. sija, 18 p): vieraissa 7 ottelua, 3 voittoa, 1 tasapeliä, 3 tappiota, maalit 9–8.",
+          "label": "Sports Mole, Eerste Divisie -taulukko 2026–27 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/eerste-divisie/table.html"
+        },
+        {
+          "text": "Vitesse viime kaudella (Eerste Divisie) vieraissa: 19 ottelua, 8 voittoa, 5 tasapeliä, 6 tappiota, maalit 31–27.",
+          "label": "Sports Mole, Eerste Divisie 2025–26 (haettu 13.11.)",
+          "url": "https://www.sportsmole.co.uk/football/eerste-divisie/2025-26/table.html"
+        },
+        {
+          "text": "Vitesse: kolme viimeisintä sarjaottelua (uusin ensin): T Jong Ajax–Vitesse 1–1 (2.11.), H Vitesse–FC Emmen 0–2 (23.10.), V Eindhoven FC–Vitesse 0–1 (16.10.).",
+          "label": "BetExplorer, Eerste Divisie 2026–27, muoto (haettu 13.11.)",
+          "url": "https://www.betexplorer.com/football/netherlands/eerste-divisie/standings/"
+        }
       ]
     }
-  ]
+  ],
+  "closesAt": "2026-11-15T12:58:00.000Z",
+  "sources": [
+    {
+      "label": "Yle Teksti-TV 479, alasivu 2 (pelaajien osuudet, rivin hinta, vaihto, takuu, sulkeutumisaika)",
+      "url": "https://yle.fi/tekstitv/txt/479_0002.htm"
+    },
+    {
+      "label": "Ottelut ja 1X2-kertoimet 15.11. (BetExplorer, päiväsivu)",
+      "url": "https://www.betexplorer.com/?year=2026&month=11&day=15"
+    },
+    {
+      "label": "Segunda División 2026–27 -taulukko kokonais/koti/vieras (Sports Mole)",
+      "url": "https://www.sportsmole.co.uk/football/segunda-division/table.html"
+    },
+    {
+      "label": "Segunda División 2025–26 -lopputaulukko (Sports Mole)",
+      "url": "https://www.sportsmole.co.uk/football/segunda-division/2025-26/table.html"
+    },
+    {
+      "label": "Eerste Divisie 2026–27 (Sports Mole)",
+      "url": "https://www.sportsmole.co.uk/football/eerste-divisie/table.html"
+    },
+    {
+      "label": "Eerste Divisie 2025–26 (Sports Mole)",
+      "url": "https://www.sportsmole.co.uk/football/eerste-divisie/2025-26/table.html"
+    },
+    {
+      "label": "Primera Federación 2025–26, lohko 1 (BetExplorer; Tenerife)",
+      "url": "https://www.betexplorer.com/football/spain/primera-rfef-group-1-2025-2026/standings/"
+    },
+    {
+      "label": "Primera Federación 2025–26, lohko 2 (BetExplorer; Eldense, Sabadell)",
+      "url": "https://www.betexplorer.com/football/spain/primera-rfef-group-2-2025-2026/standings/"
+    },
+    {
+      "label": "Segunda División 2026–27: nousijat ja putoajat (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Segunda_Divisi%C3%B3n"
+    },
+    {
+      "label": "Nations League 2026–27, A-liiga (BetExplorer)",
+      "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=A1uGXGgK"
+    },
+    {
+      "label": "Nations League 2026–27, C-liiga (BetExplorer)",
+      "url": "https://www.betexplorer.com/football/europe/uefa-nations-league/?stage=O8LjREWm"
+    },
+    {
+      "label": "Nations League 2024–25, A-liiga (BetExplorer)",
+      "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=QgTkX5FP"
+    },
+    {
+      "label": "Nations League 2024–25, B-liiga (BetExplorer)",
+      "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=pvAMRqwm"
+    },
+    {
+      "label": "Nations League 2024–25, C-liiga (BetExplorer)",
+      "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=OU8QQ3hg"
+    },
+    {
+      "label": "Nations League 2024–25, D-liiga (BetExplorer)",
+      "url": "https://www.betexplorer.com/football/europe/uefa-nations-league-2024-2025/?stage=h4DUPN7a"
+    }
+  ],
+  "note": "Sunnuntaivakio 2 (krs 46): 7 ottelua on Nations League -lohkojen viimeiseltä kierrokselta (A- ja C-liiga), 4 Espanjan Segundasta ja 1 Hollannin Eerste Divisiestä. Peliprosentit, vaihto, takuu, rivin hinta ja sulkeutumisaika luettu Teksti-TV 479:n alasivulta 2 (13.11. klo 18.35); kertoimet ja ottelujen sivut BetExplorerin päiväsivulta; tilastot lähteineen kunkin ottelun kohdalla. Maajoukkueiden \"viime kausi\" on edellinen Nations League -kierros 2024–25 (pieni, vanha otos). Lohkojen viimeisellä kierroksella osa joukkueista voi kierrättää pelaajia tai pelata muuten kuin sarjapaikka-asetelmassa, mikä ei näy tilastoissa."
 }

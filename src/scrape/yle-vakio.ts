@@ -82,7 +82,7 @@ export function parseYleVakio(text: string, now: Date = new Date()): YleVakioPag
   };
 
   for (const line of lines) {
-    const head = line.match(/^\s*(?:(\d{1,2}[.:]\d{2})\s+)?([A-Za-zÅÄÖåäö]*vakio(?:\s+\d+)?)\s+KRS\s+(\d+)/i);
+    const head = line.match(/^\s*(?:(\d{1,2}[.:]\d{2})\s+)?([A-Za-zÅÄÖåäö-]*vakio(?:\s+\d+)?)\s+KRS\s+(\d+)/i);
     if (head && !page.title) {
       page.headerTime = head[1] ?? null;
       page.title = head[2]!.trim();
@@ -137,18 +137,27 @@ export function parseYleVakio(text: string, now: Date = new Date()): YleVakioPag
   return page;
 }
 
-/** Poimii <pre>-lohkon (tai koko sivun tekstin) ja purkaa entiteetit. */
+const ENTITIES: Record<string, string> = {
+  nbsp: ' ', lt: '<', gt: '>', quot: '"', apos: "'", euro: '€',
+  auml: 'ä', ouml: 'ö', aring: 'å', Auml: 'Ä', Ouml: 'Ö', Aring: 'Å', uuml: 'ü', Uuml: 'Ü',
+  eacute: 'é', Eacute: 'É', egrave: 'è', agrave: 'à', aacute: 'á', iacute: 'í', oacute: 'ó', uacute: 'ú',
+  ntilde: 'ñ', ccedil: 'ç', szlig: 'ß', scaron: 'š', Scaron: 'Š', zcaron: 'ž', Zcaron: 'Ž', oslash: 'ø', Oslash: 'Ø', aelig: 'æ', Aelig: 'Æ',
+};
+
+/** HTML-entiteetit tekstiksi (nimetyt yleisimmät + numeeriset). &amp; puretaan viimeisenä. */
+export function decodeEntities(s: string): string {
+  return s
+    .replace(/&#x([0-9a-f]+);/gi, (_, h: string) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d: string) => String.fromCodePoint(Number(d)))
+    .replace(/&([A-Za-z]+);/g, (m, n: string) => (n === 'amp' ? m : (ENTITIES[n] ?? m)))
+    .replace(/&amp;/g, '&');
+}
+
+/** Poimii <pre>-lohkon (tai koko sivun tekstin) ja purkaa entiteetit (Yle käyttää &auml;, &euro; yms.). */
 export function extractPre(html: string): string {
   const m = html.match(/<pre[^>]*>([\s\S]*?)<\/pre>/i);
   const raw = m ? m[1]! : html;
-  return raw
-    .replace(/<[^>]+>/g, '')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#(\d+);/g, (_, d: string) => String.fromCharCode(Number(d)))
-    .replace(/&amp;/g, '&');
+  return decodeEntities(raw.replace(/<[^>]+>/g, ''));
 }
 
 export function yleTextUrl(page = 479, sub = 1): string {

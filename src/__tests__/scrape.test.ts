@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { extractPre, parseYleVakio, yleTextUrl } from '../scrape/yle-vakio.js';
+import { decodeEntities, extractPre, parseYleVakio, yleTextUrl } from '../scrape/yle-vakio.js';
 import { bestMatch, nameScore } from '../scrape/names.js';
 
 const fx = (f: string) => readFileSync(new URL(`../../fixtures/${f}`, import.meta.url), 'utf8');
@@ -126,5 +126,38 @@ describe('nimien täsmäytys', () => {
 
   it('nameScore on 1 täsmälleen samalle', () => {
     expect(nameScore('Arsenal', 'Arsenal')).toBe(1);
+  });
+});
+
+describe('Yle 479 oikea HTML (13.11.2026): entiteetit puretaan ja kaikki kentät luetaan', () => {
+  const html = readFileSync(new URL('../../fixtures/yle-479-sunnuntaivakio-2026-11-13.html', import.meta.url), 'utf8');
+  const page = parseYleVakio(extractPre(html), new Date('2026-11-13T16:40:00Z'));
+
+  it('sulkeutumisaika, rivihinta, vaihto, takuupotti ja pelinumero', () => {
+    expect(page.title).toBe('Sunnuntaivakio 2');
+    expect(page.krs).toBe(46);
+    expect(page.closesAt).toBe('2026-11-15T12:58:00.000Z'); // su 15.11. klo 14.58 Suomen aikaa
+    expect(page.rowPriceEur).toBe(0.1);
+    expect(page.turnoverEur).toBe(5069);
+    expect(page.snapshotTime).toBe('18.35');
+    expect(page.guaranteeEur).toBe(50000);
+    expect(page.pelinumero).toBe(2);
+  });
+
+  it('12 ottelua ja pelijakauma', () => {
+    expect(page.matches).toHaveLength(12);
+    expect(page.matches[0]).toMatchObject({ n: 1, home: 'Suomi', away: 'San Marino', percents: [88, 7, 5] });
+    expect(page.matches[7]).toMatchObject({ home: 'Tenerife', away: 'AD Ceuta', percents: [82, 10, 8] });
+  });
+
+  it('decodeEntities: nimetyt, numeeriset ja &amp; vasta viimeisenä', () => {
+    expect(decodeEntities('F&auml;rsaaret &euro; &Ouml;&aring; &#228; &#x20AC;')).toBe('Färsaaret € Öå ä €');
+    expect(decodeEntities('&amp;auml; &unknown;')).toBe('&auml; &unknown;');
+  });
+
+  it('NFL-Vakio-otsikko (väliviiva) tunnistetaan', () => {
+    const p = parseYleVakio('    NFL-Vakio 4 KRS 46       4/9\n Pelinumero 4. Rivihinta 0,10 €\n');
+    expect(p.title).toBe('NFL-Vakio 4');
+    expect(p.krs).toBe(46);
   });
 });

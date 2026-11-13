@@ -2,8 +2,9 @@
 //
 // Selaimessa ajetaan vain pieni, tyhmä serialisointi (ROW_SNAPSHOT_SCRIPT: jokaisen taulukkorivin solut),
 // ja kaikki tulkinta on tässä tiedostossa puhtaina funktioina → testattavissa ilman selainta.
-// HUOM: sivuston oikeaa DOM-rakennetta ei ole voitu tarkistaa kehitysympäristöstä (verkko rajattu);
-// tulkinta on tehty tarkoituksella rakenneriippumattomaksi (nimipari "A - B" + kolme desimaalilukua riviltä).
+// DOM tarkistettu oikeasta sivusta 13.11.2026: <tr> = aika | nimipari (a.in-match) | tyhjä | bookmakers-lukumäärä |
+// kolme td.table-main__odds (data-odd napissa). Tulkinta on silti rakenneriippumaton: nimipari "A - B" + data-odd-solut
+// (tai tekstilukujen viimeiset kolme) + kertoimien järkevyystarkistus.
 
 import { bestMatch, nameScore } from './names.js';
 import type { CouponMatch } from '../engine/types.js';
@@ -19,6 +20,8 @@ export interface OddsRow {
   /** Sivun näyttämä aika-teksti ("21.11. 13:30", "Today 20:00"), jos löytyi */
   when: string | null;
   league: string;
+  /** Ottelun oma sivu (lähdelinkki), jos tiedetään */
+  url?: string;
 }
 
 /** Ajetaan sivun kontekstissa (page.evaluate): rivit soluiksi. Ei tulkintaa. */
@@ -50,13 +53,20 @@ export function parseRow(row: RowSnapshot, league: string): OddsRow | null {
   });
   if (!pairCell) return null;
   const m = pairCell.text.match(PAIR_RE)!;
-  const odds: number[] = [];
-  for (const c of row.cells) {
-    if (c === pairCell) continue;
-    const v = c.odd != null ? toOdd(c.odd) : toOdd(c.text);
-    if (v != null) odds.push(v);
+  // BetExplorerin oikea rakenne (tarkistettu 13.11.2026): ottelun jälkeen on "bookmakers"-sarake, jonka teksti on
+  // pelkkä kokonaisluku (esim. "9" = vedonvälittäjien määrä) ja vasta sen jälkeen kolme kerroinsolua (data-odd).
+  // Siksi: jos data-odd-soluja on ≥ 3, käytetään vain niitä; muuten tekstiluvuista otetaan VIIMEISET kolme.
+  const attr = row.cells.filter((c) => c !== pairCell && c.odd != null && toOdd(c.odd) != null).map((c) => toOdd(c.odd!)!);
+  let odds: number[];
+  if (attr.length >= 3) odds = attr.slice(0, 3);
+  else {
+    const txt = row.cells.filter((c) => c !== pairCell).map((c) => toOdd(c.text)).filter((v): v is number => v != null);
+    odds = txt.length > 3 ? txt.slice(-3) : txt;
   }
   if (odds.length < 3) return null;
+  // Järkevyystarkistus: 1X2-kertoimien käänteislukujen summa on käytännössä 1,0–1,35 (marginaali). Muu = väärät solut.
+  const overround = 1 / odds[0]! + 1 / odds[1]! + 1 / odds[2]!;
+  if (overround < 0.98 || overround > 1.4) return null;
   const whenCell = [...row.cells].reverse().find((c) => c !== pairCell && WHEN_RE.test(c.text) && toOdd(c.text) == null);
   // Ottelun tulos ("2:1") ei ole kerroin, ja pelatut ottelut jätetään pois: tulosrivillä on kolme lukua mutta myös tulos
   if (row.cells.some((c) => /^\d{1,2}:\d{1,2}$/.test(c.text))) return null;
@@ -78,6 +88,7 @@ export interface MatchedOdds {
   odds: [number, number, number];
   event: string;
   league: string;
+  url?: string;
 }
 
 /**
@@ -95,11 +106,50 @@ export function matchFixtures(matches: readonly CouponMatch[], rows: readonly Od
     const best = scored[0];
     const second = scored[1];
     if (best && (!second || best.s - second.s >= 0.1 || sameFixture(best.r, second.r))) {
-      matched.push({ n: m.n, odds: best.r.odds, event: `${best.r.home} - ${best.r.away}`, league: best.r.league });
+      matched.push({ n: m.n, odds: best.r.odds, event: `${best.r.home} - ${best.r.away}`, league: best.r.league, ...(best.r.url ? { url: best.r.url } : {}) });
     } else unmatched.push(m.n);
   }
   return { matched, unmatched };
 }
+
+/**
+ * BetExplorerin päiväsivu (https://www.betexplorer.com/?year=Y&month=M&day=D): kaikki päivän ottelut yhdellä
+ * staattisella sivulla, ei selainta tarvita. Rakenne (tarkistettu 13.11.2026):
+ *   <ul class="table-main__matchInfo" data-dt="15,11,2026,18,00"> … <a href="/football/<maa>/<sarja>/<a>-<b>/<id>/">
+ *   <p class="particiantWidthMobile …">Koti</p> … <p …>Vieras</p> … kolme × data-odd (1, X, 2) …
+ * Palauttaa vain jalkapallon (href alkaa /football/) rivit, joilla on kolme järkevää kerrointa.
+ */
+export function parseDayPage(html: string): OddsRow[] {
+  const out: OddsRow[] = [];
+  const seen = new Set<string>();
+  for (const block of html.split('<ul class="table-main__matchInfo"').slice(1)) {
+    const link = block.match(/href="(\/football\/([^"]+?)\/[^\/"]+\/[A-Za-z0-9]{6,12}\/)"/);
+    if (!link) continue;
+    // sivu toistaa saman ottelun (mobiili/työpöytä) → kerran per ottelu-URL
+    if (seen.has(link[1]!)) continue;
+    seen.add(link[1]!);
+    const names = [...block.matchAll(/<p class="particiantWidthMobile[^"]*">\s*([^<]+?)\s*<\/p>/g)].map((m) => m[1]!.trim());
+    if (names.length < 2) continue;
+    const odds = [...block.matchAll(/data-odd="(\d+(?:\.\d+)?)"/g)].map((m) => Number(m[1])).slice(0, 3);
+    if (odds.length < 3 || odds.some((o) => !(o > 1.0 && o < 1000))) continue;
+    const overround = 1 / odds[0]! + 1 / odds[1]! + 1 / odds[2]!;
+    if (overround < 0.98 || overround > 1.4) continue;
+    const dt = block.match(/data-dt="(\d{1,2}),(\d{1,2}),(\d{4}),(\d{1,2}),(\d{2})"/);
+    out.push({
+      home: decodeBasic(names[0]!),
+      away: decodeBasic(names[1]!),
+      odds: [odds[0]!, odds[1]!, odds[2]!],
+      when: dt ? `${Number(dt[1])}.${Number(dt[2])}. ${String(dt[4]).padStart(2, '0')}:${dt[5]}` : null,
+      league: link[2]!,
+      url: `https://www.betexplorer.com${link[1]}`,
+    });
+  }
+  return out;
+}
+
+const decodeBasic = (s: string): string => s.replace(/&amp;/g, '&').replace(/&#0?39;/g, "'").replace(/&quot;/g, '"');
+
+export const dayPageUrl = (y: number, m: number, d: number): string => `https://www.betexplorer.com/?year=${y}&month=${m}&day=${d}`;
 
 const sameFixture = (a: OddsRow, b: OddsRow) => a.home === b.home && a.away === b.away;
 

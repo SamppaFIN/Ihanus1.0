@@ -2,11 +2,10 @@
   "id": "2026-11-11-futisvakio-11",
   "label": "Futisvakio 11 (krs 46)",
   "date": "2026-11-11",
-  "turnoverEur": null,
+  "turnoverEur": 22638,
   "guaranteeEur": null,
   "bonusPoolEur": null,
-  "rowPriceEur": 0.25,
-  "rowPriceEstimated": true,
+  "rowPriceEur": 0.1,
   "source": "Yle Teksti-TV 479",
   "matches": [
     {
@@ -14,9 +13,9 @@
       "home": "Hollanti",
       "away": "Kreikka",
       "crowd": [
-        0.68,
+        0.67,
         0.23,
-        0.09
+        0.1
       ]
     },
     {
@@ -24,9 +23,9 @@
       "home": "Serbia",
       "away": "Saksa",
       "crowd": [
-        0.05,
+        0.06,
         0.15,
-        0.8
+        0.79
       ]
     },
     {
@@ -34,9 +33,9 @@
       "home": "Slovenia",
       "away": "Sveitsi",
       "crowd": [
-        0.11,
-        0.27,
-        0.62
+        0.1111,
+        0.2727,
+        0.6162
       ]
     },
     {
@@ -54,9 +53,9 @@
       "home": "Slovakia",
       "away": "F&auml;rsaaret",
       "crowd": [
-        0.81,
-        0.15,
-        0.04
+        0.8081,
+        0.1515,
+        0.0404
       ]
     },
     {
@@ -74,9 +73,9 @@
       "home": "Bulgaria",
       "away": "Islanti",
       "crowd": [
-        0.24,
+        0.23,
         0.31,
-        0.45
+        0.46
       ]
     },
     {
@@ -84,9 +83,9 @@
       "home": "Andorra",
       "away": "Gibraltar",
       "crowd": [
-        0.495,
-        0.3267,
-        0.1782
+        0.5,
+        0.32,
+        0.18
       ]
     },
     {
@@ -104,9 +103,9 @@
       "home": "Argentiina",
       "away": "Uruguay",
       "crowd": [
-        0.72,
-        0.19,
-        0.09
+        0.703,
+        0.198,
+        0.099
       ]
     },
     {
@@ -129,5 +128,6 @@
         0.13
       ]
     }
-  ]
+  ],
+  "closesAt": "2026-11-13T19:43:00.000Z"
 }

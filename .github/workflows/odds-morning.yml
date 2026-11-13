@@ -1,9 +1,9 @@
-# Aamuisin: hae peliprosentit (Teksti-TV 479) ja 1X2-kertoimet (BetExplorer, Playwright — ei API-avaimia),
+# Aamuisin: hae peliprosentit (Teksti-TV 479) ja 1X2-kertoimet (BetExplorerin staattinen päiväsivu — ei selainta, ei API-avaimia),
 # rakenna UI:n data ja julkaise.
 #
 # Kertoimet ovat "paras yritys": jos sivun rakenne on muuttunut tai kertoimia ei löydy, askel ei kaada ajoa
-# ja UI käyttää edellistä dataa / pelkkää malliarviota. Ensimmäisellä ajolla (tai kun jokin näyttää väärältä) aja
-# käsin "Run workflow" valinnalla debug=true: HTML ja kuvakaappaukset tulevat artefaktina tarkistettavaksi.
+# ja UI käyttää edellistä dataa / pelkkää malliarviota. Kun jokin näyttää väärältä, aja käsin "Run workflow"
+# valinnalla debug=true: päiväsivujen HTML tulee artefaktina tarkistettavaksi.
 name: Kertoimet aamulla
 on:
   schedule:
@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       debug:
-        description: 'Tallenna BetExplorer-sivujen HTML ja kuvakaappaukset artefaktiksi'
+        description: 'Tallenna BetExplorer-päiväsivujen HTML artefaktiksi'
         type: boolean
         default: false
 concurrency:
@@ -33,7 +33,6 @@ jobs:
           code=$?
           if [ "$code" = "3" ]; then echo "Ei Vakio-kohteita sivulla"; exit 0; fi
           exit $code
-      - run: npx playwright install --with-deps chromium
       - name: Hae kertoimet (BetExplorer)
         continue-on-error: true
         run: npm run scrape:odds -- ${{ inputs.debug && '--debug' || '' }}

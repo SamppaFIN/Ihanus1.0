@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { parseYleVakio } from '../scrape/yle-vakio.js';
 import { couponId, findExisting, mergeYleIntoCoupon, playDateFor, slug } from '../pipeline/merge-coupon.js';
-import { matchFixtures, parseRow, parseRows, type RowSnapshot } from '../scrape/odds-table.js';
+import { matchFixtures, parseDayPage, parseRow, parseRows, type RowSnapshot } from '../scrape/odds-table.js';
 import { devig } from '../engine/prob.js';
 import { buildRound } from '../pipeline/build-round.js';
 import type { Coupon } from '../engine/types.js';
@@ -76,6 +76,26 @@ describe('odds-table (ilman API-avainta)', () => {
     expect(attr?.odds).toEqual([2.1, 3.4, 3.6]);
   });
 
+  it('BetExplorerin oikea rakenne: bookmakers-lukumäärä ("9") ei ole kerroin; data-odd-solut voittavat', () => {
+    const real: RowSnapshot = {
+      cells: [
+        { text: 'Today 20:30', odd: null },
+        { text: 'Leganes - Burgos CF', odd: null },
+        { text: '', odd: null },
+        { text: '9', odd: null }, // table-main__bs
+        { text: '', odd: '2.34' },
+        { text: '', odd: '3.02' },
+        { text: '', odd: '3.04' },
+      ],
+    };
+    expect(parseRow(real, 'spain/laliga2')?.odds).toEqual([2.34, 3.02, 3.04]);
+    // pelkät tekstit: viimeiset kolme lukua, edessä oleva kokonaisluku hylätään
+    const textual = parseRow(snap('Leganes - Burgos CF', '9', '2.34', '3.02', '3.04', 'Today 20:30'), 'x');
+    expect(textual?.odds).toEqual([2.34, 3.02, 3.04]);
+    // jos kolmatta kerrointa ei löydy ([9, 2.34, 3.02]), käänteislukujen summa paljastaa virheen → hylätään
+    expect(parseRow(snap('Leganes - Burgos CF', '9', '2.34', '3.02', 'Today 20:30'), 'x')).toBeNull();
+  });
+
   it('hylkää: otsikkorivi, rivi ilman kertoimia (JS ei ehtinyt), pelattu ottelu (tulos), liian vähän lukuja', () => {
     expect(parseRow(snap('', '1', 'X', '2', ''), 'x')).toBeNull();
     expect(parseRow(snap('Millwall - QPR', '', '', '', '21.11. 13:30'), 'x')).toBeNull();
@@ -103,6 +123,23 @@ describe('odds-table (ilman API-avainta)', () => {
     expect(by[10]).toEqual([2.7, 3.3, 2.6]);
     expect(unmatched).toContain(11);
     expect(unmatched).toContain(1);
+  });
+
+  it('BetExplorerin päiväsivu (oikea rakenne 13.11.2026): kaikki Sunnuntaivakio 2:n 12 ottelua kertoimineen ja lähdelinkkeineen', () => {
+    const html = fx('betexplorer-day-2026-11-15.html');
+    const rows = parseDayPage(html);
+    expect(rows.length).toBe(13); // 12 vakio-ottelua + yksi muu (Liga MX) — duplikaatit yhdistetty
+    const coupon = data<Coupon>('coupons/2026-11-15-sunnuntaivakio-2.json');
+    const { matched, unmatched } = matchFixtures(coupon.matches, rows);
+    expect(unmatched).toEqual([]); // suomenkieliset maanimet (Tshekki, Kypros…) ja MVV→Maastricht täsmäävät
+    const by = Object.fromEntries(matched.map((m) => [m.n, m]));
+    expect(by[2]!.odds).toEqual([1.7, 4.08, 4.29]);
+    expect(by[2]!.url).toBe('https://www.betexplorer.com/football/europe/uefa-nations-league/spain-england/zs0jyKt4/');
+    expect(by[3]!.event).toBe('Croatia - Czech Republic');
+    expect(by[8]!.event).toBe('Tenerife - Ceuta');
+    expect(by[10]!.event).toBe('Eibar - Cadiz CF');
+    expect(by[12]!.event).toBe('Maastricht - Vitesse');
+    expect(by[12]!.odds).toEqual([2.95, 3.55, 2.12]);
   });
 
   it('devig toimii skreipatuilla kertoimilla (summa 1, marginaali > 0)', () => {
