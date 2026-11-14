@@ -2,7 +2,7 @@
   "id": "2026-11-14-lauantaivakio-1",
   "label": "Lauantaivakio 1 (krs 46)",
   "date": "2026-11-14",
-  "turnoverEur": 340596,
+  "turnoverEur": 381537,
   "guaranteeEur": 200000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.25,
@@ -13,9 +13,9 @@
       "home": "Stockport",
       "away": "Reading FC",
       "crowd": [
-        0.62,
-        0.21,
-        0.17
+        0.6238,
+        0.2079,
+        0.1683
       ]
     },
     {
@@ -43,9 +43,9 @@
       "home": "AFC Wimbled",
       "away": "Blackpoo.FC",
       "crowd": [
-        0.35,
-        0.3,
-        0.35
+        0.3636,
+        0.2929,
+        0.3434
       ]
     },
     {
@@ -73,9 +73,9 @@
       "home": "Crewe",
       "away": "Newport Co",
       "crowd": [
-        0.53,
+        0.52,
         0.25,
-        0.22
+        0.23
       ]
     },
     {
@@ -103,9 +103,9 @@
       "home": "Colchester",
       "away": "Gillingh.FC",
       "crowd": [
-        0.42,
+        0.43,
         0.26,
-        0.32
+        0.31
       ]
     },
     {
@@ -113,9 +113,9 @@
       "home": "Bristol R",
       "away": "Chesterfiel",
       "crowd": [
-        0.3366,
-        0.2574,
-        0.4059
+        0.34,
+        0.25,
+        0.41
       ]
     },
     {

@@ -2,7 +2,7 @@
   "id": "2026-11-15-sunnuntaivakio-2",
   "label": "Sunnuntaivakio 2 (krs 46)",
   "date": "2026-11-15",
-  "turnoverEur": 9874,
+  "turnoverEur": 14869,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -13,9 +13,9 @@
       "home": "Suomi",
       "away": "San Marino",
       "crowd": [
-        0.89,
+        0.9,
         0.07,
-        0.04
+        0.03
       ],
       "league": "UEFA Nations League C",
       "facts": [
@@ -66,9 +66,9 @@
       "home": "Espanja",
       "away": "Englanti",
       "crowd": [
-        0.4752,
-        0.3267,
-        0.198
+        0.5,
+        0.31,
+        0.19
       ],
       "league": "UEFA Nations League A",
       "facts": [
@@ -114,9 +114,9 @@
       "home": "Kroatia",
       "away": "Tshekki",
       "crowd": [
-        0.73,
-        0.18,
-        0.09
+        0.703,
+        0.198,
+        0.099
       ],
       "league": "UEFA Nations League A",
       "facts": [
@@ -162,8 +162,8 @@
       "home": "Belgia",
       "away": "Italia",
       "crowd": [
-        0.28,
-        0.33,
+        0.3,
+        0.31,
         0.39
       ],
       "league": "UEFA Nations League A",
@@ -205,9 +205,9 @@
       "home": "Ranska",
       "away": "Turkki",
       "crowd": [
-        0.8889,
-        0.0808,
-        0.0303
+        0.89,
+        0.08,
+        0.03
       ],
       "league": "UEFA Nations League A",
       "facts": [
@@ -253,9 +253,9 @@
       "home": "Kypros",
       "away": "Montenegro",
       "crowd": [
-        0.19,
+        0.2,
         0.28,
-        0.53
+        0.52
       ],
       "league": "UEFA Nations League C",
       "facts": [
@@ -301,9 +301,9 @@
       "home": "Latvia",
       "away": "Armenia",
       "crowd": [
-        0.2079,
-        0.2871,
-        0.505
+        0.21,
+        0.29,
+        0.5
       ],
       "league": "UEFA Nations League C",
       "facts": [
@@ -344,8 +344,8 @@
       "home": "Tenerife",
       "away": "AD Ceuta",
       "crowd": [
-        0.82,
-        0.11,
+        0.8,
+        0.13,
         0.07
       ],
       "league": "Segunda División",
@@ -392,9 +392,9 @@
       "home": "Granada",
       "away": "Las Palmas",
       "crowd": [
-        0.47,
+        0.46,
         0.31,
-        0.22
+        0.23
       ],
       "league": "Segunda División",
       "facts": [
@@ -435,9 +435,9 @@
       "home": "Eibar",
       "away": "Cadiz",
       "crowd": [
-        0.8218,
-        0.099,
-        0.0792
+        0.8081,
+        0.1111,
+        0.0808
       ],
       "league": "Segunda División",
       "facts": [
@@ -478,9 +478,9 @@
       "home": "Eldense",
       "away": "Sabadell",
       "crowd": [
-        0.61,
+        0.58,
         0.26,
-        0.13
+        0.16
       ],
       "league": "Segunda División",
       "facts": [
@@ -531,8 +531,8 @@
       "home": "MVV",
       "away": "Vitesse",
       "crowd": [
-        0.26,
-        0.35,
+        0.28,
+        0.33,
         0.39
       ],
       "league": "Eerste Divisie",
