@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-16-futisvakio-5",
+  "label": "Futisvakio 5 (krs 47)",
+  "date": "2026-11-16",
+  "turnoverEur": 726,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-16T14:58:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 15.55)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Saksa",
+      "away": "Hollanti",
+      "crowd": [
+        0.44,
+        0.3,
+        0.26
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Kreikka",
+      "away": "Serbia",
+      "crowd": [
+        0.6436,
+        0.198,
+        0.1584
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Sveitsi",
+      "away": "Skotlanti",
+      "crowd": [
+        0.7374,
+        0.1818,
+        0.0808
+      ]
+    },
+    {
+      "n": 4,
+      "home": "P-Makedonia",
+      "away": "Slovenia",
+      "crowd": [
+        0.08,
+        0.12,
+        0.8
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Islanti",
+      "away": "Luxemburg",
+      "crowd": [
+        0.899,
+        0.0808,
+        0.0202
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Viro",
+      "away": "Bulgaria",
+      "crowd": [
+        0.5,
+        0.23,
+        0.27
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Färsaaret",
+      "away": "Moldova",
+      "crowd": [
+        0.2871,
+        0.297,
+        0.4158
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Kazakstan",
+      "away": "Slovakia",
+      "crowd": [
+        0.09,
+        0.24,
+        0.67
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Liettua",
+      "away": "Liechtenste",
+      "crowd": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Gibraltar",
+      "away": "Malta",
+      "crowd": [
+        0.15,
+        0.22,
+        0.63
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Andorra",
+      "away": "Azerbaidzha",
+      "crowd": [
+        0.12,
+        0.11,
+        0.77
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Kreikka U21",
+      "away": "Islanti U21",
+      "crowd": [
+        0.63,
+        0.16,
+        0.21
+      ]
+    }
+  ]
+}
