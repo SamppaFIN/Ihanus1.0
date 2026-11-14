@@ -2,7 +2,7 @@
   "id": "2026-11-15-sunnuntaivakio-3",
   "label": "Sunnuntaivakio 3 (krs 46)",
   "date": "2026-11-15",
-  "turnoverEur": 6452,
+  "turnoverEur": 7997,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -13,9 +13,9 @@
       "home": "Asto.Vill.N",
       "away": "Birmingha.N",
       "crowd": [
-        0.6566,
-        0.2323,
-        0.1111
+        0.64,
+        0.25,
+        0.11
       ]
     },
     {
@@ -23,8 +23,8 @@
       "home": "West Ham N",
       "away": "Charlton N",
       "crowd": [
-        0.8384,
-        0.101,
+        0.8182,
+        0.1212,
         0.0606
       ]
     },
@@ -34,8 +34,8 @@
       "away": "London C N",
       "crowd": [
         0.47,
-        0.32,
-        0.21
+        0.31,
+        0.22
       ]
     },
     {
@@ -43,9 +43,9 @@
       "home": "Sevilla N",
       "away": "At. Madri.N",
       "crowd": [
-        0.11,
-        0.13,
-        0.76
+        0.1089,
+        0.1584,
+        0.7327
       ]
     },
     {
@@ -53,9 +53,9 @@
       "home": "Deportivo N",
       "away": "Barcelona N",
       "crowd": [
-        0.06,
+        0.05,
         0.07,
-        0.87
+        0.88
       ]
     },
     {
@@ -63,9 +63,9 @@
       "home": "Valencia N",
       "away": "Granada N",
       "crowd": [
-        0.3737,
-        0.2929,
-        0.3333
+        0.3762,
+        0.2772,
+        0.3465
       ]
     },
     {
@@ -73,9 +73,9 @@
       "home": "Como 1907 N",
       "away": "Como N",
       "crowd": [
-        0.57,
-        0.27,
-        0.16
+        0.5545,
+        0.2871,
+        0.1584
       ]
     },
     {
@@ -83,9 +83,9 @@
       "home": "Inter N",
       "away": "Juventus N",
       "crowd": [
-        0.604,
-        0.2673,
-        0.1287
+        0.596,
+        0.2727,
+        0.1313
       ]
     },
     {
@@ -93,9 +93,9 @@
       "home": "Nottingha.N",
       "away": "Leicester N",
       "crowd": [
-        0.76,
-        0.14,
-        0.1
+        0.75,
+        0.16,
+        0.09
       ]
     },
     {
@@ -103,8 +103,8 @@
       "home": "Sunderlan.N",
       "away": "Newcast.U N",
       "crowd": [
-        0.26,
-        0.31,
+        0.25,
+        0.32,
         0.43
       ]
     },
@@ -113,9 +113,9 @@
       "home": "Watford N",
       "away": "Ipswich T N",
       "crowd": [
-        0.44,
-        0.26,
-        0.3
+        0.4343,
+        0.2727,
+        0.2929
       ]
     },
     {
@@ -123,9 +123,9 @@
       "home": "Burnley N",
       "away": "Southampt.N",
       "crowd": [
-        0.12,
-        0.16,
-        0.72
+        0.11,
+        0.18,
+        0.71
       ]
     }
   ],
