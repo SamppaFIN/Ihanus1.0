@@ -2,7 +2,7 @@
   "id": "2026-11-16-futisvakio-5",
   "label": "Futisvakio 5 (krs 47)",
   "date": "2026-11-16",
-  "turnoverEur": 3725,
+  "turnoverEur": 6498,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Saksa",
       "away": "Hollanti",
       "crowd": [
-        0.4,
-        0.32,
-        0.28
+        0.44,
+        0.3,
+        0.26
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "Kreikka",
       "away": "Serbia",
       "crowd": [
-        0.68,
-        0.24,
-        0.08
+        0.7,
+        0.21,
+        0.09
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Sveitsi",
       "away": "Skotlanti",
       "crowd": [
-        0.73,
-        0.17,
-        0.1
+        0.71,
+        0.18,
+        0.11
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "P-Makedonia",
       "away": "Slovenia",
       "crowd": [
-        0.07,
-        0.21,
-        0.72
+        0.1,
+        0.22,
+        0.68
       ]
     },
     {
@@ -54,8 +54,8 @@
       "home": "Islanti",
       "away": "Luxemburg",
       "crowd": [
-        0.88,
-        0.09,
+        0.86,
+        0.11,
         0.03
       ]
     },
@@ -64,9 +64,9 @@
       "home": "Viro",
       "away": "Bulgaria",
       "crowd": [
-        0.46,
-        0.3,
-        0.24
+        0.4545,
+        0.3131,
+        0.2323
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Färsaaret",
       "away": "Moldova",
       "crowd": [
-        0.35,
-        0.32,
-        0.33
+        0.4,
+        0.31,
+        0.29
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Kazakstan",
       "away": "Slovakia",
       "crowd": [
-        0.1,
-        0.29,
-        0.61
+        0.14,
+        0.27,
+        0.59
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Liettua",
       "away": "Liechtenste",
       "crowd": [
-        0.82,
-        0.14,
-        0.04
+        0.85,
+        0.12,
+        0.03
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Gibraltar",
       "away": "Malta",
       "crowd": [
-        0.13,
-        0.26,
-        0.61
+        0.1212,
+        0.2626,
+        0.6162
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Andorra",
       "away": "Azerbaidzha",
       "crowd": [
-        0.09,
-        0.22,
-        0.69
+        0.1111,
+        0.2121,
+        0.6768
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Kreikka U21",
       "away": "Islanti U21",
       "crowd": [
-        0.64,
-        0.23,
-        0.13
+        0.62,
+        0.24,
+        0.14
       ]
     }
   ]
