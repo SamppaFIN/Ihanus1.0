@@ -2,7 +2,7 @@
   "id": "2026-11-16-futisvakio-5",
   "label": "Futisvakio 5 (krs 47)",
   "date": "2026-11-16",
-  "turnoverEur": 1357,
+  "turnoverEur": 3725,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -24,9 +24,9 @@
       "home": "Kreikka",
       "away": "Serbia",
       "crowd": [
-        0.7,
-        0.19,
-        0.11
+        0.68,
+        0.24,
+        0.08
       ]
     },
     {
@@ -34,8 +34,8 @@
       "home": "Sveitsi",
       "away": "Skotlanti",
       "crowd": [
-        0.7,
-        0.2,
+        0.73,
+        0.17,
         0.1
       ]
     },
@@ -44,8 +44,8 @@
       "home": "P-Makedonia",
       "away": "Slovenia",
       "crowd": [
-        0.08,
-        0.2,
+        0.07,
+        0.21,
         0.72
       ]
     },
@@ -54,9 +54,9 @@
       "home": "Islanti",
       "away": "Luxemburg",
       "crowd": [
-        0.92,
-        0.06,
-        0.02
+        0.88,
+        0.09,
+        0.03
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "Viro",
       "away": "Bulgaria",
       "crowd": [
-        0.48,
-        0.25,
-        0.27
+        0.46,
+        0.3,
+        0.24
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Färsaaret",
       "away": "Moldova",
       "crowd": [
-        0.3131,
-        0.3131,
-        0.3737
+        0.35,
+        0.32,
+        0.33
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Kazakstan",
       "away": "Slovakia",
       "crowd": [
-        0.11,
-        0.25,
-        0.64
+        0.1,
+        0.29,
+        0.61
       ]
     },
     {
@@ -94,8 +94,8 @@
       "home": "Liettua",
       "away": "Liechtenste",
       "crowd": [
-        0.83,
-        0.13,
+        0.82,
+        0.14,
         0.04
       ]
     },
@@ -105,8 +105,8 @@
       "away": "Malta",
       "crowd": [
         0.13,
-        0.25,
-        0.62
+        0.26,
+        0.61
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Andorra",
       "away": "Azerbaidzha",
       "crowd": [
-        0.1188,
-        0.1584,
-        0.7228
+        0.09,
+        0.22,
+        0.69
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Kreikka U21",
       "away": "Islanti U21",
       "crowd": [
-        0.63,
-        0.19,
-        0.18
+        0.64,
+        0.23,
+        0.13
       ]
     }
   ]

@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-17-futisvakio-6",
+  "label": "Futisvakio 6 (krs 47)",
+  "date": "2026-11-17",
+  "turnoverEur": 948,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-17T17:43:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 16.35)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Irlanti U21",
+      "away": "Suomi U21",
+      "crowd": [
+        0.27,
+        0.26,
+        0.47
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Tanska",
+      "away": "Norja",
+      "crowd": [
+        0.4,
+        0.26,
+        0.34
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Wales",
+      "away": "Portugali",
+      "crowd": [
+        0.08,
+        0.08,
+        0.84
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Unkari",
+      "away": "P-Irlanti",
+      "crowd": [
+        0.37,
+        0.28,
+        0.35
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Ukraina",
+      "away": "Georgia",
+      "crowd": [
+        0.58,
+        0.32,
+        0.1
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Irlanti",
+      "away": "Kosovo",
+      "crowd": [
+        0.72,
+        0.15,
+        0.13
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Puola",
+      "away": "Ruotsi",
+      "crowd": [
+        0.26,
+        0.23,
+        0.51
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Bosnia-Hert",
+      "away": "Romania",
+      "crowd": [
+        0.67,
+        0.15,
+        0.18
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Israel",
+      "away": "Itävalta",
+      "crowd": [
+        0.06,
+        0.2,
+        0.74
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Chile",
+      "away": "Kolumbia",
+      "crowd": [
+        0.1584,
+        0.2079,
+        0.6337
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Argentiina",
+      "away": "Costa Rica",
+      "crowd": [
+        0.86,
+        0.06,
+        0.08
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Luton",
+      "away": "Peterboro.U",
+      "crowd": [
+        0.42,
+        0.28,
+        0.3
+      ]
+    }
+  ]
+}
