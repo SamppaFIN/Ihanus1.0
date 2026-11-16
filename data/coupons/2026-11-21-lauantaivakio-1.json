@@ -1,0 +1,143 @@
+{
+  "id": "2026-11-21-lauantaivakio-1",
+  "label": "Lauantaivakio 1 (krs 47)",
+  "date": "2026-11-21",
+  "turnoverEur": 9900,
+  "guaranteeEur": 250000,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.25,
+  "closesAt": "2026-11-21T14:58:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 18.54)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Newcastle U",
+      "away": "Arsenal",
+      "crowd": [
+        0.2574,
+        0.198,
+        0.5446
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Chelsea",
+      "away": "Leeds U",
+      "crowd": [
+        0.62,
+        0.23,
+        0.15
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Bournemouth",
+      "away": "Nottingham",
+      "crowd": [
+        0.53,
+        0.26,
+        0.21
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "crowd": [
+        0.6465,
+        0.202,
+        0.1515
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Tottenham",
+      "away": "Ipswich T",
+      "crowd": [
+        0.61,
+        0.2,
+        0.19
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Coventry C",
+      "away": "Crystal P",
+      "crowd": [
+        0.41,
+        0.25,
+        0.34
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Stoke",
+      "away": "Birmingham",
+      "crowd": [
+        0.39,
+        0.29,
+        0.32
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Swansea",
+      "away": "West Bromwi",
+      "crowd": [
+        0.3636,
+        0.2424,
+        0.3939
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Wolverhampt",
+      "away": "Charlton",
+      "crowd": [
+        0.71,
+        0.17,
+        0.12
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Middlesbrou",
+      "away": "Bristol C",
+      "crowd": [
+        0.66,
+        0.2,
+        0.14
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Lincoln C",
+      "away": "Wrexham",
+      "crowd": [
+        0.37,
+        0.27,
+        0.36
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Bolton",
+      "away": "Portsmouth",
+      "crowd": [
+        0.35,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "n": 13,
+      "home": "Sheffield U",
+      "away": "Watford",
+      "crowd": [
+        0.66,
+        0.21,
+        0.13
+      ]
+    }
+  ]
+}
