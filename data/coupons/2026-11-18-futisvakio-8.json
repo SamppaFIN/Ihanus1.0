@@ -2,7 +2,7 @@
   "id": "2026-11-18-futisvakio-8",
   "label": "Futisvakio 8 (krs 47)",
   "date": "2026-11-18",
-  "turnoverEur": 981,
+  "turnoverEur": 1863,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -24,9 +24,9 @@
       "home": "Utebo FC",
       "away": "Sabadell",
       "crowd": [
-        0.4848,
-        0.202,
-        0.3131
+        0.43,
+        0.24,
+        0.33
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Alcoyano",
       "away": "Mallorca",
       "crowd": [
-        0.16,
-        0.23,
-        0.61
+        0.1386,
+        0.198,
+        0.6634
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Badajoz",
       "away": "Tenerife",
       "crowd": [
-        0.29,
-        0.28,
-        0.43
+        0.2525,
+        0.2727,
+        0.4747
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Reus FC Red",
       "away": "Barakaldo",
       "crowd": [
-        0.38,
-        0.4,
-        0.22
+        0.3838,
+        0.3939,
+        0.2222
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "CD Minera",
       "away": "Cartagena",
       "crowd": [
-        0.6263,
-        0.2121,
-        0.1616
+        0.65,
+        0.19,
+        0.16
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Coritiba",
       "away": "Santos",
       "crowd": [
-        0.56,
-        0.18,
-        0.26
+        0.5743,
+        0.1683,
+        0.2574
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Club.Do Rem",
       "away": "Chapecoense",
       "crowd": [
-        0.28,
-        0.15,
-        0.57
+        0.2929,
+        0.1717,
+        0.5354
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Cruzeiro",
       "away": "Palmeiras",
       "crowd": [
-        0.44,
-        0.35,
-        0.21
+        0.4,
+        0.33,
+        0.27
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Flamengo",
       "away": "CA Paranaen",
       "crowd": [
-        0.8,
-        0.1,
-        0.1
+        0.8182,
+        0.0909,
+        0.0909
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Gremio PA",
       "away": "Bahia",
       "crowd": [
-        0.18,
-        0.17,
-        0.65
+        0.1881,
+        0.1683,
+        0.6436
       ]
     },
     {
@@ -124,8 +124,8 @@
       "home": "Corinthians",
       "away": "Botafogo RJ",
       "crowd": [
-        0.31,
-        0.35,
+        0.3,
+        0.36,
         0.34
       ]
     }

@@ -1,0 +1,83 @@
+{
+  "fetchedAt": "2026-11-17T14:47:51.950Z",
+  "source": "betexplorer.com (päiväsivu, keskimääräiset kertoimet)",
+  "matches": [
+    {
+      "n": 2,
+      "odds": [
+        6.2,
+        3.78,
+        1.51
+      ],
+      "event": "Utebo FC - Sabadell",
+      "league": "spain/copa-del-rey",
+      "url": "https://www.betexplorer.com/football/spain/copa-del-rey/utebo-fc-sabadell/jqymLwk5/"
+    },
+    {
+      "n": 3,
+      "odds": [
+        5.95,
+        3.93,
+        1.5
+      ],
+      "event": "Alcoyano - Mallorca",
+      "league": "spain/copa-del-rey",
+      "url": "https://www.betexplorer.com/football/spain/copa-del-rey/alcoyano-mallorca/v7KSx3G7/"
+    },
+    {
+      "n": 4,
+      "odds": [
+        4.55,
+        3.63,
+        1.68
+      ],
+      "event": "CD Badajoz - Tenerife",
+      "league": "spain/copa-del-rey",
+      "url": "https://www.betexplorer.com/football/spain/copa-del-rey/cd-badajoz-tenerife/lK2hbAro/"
+    },
+    {
+      "n": 6,
+      "odds": [
+        2.87,
+        3,
+        2.46
+      ],
+      "event": "Deportiva Minera - FC Cartagena SAD",
+      "league": "spain/copa-del-rey",
+      "url": "https://www.betexplorer.com/football/spain/copa-del-rey/deportiva-minera-fc-cartagena-sad/re5gDqhK/"
+    },
+    {
+      "n": 7,
+      "odds": [
+        3.35,
+        3.5,
+        2.07
+      ],
+      "event": "Coritiba - Santos",
+      "league": "brazil/serie-a",
+      "url": "https://www.betexplorer.com/football/brazil/serie-a/coritiba-santos/nFe3yH7c/"
+    },
+    {
+      "n": 9,
+      "odds": [
+        2.77,
+        3.47,
+        2.39
+      ],
+      "event": "Cruzeiro - Palmeiras",
+      "league": "brazil/serie-a",
+      "url": "https://www.betexplorer.com/football/brazil/serie-a/cruzeiro-palmeiras/zySpJZiT/"
+    },
+    {
+      "n": 12,
+      "odds": [
+        1.8,
+        3.62,
+        4.21
+      ],
+      "event": "Corinthians - Botafogo RJ",
+      "league": "brazil/serie-a",
+      "url": "https://www.betexplorer.com/football/brazil/serie-a/corinthians-botafogo-rj/6ezUMHh4/"
+    }
+  ]
+}

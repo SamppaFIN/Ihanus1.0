@@ -2,7 +2,7 @@
   "id": "2026-11-17-futisvakio-6",
   "label": "Futisvakio 6 (krs 47)",
   "date": "2026-11-17",
-  "turnoverEur": 6928,
+  "turnoverEur": 30064,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Irlanti U21",
       "away": "Suomi U21",
       "crowd": [
-        0.28,
-        0.29,
-        0.43
+        0.2871,
+        0.3069,
+        0.4059
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Wales",
       "away": "Portugali",
       "crowd": [
-        0.0707,
-        0.1313,
-        0.798
+        0.07,
+        0.13,
+        0.8
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Unkari",
       "away": "P-Irlanti",
       "crowd": [
-        0.44,
-        0.29,
-        0.27
+        0.49,
+        0.31,
+        0.2
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Ukraina",
       "away": "Georgia",
       "crowd": [
-        0.6263,
-        0.2626,
-        0.1111
+        0.64,
+        0.24,
+        0.12
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "Irlanti",
       "away": "Kosovo",
       "crowd": [
-        0.69,
-        0.18,
-        0.13
+        0.6364,
+        0.2323,
+        0.1313
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Puola",
       "away": "Ruotsi",
       "crowd": [
-        0.25,
+        0.3,
         0.27,
-        0.48
+        0.43
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Israel",
       "away": "Itävalta",
       "crowd": [
-        0.1188,
-        0.1782,
-        0.703
+        0.12,
+        0.2,
+        0.68
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Chile",
       "away": "Kolumbia",
       "crowd": [
-        0.1616,
-        0.2727,
-        0.5657
+        0.17,
+        0.31,
+        0.52
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Argentiina",
       "away": "Costa Rica",
       "crowd": [
-        0.92,
-        0.04,
-        0.04
+        0.93,
+        0.05,
+        0.02
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Luton",
       "away": "Peterboro.U",
       "crowd": [
-        0.5758,
-        0.2323,
-        0.1919
+        0.68,
+        0.19,
+        0.13
       ]
     }
   ]
