@@ -2,7 +2,7 @@
   "id": "2026-11-17-futisvakio-6",
   "label": "Futisvakio 6 (krs 47)",
   "date": "2026-11-17",
-  "turnoverEur": 30064,
+  "turnoverEur": 38658,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Irlanti U21",
       "away": "Suomi U21",
       "crowd": [
-        0.2871,
-        0.3069,
-        0.4059
+        0.29,
+        0.3,
+        0.41
       ]
     },
     {
@@ -35,8 +35,8 @@
       "away": "Portugali",
       "crowd": [
         0.07,
-        0.13,
-        0.8
+        0.14,
+        0.79
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Unkari",
       "away": "P-Irlanti",
       "crowd": [
-        0.49,
+        0.5,
         0.31,
-        0.2
+        0.19
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Ukraina",
       "away": "Georgia",
       "crowd": [
-        0.64,
-        0.24,
-        0.12
+        0.6364,
+        0.2424,
+        0.1212
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "Irlanti",
       "away": "Kosovo",
       "crowd": [
-        0.6364,
-        0.2323,
-        0.1313
+        0.62,
+        0.24,
+        0.14
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Puola",
       "away": "Ruotsi",
       "crowd": [
-        0.3,
-        0.27,
-        0.43
+        0.32,
+        0.26,
+        0.42
       ]
     },
     {
@@ -84,8 +84,8 @@
       "home": "Bosnia-Hert",
       "away": "Romania",
       "crowd": [
-        0.74,
-        0.14,
+        0.73,
+        0.15,
         0.12
       ]
     },
@@ -94,9 +94,9 @@
       "home": "Israel",
       "away": "Itävalta",
       "crowd": [
-        0.12,
+        0.13,
         0.2,
-        0.68
+        0.67
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Chile",
       "away": "Kolumbia",
       "crowd": [
-        0.17,
+        0.18,
         0.31,
-        0.52
+        0.51
       ]
     },
     {
@@ -124,8 +124,8 @@
       "home": "Luton",
       "away": "Peterboro.U",
       "crowd": [
-        0.68,
-        0.19,
+        0.69,
+        0.18,
         0.13
       ]
     }
