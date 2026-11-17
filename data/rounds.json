@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-16T16:57:58.565Z",
- "today": "2026-11-16",
+ "generatedAt": "2026-11-17T00:46:48.122Z",
+ "today": "2026-11-17",
  "budgetEur": 40,
  "assumptions": {
   "prize": {
@@ -28,7 +28,7 @@
    "label": "Lauantaivakio 1 (krs 47)",
    "date": "2026-11-21",
    "status": "open",
-   "turnoverEur": 9900,
+   "turnoverEur": 11644,
    "turnoverEstimated": false,
    "guaranteeEur": 250000,
    "bonusPoolEur": null,
@@ -36,10 +36,10 @@
    "rowPriceEstimated": false,
    "avgRowEv": 0.1625,
    "pools": [
-    3603.6000000000004,
-    1029.6,
-    707.85,
-    1093.95
+    4238.416,
+    1210.976,
+    832.546,
+    1286.6620000000003
    ],
    "source": "Yle Teksti-TV 479 (pelijakauma 18.54)",
    "note": null,
@@ -52,17 +52,17 @@
      "home": "Newcastle U",
      "away": "Arsenal",
      "crowd": [
-      0.2574,
-      0.198,
-      0.5446
+      0.24,
+      0.19,
+      0.57
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.2574,
-      0.198,
-      0.5446
+      0.24,
+      0.19,
+      0.57
      ],
      "basis": "crowd",
      "ratio": [
@@ -75,7 +75,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 26 %, tasapeli 20 %, vierasvoitto 54 %.",
+       "Pelaajat veikkaavat: kotivoitto 24 %, tasapeli 19 %, vierasvoitto 57 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -96,17 +96,17 @@
      "home": "Chelsea",
      "away": "Leeds U",
      "crowd": [
-      0.62,
-      0.23,
-      0.15
+      0.6263,
+      0.2222,
+      0.1515
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.62,
-      0.23,
-      0.15
+      0.6263,
+      0.2222,
+      0.1515
      ],
      "basis": "crowd",
      "ratio": [
@@ -119,7 +119,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 62 %, tasapeli 23 %, vierasvoitto 15 %.",
+       "Pelaajat veikkaavat: kotivoitto 63 %, tasapeli 22 %, vierasvoitto 15 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -140,17 +140,17 @@
      "home": "Bournemouth",
      "away": "Nottingham",
      "crowd": [
-      0.53,
-      0.26,
-      0.21
+      0.55,
+      0.25,
+      0.2
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.53,
-      0.26,
-      0.21
+      0.55,
+      0.25,
+      0.2
      ],
      "basis": "crowd",
      "ratio": [
@@ -163,7 +163,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 53 %, tasapeli 26 %, vierasvoitto 21 %.",
+       "Pelaajat veikkaavat: kotivoitto 55 %, tasapeli 25 %, vierasvoitto 20 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -184,17 +184,17 @@
      "home": "Aston Villa",
      "away": "Sunderland",
      "crowd": [
-      0.6465,
-      0.202,
-      0.1515
+      0.66,
+      0.19,
+      0.15
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.6465,
-      0.202,
-      0.1515
+      0.66,
+      0.19,
+      0.15
      ],
      "basis": "crowd",
      "ratio": [
@@ -207,7 +207,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 65 %, tasapeli 20 %, vierasvoitto 15 %.",
+       "Pelaajat veikkaavat: kotivoitto 66 %, tasapeli 19 %, vierasvoitto 15 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -228,17 +228,17 @@
      "home": "Tottenham",
      "away": "Ipswich T",
      "crowd": [
-      0.61,
-      0.2,
-      0.19
+      0.6238,
+      0.198,
+      0.1782
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.61,
-      0.2,
-      0.19
+      0.6238,
+      0.198,
+      0.1782
      ],
      "basis": "crowd",
      "ratio": [
@@ -251,7 +251,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 61 %, tasapeli 20 %, vierasvoitto 19 %.",
+       "Pelaajat veikkaavat: kotivoitto 62 %, tasapeli 20 %, vierasvoitto 18 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -272,17 +272,17 @@
      "home": "Coventry C",
      "away": "Crystal P",
      "crowd": [
-      0.41,
-      0.25,
-      0.34
+      0.404,
+      0.2525,
+      0.3434
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.41,
-      0.25,
-      0.34
+      0.404,
+      0.2525,
+      0.3434
      ],
      "basis": "crowd",
      "ratio": [
@@ -295,7 +295,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 41 %, tasapeli 25 %, vierasvoitto 34 %.",
+       "Pelaajat veikkaavat: kotivoitto 40 %, tasapeli 25 %, vierasvoitto 34 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -360,17 +360,17 @@
      "home": "Swansea",
      "away": "West Bromwi",
      "crowd": [
-      0.3636,
-      0.2424,
-      0.3939
+      0.3663,
+      0.2376,
+      0.396
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.3636,
-      0.2424,
-      0.3939
+      0.3663,
+      0.2376,
+      0.396
      ],
      "basis": "crowd",
      "ratio": [
@@ -383,7 +383,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 36 %, tasapeli 24 %, vierasvoitto 39 %.",
+       "Pelaajat veikkaavat: kotivoitto 37 %, tasapeli 24 %, vierasvoitto 40 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -404,17 +404,17 @@
      "home": "Wolverhampt",
      "away": "Charlton",
      "crowd": [
-      0.71,
-      0.17,
-      0.12
+      0.73,
+      0.16,
+      0.11
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.71,
-      0.17,
-      0.12
+      0.73,
+      0.16,
+      0.11
      ],
      "basis": "crowd",
      "ratio": [
@@ -427,7 +427,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 71 %, tasapeli 17 %, vierasvoitto 12 %.",
+       "Pelaajat veikkaavat: kotivoitto 73 %, tasapeli 16 %, vierasvoitto 11 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -448,17 +448,17 @@
      "home": "Middlesbrou",
      "away": "Bristol C",
      "crowd": [
-      0.66,
+      0.67,
       0.2,
-      0.14
+      0.13
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.66,
+      0.67,
       0.2,
-      0.14
+      0.13
      ],
      "basis": "crowd",
      "ratio": [
@@ -471,7 +471,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 66 %, tasapeli 20 %, vierasvoitto 14 %.",
+       "Pelaajat veikkaavat: kotivoitto 67 %, tasapeli 20 %, vierasvoitto 13 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -492,16 +492,16 @@
      "home": "Lincoln C",
      "away": "Wrexham",
      "crowd": [
-      0.37,
-      0.27,
+      0.36,
+      0.28,
       0.36
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.37,
-      0.27,
+      0.36,
+      0.28,
       0.36
      ],
      "basis": "crowd",
@@ -515,7 +515,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 37 %, tasapeli 27 %, vierasvoitto 36 %.",
+       "Pelaajat veikkaavat: kotivoitto 36 %, tasapeli 28 %, vierasvoitto 36 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -536,16 +536,16 @@
      "home": "Bolton",
      "away": "Portsmouth",
      "crowd": [
-      0.35,
-      0.25,
+      0.34,
+      0.26,
       0.4
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.35,
-      0.25,
+      0.34,
+      0.26,
       0.4
      ],
      "basis": "crowd",
@@ -559,7 +559,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 35 %, tasapeli 25 %, vierasvoitto 40 %.",
+       "Pelaajat veikkaavat: kotivoitto 34 %, tasapeli 26 %, vierasvoitto 40 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -580,17 +580,17 @@
      "home": "Sheffield U",
      "away": "Watford",
      "crowd": [
-      0.66,
-      0.21,
-      0.13
+      0.6634,
+      0.2079,
+      0.1287
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.66,
-      0.21,
-      0.13
+      0.6634,
+      0.2079,
+      0.1287
      ],
      "basis": "crowd",
      "ratio": [
@@ -630,7 +630,7 @@
    "label": "Futisvakio 8 (krs 47)",
    "date": "2026-11-18",
    "status": "open",
-   "turnoverEur": 751,
+   "turnoverEur": 981,
    "turnoverEstimated": false,
    "guaranteeEur": null,
    "bonusPoolEur": null,
@@ -649,17 +649,17 @@
      "home": "Portugalete",
      "away": "Real Union",
      "crowd": [
-      0.72,
-      0.13,
-      0.15
+      0.76,
+      0.12,
+      0.12
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.72,
-      0.13,
-      0.15
+      0.76,
+      0.12,
+      0.12
      ],
      "basis": "crowd",
      "ratio": [
@@ -672,7 +672,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 72 %, tasapeli 13 %, vierasvoitto 15 %.",
+       "Pelaajat veikkaavat: kotivoitto 76 %, tasapeli 12 %, vierasvoitto 12 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -693,17 +693,17 @@
      "home": "Utebo FC",
      "away": "Sabadell",
      "crowd": [
-      0.46,
-      0.21,
-      0.33
+      0.4848,
+      0.202,
+      0.3131
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.46,
-      0.21,
-      0.33
+      0.4848,
+      0.202,
+      0.3131
      ],
      "basis": "crowd",
      "ratio": [
@@ -716,7 +716,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 46 %, tasapeli 21 %, vierasvoitto 33 %.",
+       "Pelaajat veikkaavat: kotivoitto 48 %, tasapeli 20 %, vierasvoitto 31 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -738,16 +738,16 @@
      "away": "Mallorca",
      "crowd": [
       0.16,
-      0.27,
-      0.57
+      0.23,
+      0.61
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
       0.16,
-      0.27,
-      0.57
+      0.23,
+      0.61
      ],
      "basis": "crowd",
      "ratio": [
@@ -760,7 +760,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 16 %, tasapeli 27 %, vierasvoitto 57 %.",
+       "Pelaajat veikkaavat: kotivoitto 16 %, tasapeli 23 %, vierasvoitto 61 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -781,17 +781,17 @@
      "home": "Badajoz",
      "away": "Tenerife",
      "crowd": [
+      0.29,
       0.28,
-      0.28,
-      0.44
+      0.43
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
+      0.29,
       0.28,
-      0.28,
-      0.44
+      0.43
      ],
      "basis": "crowd",
      "ratio": [
@@ -804,7 +804,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 28 %, tasapeli 28 %, vierasvoitto 44 %.",
+       "Pelaajat veikkaavat: kotivoitto 29 %, tasapeli 28 %, vierasvoitto 43 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -825,17 +825,17 @@
      "home": "Reus FC Red",
      "away": "Barakaldo",
      "crowd": [
-      0.39,
       0.38,
-      0.23
+      0.4,
+      0.22
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.39,
       0.38,
-      0.23
+      0.4,
+      0.22
      ],
      "basis": "crowd",
      "ratio": [
@@ -848,7 +848,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 39 %, tasapeli 38 %, vierasvoitto 23 %.",
+       "Pelaajat veikkaavat: kotivoitto 38 %, tasapeli 40 %, vierasvoitto 22 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -869,17 +869,17 @@
      "home": "CD Minera",
      "away": "Cartagena",
      "crowd": [
-      0.56,
-      0.25,
-      0.19
+      0.6263,
+      0.2121,
+      0.1616
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.56,
-      0.25,
-      0.19
+      0.6263,
+      0.2121,
+      0.1616
      ],
      "basis": "crowd",
      "ratio": [
@@ -892,7 +892,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 56 %, tasapeli 25 %, vierasvoitto 19 %.",
+       "Pelaajat veikkaavat: kotivoitto 63 %, tasapeli 21 %, vierasvoitto 16 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -913,17 +913,17 @@
      "home": "Coritiba",
      "away": "Santos",
      "crowd": [
-      0.54,
-      0.21,
-      0.25
+      0.56,
+      0.18,
+      0.26
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.54,
-      0.21,
-      0.25
+      0.56,
+      0.18,
+      0.26
      ],
      "basis": "crowd",
      "ratio": [
@@ -936,7 +936,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 54 %, tasapeli 21 %, vierasvoitto 25 %.",
+       "Pelaajat veikkaavat: kotivoitto 56 %, tasapeli 18 %, vierasvoitto 26 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -957,17 +957,17 @@
      "home": "Club.Do Rem",
      "away": "Chapecoense",
      "crowd": [
-      0.2673,
-      0.1683,
-      0.5644
+      0.28,
+      0.15,
+      0.57
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.2673,
-      0.1683,
-      0.5644
+      0.28,
+      0.15,
+      0.57
      ],
      "basis": "crowd",
      "ratio": [
@@ -980,7 +980,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 27 %, tasapeli 17 %, vierasvoitto 56 %.",
+       "Pelaajat veikkaavat: kotivoitto 28 %, tasapeli 15 %, vierasvoitto 57 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1002,16 +1002,16 @@
      "away": "Palmeiras",
      "crowd": [
       0.44,
-      0.36,
-      0.2
+      0.35,
+      0.21
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
       0.44,
-      0.36,
-      0.2
+      0.35,
+      0.21
      ],
      "basis": "crowd",
      "ratio": [
@@ -1024,7 +1024,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 44 %, tasapeli 36 %, vierasvoitto 20 %.",
+       "Pelaajat veikkaavat: kotivoitto 44 %, tasapeli 35 %, vierasvoitto 21 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1045,17 +1045,17 @@
      "home": "Flamengo",
      "away": "CA Paranaen",
      "crowd": [
-      0.77,
-      0.11,
-      0.12
+      0.8,
+      0.1,
+      0.1
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.77,
-      0.11,
-      0.12
+      0.8,
+      0.1,
+      0.1
      ],
      "basis": "crowd",
      "ratio": [
@@ -1068,7 +1068,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 77 %, tasapeli 11 %, vierasvoitto 12 %.",
+       "Pelaajat veikkaavat: kotivoitto 80 %, tasapeli 10 %, vierasvoitto 10 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1133,17 +1133,17 @@
      "home": "Corinthians",
      "away": "Botafogo RJ",
      "crowd": [
-      0.3,
+      0.31,
       0.35,
-      0.35
+      0.34
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.3,
+      0.31,
       0.35,
-      0.35
+      0.34
      ],
      "basis": "crowd",
      "ratio": [
@@ -1156,7 +1156,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 30 %, tasapeli 35 %, vierasvoitto 35 %.",
+       "Pelaajat veikkaavat: kotivoitto 31 %, tasapeli 35 %, vierasvoitto 34 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1183,7 +1183,7 @@
    "label": "Futisvakio 6 (krs 47)",
    "date": "2026-11-17",
    "status": "open",
-   "turnoverEur": 4830,
+   "turnoverEur": 6928,
    "turnoverEstimated": false,
    "guaranteeEur": null,
    "bonusPoolEur": null,
@@ -1202,17 +1202,17 @@
      "home": "Irlanti U21",
      "away": "Suomi U21",
      "crowd": [
-      0.2574,
-      0.2871,
-      0.4554
+      0.28,
+      0.29,
+      0.43
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.2574,
-      0.2871,
-      0.4554
+      0.28,
+      0.29,
+      0.43
      ],
      "basis": "crowd",
      "ratio": [
@@ -1225,7 +1225,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 26 %, tasapeli 29 %, vierasvoitto 46 %.",
+       "Pelaajat veikkaavat: kotivoitto 28 %, tasapeli 29 %, vierasvoitto 43 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1247,16 +1247,16 @@
      "away": "Norja",
      "crowd": [
       0.41,
-      0.26,
-      0.33
+      0.27,
+      0.32
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
       0.41,
-      0.26,
-      0.33
+      0.27,
+      0.32
      ],
      "basis": "crowd",
      "ratio": [
@@ -1269,7 +1269,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 41 %, tasapeli 26 %, vierasvoitto 33 %.",
+       "Pelaajat veikkaavat: kotivoitto 41 %, tasapeli 27 %, vierasvoitto 32 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1290,17 +1290,17 @@
      "home": "Wales",
      "away": "Portugali",
      "crowd": [
-      0.08,
-      0.12,
-      0.8
+      0.0707,
+      0.1313,
+      0.798
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.08,
-      0.12,
-      0.8
+      0.0707,
+      0.1313,
+      0.798
      ],
      "basis": "crowd",
      "ratio": [
@@ -1313,7 +1313,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 8 %, tasapeli 12 %, vierasvoitto 80 %.",
+       "Pelaajat veikkaavat: kotivoitto 7 %, tasapeli 13 %, vierasvoitto 80 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1334,17 +1334,17 @@
      "home": "Unkari",
      "away": "P-Irlanti",
      "crowd": [
-      0.42,
+      0.44,
       0.29,
-      0.29
+      0.27
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.42,
+      0.44,
       0.29,
-      0.29
+      0.27
      ],
      "basis": "crowd",
      "ratio": [
@@ -1357,7 +1357,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 42 %, tasapeli 29 %, vierasvoitto 29 %.",
+       "Pelaajat veikkaavat: kotivoitto 44 %, tasapeli 29 %, vierasvoitto 27 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1378,17 +1378,17 @@
      "home": "Ukraina",
      "away": "Georgia",
      "crowd": [
-      0.62,
-      0.26,
-      0.12
+      0.6263,
+      0.2626,
+      0.1111
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.62,
-      0.26,
-      0.12
+      0.6263,
+      0.2626,
+      0.1111
      ],
      "basis": "crowd",
      "ratio": [
@@ -1401,7 +1401,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 62 %, tasapeli 26 %, vierasvoitto 12 %.",
+       "Pelaajat veikkaavat: kotivoitto 63 %, tasapeli 26 %, vierasvoitto 11 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1422,17 +1422,17 @@
      "home": "Irlanti",
      "away": "Kosovo",
      "crowd": [
-      0.68,
-      0.17,
-      0.15
+      0.69,
+      0.18,
+      0.13
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.68,
-      0.17,
-      0.15
+      0.69,
+      0.18,
+      0.13
      ],
      "basis": "crowd",
      "ratio": [
@@ -1445,7 +1445,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 68 %, tasapeli 17 %, vierasvoitto 15 %.",
+       "Pelaajat veikkaavat: kotivoitto 69 %, tasapeli 18 %, vierasvoitto 13 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1467,16 +1467,16 @@
      "away": "Ruotsi",
      "crowd": [
       0.25,
-      0.25,
-      0.5
+      0.27,
+      0.48
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
       0.25,
-      0.25,
-      0.5
+      0.27,
+      0.48
      ],
      "basis": "crowd",
      "ratio": [
@@ -1489,7 +1489,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 25 %, tasapeli 25 %, vierasvoitto 50 %.",
+       "Pelaajat veikkaavat: kotivoitto 25 %, tasapeli 27 %, vierasvoitto 48 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1510,17 +1510,17 @@
      "home": "Bosnia-Hert",
      "away": "Romania",
      "crowd": [
-      0.71,
+      0.74,
       0.14,
-      0.15
+      0.12
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.71,
+      0.74,
       0.14,
-      0.15
+      0.12
      ],
      "basis": "crowd",
      "ratio": [
@@ -1533,7 +1533,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 71 %, tasapeli 14 %, vierasvoitto 15 %.",
+       "Pelaajat veikkaavat: kotivoitto 74 %, tasapeli 14 %, vierasvoitto 12 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1554,17 +1554,17 @@
      "home": "Israel",
      "away": "Itävalta",
      "crowd": [
-      0.13,
-      0.17,
-      0.7
+      0.1188,
+      0.1782,
+      0.703
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.13,
-      0.17,
-      0.7
+      0.1188,
+      0.1782,
+      0.703
      ],
      "basis": "crowd",
      "ratio": [
@@ -1577,7 +1577,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 13 %, tasapeli 17 %, vierasvoitto 70 %.",
+       "Pelaajat veikkaavat: kotivoitto 12 %, tasapeli 18 %, vierasvoitto 70 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1598,17 +1598,17 @@
      "home": "Chile",
      "away": "Kolumbia",
      "crowd": [
-      0.1782,
-      0.2376,
-      0.5842
+      0.1616,
+      0.2727,
+      0.5657
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.1782,
-      0.2376,
-      0.5842
+      0.1616,
+      0.2727,
+      0.5657
      ],
      "basis": "crowd",
      "ratio": [
@@ -1621,7 +1621,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 18 %, tasapeli 24 %, vierasvoitto 58 %.",
+       "Pelaajat veikkaavat: kotivoitto 16 %, tasapeli 27 %, vierasvoitto 57 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1642,17 +1642,17 @@
      "home": "Argentiina",
      "away": "Costa Rica",
      "crowd": [
-      0.91,
+      0.92,
       0.04,
-      0.05
+      0.04
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.91,
+      0.92,
       0.04,
-      0.05
+      0.04
      ],
      "basis": "crowd",
      "ratio": [
@@ -1665,7 +1665,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 91 %, tasapeli 4 %, vierasvoitto 5 %.",
+       "Pelaajat veikkaavat: kotivoitto 92 %, tasapeli 4 %, vierasvoitto 4 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1686,17 +1686,17 @@
      "home": "Luton",
      "away": "Peterboro.U",
      "crowd": [
-      0.54,
-      0.25,
-      0.21
+      0.5758,
+      0.2323,
+      0.1919
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.54,
-      0.25,
-      0.21
+      0.5758,
+      0.2323,
+      0.1919
      ],
      "basis": "crowd",
      "ratio": [
@@ -1709,7 +1709,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 54 %, tasapeli 25 %, vierasvoitto 21 %.",
+       "Pelaajat veikkaavat: kotivoitto 58 %, tasapeli 23 %, vierasvoitto 19 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1735,7 +1735,7 @@
    "id": "2026-11-16-futisvakio-5",
    "label": "Futisvakio 5 (krs 47)",
    "date": "2026-11-16",
-   "status": "open",
+   "status": "closed",
    "turnoverEur": 57202,
    "turnoverEstimated": false,
    "guaranteeEur": null,
@@ -1779,8 +1779,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 47 %, tasapeli 26 %, vierasvoitto 27 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -1823,8 +1822,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 72 %, tasapeli 18 %, vierasvoitto 10 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -1867,8 +1865,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 60 %, tasapeli 23 %, vierasvoitto 17 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -1911,8 +1908,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 10 %, tasapeli 22 %, vierasvoitto 68 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -1955,8 +1951,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 87 %, tasapeli 10 %, vierasvoitto 3 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -1999,8 +1994,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 49 %, tasapeli 30 %, vierasvoitto 20 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2043,8 +2037,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 48 %, tasapeli 30 %, vierasvoitto 22 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2087,8 +2080,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 21 %, tasapeli 27 %, vierasvoitto 52 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2131,8 +2123,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 89 %, tasapeli 9 %, vierasvoitto 2 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2175,8 +2166,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 11 %, tasapeli 26 %, vierasvoitto 63 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2219,8 +2209,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 15 %, tasapeli 27 %, vierasvoitto 58 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2263,8 +2252,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 59 %, tasapeli 25 %, vierasvoitto 16 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
