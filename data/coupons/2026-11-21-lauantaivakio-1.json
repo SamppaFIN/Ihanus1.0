@@ -2,7 +2,7 @@
   "id": "2026-11-21-lauantaivakio-1",
   "label": "Lauantaivakio 1 (krs 47)",
   "date": "2026-11-21",
-  "turnoverEur": 22226,
+  "turnoverEur": 24010,
   "guaranteeEur": 250000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.25,
@@ -14,9 +14,9 @@
       "home": "Newcastle U",
       "away": "Arsenal",
       "crowd": [
-        0.2121,
-        0.202,
-        0.5859
+        0.21,
+        0.2,
+        0.59
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Aston Villa",
       "away": "Sunderland",
       "crowd": [
-        0.67,
+        0.68,
         0.18,
-        0.15
+        0.14
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "Coventry C",
       "away": "Crystal P",
       "crowd": [
-        0.41,
-        0.26,
-        0.33
+        0.4059,
+        0.2673,
+        0.3267
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Swansea",
       "away": "West Bromwi",
       "crowd": [
-        0.3535,
-        0.2727,
-        0.3737
+        0.36,
+        0.27,
+        0.37
       ]
     },
     {
@@ -114,8 +114,8 @@
       "home": "Lincoln C",
       "away": "Wrexham",
       "crowd": [
-        0.33,
-        0.29,
+        0.34,
+        0.28,
         0.38
       ]
     },
