@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-22-sunnuntaivakio-3",
+  "label": "Sunnuntaivakio 3 (krs 47)",
+  "date": "2026-11-22",
+  "turnoverEur": 892,
+  "guaranteeEur": 50000,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-22T16:13:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 18.15)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Liverpool",
+      "away": "Mancheste.U",
+      "crowd": [
+        0.59,
+        0.24,
+        0.17
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Milan",
+      "away": "Frosinone",
+      "crowd": [
+        0.73,
+        0.18,
+        0.09
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Atalanta",
+      "away": "Inter",
+      "crowd": [
+        0.12,
+        0.3,
+        0.58
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Osasuna",
+      "away": "Malaga",
+      "crowd": [
+        0.6,
+        0.28,
+        0.12
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Getafe",
+      "away": "At. Madrid",
+      "crowd": [
+        0.06,
+        0.1,
+        0.84
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Werde.Breme",
+      "away": "HSV",
+      "crowd": [
+        0.5644,
+        0.2475,
+        0.1881
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Lorient",
+      "away": "Rennes",
+      "crowd": [
+        0.404,
+        0.2929,
+        0.303
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Marseille",
+      "away": "Le Mans",
+      "crowd": [
+        0.88,
+        0.07,
+        0.05
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Nordsjaella",
+      "away": "FC Köbenhav",
+      "crowd": [
+        0.15,
+        0.34,
+        0.51
+      ]
+    },
+    {
+      "n": 10,
+      "home": "RSC Anderle",
+      "away": "OH Leuven",
+      "crowd": [
+        0.82,
+        0.14,
+        0.04
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Lommel SK",
+      "away": "Stand.Liege",
+      "crowd": [
+        0.3434,
+        0.3131,
+        0.3434
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Sarpsbor.08",
+      "away": "Lilleström",
+      "crowd": [
+        0.11,
+        0.15,
+        0.74
+      ]
+    }
+  ]
+}

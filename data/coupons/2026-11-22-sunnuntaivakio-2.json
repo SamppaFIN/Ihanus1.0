@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-22-sunnuntaivakio-2",
+  "label": "Sunnuntaivakio 2 (krs 47)",
+  "date": "2026-11-22",
+  "turnoverEur": 1142,
+  "guaranteeEur": 50000,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-22T12:58:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 18.15)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Barcelona",
+      "away": "Villarreal",
+      "crowd": [
+        0.8812,
+        0.0792,
+        0.0396
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Racin.Sant.",
+      "away": "Real Socied",
+      "crowd": [
+        0.2222,
+        0.2828,
+        0.4949
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Hull",
+      "away": "Brighton",
+      "crowd": [
+        0.1,
+        0.31,
+        0.59
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Bologna",
+      "away": "Udinese",
+      "crowd": [
+        0.8,
+        0.15,
+        0.05
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "crowd": [
+        0.3636,
+        0.3434,
+        0.2929
+      ]
+    },
+    {
+      "n": 6,
+      "home": "FC Augsburg",
+      "away": "Mainz 05",
+      "crowd": [
+        0.34,
+        0.31,
+        0.35
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Paris FC",
+      "away": "Angers",
+      "crowd": [
+        0.85,
+        0.11,
+        0.04
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Ajax",
+      "away": "ADO Den Haa",
+      "crowd": [
+        0.86,
+        0.11,
+        0.03
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Spart.Rott.",
+      "away": "AZ",
+      "crowd": [
+        0.1188,
+        0.1683,
+        0.7129
+      ]
+    },
+    {
+      "n": 10,
+      "home": "GoAhe.Eagle",
+      "away": "Fort. Sitta",
+      "crowd": [
+        0.42,
+        0.35,
+        0.23
+      ]
+    },
+    {
+      "n": 11,
+      "home": "KV Kortrijk",
+      "away": "Union SG",
+      "crowd": [
+        0.05,
+        0.09,
+        0.86
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Sirius",
+      "away": "Djurgården",
+      "crowd": [
+        0.3535,
+        0.3333,
+        0.3131
+      ]
+    }
+  ]
+}

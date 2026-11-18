@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-20-futisvakio-11",
+  "label": "Futisvakio 11 (krs 47)",
+  "date": "2026-11-20",
+  "turnoverEur": 1054,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-20T18:58:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 18.15)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Bayer.Münch",
+      "away": "FC Köln",
+      "crowd": [
+        0.95,
+        0.03,
+        0.02
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Athletic",
+      "away": "Espanyol",
+      "crowd": [
+        0.5657,
+        0.303,
+        0.1313
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Troyes",
+      "away": "Le Havre",
+      "crowd": [
+        0.4747,
+        0.3232,
+        0.202
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Pogon Szcze",
+      "away": "Slask Wrocl",
+      "crowd": [
+        0.9,
+        0.06,
+        0.04
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Cercl.Brugg",
+      "away": "Westerlo",
+      "crowd": [
+        0.27,
+        0.34,
+        0.39
+      ]
+    },
+    {
+      "n": 6,
+      "home": "FC Andorra",
+      "away": "Leganes",
+      "crowd": [
+        0.24,
+        0.24,
+        0.52
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Barnsley",
+      "away": "Sheffield W",
+      "crowd": [
+        0.11,
+        0.19,
+        0.7
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Red Star",
+      "away": "Pau FC",
+      "crowd": [
+        0.36,
+        0.28,
+        0.36
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Guingamp",
+      "away": "Rodez",
+      "crowd": [
+        0.4949,
+        0.3434,
+        0.1616
+      ]
+    },
+    {
+      "n": 10,
+      "home": "FC Annecy",
+      "away": "Clermont",
+      "crowd": [
+        0.61,
+        0.18,
+        0.21
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Nancy",
+      "away": "Dijon",
+      "crowd": [
+        0.6634,
+        0.2574,
+        0.0792
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Metz",
+      "away": "Boulogne",
+      "crowd": [
+        0.75,
+        0.11,
+        0.14
+      ]
+    }
+  ]
+}
