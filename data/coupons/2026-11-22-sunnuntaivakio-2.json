@@ -2,7 +2,7 @@
   "id": "2026-11-22-sunnuntaivakio-2",
   "label": "Sunnuntaivakio 2 (krs 47)",
   "date": "2026-11-22",
-  "turnoverEur": 1142,
+  "turnoverEur": 1338,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Barcelona",
       "away": "Villarreal",
       "crowd": [
-        0.8812,
-        0.0792,
-        0.0396
+        0.88,
+        0.08,
+        0.04
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Hull",
       "away": "Brighton",
       "crowd": [
-        0.1,
+        0.11,
         0.31,
-        0.59
+        0.58
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Bologna",
       "away": "Udinese",
       "crowd": [
-        0.8,
+        0.79,
         0.15,
-        0.05
+        0.06
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Sassuolo",
       "away": "Genoa",
       "crowd": [
-        0.3636,
-        0.3434,
-        0.2929
+        0.3663,
+        0.3366,
+        0.297
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "FC Augsburg",
       "away": "Mainz 05",
       "crowd": [
-        0.34,
+        0.33,
         0.31,
-        0.35
+        0.36
       ]
     },
     {
@@ -74,8 +74,8 @@
       "home": "Paris FC",
       "away": "Angers",
       "crowd": [
-        0.85,
-        0.11,
+        0.84,
+        0.12,
         0.04
       ]
     },
@@ -84,8 +84,8 @@
       "home": "Ajax",
       "away": "ADO Den Haa",
       "crowd": [
-        0.86,
-        0.11,
+        0.85,
+        0.12,
         0.03
       ]
     },
@@ -94,9 +94,9 @@
       "home": "Spart.Rott.",
       "away": "AZ",
       "crowd": [
-        0.1188,
-        0.1683,
-        0.7129
+        0.12,
+        0.18,
+        0.7
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "GoAhe.Eagle",
       "away": "Fort. Sitta",
       "crowd": [
-        0.42,
-        0.35,
-        0.23
+        0.44,
+        0.34,
+        0.22
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "KV Kortrijk",
       "away": "Union SG",
       "crowd": [
-        0.05,
-        0.09,
-        0.86
+        0.06,
+        0.11,
+        0.83
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Sirius",
       "away": "Djurgården",
       "crowd": [
-        0.3535,
-        0.3333,
-        0.3131
+        0.36,
+        0.33,
+        0.31
       ]
     }
   ]

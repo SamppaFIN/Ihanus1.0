@@ -2,7 +2,7 @@
   "id": "2026-11-20-futisvakio-11",
   "label": "Futisvakio 11 (krs 47)",
   "date": "2026-11-20",
-  "turnoverEur": 1054,
+  "turnoverEur": 1604,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -24,9 +24,9 @@
       "home": "Athletic",
       "away": "Espanyol",
       "crowd": [
-        0.5657,
-        0.303,
-        0.1313
+        0.5556,
+        0.2727,
+        0.1717
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Troyes",
       "away": "Le Havre",
       "crowd": [
-        0.4747,
-        0.3232,
-        0.202
+        0.49,
+        0.3,
+        0.21
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Pogon Szcze",
       "away": "Slask Wrocl",
       "crowd": [
-        0.9,
-        0.06,
-        0.04
+        0.85,
+        0.1,
+        0.05
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Cercl.Brugg",
       "away": "Westerlo",
       "crowd": [
-        0.27,
-        0.34,
-        0.39
+        0.32,
+        0.31,
+        0.37
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "FC Andorra",
       "away": "Leganes",
       "crowd": [
-        0.24,
-        0.24,
-        0.52
+        0.26,
+        0.26,
+        0.48
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Barnsley",
       "away": "Sheffield W",
       "crowd": [
-        0.11,
-        0.19,
-        0.7
+        0.1584,
+        0.2079,
+        0.6337
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Red Star",
       "away": "Pau FC",
       "crowd": [
-        0.36,
-        0.28,
-        0.36
+        0.3465,
+        0.2772,
+        0.3762
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Guingamp",
       "away": "Rodez",
       "crowd": [
-        0.4949,
-        0.3434,
-        0.1616
+        0.51,
+        0.3,
+        0.19
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "FC Annecy",
       "away": "Clermont",
       "crowd": [
-        0.61,
-        0.18,
-        0.21
+        0.59,
+        0.21,
+        0.2
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Nancy",
       "away": "Dijon",
       "crowd": [
-        0.6634,
-        0.2574,
-        0.0792
+        0.7,
+        0.21,
+        0.09
       ]
     },
     {
@@ -124,8 +124,8 @@
       "home": "Metz",
       "away": "Boulogne",
       "crowd": [
-        0.75,
-        0.11,
+        0.7,
+        0.16,
         0.14
       ]
     }
