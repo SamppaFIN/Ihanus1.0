@@ -2,7 +2,7 @@
   "id": "2026-11-22-sunnuntaivakio-3",
   "label": "Sunnuntaivakio 3 (krs 47)",
   "date": "2026-11-22",
-  "turnoverEur": 2264,
+  "turnoverEur": 2522,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,8 +14,8 @@
       "home": "Liverpool",
       "away": "Mancheste.U",
       "crowd": [
-        0.62,
-        0.25,
+        0.63,
+        0.24,
         0.13
       ]
     },
@@ -24,9 +24,9 @@
       "home": "Milan",
       "away": "Frosinone",
       "crowd": [
-        0.78,
-        0.15,
-        0.07
+        0.7822,
+        0.1485,
+        0.0693
       ]
     },
     {
@@ -55,8 +55,8 @@
       "away": "At. Madrid",
       "crowd": [
         0.06,
-        0.11,
-        0.83
+        0.1,
+        0.84
       ]
     },
     {
@@ -75,8 +75,8 @@
       "away": "Rennes",
       "crowd": [
         0.39,
-        0.31,
-        0.3
+        0.32,
+        0.29
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Marseille",
       "away": "Le Mans",
       "crowd": [
-        0.87,
+        0.86,
         0.09,
-        0.04
+        0.05
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Nordsjaella",
       "away": "FC Köbenhav",
       "crowd": [
-        0.14,
-        0.33,
-        0.53
+        0.1386,
+        0.3267,
+        0.5347
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "RSC Anderle",
       "away": "OH Leuven",
       "crowd": [
-        0.84,
-        0.12,
-        0.04
+        0.8485,
+        0.1111,
+        0.0404
       ]
     },
     {
@@ -115,8 +115,8 @@
       "away": "Stand.Liege",
       "crowd": [
         0.35,
-        0.32,
-        0.33
+        0.33,
+        0.32
       ]
     },
     {
@@ -125,8 +125,8 @@
       "away": "Lilleström",
       "crowd": [
         0.1212,
-        0.1616,
-        0.7172
+        0.1717,
+        0.7071
       ]
     }
   ]
