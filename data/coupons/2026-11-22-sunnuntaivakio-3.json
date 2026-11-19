@@ -2,7 +2,7 @@
   "id": "2026-11-22-sunnuntaivakio-3",
   "label": "Sunnuntaivakio 3 (krs 47)",
   "date": "2026-11-22",
-  "turnoverEur": 2114,
+  "turnoverEur": 2264,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -44,8 +44,8 @@
       "home": "Osasuna",
       "away": "Malaga",
       "crowd": [
-        0.64,
-        0.25,
+        0.65,
+        0.24,
         0.11
       ]
     },
@@ -64,9 +64,9 @@
       "home": "Werde.Breme",
       "away": "HSV",
       "crowd": [
-        0.5859,
-        0.2727,
-        0.1414
+        0.59,
+        0.27,
+        0.14
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Marseille",
       "away": "Le Mans",
       "crowd": [
-        0.8614,
-        0.0891,
-        0.0495
+        0.87,
+        0.09,
+        0.04
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Lommel SK",
       "away": "Stand.Liege",
       "crowd": [
-        0.3535,
-        0.3232,
-        0.3232
+        0.35,
+        0.32,
+        0.33
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Sarpsbor.08",
       "away": "Lilleström",
       "crowd": [
-        0.1287,
-        0.1683,
-        0.703
+        0.1212,
+        0.1616,
+        0.7172
       ]
     }
   ]

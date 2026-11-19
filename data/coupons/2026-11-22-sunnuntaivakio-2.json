@@ -2,7 +2,7 @@
   "id": "2026-11-22-sunnuntaivakio-2",
   "label": "Sunnuntaivakio 2 (krs 47)",
   "date": "2026-11-22",
-  "turnoverEur": 2669,
+  "turnoverEur": 2858,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Barcelona",
       "away": "Villarreal",
       "crowd": [
-        0.89,
-        0.08,
-        0.03
+        0.8812,
+        0.0792,
+        0.0396
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "Racin.Sant.",
       "away": "Real Socied",
       "crowd": [
-        0.2178,
-        0.3069,
-        0.4752
+        0.2121,
+        0.303,
+        0.4848
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Hull",
       "away": "Brighton",
       "crowd": [
-        0.101,
-        0.303,
-        0.596
+        0.1,
+        0.31,
+        0.59
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Bologna",
       "away": "Udinese",
       "crowd": [
-        0.8119,
-        0.1386,
-        0.0495
+        0.82,
+        0.13,
+        0.05
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Sassuolo",
       "away": "Genoa",
       "crowd": [
-        0.36,
-        0.34,
-        0.3
+        0.3564,
+        0.3366,
+        0.3069
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "FC Augsburg",
       "away": "Mainz 05",
       "crowd": [
-        0.34,
-        0.32,
-        0.34
+        0.3366,
+        0.3168,
+        0.3465
       ]
     },
     {
@@ -74,8 +74,8 @@
       "home": "Paris FC",
       "away": "Angers",
       "crowd": [
-        0.86,
-        0.1,
+        0.85,
+        0.11,
         0.04
       ]
     },
@@ -94,9 +94,9 @@
       "home": "Spart.Rott.",
       "away": "AZ",
       "crowd": [
-        0.11,
-        0.18,
-        0.71
+        0.1188,
+        0.1782,
+        0.703
       ]
     },
     {
@@ -115,8 +115,8 @@
       "away": "Union SG",
       "crowd": [
         0.06,
-        0.12,
-        0.82
+        0.13,
+        0.81
       ]
     },
     {
