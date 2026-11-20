@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-11-19T14:38:32.931Z",
+  "fetchedAt": "2026-11-20T14:16:26.142Z",
   "source": "betexplorer.com (päiväsivu, keskimääräiset kertoimet)",
   "matches": [
     {
       "n": 1,
       "odds": [
-        5.6,
-        4.18,
-        1.55
+        5.65,
+        4.2,
+        1.56
       ],
       "event": "Newcastle - Arsenal",
       "league": "england/premier-league",
@@ -16,9 +16,9 @@
     {
       "n": 2,
       "odds": [
-        1.85,
-        3.73,
-        3.85
+        1.86,
+        3.71,
+        3.93
       ],
       "event": "Chelsea - Leeds",
       "league": "england/premier-league",
@@ -28,7 +28,7 @@
       "n": 3,
       "odds": [
         1.91,
-        3.58,
+        3.55,
         3.86
       ],
       "event": "Bournemouth - Nottingham",
@@ -39,8 +39,8 @@
       "n": 4,
       "odds": [
         1.74,
-        3.8,
-        4.4
+        3.84,
+        4.43
       ],
       "event": "Aston Villa - Sunderland",
       "league": "england/premier-league",
@@ -50,8 +50,8 @@
       "n": 5,
       "odds": [
         1.52,
-        4.43,
-        5.54
+        4.48,
+        5.45
       ],
       "event": "Tottenham - Ipswich",
       "league": "england/premier-league",
@@ -60,9 +60,9 @@
     {
       "n": 6,
       "odds": [
-        2.38,
+        2.39,
         3.51,
-        2.78
+        2.76
       ],
       "event": "Coventry - Crystal Palace",
       "league": "england/premier-league",
@@ -71,9 +71,9 @@
     {
       "n": 7,
       "odds": [
-        2.88,
+        2.83,
         3.28,
-        2.39
+        2.41
       ],
       "event": "Stoke - Birmingham",
       "league": "england/championship",
@@ -82,7 +82,7 @@
     {
       "n": 8,
       "odds": [
-        2.53,
+        2.54,
         3.3,
         2.68
       ],
@@ -95,7 +95,7 @@
       "odds": [
         1.31,
         5.4,
-        8.32
+        8.23
       ],
       "event": "Wolves - Charlton",
       "league": "england/championship",
@@ -106,7 +106,7 @@
       "odds": [
         1.37,
         5,
-        7
+        6.92
       ],
       "event": "Middlesbrough - Bristol City",
       "league": "england/championship",
@@ -116,8 +116,8 @@
       "n": 11,
       "odds": [
         2.75,
-        3.27,
-        2.49
+        3.25,
+        2.51
       ],
       "event": "Lincoln - Wrexham",
       "league": "england/championship",
@@ -126,9 +126,9 @@
     {
       "n": 12,
       "odds": [
-        2.72,
-        3.38,
-        2.43
+        2.75,
+        3.43,
+        2.41
       ],
       "event": "Bolton - Portsmouth",
       "league": "england/championship",
@@ -137,8 +137,8 @@
     {
       "n": 13,
       "odds": [
-        1.57,
-        4.07,
+        1.55,
+        4.13,
         5.23
       ],
       "event": "Sheffield Utd - Watford",

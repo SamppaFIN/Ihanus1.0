@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-11-19T14:38:32.965Z",
+  "fetchedAt": "2026-11-20T14:16:26.177Z",
   "source": "betexplorer.com (päiväsivu, keskimääräiset kertoimet)",
   "matches": [
     {
       "n": 1,
       "odds": [
-        1.71,
-        4.18,
-        4.1
+        1.69,
+        4.2,
+        4.16
       ],
       "event": "Liverpool - Manchester Utd",
       "league": "england/premier-league",
@@ -16,9 +16,9 @@
     {
       "n": 2,
       "odds": [
-        1.51,
-        4.75,
-        5.16
+        1.49,
+        4.69,
+        5.26
       ],
       "event": "AC Milan - Frosinone",
       "league": "italy/serie-a",
@@ -27,9 +27,9 @@
     {
       "n": 3,
       "odds": [
-        4.75,
-        4.43,
-        1.59
+        4.9,
+        4.53,
+        1.56
       ],
       "event": "Atalanta - Inter",
       "league": "italy/serie-a",
@@ -49,7 +49,7 @@
     {
       "n": 7,
       "odds": [
-        2.81,
+        2.83,
         3.46,
         2.38
       ],
@@ -60,9 +60,9 @@
     {
       "n": 8,
       "odds": [
-        1.43,
-        4.8,
-        6.19
+        1.44,
+        4.81,
+        6.13
       ],
       "event": "Marseille - Le Mans",
       "league": "france/ligue-1",
