@@ -2,7 +2,7 @@
   "id": "2026-11-20-futisvakio-11",
   "label": "Futisvakio 11 (krs 47)",
   "date": "2026-11-20",
-  "turnoverEur": 22354,
+  "turnoverEur": 34391,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,8 +14,8 @@
       "home": "Bayer.Münch",
       "away": "FC Köln",
       "crowd": [
-        0.93,
-        0.05,
+        0.94,
+        0.04,
         0.02
       ]
     },
@@ -24,9 +24,9 @@
       "home": "Athletic",
       "away": "Espanyol",
       "crowd": [
-        0.65,
-        0.23,
-        0.12
+        0.6634,
+        0.2178,
+        0.1188
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Troyes",
       "away": "Le Havre",
       "crowd": [
-        0.5051,
-        0.2929,
-        0.202
+        0.48,
+        0.29,
+        0.23
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Pogon Szcze",
       "away": "Slask Wrocl",
       "crowd": [
-        0.8081,
-        0.1212,
-        0.0707
+        0.74,
+        0.16,
+        0.1
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Cercl.Brugg",
       "away": "Westerlo",
       "crowd": [
-        0.43,
-        0.27,
-        0.3
+        0.4444,
+        0.2626,
+        0.2929
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "FC Andorra",
       "away": "Leganes",
       "crowd": [
-        0.3465,
-        0.2673,
-        0.3861
+        0.4,
+        0.26,
+        0.34
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Barnsley",
       "away": "Sheffield W",
       "crowd": [
-        0.17,
-        0.21,
-        0.62
+        0.202,
+        0.2121,
+        0.5859
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Red Star",
       "away": "Pau FC",
       "crowd": [
-        0.33,
+        0.37,
         0.27,
-        0.4
+        0.36
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Guingamp",
       "away": "Rodez",
       "crowd": [
-        0.58,
-        0.26,
-        0.16
+        0.5545,
+        0.2574,
+        0.1881
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "FC Annecy",
       "away": "Clermont",
       "crowd": [
-        0.54,
+        0.5,
         0.28,
-        0.18
+        0.22
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Nancy",
       "away": "Dijon",
       "crowd": [
-        0.72,
-        0.18,
-        0.1
+        0.6733,
+        0.198,
+        0.1287
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Metz",
       "away": "Boulogne",
       "crowd": [
-        0.65,
-        0.24,
-        0.11
+        0.5743,
+        0.2475,
+        0.1782
       ]
     }
   ]
