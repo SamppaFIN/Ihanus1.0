@@ -2,7 +2,7 @@
   "id": "2026-11-21-lauantaivakio-1",
   "label": "Lauantaivakio 1 (krs 47)",
   "date": "2026-11-21",
-  "turnoverEur": 144787,
+  "turnoverEur": 159179,
   "guaranteeEur": 250000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.25,
@@ -14,9 +14,9 @@
       "home": "Newcastle U",
       "away": "Arsenal",
       "crowd": [
-        0.14,
-        0.19,
-        0.67
+        0.1313,
+        0.1919,
+        0.6768
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "Chelsea",
       "away": "Leeds U",
       "crowd": [
-        0.56,
-        0.25,
-        0.19
+        0.5545,
+        0.2574,
+        0.1881
       ]
     },
     {
@@ -34,8 +34,8 @@
       "home": "Bournemouth",
       "away": "Nottingham",
       "crowd": [
-        0.56,
-        0.25,
+        0.57,
+        0.24,
         0.19
       ]
     },
@@ -44,9 +44,9 @@
       "home": "Aston Villa",
       "away": "Sunderland",
       "crowd": [
-        0.63,
-        0.21,
-        0.16
+        0.6364,
+        0.2121,
+        0.1515
       ]
     },
     {
@@ -74,8 +74,8 @@
       "home": "Stoke",
       "away": "Birmingham",
       "crowd": [
-        0.33,
-        0.3,
+        0.32,
+        0.31,
         0.37
       ]
     },
@@ -84,9 +84,9 @@
       "home": "Swansea",
       "away": "West Bromwi",
       "crowd": [
-        0.3535,
-        0.2929,
-        0.3535
+        0.35,
+        0.3,
+        0.35
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Wolverhampt",
       "away": "Charlton",
       "crowd": [
-        0.78,
-        0.14,
-        0.08
+        0.7879,
+        0.1313,
+        0.0808
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Bolton",
       "away": "Portsmouth",
       "crowd": [
-        0.3168,
-        0.2871,
-        0.396
+        0.31,
+        0.29,
+        0.4
       ]
     },
     {
@@ -134,9 +134,9 @@
       "home": "Sheffield U",
       "away": "Watford",
       "crowd": [
-        0.66,
-        0.2,
-        0.14
+        0.6634,
+        0.198,
+        0.1386
       ]
     }
   ]
