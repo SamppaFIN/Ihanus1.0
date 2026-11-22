@@ -1,0 +1,143 @@
+{
+  "id": "2026-11-24-futisvakio-6",
+  "label": "Futisvakio 6 (krs 48)",
+  "date": "2026-11-24",
+  "turnoverEur": 1006,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-24T19:43:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 17.05)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Arsenal",
+      "away": "Bor. Dortmu",
+      "crowd": [
+        0.68,
+        0.19,
+        0.13
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Mancheste.C",
+      "away": "Napoli",
+      "crowd": [
+        0.8,
+        0.12,
+        0.08
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Real Madrid",
+      "away": "PSV",
+      "crowd": [
+        0.93,
+        0.04,
+        0.03
+      ]
+    },
+    {
+      "n": 4,
+      "home": "RB Leipzig",
+      "away": "Lens",
+      "crowd": [
+        0.74,
+        0.13,
+        0.13
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Como",
+      "away": "A.E.K.",
+      "crowd": [
+        0.83,
+        0.11,
+        0.06
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Slova.Brat.",
+      "away": "Betis",
+      "crowd": [
+        0.1,
+        0.2,
+        0.7
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Feyenoord",
+      "away": "FC Porto",
+      "crowd": [
+        0.27,
+        0.31,
+        0.42
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Portsmouth",
+      "away": "West Ham",
+      "crowd": [
+        0.19,
+        0.24,
+        0.57
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Middlesbrou",
+      "away": "Swansea",
+      "crowd": [
+        0.7426,
+        0.1683,
+        0.0891
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Sheffield U",
+      "away": "Southampton",
+      "crowd": [
+        0.37,
+        0.26,
+        0.37
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Bristol C",
+      "away": "Wrexham",
+      "crowd": [
+        0.24,
+        0.32,
+        0.44
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Charlton",
+      "away": "Lincoln C",
+      "crowd": [
+        0.5941,
+        0.2376,
+        0.1683
+      ]
+    },
+    {
+      "n": 13,
+      "home": "Cardiff C",
+      "away": "Preston",
+      "crowd": [
+        0.65,
+        0.19,
+        0.16
+      ]
+    }
+  ]
+}

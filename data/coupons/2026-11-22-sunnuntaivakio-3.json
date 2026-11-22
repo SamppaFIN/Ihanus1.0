@@ -2,7 +2,7 @@
   "id": "2026-11-22-sunnuntaivakio-3",
   "label": "Sunnuntaivakio 3 (krs 47)",
   "date": "2026-11-22",
-  "turnoverEur": 11094,
+  "turnoverEur": 60865,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Liverpool",
       "away": "Mancheste.U",
       "crowd": [
-        0.596,
-        0.2525,
-        0.1515
+        0.5758,
+        0.2424,
+        0.1818
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "Milan",
       "away": "Frosinone",
       "crowd": [
-        0.74,
-        0.17,
-        0.09
+        0.6566,
+        0.2121,
+        0.1313
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Atalanta",
       "away": "Inter",
       "crowd": [
-        0.12,
-        0.28,
-        0.6
+        0.13,
+        0.25,
+        0.62
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Osasuna",
       "away": "Malaga",
       "crowd": [
-        0.64,
-        0.25,
-        0.11
+        0.6,
+        0.26,
+        0.14
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Getafe",
       "away": "At. Madrid",
       "crowd": [
-        0.08,
-        0.15,
-        0.77
+        0.1,
+        0.2,
+        0.7
       ]
     },
     {
@@ -64,8 +64,8 @@
       "home": "Werde.Breme",
       "away": "HSV",
       "crowd": [
-        0.61,
-        0.25,
+        0.64,
+        0.22,
         0.14
       ]
     },
@@ -74,9 +74,9 @@
       "home": "Lorient",
       "away": "Rennes",
       "crowd": [
-        0.39,
-        0.31,
-        0.3
+        0.3737,
+        0.3131,
+        0.3131
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Marseille",
       "away": "Le Mans",
       "crowd": [
-        0.86,
-        0.1,
-        0.04
+        0.8,
+        0.13,
+        0.07
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Nordsjaella",
       "away": "FC Köbenhav",
       "crowd": [
-        0.19,
-        0.31,
-        0.5
+        0.26,
+        0.3,
+        0.44
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "RSC Anderle",
       "away": "OH Leuven",
       "crowd": [
-        0.798,
-        0.1414,
-        0.0606
+        0.74,
+        0.17,
+        0.09
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Lommel SK",
       "away": "Stand.Liege",
       "crowd": [
-        0.36,
-        0.32,
-        0.32
+        0.33,
+        0.31,
+        0.36
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Sarpsbor.08",
       "away": "Lilleström",
       "crowd": [
-        0.1881,
-        0.2079,
-        0.604
+        0.29,
+        0.25,
+        0.46
       ]
     }
   ]
