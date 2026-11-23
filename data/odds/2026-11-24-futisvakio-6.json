@@ -1,0 +1,127 @@
+{
+  "fetchedAt": "2026-11-23T16:21:22.454Z",
+  "source": "betexplorer.com (päiväsivu, keskimääräiset kertoimet)",
+  "matches": [
+    {
+      "n": 2,
+      "odds": [
+        1.26,
+        6.23,
+        9.05
+      ],
+      "event": "Manchester City - Napoli",
+      "league": "europe/champions-league",
+      "url": "https://www.betexplorer.com/football/europe/champions-league/manchester-city-napoli/OxXVS94F/"
+    },
+    {
+      "n": 3,
+      "odds": [
+        1.17,
+        8.71,
+        11.44
+      ],
+      "event": "Real Madrid - PSV",
+      "league": "europe/champions-league",
+      "url": "https://www.betexplorer.com/football/europe/champions-league/real-madrid-psv/6PURSlmI/"
+    },
+    {
+      "n": 4,
+      "odds": [
+        1.37,
+        5.51,
+        6.6
+      ],
+      "event": "RB Leipzig - Lens",
+      "league": "europe/champions-league",
+      "url": "https://www.betexplorer.com/football/europe/champions-league/rb-leipzig-lens/pxXsydY8/"
+    },
+    {
+      "n": 6,
+      "odds": [
+        10.5,
+        6.4,
+        1.23
+      ],
+      "event": "Slovan Bratislava - Betis",
+      "league": "europe/champions-league",
+      "url": "https://www.betexplorer.com/football/europe/champions-league/slovan-bratislava-betis/I9qIUvgn/"
+    },
+    {
+      "n": 7,
+      "odds": [
+        2.85,
+        3.61,
+        2.28
+      ],
+      "event": "Feyenoord - FC Porto",
+      "league": "europe/champions-league",
+      "url": "https://www.betexplorer.com/football/europe/champions-league/feyenoord-fc-porto/6grtKluR/"
+    },
+    {
+      "n": 8,
+      "odds": [
+        3.92,
+        3.65,
+        1.84
+      ],
+      "event": "Portsmouth - West Ham",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/portsmouth-west-ham/dAquY88c/"
+    },
+    {
+      "n": 9,
+      "odds": [
+        1.43,
+        4.63,
+        6.4
+      ],
+      "event": "Middlesbrough - Swansea",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/middlesbrough-swansea/61Wc3Q0M/"
+    },
+    {
+      "n": 10,
+      "odds": [
+        2.52,
+        3.4,
+        2.63
+      ],
+      "event": "Sheffield Utd - Southampton",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/sheffield-utd-southampton/UNsmWnwA/"
+    },
+    {
+      "n": 11,
+      "odds": [
+        2.33,
+        3.27,
+        2.97
+      ],
+      "event": "Bristol City - Wrexham",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/bristol-city-wrexham/hvQs781c/"
+    },
+    {
+      "n": 12,
+      "odds": [
+        2.67,
+        3.27,
+        2.55
+      ],
+      "event": "Charlton - Lincoln",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/charlton-lincoln-city/bL0NFRhT/"
+    },
+    {
+      "n": 13,
+      "odds": [
+        1.5,
+        4.56,
+        5.38
+      ],
+      "event": "Cardiff - Preston",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/cardiff-preston/04Tk5nW9/"
+    }
+  ]
+}

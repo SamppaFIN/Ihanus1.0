@@ -1,0 +1,94 @@
+{
+  "fetchedAt": "2026-11-23T16:21:22.406Z",
+  "source": "betexplorer.com (päiväsivu, keskimääräiset kertoimet)",
+  "matches": [
+    {
+      "n": 1,
+      "odds": [
+        2.27,
+        3.41,
+        3.03
+      ],
+      "event": "Brentford - Everton",
+      "league": "england/premier-league",
+      "url": "https://www.betexplorer.com/football/england/premier-league/brentford-everton/CSnuq6U8/"
+    },
+    {
+      "n": 2,
+      "odds": [
+        3.83,
+        3.63,
+        1.91
+      ],
+      "event": "Monza - Fiorentina",
+      "league": "italy/serie-a",
+      "url": "https://www.betexplorer.com/football/italy/serie-a/monza-fiorentina/xQYBZbDG/"
+    },
+    {
+      "n": 3,
+      "odds": [
+        2.1,
+        3.58,
+        3.25
+      ],
+      "event": "Levante - Elche",
+      "league": "spain/laliga",
+      "url": "https://www.betexplorer.com/football/spain/laliga/levante-elche/MNFmr4wR/"
+    },
+    {
+      "n": 6,
+      "odds": [
+        2.52,
+        3.77,
+        2.42
+      ],
+      "event": "Brondby - Midtjylland",
+      "league": "denmark/superliga",
+      "url": "https://www.betexplorer.com/football/denmark/superliga/brondby-midtjylland/xMzLdmMh/"
+    },
+    {
+      "n": 7,
+      "odds": [
+        3.6,
+        3.62,
+        1.9
+      ],
+      "event": "Ceuta - Almeria",
+      "league": "spain/laliga2",
+      "url": "https://www.betexplorer.com/football/spain/laliga2/ad-ceuta-almeria/Yi4DT56b/"
+    },
+    {
+      "n": 8,
+      "odds": [
+        1.44,
+        3.97,
+        6.88
+      ],
+      "event": "Nantes - Grenoble",
+      "league": "france/ligue-2",
+      "url": "https://www.betexplorer.com/football/france/ligue-2/nantes-grenoble/Yi0ChSdS/"
+    },
+    {
+      "n": 10,
+      "odds": [
+        2.14,
+        3.97,
+        2.72
+      ],
+      "event": "Jong Ajax - Jong AZ",
+      "league": "netherlands/eerste-divisie",
+      "url": "https://www.betexplorer.com/football/netherlands/eerste-divisie/jong-ajax-jong-az-alkmaar/8b44XUOp/"
+    },
+    {
+      "n": 12,
+      "odds": [
+        2.09,
+        3.68,
+        2.97
+      ],
+      "event": "Vitesse - De Graafschap",
+      "league": "netherlands/eerste-divisie",
+      "url": "https://www.betexplorer.com/football/netherlands/eerste-divisie/vitesse-de-graafschap/ELn1Fyn2/"
+    }
+  ]
+}

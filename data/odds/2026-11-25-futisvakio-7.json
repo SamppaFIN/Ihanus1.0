@@ -1,0 +1,94 @@
+{
+  "fetchedAt": "2026-11-23T16:21:22.492Z",
+  "source": "betexplorer.com (päiväsivu, keskimääräiset kertoimet)",
+  "matches": [
+    {
+      "n": 1,
+      "odds": [
+        4.26,
+        4.53,
+        1.63
+      ],
+      "event": "Club Brugge KV - Liverpool",
+      "league": "europe/champions-league",
+      "url": "https://www.betexplorer.com/football/europe/champions-league/club-brugge-liverpool/6wSZISyp/"
+    },
+    {
+      "n": 2,
+      "odds": [
+        2.39,
+        3.68,
+        2.65
+      ],
+      "event": "Sporting CP - Manchester Utd",
+      "league": "europe/champions-league",
+      "url": "https://www.betexplorer.com/football/europe/champions-league/sporting-cp-manchester-united/CEDJzDKq/"
+    },
+    {
+      "n": 3,
+      "odds": [
+        1.37,
+        5.05,
+        7.08
+      ],
+      "event": "PSG - AS Roma",
+      "league": "europe/champions-league",
+      "url": "https://www.betexplorer.com/football/europe/champions-league/psg-as-roma/v74Mijwo/"
+    },
+    {
+      "n": 8,
+      "odds": [
+        2.57,
+        3.53,
+        2.49
+      ],
+      "event": "Burnley - Birmingham",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/burnley-birmingham/KzVYMr0d/"
+    },
+    {
+      "n": 9,
+      "odds": [
+        3.55,
+        3.62,
+        1.95
+      ],
+      "event": "Bolton - West Brom",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/bolton-west-brom/nNWQO4Vq/"
+    },
+    {
+      "n": 10,
+      "odds": [
+        2.22,
+        3.35,
+        3.15
+      ],
+      "event": "Stoke - Millwall",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/stoke-city-millwall/nsNKpnh3/"
+    },
+    {
+      "n": 11,
+      "odds": [
+        2.48,
+        3.38,
+        2.65
+      ],
+      "event": "Watford - Blackburn",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/watford-blackburn/hvQSrQMF/"
+    },
+    {
+      "n": 12,
+      "odds": [
+        1.59,
+        3.9,
+        4.7
+      ],
+      "event": "Harrogate - Kidderminster",
+      "league": "england/national-league",
+      "url": "https://www.betexplorer.com/football/england/national-league/harrogate-kidderminster/0S9OQjmo/"
+    }
+  ]
+}

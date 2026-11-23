@@ -1,0 +1,149 @@
+{
+  "fetchedAt": "2026-11-23T16:21:22.530Z",
+  "source": "betexplorer.com (päiväsivu, keskimääräiset kertoimet)",
+  "matches": [
+    {
+      "n": 1,
+      "odds": [
+        1.95,
+        3.65,
+        3.41
+      ],
+      "event": "Manchester Utd - Brentford",
+      "league": "england/premier-league",
+      "url": "https://www.betexplorer.com/football/england/premier-league/manchester-united-brentford/tMZ44Ddn/"
+    },
+    {
+      "n": 2,
+      "odds": [
+        1.49,
+        4.23,
+        5.58
+      ],
+      "event": "Leeds - Coventry",
+      "league": "england/premier-league",
+      "url": "https://www.betexplorer.com/football/england/premier-league/leeds-coventry/GtJgcdkJ/"
+    },
+    {
+      "n": 3,
+      "odds": [
+        3.33,
+        3.74,
+        1.92
+      ],
+      "event": "Ipswich - Aston Villa",
+      "league": "england/premier-league",
+      "url": "https://www.betexplorer.com/football/england/premier-league/ipswich-aston-villa/rTKoaIK6/"
+    },
+    {
+      "n": 4,
+      "odds": [
+        1.46,
+        4.43,
+        6.08
+      ],
+      "event": "Birmingham - Bolton",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/birmingham-bolton/QiOzs4iS/"
+    },
+    {
+      "n": 5,
+      "odds": [
+        1.53,
+        4.37,
+        5.45
+      ],
+      "event": "West Ham - Stoke",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/west-ham-stoke-city/x8PCif5m/"
+    },
+    {
+      "n": 6,
+      "odds": [
+        1.72,
+        3.7,
+        4.38
+      ],
+      "event": "West Brom - Bristol City",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/west-brom-bristol-city/txvscGsQ/"
+    },
+    {
+      "n": 7,
+      "odds": [
+        2.18,
+        3.6,
+        2.92
+      ],
+      "event": "Millwall - Burnley",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/millwall-burnley/SfsXvHLs/"
+    },
+    {
+      "n": 8,
+      "odds": [
+        1.9,
+        3.43,
+        3.83
+      ],
+      "event": "Wrexham - Portsmouth",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/wrexham-portsmouth/AcLydrgd/"
+    },
+    {
+      "n": 9,
+      "odds": [
+        2.08,
+        3.47,
+        3.25
+      ],
+      "event": "Derby - Watford",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/derby-watford/40IEZLq2/"
+    },
+    {
+      "n": 10,
+      "odds": [
+        2.08,
+        3.53,
+        3.2
+      ],
+      "event": "QPR - Sheffield Utd",
+      "league": "england/championship",
+      "url": "https://www.betexplorer.com/football/england/championship/qpr-sheffield-utd/8YrmyZK6/"
+    },
+    {
+      "n": 11,
+      "odds": [
+        1.72,
+        3.88,
+        4
+      ],
+      "event": "Luton - Oxford Utd",
+      "league": "england/league-one",
+      "url": "https://www.betexplorer.com/football/england/league-one/luton-oxford-utd/rJwOAJal/"
+    },
+    {
+      "n": 12,
+      "odds": [
+        1.6,
+        4.1,
+        4.51
+      ],
+      "event": "Leicester - Mansfield",
+      "league": "england/league-one",
+      "url": "https://www.betexplorer.com/football/england/league-one/leicester-mansfield/nmhhGuxR/"
+    },
+    {
+      "n": 13,
+      "odds": [
+        2.24,
+        3.55,
+        2.77
+      ],
+      "event": "Sheffield Wed - Reading",
+      "league": "england/league-one",
+      "url": "https://www.betexplorer.com/football/england/league-one/sheffield-wed-reading/lxdkEh6t/"
+    }
+  ]
+}

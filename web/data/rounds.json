@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-22T21:44:04.939Z",
- "today": "2026-11-22",
+ "generatedAt": "2026-11-23T16:21:29.069Z",
+ "today": "2026-11-23",
  "budgetEur": 40,
  "assumptions": {
   "prize": {
@@ -24,45 +24,1935 @@
  },
  "rounds": [
   {
-   "id": "2026-11-24-futisvakio-6",
-   "label": "Futisvakio 6 (krs 48)",
-   "date": "2026-11-24",
+   "id": "2026-11-28-lauantaivakio-1",
+   "label": "Lauantaivakio 1 (krs 48)",
+   "date": "2026-11-28",
    "status": "open",
-   "turnoverEur": 2526,
+   "turnoverEur": 9110,
+   "turnoverEstimated": false,
+   "guaranteeEur": 300000,
+   "bonusPoolEur": null,
+   "rowPriceEur": 0.25,
+   "rowPriceEstimated": false,
+   "avgRowEv": 0.1625,
+   "pools": [
+    3316.0400000000004,
+    947.44,
+    651.365,
+    1006.6550000000001
+   ],
+   "source": "Yle Teksti-TV 479 (pelijakauma 18.16)",
+   "note": null,
+   "links": [],
+   "hasEdge": true,
+   "noPathReason": null,
+   "matches": [
+    {
+     "n": 1,
+     "home": "Mancheste.U",
+     "away": "Brentford",
+     "crowd": [
+      0.49,
+      0.27,
+      0.24
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.47481259656283986,
+      0.25366700364316097,
+      0.2715203997939993
+     ],
+     "model": null,
+     "p": [
+      0.4772256256121808,
+      0.25614117264845526,
+      0.2666332017393639
+     ],
+     "basis": "market",
+     "ratio": [
+      0.9739298481881241,
+      0.9486710098090935,
+      1.1109716739140163
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 48 %, tasapeli 26 %, vierasvoitto 27 %. Todennäköisin tulos on kotivoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Manchester Utd - Brentford). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 49 %, tasapeli 27 %, vierasvoitto 24 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / premier-league",
+        "url": "https://www.betexplorer.com/football/england/premier-league/manchester-united-brentford/tMZ44Ddn/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (48 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 48 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 47 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 26 %, pelaajista 27 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 27 %, pelaajista 24 % veikkaa tätä"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 2,
+     "home": "Leeds U",
+     "away": "Coventry C",
+     "crowd": [
+      0.72,
+      0.18,
+      0.1
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.6175618715708668,
+      0.21753361433583723,
+      0.16490451409329598
+     ],
+     "model": null,
+     "p": [
+      0.6342466930427555,
+      0.21221116456376904,
+      0.15354214239347552
+     ],
+     "basis": "market",
+     "ratio": [
+      0.8808981847816049,
+      1.1789509142431613,
+      1.5354214239347552
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 63 %, tasapeli 21 %, vierasvoitto 15 %. Todennäköisin tulos on kotivoitto, noin 6 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Leeds - Coventry). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 72 %, tasapeli 18 %, vierasvoitto 10 %.",
+       "Vierasvoitto: vain 10 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 15 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 18 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 21 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / premier-league",
+        "url": "https://www.betexplorer.com/football/england/premier-league/leeds-coventry/GtJgcdkJ/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (63 %). Pelaajat aliarvostavat: tasapeli (arvio 21 %, pelaajat 18 %) ja vierasvoitto (arvio 15 %, pelaajat 10 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 63 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 62 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 18 % pelaajista veikkaa tätä (oma arvio 21 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 10 % pelaajista veikkaa tätä (oma arvio 15 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 15 %"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 3,
+     "home": "Ipswich T",
+     "away": "Aston Villa",
+     "crowd": [
+      0.29,
+      0.24,
+      0.47
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.2758811461238791,
+      0.245637491067518,
+      0.4784813628086029
+     ],
+     "model": null,
+     "p": [
+      0.27797174717708995,
+      0.24479885379125205,
+      0.47722939903165806
+     ],
+     "basis": "market",
+     "ratio": [
+      0.9585232661278964,
+      1.0199952241302168,
+      1.0153817000673577
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 28 %, tasapeli 24 %, vierasvoitto 48 %. Todennäköisin tulos on vierasvoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Ipswich - Aston Villa). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 29 %, tasapeli 24 %, vierasvoitto 47 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / premier-league",
+        "url": "https://www.betexplorer.com/football/england/premier-league/ipswich-aston-villa/rTKoaIK6/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (48 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 28 %, pelaajista 29 % veikkaa tätä"
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 24 %, pelaajista 24 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 48 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 48 %"
+         ],
+         "cons": []
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 4,
+     "home": "Birmingham",
+     "away": "Bolton",
+     "crowd": [
+      0.76,
+      0.12,
+      0.12
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.6370633174862224,
+      0.20995766219636228,
+      0.15297902031741528
+     ],
+     "model": null,
+     "p": [
+      0.6576247319556682,
+      0.1940841393046751,
+      0.14829112873965675
+     ],
+     "basis": "market",
+     "ratio": [
+      0.8652956999416687,
+      1.6173678275389594,
+      1.2357594061638062
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: tasapeli",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 66 %, tasapeli 19 %, vierasvoitto 15 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Birmingham - Bolton). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 76 %, tasapeli 12 %, vierasvoitto 12 %.",
+       "Tasapeli: vain 12 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 19 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: vain 12 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 15 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Kotivoitto: 76 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 66 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/birmingham-bolton/QiOzs4iS/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (66 %). Pelaajat aliarvostavat: tasapeli (arvio 19 %, pelaajat 12 %) ja vierasvoitto (arvio 15 %, pelaajat 12 %). Ylipelattu: kotivoitto (76 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 66 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 64 %"
+         ],
+         "cons": [
+          "76 % pelaajista veikkaa tätä (oma arvio 66 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 12 % pelaajista veikkaa tätä (oma arvio 19 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 19 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 12 % pelaajista veikkaa tätä (oma arvio 15 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 15 %"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 5,
+     "home": "West Ham",
+     "away": "Stoke",
+     "crowd": [
+      0.4,
+      0.25,
+      0.35
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.6131777936258241,
+      0.21468238541132972,
+      0.17213982096284602
+     ],
+     "model": null,
+     "p": [
+      0.5831452119512823,
+      0.22270871467571343,
+      0.1941460733730041
+     ],
+     "basis": "market",
+     "ratio": [
+      1.4578630298782058,
+      0.8908348587028537,
+      0.5547030667800118
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 58 %, tasapeli 22 %, vierasvoitto 19 %. Todennäköisin tulos on kotivoitto, noin 6 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: West Ham - Stoke). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 40 %, tasapeli 25 %, vierasvoitto 35 %.",
+       "Kotivoitto: vain 40 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 58 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: 35 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 19 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/west-ham-stoke-city/x8PCif5m/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (58 %). Pelaajat aliarvostavat: kotivoitto (arvio 58 %, pelaajat 40 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 58 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 61 %",
+          "Vain 40 % pelaajista veikkaa tätä (oma arvio 58 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 22 %, pelaajista 25 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 19 %",
+          "35 % pelaajista veikkaa tätä (oma arvio 19 %), joten voitto jaetaan monen kanssa"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 6,
+     "home": "West Bromwi",
+     "away": "Bristol C",
+     "crowd": [
+      0.72,
+      0.13,
+      0.15
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.5383409293240675,
+      0.2502557833614584,
+      0.211403287314474
+     ],
+     "model": null,
+     "p": [
+      0.5680333280361229,
+      0.229135911931387,
+      0.20283076003249004
+     ],
+     "basis": "market",
+     "ratio": [
+      0.7889351778279485,
+      1.762583937933746,
+      1.352205066883267
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: tasapeli",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 57 %, tasapeli 23 %, vierasvoitto 20 %. Todennäköisin tulos on kotivoitto, noin 6 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: West Brom - Bristol City). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 72 %, tasapeli 13 %, vierasvoitto 15 %.",
+       "Tasapeli: vain 13 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 23 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: vain 15 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 20 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Kotivoitto: 72 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 57 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/west-brom-bristol-city/txvscGsQ/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (57 %). Pelaajat aliarvostavat: tasapeli (arvio 23 %, pelaajat 13 %) ja vierasvoitto (arvio 20 %, pelaajat 15 %). Ylipelattu: kotivoitto (72 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 57 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 54 %"
+         ],
+         "cons": [
+          "72 % pelaajista veikkaa tätä (oma arvio 57 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 13 % pelaajista veikkaa tätä (oma arvio 23 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 15 % pelaajista veikkaa tätä (oma arvio 20 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 7,
+     "home": "Millwall",
+     "away": "Burnley",
+     "crowd": [
+      0.39,
+      0.33,
+      0.28
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.4251464069628239,
+      0.25744976866082114,
+      0.31740382437635484
+     ],
+     "model": null,
+     "p": [
+      0.4203571604981969,
+      0.26764968929738486,
+      0.3119931502044182
+     ],
+     "basis": "market",
+     "ratio": [
+      1.0778388730722996,
+      0.8110596645375299,
+      1.1142612507300649
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 42 %, tasapeli 27 %, vierasvoitto 31 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Millwall - Burnley). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 39 %, tasapeli 33 %, vierasvoitto 28 %.",
+       "Tasapeli: 33 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 27 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/millwall-burnley/SfsXvHLs/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (42 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 42 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 43 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [],
+         "cons": [
+          "33 % pelaajista veikkaa tätä (oma arvio 27 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [
+          "Oma arvio: 31 %"
+         ],
+         "cons": []
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 8,
+     "home": "Wrexham",
+     "away": "Portsmouth",
+     "crowd": [
+      0.49,
+      0.28,
+      0.23
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.48780025918183206,
+      0.2702100561065542,
+      0.2419896847116138
+     ],
+     "model": null,
+     "p": [
+      0.48815976769592756,
+      0.27167322303328445,
+      0.24016700927078805
+     ],
+     "basis": "market",
+     "ratio": [
+      0.99624442386924,
+      0.9702615108331587,
+      1.044204388133861
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 49 %, tasapeli 27 %, vierasvoitto 24 %. Todennäköisin tulos on kotivoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Wrexham - Portsmouth). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 49 %, tasapeli 28 %, vierasvoitto 23 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/wrexham-portsmouth/AcLydrgd/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (49 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 49 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 49 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 27 %, pelaajista 28 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 24 %, pelaajista 23 % veikkaa tätä"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 9,
+     "home": "Derby",
+     "away": "Watford",
+     "crowd": [
+      0.44,
+      0.27,
+      0.29
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.4465434704277551,
+      0.2676687084984815,
+      0.2857878210737633
+     ],
+     "model": null,
+     "p": [
+      0.4455608510266223,
+      0.26802016429712605,
+      0.28641898467625165
+     ],
+     "basis": "market",
+     "ratio": [
+      1.012638297787778,
+      0.9926672751745409,
+      0.9876516712974196
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 45 %, tasapeli 27 %, vierasvoitto 29 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Derby - Watford). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 44 %, tasapeli 27 %, vierasvoitto 29 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/derby-watford/40IEZLq2/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (45 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 45 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 45 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 27 %, pelaajista 27 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 29 %, pelaajista 29 % veikkaa tätä"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 10,
+     "home": "QPR",
+     "away": "Sheffield U",
+     "crowd": [
+      0.4,
+      0.3,
+      0.3
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.4465810614207097,
+      0.263141248655829,
+      0.2902776899234613
+     ],
+     "model": null,
+     "p": [
+      0.4395504808510269,
+      0.26854265858578474,
+      0.2919068605631884
+     ],
+     "basis": "market",
+     "ratio": [
+      1.098876202127567,
+      0.8951421952859492,
+      0.9730228685439613
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 44 %, tasapeli 27 %, vierasvoitto 29 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: QPR - Sheffield Utd). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 40 %, tasapeli 30 %, vierasvoitto 30 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/qpr-sheffield-utd/8YrmyZK6/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (44 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 44 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 45 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 27 %, pelaajista 30 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 29 %, pelaajista 30 % veikkaa tätä"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 11,
+     "home": "Luton",
+     "away": "Oxford U",
+     "crowd": [
+      0.49,
+      0.23,
+      0.28
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.5338176214847834,
+      0.23664080127675968,
+      0.22954157723845686
+     ],
+     "model": null,
+     "p": [
+      0.5274663776969513,
+      0.2358396154960086,
+      0.2366940068070401
+     ],
+     "basis": "market",
+     "ratio": [
+      1.0764619952999006,
+      1.0253896325913416,
+      0.8453357385965717
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 53 %, tasapeli 24 %, vierasvoitto 24 %. Todennäköisin tulos on kotivoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Luton - Oxford Utd). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 49 %, tasapeli 23 %, vierasvoitto 28 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / league-one",
+        "url": "https://www.betexplorer.com/football/england/league-one/luton-oxford-utd/rJwOAJal/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (53 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 53 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 53 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 24 %, pelaajista 23 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 24 %, pelaajista 28 % veikkaa tätä"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 12,
+     "home": "Leicester",
+     "away": "Mansfield",
+     "crowd": [
+      0.64,
+      0.18,
+      0.18
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.5730622617534943,
+      0.2236340533672173,
+      0.20330368487928846
+     ],
+     "model": null,
+     "p": [
+      0.5833770276536729,
+      0.2167449113589414,
+      0.19987806098738561
+     ],
+     "basis": "market",
+     "ratio": [
+      0.9115266057088639,
+      1.2041383964385632,
+      1.1104336721521424
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: tasapeli",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 58 %, tasapeli 22 %, vierasvoitto 20 %. Todennäköisin tulos on kotivoitto, noin 6 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Leicester - Mansfield). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 64 %, tasapeli 18 %, vierasvoitto 18 %.",
+       "Tasapeli: vain 18 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 22 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / league-one",
+        "url": "https://www.betexplorer.com/football/england/league-one/leicester-mansfield/nmhhGuxR/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (58 %). Pelaajat aliarvostavat: tasapeli (arvio 22 %, pelaajat 18 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 58 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 57 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 18 % pelaajista veikkaa tätä (oma arvio 22 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 20 %"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 13,
+     "home": "Sheffield W",
+     "away": "Reading FC",
+     "crowd": [
+      0.59,
+      0.23,
+      0.18
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.4098948324947999,
+      0.25863786613756395,
+      0.3314673013676361
+     ],
+     "model": null,
+     "p": [
+      0.4375077432418986,
+      0.25682295162424285,
+      0.3056693051338584
+     ],
+     "basis": "market",
+     "ratio": [
+      0.7415385478676249,
+      1.1166215288010557,
+      1.6981628062992136
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 44 %, tasapeli 26 %, vierasvoitto 31 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Sheffield Wed - Reading). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 59 %, tasapeli 23 %, vierasvoitto 18 %.",
+       "Vierasvoitto: vain 18 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 31 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Kotivoitto: 59 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 44 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / league-one",
+        "url": "https://www.betexplorer.com/football/england/league-one/sheffield-wed-reading/lxdkEh6t/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (44 %). Pelaajat aliarvostavat: vierasvoitto (arvio 31 %, pelaajat 18 %). Ylipelattu: kotivoitto (59 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 44 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 41 %"
+         ],
+         "cons": [
+          "59 % pelaajista veikkaa tätä (oma arvio 44 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 26 %, pelaajista 23 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 31 %",
+          "Vain 18 % pelaajista veikkaa tätä (oma arvio 31 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "path": [
+    {
+     "rows": 1,
+     "costEur": 0.25,
+     "evEur": 6.595207854995198,
+     "roi": 26.38083141998079,
+     "valueMultiple": 40.585894492278136,
+     "pAtLeast": [
+      0.00003979605261919797,
+      0.000705482875474189,
+      0.005672411131747691,
+      0.027667407579633135
+     ],
+     "valueMultipleLow": 20.883708996346623,
+     "roiLow": 13.574410847625305,
+     "selection": [
+      "1",
+      "X",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2"
+     ],
+     "added": null
+    },
+    {
+     "rows": 2,
+     "costEur": 0.5,
+     "evEur": 12.896670129885983,
+     "roi": 25.793340259771966,
+     "valueMultiple": 39.682061938110714,
+     "pAtLeast": [
+      0.00006858987781928062,
+      0.0010802394396993288,
+      0.007874952026524521,
+      0.03540508600679664
+     ],
+     "valueMultipleLow": 20.449715968688572,
+     "roiLow": 13.292315379647572,
+     "selection": [
+      "1",
+      "X2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2"
+     ],
+     "added": {
+      "match": 1,
+      "sign": "2"
+     }
+    },
+    {
+     "rows": 4,
+     "costEur": 1,
+     "evEur": 23.924929356603823,
+     "roi": 23.924929356603823,
+     "valueMultiple": 36.80758362554434,
+     "pAtLeast": [
+      0.00011949794853612359,
+      0.0017608968946857147,
+      0.011979474863047538,
+      0.05017837057968844
+     ],
+     "valueMultipleLow": 19.423014971105943,
+     "roiLow": 12.624959731218862,
+     "selection": [
+      "1",
+      "X2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "12",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2"
+     ],
+     "added": {
+      "match": 6,
+      "sign": "2"
+     }
+    },
+    {
+     "rows": 8,
+     "costEur": 2,
+     "evEur": 41.83000836409079,
+     "roi": 20.915004182045394,
+     "valueMultiple": 32.17692951083907,
+     "pAtLeast": [
+      0.00019631457417042207,
+      0.0027204463570679074,
+      0.017354235535342717,
+      0.06804553995843562
+     ],
+     "valueMultipleLow": 17.609282477057505,
+     "roiLow": 11.446033610087378,
+     "selection": [
+      "1",
+      "X2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "12",
+      "1",
+      "12",
+      "1",
+      "1",
+      "1",
+      "2"
+     ],
+     "added": {
+      "match": 8,
+      "sign": "2"
+     }
+    },
+    {
+     "rows": 12,
+     "costEur": 3,
+     "evEur": 59.731502425558325,
+     "roi": 19.91050080851944,
+     "valueMultiple": 30.63153970541452,
+     "pAtLeast": [
+      0.0005367403942389252,
+      0.006507174348741081,
+      0.036163942941867276,
+      0.12333088418375557
+     ],
+     "valueMultipleLow": 15.143057803725638,
+     "roiLow": 9.842987572421665,
+     "selection": [
+      "1",
+      "1X2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "12",
+      "1",
+      "12",
+      "1",
+      "1",
+      "1",
+      "2"
+     ],
+     "added": {
+      "match": 1,
+      "sign": "1"
+     }
+    },
+    {
+     "rows": 18,
+     "costEur": 4.5,
+     "evEur": 87.14864779267012,
+     "roi": 19.366366176148915,
+     "valueMultiple": 29.79440950176756,
+     "pAtLeast": [
+      0.0007332721040375754,
+      0.008621333991916209,
+      0.04624888547153275,
+      0.1515550632547022
+     ],
+     "valueMultipleLow": 15.004146954633836,
+     "roiLow": 9.752695520511994,
+     "selection": [
+      "1",
+      "1X2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "12",
+      "1",
+      "1X2",
+      "1",
+      "1",
+      "1",
+      "2"
+     ],
+     "added": {
+      "match": 8,
+      "sign": "X"
+     }
+    },
+    {
+     "rows": 36,
+     "costEur": 9,
+     "evEur": 162.03886136025423,
+     "roi": 18.004317928917136,
+     "valueMultiple": 27.698950659872516,
+     "pAtLeast": [
+      0.001029062797927656,
+      0.011578319875508393,
+      0.05917859154395653,
+      0.18420143110232903
+     ],
+     "valueMultipleLow": 13.25031071396504,
+     "roiLow": 8.612701964077276,
+     "selection": [
+      "1",
+      "1X2",
+      "2",
+      "1",
+      "1",
+      "1X",
+      "12",
+      "1",
+      "1X2",
+      "1",
+      "1",
+      "1",
+      "2"
+     ],
+     "added": {
+      "match": 5,
+      "sign": "X"
+     }
+    },
+    {
+     "rows": 54,
+     "costEur": 13.5,
+     "evEur": 226.19926196786776,
+     "roi": 16.755500886508724,
+     "valueMultiple": 25.777693671551884,
+     "pAtLeast": [
+      0.0012908962693663367,
+      0.014195839273139723,
+      0.07062394765405254,
+      0.21309994616712444
+     ],
+     "valueMultipleLow": 12.521769461419941,
+     "roiLow": 8.139150149922962,
+     "selection": [
+      "1",
+      "1X2",
+      "2",
+      "1",
+      "1",
+      "1X2",
+      "12",
+      "1",
+      "1X2",
+      "1",
+      "1",
+      "1",
+      "2"
+     ],
+     "added": {
+      "match": 5,
+      "sign": "2"
+     }
+    },
+    {
+     "rows": 108,
+     "costEur": 27,
+     "evEur": 396.82531216025586,
+     "roi": 14.69723378371318,
+     "valueMultiple": 22.611128898020276,
+     "pAtLeast": [
+      0.002375505631743112,
+      0.02257485521460855,
+      0.09900175740575619,
+      0.2683476332146122
+     ],
+     "valueMultipleLow": 11.873659458595125,
+     "roiLow": 7.717878648086831,
+     "selection": [
+      "1",
+      "1X2",
+      "2",
+      "1",
+      "1",
+      "1X2",
+      "12",
+      "1",
+      "1X2",
+      "1",
+      "1",
+      "1",
+      "X2"
+     ],
+     "added": {
+      "match": 12,
+      "sign": "X"
+     }
+    }
+   ],
+   "prizes": null,
+   "calibration": null,
+   "oddsFetchedAt": "2026-11-23T16:21:22.530Z"
+  },
+  {
+   "id": "2026-11-25-futisvakio-7",
+   "label": "Futisvakio 7 (krs 48)",
+   "date": "2026-11-25",
+   "status": "open",
+   "turnoverEur": 1417,
    "turnoverEstimated": false,
    "guaranteeEur": null,
    "bonusPoolEur": null,
    "rowPriceEur": 0.1,
    "rowPriceEstimated": false,
-   "avgRowEv": 0.065,
-   "pools": [
-    919.4640000000002,
-    262.704,
-    180.609,
-    279.12300000000005
-   ],
-   "source": "Yle Teksti-TV 479 (pelijakauma 17.05)",
+   "avgRowEv": null,
+   "pools": null,
+   "source": "Yle Teksti-TV 479 (pelijakauma 18.15)",
    "note": null,
    "links": [],
-   "hasEdge": false,
-   "noPathReason": "Ei omaa dataa (ei taulukkoa eikä kertoimia) → oma arvio = pelijakauma, jolloin ei ole etua. Lisää data/sheets tai data/odds.",
+   "hasEdge": true,
+   "noPathReason": "Kierroksella on 12 ottelua. Rivisuositusta ei lasketa, koska tämän pelin palkintoluokkia ei tunneta (moottori osaa vain 13 ottelun Vakion). Ottelukohtaiset selitykset löytyvät silti alta.",
    "matches": [
     {
      "n": 1,
-     "home": "Arsenal",
-     "away": "Bor. Dortmu",
+     "home": "Club Brugge",
+     "away": "Liverpool",
      "crowd": [
-      0.66,
       0.22,
-      0.12
+      0.2,
+      0.58
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.21959227372083684,
+      0.20650399250568763,
+      0.5739037337734755
+     ],
+     "model": null,
+     "p": [
+      0.21965722146680208,
+      0.20551866513777858,
+      0.5748241133954194
+     ],
+     "basis": "market",
+     "ratio": [
+      0.9984419157581913,
+      1.027593325688893,
+      0.9910760575783094
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
+      "tone": "neutral",
+      "lines": [
+       "Meidän arvio: kotivoitto 22 %, tasapeli 21 %, vierasvoitto 57 %. Todennäköisin tulos on vierasvoitto, noin 6 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Club Brugge KV - Liverpool). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 22 %, tasapeli 20 %, vierasvoitto 58 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, europe / champions-league",
+        "url": "https://www.betexplorer.com/football/europe/champions-league/club-brugge-liverpool/6wSZISyp/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (57 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 22 %, pelaajista 22 % veikkaa tätä"
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 21 %, pelaajista 20 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 57 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 57 %"
+         ],
+         "cons": []
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 2,
+     "home": "Sporting CP",
+     "away": "Mancheste.U",
+     "crowd": [
+      0.46,
+      0.3,
+      0.24
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.3919503872479472,
+      0.254554735196357,
+      0.3534948775556958
+     ],
+     "model": null,
+     "p": [
+      0.4031177390850243,
+      0.2619714675343002,
+      0.3349107933806755
+     ],
+     "basis": "market",
+     "ratio": [
+      0.8763429110544007,
+      0.8732382251143339,
+      1.3954616390861478
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 40 %, tasapeli 26 %, vierasvoitto 33 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Sporting CP - Manchester Utd). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 46 %, tasapeli 30 %, vierasvoitto 24 %.",
+       "Vierasvoitto: vain 24 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 33 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, europe / champions-league",
+        "url": "https://www.betexplorer.com/football/europe/champions-league/sporting-cp-manchester-united/CEDJzDKq/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (40 %). Pelaajat aliarvostavat: vierasvoitto (arvio 33 %, pelaajat 24 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 40 % — ottelun todennäköisin lopputulos"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [
+          "Joukkueet ovat arviossamme lähes yhtä vahvat"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 33 %",
+          "Vain 24 % pelaajista veikkaa tätä (oma arvio 33 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 3,
+     "home": "PSG",
+     "away": "Roma",
+     "crowd": [
+      0.7677,
+      0.1919,
+      0.0404
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.682691738540177,
+      0.18520548154456287,
+      0.13210277991526023
+     ],
+     "model": null,
+     "p": [
+      0.7006984611432225,
+      0.18777098717436383,
+      0.11153055168241366
+     ],
+     "basis": "market",
+     "ratio": [
+      0.9127243208847499,
+      0.9784835183656271,
+      2.7606572198617245
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 70 %, tasapeli 19 %, vierasvoitto 11 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: PSG - AS Roma). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 77 %, tasapeli 19 %, vierasvoitto 4 %.",
+       "Vierasvoitto: vain 4 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 11 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, europe / champions-league",
+        "url": "https://www.betexplorer.com/football/europe/champions-league/psg-as-roma/v74Mijwo/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (70 %). Pelaajat aliarvostavat: vierasvoitto (arvio 11 %, pelaajat 4 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 70 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 68 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 19 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 4 % pelaajista veikkaa tätä (oma arvio 11 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 11 %",
+          "Kertoimet antavat vain 13 %"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 4,
+     "home": "Lille",
+     "away": "Bayer.Münch",
+     "crowd": [
+      0.17,
+      0.21,
+      0.62
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.66,
-      0.22,
-      0.12
+      0.17,
+      0.21,
+      0.62
      ],
      "basis": "crowd",
      "ratio": [
@@ -75,7 +1965,766 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 66 %, tasapeli 22 %, vierasvoitto 12 %.",
+       "Pelaajat veikkaavat: kotivoitto 17 %, tasapeli 21 %, vierasvoitto 62 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ],
+      "quick": null
+     }
+    },
+    {
+     "n": 5,
+     "home": "Inter",
+     "away": "VfB Stuttga",
+     "crowd": [
+      0.72,
+      0.17,
+      0.11
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.72,
+      0.17,
+      0.11
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 72 %, tasapeli 17 %, vierasvoitto 11 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ],
+      "quick": null
+     }
+    },
+    {
+     "n": 6,
+     "home": "At. Madrid",
+     "away": "Viking",
+     "crowd": [
+      0.899,
+      0.0707,
+      0.0303
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.899,
+      0.0707,
+      0.0303
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 90 %, tasapeli 7 %, vierasvoitto 3 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ],
+      "quick": null
+     }
+    },
+    {
+     "n": 7,
+     "home": "Shahtar D",
+     "away": "Fenerbahce",
+     "crowd": [
+      0.29,
+      0.33,
+      0.38
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.29,
+      0.33,
+      0.38
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 29 %, tasapeli 33 %, vierasvoitto 38 %.",
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
+       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       }
+      ],
+      "quick": null
+     }
+    },
+    {
+     "n": 8,
+     "home": "Burnley",
+     "away": "Birmingham",
+     "crowd": [
+      0.17,
+      0.32,
+      0.51
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.362296021202666,
+      0.2637679247849438,
+      0.37393605401239016
+     ],
+     "model": null,
+     "p": [
+      0.3277818494219448,
+      0.27518497322592395,
+      0.39703317735213123
+     ],
+     "basis": "market",
+     "ratio": [
+      1.92812852601144,
+      0.8599530413310124,
+      0.7784964261806494
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 33 %, tasapeli 28 %, vierasvoitto 40 %. Todennäköisin tulos on vierasvoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Burnley - Birmingham). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 17 %, tasapeli 32 %, vierasvoitto 51 %.",
+       "Kotivoitto: vain 17 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 33 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: 32 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 28 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Vierasvoitto: 51 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 40 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/burnley-birmingham/KzVYMr0d/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (40 %). Pelaajat aliarvostavat: kotivoitto (arvio 33 %, pelaajat 17 %). Ylipelattu: vierasvoitto (51 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 33 %",
+          "Vain 17 % pelaajista veikkaa tätä (oma arvio 33 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Joukkueet ovat arviossamme lähes yhtä vahvat"
+         ],
+         "cons": [
+          "32 % pelaajista veikkaa tätä (oma arvio 28 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 40 % — ottelun todennäköisin lopputulos"
+         ],
+         "cons": [
+          "51 % pelaajista veikkaa tätä (oma arvio 40 %), joten voitto jaetaan monen kanssa"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 9,
+     "home": "Bolton",
+     "away": "West Bromwi",
+     "crowd": [
+      0.11,
+      0.22,
+      0.67
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.26307649305879066,
+      0.25798937855212895,
+      0.47893412838908045
+     ],
+     "model": null,
+     "p": [
+      0.234007517728519,
+      0.2553736737989306,
+      0.5106188084725504
+     ],
+     "basis": "market",
+     "ratio": [
+      2.1273410702592637,
+      1.1607894263587755,
+      0.762117624585896
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 23 %, tasapeli 26 %, vierasvoitto 51 %. Todennäköisin tulos on vierasvoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Bolton - West Brom). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 11 %, tasapeli 22 %, vierasvoitto 67 %.",
+       "Kotivoitto: vain 11 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 23 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 22 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 26 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: 67 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 51 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/bolton-west-brom/nNWQO4Vq/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (51 %). Pelaajat aliarvostavat: kotivoitto (arvio 23 %, pelaajat 11 %) ja tasapeli (arvio 26 %, pelaajat 22 %). Ylipelattu: vierasvoitto (67 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 11 % pelaajista veikkaa tätä (oma arvio 23 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 22 % pelaajista veikkaa tätä (oma arvio 26 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 51 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 48 %"
+         ],
+         "cons": [
+          "67 % pelaajista veikkaa tätä (oma arvio 51 %), joten voitto jaetaan monen kanssa"
+         ]
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 10,
+     "home": "Stoke",
+     "away": "Millwall",
+     "crowd": [
+      0.75,
+      0.13,
+      0.12
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.42239567697388164,
+      0.27991594115881113,
+      0.2976883818673071
+     ],
+     "model": null,
+     "p": [
+      0.47479805786175233,
+      0.25730794094960857,
+      0.2678940011886391
+     ],
+     "basis": "market",
+     "ratio": [
+      0.6330640771490031,
+      1.9792918534585273,
+      2.232450009905326
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 47 %, tasapeli 26 %, vierasvoitto 27 %. Todennäköisin tulos on kotivoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Stoke - Millwall). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 75 %, tasapeli 13 %, vierasvoitto 12 %.",
+       "Vierasvoitto: vain 12 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 27 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 13 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 26 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Kotivoitto: 75 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 47 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/stoke-city-millwall/nsNKpnh3/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (47 %). Pelaajat aliarvostavat: tasapeli (arvio 26 %, pelaajat 13 %) ja vierasvoitto (arvio 27 %, pelaajat 12 %). Ylipelattu: kotivoitto (75 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 47 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 42 %"
+         ],
+         "cons": [
+          "75 % pelaajista veikkaa tätä (oma arvio 47 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 13 % pelaajista veikkaa tätä (oma arvio 26 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 12 % pelaajista veikkaa tätä (oma arvio 27 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 11,
+     "home": "Watford",
+     "away": "Blackburn",
+     "crowd": [
+      0.2929,
+      0.3434,
+      0.3636
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.3745911991769616,
+      0.27484798046120257,
+      0.3505608203618357
+     ],
+     "model": null,
+     "p": [
+      0.36185624040983616,
+      0.28484128610418286,
+      0.35330247348598104
+     ],
+     "basis": "market",
+     "ratio": [
+      1.2354258805388738,
+      0.8294737510314003,
+      0.9716789699834463
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 36 %, tasapeli 28 %, vierasvoitto 35 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Watford - Blackburn). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 29 %, tasapeli 34 %, vierasvoitto 36 %.",
+       "Kotivoitto: vain 29 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 36 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: 34 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 28 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/watford-blackburn/hvQSrQMF/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisimmät: kotivoitto ja vierasvoitto (noin 36 %). Pelaajat aliarvostavat: kotivoitto (arvio 36 %, pelaajat 29 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "yksi todennäköisimmistä",
+           "tone": "neutral"
+          },
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 36 % — yksi ottelun todennäköisimmistä lopputuloksista",
+          "Vain 29 % pelaajista veikkaa tätä (oma arvio 36 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Joukkueet ovat arviossamme lähes yhtä vahvat"
+         ],
+         "cons": [
+          "34 % pelaajista veikkaa tätä (oma arvio 28 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "yksi todennäköisimmistä",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 35 % — yksi ottelun todennäköisimmistä lopputuloksista"
+         ],
+         "cons": []
+        }
+       ]
+      }
+     }
+    },
+    {
+     "n": 12,
+     "home": "Harrogate T",
+     "away": "Kidderminst",
+     "crowd": [
+      0.7172,
+      0.1616,
+      0.1212
+     ],
+     "crowdEstimated": false,
+     "market": [
+      0.5727409073865766,
+      0.23350206224221973,
+      0.19375703037120356
+     ],
+     "model": null,
+     "p": [
+      0.5960032906813196,
+      0.22230614037599764,
+      0.18169056894268273
+     ],
+     "basis": "market",
+     "ratio": [
+      0.8310140695500832,
+      1.375656809257411,
+      1.4990971034874814
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
+      "lines": [
+       "Meidän arvio: kotivoitto 60 %, tasapeli 22 %, vierasvoitto 18 %. Todennäköisin tulos on kotivoitto, noin 6 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Harrogate - Kidderminster). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 72 %, tasapeli 16 %, vierasvoitto 12 %.",
+       "Vierasvoitto: vain 12 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 18 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 16 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 22 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Kotivoitto: 72 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 60 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
+      ],
+      "facts": [],
+      "sources": [
+       {
+        "label": "Yle Teksti-TV, sivu 479",
+        "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
+        "what": "pelaajien osuudet (peliprosentit)",
+        "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / national-league",
+        "url": "https://www.betexplorer.com/football/england/national-league/harrogate-kidderminster/0S9OQjmo/",
+        "what": "vedonvälittäjän kertoimet"
+       }
+      ],
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (60 %). Pelaajat aliarvostavat: tasapeli (arvio 22 %, pelaajat 16 %) ja vierasvoitto (arvio 18 %, pelaajat 12 %). Ylipelattu: kotivoitto (72 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 60 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 57 %"
+         ],
+         "cons": [
+          "72 % pelaajista veikkaa tätä (oma arvio 60 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 16 % pelaajista veikkaa tätä (oma arvio 22 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 12 % pelaajista veikkaa tätä (oma arvio 18 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 18 %"
+         ]
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "path": [],
+   "prizes": null,
+   "calibration": null,
+   "oddsFetchedAt": "2026-11-23T16:21:22.492Z"
+  },
+  {
+   "id": "2026-11-24-futisvakio-6",
+   "label": "Futisvakio 6 (krs 48)",
+   "date": "2026-11-24",
+   "status": "open",
+   "turnoverEur": 8078,
+   "turnoverEstimated": false,
+   "guaranteeEur": null,
+   "bonusPoolEur": null,
+   "rowPriceEur": 0.1,
+   "rowPriceEstimated": false,
+   "avgRowEv": 0.065,
+   "pools": [
+    2940.3920000000003,
+    840.112,
+    577.577,
+    892.619
+   ],
+   "source": "Yle Teksti-TV 479 (pelijakauma 17.05)",
+   "note": null,
+   "links": [],
+   "hasEdge": true,
+   "noPathReason": null,
+   "matches": [
+    {
+     "n": 1,
+     "home": "Arsenal",
+     "away": "Bor. Dortmu",
+     "crowd": [
+      0.6465,
+      0.2222,
+      0.1313
+     ],
+     "crowdEstimated": false,
+     "market": null,
+     "model": null,
+     "p": [
+      0.6465,
+      0.2222,
+      0.1313
+     ],
+     "basis": "crowd",
+     "ratio": [
+      1,
+      1,
+      1
+     ],
+     "result": null,
+     "explain": {
+      "headline": "Ei omaa tietoa tästä ottelusta",
+      "tone": "neutral",
+      "lines": [
+       "Pelaajat veikkaavat: kotivoitto 65 %, tasapeli 22 %, vierasvoitto 13 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -96,32 +2745,38 @@
      "home": "Mancheste.C",
      "away": "Napoli",
      "crowd": [
-      0.8182,
-      0.1313,
-      0.0505
+      0.79,
+      0.15,
+      0.06
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.7454488241446011,
+      0.15076493072587438,
+      0.10378624512952457
+     ],
      "model": null,
      "p": [
-      0.8182,
-      0.1313,
-      0.0505
+      0.7533131037339542,
+      0.15091946980776522,
+      0.09576742645828061
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      0.9535608908024736,
+      1.0061297987184348,
+      1.596123774304677
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 82 %, tasapeli 13 %, vierasvoitto 5 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 75 %, tasapeli 15 %, vierasvoitto 10 %. Todennäköisin tulos on kotivoitto, noin 8 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Manchester City - Napoli). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 79 %, tasapeli 15 %, vierasvoitto 6 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -130,9 +2785,58 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, europe / champions-league",
+        "url": "https://www.betexplorer.com/football/europe/champions-league/manchester-city-napoli/OxXVS94F/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (75 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 75 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 75 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 15 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "epätodennäköinen",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 10 %",
+          "Kertoimet antavat vain 10 %"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -140,32 +2844,38 @@
      "home": "Real Madrid",
      "away": "PSV",
      "crowd": [
-      0.89,
-      0.09,
-      0.02
+      0.8614,
+      0.0891,
+      0.0495
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.8086682210945,
+      0.10862707447538059,
+      0.08270470443011932
+     ],
      "model": null,
      "p": [
-      0.89,
-      0.09,
-      0.02
+      0.8176847178412311,
+      0.10561591290685768,
+      0.07669936925191122
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      0.9492508913875447,
+      1.1853637812217472,
+      1.5494822071093175
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: tasapeli",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 89 %, tasapeli 9 %, vierasvoitto 2 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 82 %, tasapeli 11 %, vierasvoitto 8 %. Todennäköisin tulos on kotivoitto, noin 8 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Real Madrid - PSV). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 86 %, tasapeli 9 %, vierasvoitto 5 %.",
+       "Tasapeli: vain 9 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 11 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -174,9 +2884,65 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, europe / champions-league",
+        "url": "https://www.betexplorer.com/football/europe/champions-league/real-madrid-psv/6PURSlmI/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (82 %). Pelaajat aliarvostavat: tasapeli (arvio 11 %, pelaajat 9 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 82 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 81 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 9 % pelaajista veikkaa tätä (oma arvio 11 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 11 %",
+          "Kertoimet antavat vain 11 %"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "epätodennäköinen",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 8 %",
+          "Kertoimet antavat vain 8 %"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -184,32 +2950,38 @@
      "home": "RB Leipzig",
      "away": "Lens",
      "crowd": [
-      0.73,
-      0.15,
+      0.69,
+      0.19,
       0.12
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.6867119741222545,
+      0.17074326761297434,
+      0.142544758264771
+     ],
      "model": null,
      "p": [
-      0.73,
-      0.15,
-      0.12
+      0.6874673842619136,
+      0.17356869501335834,
+      0.13896392072472813
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      0.9963295424085704,
+      0.913519447438728,
+      1.1580326727060677
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 73 %, tasapeli 15 %, vierasvoitto 12 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 69 %, tasapeli 17 %, vierasvoitto 14 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: RB Leipzig - Lens). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 69 %, tasapeli 19 %, vierasvoitto 12 %.",
+       "Vierasvoitto: vain 12 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 14 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -218,9 +2990,60 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, europe / champions-league",
+        "url": "https://www.betexplorer.com/football/europe/champions-league/rb-leipzig-lens/pxXsydY8/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (69 %). Pelaajat aliarvostavat: vierasvoitto (arvio 14 %, pelaajat 12 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 69 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 69 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 17 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 12 % pelaajista veikkaa tätä (oma arvio 14 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 14 %",
+          "Kertoimet antavat vain 14 %"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -228,17 +3051,17 @@
      "home": "Como",
      "away": "A.E.K.",
      "crowd": [
-      0.83,
-      0.12,
-      0.05
+      0.8687,
+      0.0909,
+      0.0404
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.83,
-      0.12,
-      0.05
+      0.8687,
+      0.0909,
+      0.0404
      ],
      "basis": "crowd",
      "ratio": [
@@ -251,7 +3074,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 83 %, tasapeli 12 %, vierasvoitto 5 %.",
+       "Pelaajat veikkaavat: kotivoitto 87 %, tasapeli 9 %, vierasvoitto 4 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -273,31 +3096,37 @@
      "away": "Betis",
      "crowd": [
       0.06,
-      0.15,
-      0.79
+      0.17,
+      0.77
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.08946776228306454,
+      0.14678304749565277,
+      0.7637491902212826
+     ],
      "model": null,
      "p": [
-      0.06,
-      0.15,
-      0.79
+      0.08434788603128397,
+      0.15020236799383826,
+      0.7654497459748777
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      1.4057981005213995,
+      0.883543341140225,
+      0.9940905791881528
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 6 %, tasapeli 15 %, vierasvoitto 79 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 8 %, tasapeli 15 %, vierasvoitto 77 %. Todennäköisin tulos on vierasvoitto, noin 8 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Slovan Bratislava - Betis). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 6 %, tasapeli 17 %, vierasvoitto 77 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -306,9 +3135,58 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, europe / champions-league",
+        "url": "https://www.betexplorer.com/football/europe/champions-league/slovan-bratislava-betis/I9qIUvgn/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (77 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "epätodennäköinen",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 8 %",
+          "Kertoimet antavat vain 9 %"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 15 %",
+          "Kertoimet antavat vain 15 %"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 77 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 76 %"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -316,32 +3194,38 @@
      "home": "Feyenoord",
      "away": "FC Porto",
      "crowd": [
-      0.29,
-      0.27,
+      0.28,
+      0.28,
       0.44
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.32900432900432897,
+      0.25974025974025977,
+      0.41125541125541126
+     ],
      "model": null,
      "p": [
-      0.29,
-      0.27,
-      0.44
+      0.32137579326045324,
+      0.2628755358813141,
+      0.41574867085823264
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      1.1477706902159044,
+      0.9388411995761218,
+      0.9448833428596196
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 29 %, tasapeli 27 %, vierasvoitto 44 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 32 %, tasapeli 26 %, vierasvoitto 42 %. Todennäköisin tulos on vierasvoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Feyenoord - FC Porto). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 28 %, tasapeli 28 %, vierasvoitto 44 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -350,9 +3234,50 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, europe / champions-league",
+        "url": "https://www.betexplorer.com/football/europe/champions-league/feyenoord-fc-porto/6grtKluR/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (42 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [],
+         "pros": [
+          "Oma arvio: 32 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 26 %, pelaajista 28 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 42 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 41 %"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -360,32 +3285,38 @@
      "home": "Portsmouth",
      "away": "West Ham",
      "crowd": [
-      0.2424,
-      0.2626,
-      0.4949
+      0.2277,
+      0.297,
+      0.4752
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.2378456482320943,
+      0.25543970988213965,
+      0.5067146418857661
+     ],
      "model": null,
      "p": [
-      0.2424,
-      0.2626,
-      0.4949
+      0.2364291834902996,
+      0.2614293345108744,
+      0.502141481998826
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      1.038336335047429,
+      0.8802334495315637,
+      1.0566950378763174
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 24 %, tasapeli 26 %, vierasvoitto 49 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 24 %, tasapeli 26 %, vierasvoitto 50 %. Todennäköisin tulos on vierasvoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Portsmouth - West Ham). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 23 %, tasapeli 30 %, vierasvoitto 48 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -394,9 +3325,49 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/portsmouth-west-ham/dAquY88c/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (50 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 24 %, pelaajista 23 % veikkaa tätä"
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 26 %, pelaajista 30 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 50 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 51 %"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -404,32 +3375,38 @@
      "home": "Middlesbrou",
      "away": "Swansea",
      "crowd": [
-      0.6337,
-      0.2079,
-      0.1584
+      0.7,
+      0.19,
+      0.11
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.6526167880559147,
+      0.2015641483628419,
+      0.14581906358124344
+     ],
      "model": null,
      "p": [
-      0.6337,
-      0.2079,
-      0.1584
+      0.6601203473328474,
+      0.1999692616840721,
+      0.13991039098308056
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      0.9430290676183535,
+      1.0524697983372215,
+      1.2719126453007323
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 63 %, tasapeli 21 %, vierasvoitto 16 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 66 %, tasapeli 20 %, vierasvoitto 14 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Middlesbrough - Swansea). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 70 %, tasapeli 19 %, vierasvoitto 11 %.",
+       "Vierasvoitto: vain 11 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 14 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -438,9 +3415,60 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/middlesbrough-swansea/61Wc3Q0M/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (66 %). Pelaajat aliarvostavat: vierasvoitto (arvio 14 %, pelaajat 11 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 66 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 65 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [
+          "Oma arvio vain 20 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 11 % pelaajista veikkaa tätä (oma arvio 14 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 14 %",
+          "Kertoimet antavat vain 15 %"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -448,32 +3476,38 @@
      "home": "Sheffield U",
      "away": "Southampton",
      "crowd": [
-      0.35,
-      0.24,
-      0.41
+      0.3434,
+      0.2828,
+      0.3737
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.3704593662998807,
+      0.27457576561049984,
+      0.3549648680896196
+     ],
      "model": null,
      "p": [
-      0.35,
-      0.24,
-      0.41
+      0.3663503402508671,
+      0.2758556265411468,
+      0.35779403320798614
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      1.0668326739978657,
+      0.9754442239785955,
+      0.9574365352100245
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 35 %, tasapeli 24 %, vierasvoitto 41 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 37 %, tasapeli 28 %, vierasvoitto 36 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Sheffield Utd - Southampton). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 34 %, tasapeli 28 %, vierasvoitto 37 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -482,9 +3516,55 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/sheffield-utd-southampton/UNsmWnwA/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisimmät: kotivoitto ja vierasvoitto (noin 37 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "yksi todennäköisimmistä",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 37 % — yksi ottelun todennäköisimmistä lopputuloksista"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [
+          "Joukkueet ovat arviossamme lähes yhtä vahvat"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "yksi todennäköisimmistä",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 36 % — yksi ottelun todennäköisimmistä lopputuloksista"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -492,32 +3572,38 @@
      "home": "Bristol C",
      "away": "Wrexham",
      "crowd": [
-      0.46,
-      0.26,
-      0.28
+      0.38,
+      0.29,
+      0.33
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.40047255588406305,
+      0.2853520046513354,
+      0.3141754394646016
+     ],
      "model": null,
      "p": [
-      0.46,
-      0.26,
-      0.28
+      0.39738163606062105,
+      0.2860796045396427,
+      0.3165387593997363
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      1.04574114752795,
+      0.9864813949642852,
+      0.9592083618173827
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 46 %, tasapeli 26 %, vierasvoitto 28 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 40 %, tasapeli 29 %, vierasvoitto 32 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Bristol City - Wrexham). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 38 %, tasapeli 29 %, vierasvoitto 33 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -526,9 +3612,50 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/bristol-city-wrexham/hvQs781c/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (40 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 40 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 40 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 29 %, pelaajista 29 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [
+          "Oma arvio: 32 %"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -536,32 +3663,39 @@
      "home": "Charlton",
      "away": "Lincoln C",
      "crowd": [
-      0.4,
-      0.18,
-      0.42
+      0.46,
+      0.26,
+      0.28
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.34921412687045345,
+      0.2851381402887188,
+      0.36564773284082774
+     ],
      "model": null,
      "p": [
-      0.4,
-      0.18,
-      0.42
+      0.36524033693577096,
+      0.282214968409561,
+      0.3525446946546681
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      0.7940007324690672,
+      1.0854421861906192,
+      1.259088195195243
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 40 %, tasapeli 18 %, vierasvoitto 42 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 37 %, tasapeli 28 %, vierasvoitto 35 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Charlton - Lincoln). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 46 %, tasapeli 26 %, vierasvoitto 28 %.",
+       "Vierasvoitto: vain 28 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 35 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Kotivoitto: 46 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 37 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -570,9 +3704,66 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/charlton-lincoln-city/bL0NFRhT/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisimmät: kotivoitto ja vierasvoitto (noin 37 %). Pelaajat aliarvostavat: vierasvoitto (arvio 35 %, pelaajat 28 %). Ylipelattu: kotivoitto (46 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "yksi todennäköisimmistä",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 37 % — yksi ottelun todennäköisimmistä lopputuloksista"
+         ],
+         "cons": [
+          "46 % pelaajista veikkaa tätä (oma arvio 37 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [
+          "Joukkueet ovat arviossamme lähes yhtä vahvat"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "yksi todennäköisimmistä",
+           "tone": "neutral"
+          },
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 35 % — yksi ottelun todennäköisimmistä lopputuloksista",
+          "Vain 28 % pelaajista veikkaa tätä (oma arvio 35 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -580,32 +3771,39 @@
      "home": "Cardiff C",
      "away": "Preston",
      "crowd": [
-      0.67,
-      0.19,
-      0.14
+      0.7273,
+      0.1616,
+      0.1111
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.6219842404697434,
+      0.20460007910188932,
+      0.17341568042836716
+     ],
      "model": null,
      "p": [
-      0.67,
-      0.19,
-      0.14
+      0.6390203301585706,
+      0.19818979777760165,
+      0.1627898720638277
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      0.8786200057178203,
+      1.2264220159505053,
+      1.4652553741118604
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 67 %, tasapeli 19 %, vierasvoitto 14 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 64 %, tasapeli 20 %, vierasvoitto 16 %. Todennäköisin tulos on kotivoitto, noin 6 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Cardiff - Preston). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 73 %, tasapeli 16 %, vierasvoitto 11 %.",
+       "Vierasvoitto: vain 11 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 16 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 16 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 20 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -614,23 +3812,452 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / championship",
+        "url": "https://www.betexplorer.com/football/england/championship/cardiff-preston/04Tk5nW9/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (64 %). Pelaajat aliarvostavat: tasapeli (arvio 20 %, pelaajat 16 %) ja vierasvoitto (arvio 16 %, pelaajat 11 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 64 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 62 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 16 % pelaajista veikkaa tätä (oma arvio 20 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 20 %",
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 11 % pelaajista veikkaa tätä (oma arvio 16 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 16 %"
+         ]
+        }
+       ]
+      }
      }
     }
    ],
-   "path": [],
+   "path": [
+    {
+     "rows": 1,
+     "costEur": 0.1,
+     "evEur": 0.13808471521370774,
+     "roi": 1.3808471521370773,
+     "valueMultiple": 2.124380234057042,
+     "pAtLeast": [
+      0.00016202307668923777,
+      0.002730555872462886,
+      0.019719815837335394,
+      0.08261468250829969
+     ],
+     "valueMultipleLow": 1.025567386709649,
+     "roiLow": 0.6666188013612719,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2"
+     ],
+     "added": null
+    },
+    {
+     "rows": 2,
+     "costEur": 0.2,
+     "evEur": 0.2662233240194771,
+     "roi": 1.3311166200973856,
+     "valueMultiple": 2.047871723226747,
+     "pAtLeast": [
+      0.00027866535076373066,
+      0.00440278732402326,
+      0.02941468606057064,
+      0.11319141441953144
+     ],
+     "valueMultipleLow": 1.001637839594465,
+     "roiLow": 0.6510645957364022,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1X",
+      "2",
+      "2"
+     ],
+     "added": {
+      "match": 10,
+      "sign": "X"
+     }
+    },
+    {
+     "rows": 3,
+     "costEur": 0.30000000000000004,
+     "evEur": 0.3928073745031879,
+     "roi": 1.3093579150106263,
+     "valueMultiple": 2.0143967923240402,
+     "pAtLeast": [
+      0.00040772663350885434,
+      0.006253062774305458,
+      0.0401417779060122,
+      0.14702367869875088
+     ],
+     "valueMultipleLow": 0.9933104601709181,
+     "roiLow": 0.6456517991110966,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1X2",
+      "2",
+      "2"
+     ],
+     "added": {
+      "match": 10,
+      "sign": "2"
+     }
+    },
+    {
+     "rows": 6,
+     "costEur": 0.6000000000000001,
+     "evEur": 0.7525938018099131,
+     "roi": 1.2543230030165216,
+     "valueMultiple": 1.9297276969484949,
+     "pAtLeast": [
+      0.000805930594639479,
+      0.011273133419064447,
+      0.06455615133096115,
+      0.20918152174120253
+     ],
+     "valueMultipleLow": 0.9735874107368403,
+     "roiLow": 0.6328318169789462,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "12",
+      "1X2",
+      "2",
+      "2"
+     ],
+     "added": {
+      "match": 9,
+      "sign": "2"
+     }
+    },
+    {
+     "rows": 9,
+     "costEur": 0.9,
+     "evEur": 1.1082594355895274,
+     "roi": 1.2313993728772528,
+     "valueMultiple": 1.8944605736573117,
+     "pAtLeast": [
+      0.0011129418720606454,
+      0.015143557753910233,
+      0.08337938943072498,
+      0.257104597995956
+     ],
+     "valueMultipleLow": 0.961796463180409,
+     "roiLow": 0.6251677010672659,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "1X2",
+      "1X2",
+      "2",
+      "2"
+     ],
+     "added": {
+      "match": 9,
+      "sign": "X"
+     }
+    },
+    {
+     "rows": 18,
+     "costEur": 1.8,
+     "evEur": 2.115788863977296,
+     "roi": 1.1754382577651645,
+     "valueMultiple": 1.8083665504079454,
+     "pAtLeast": [
+      0.0024679016233370675,
+      0.02525683370119381,
+      0.11444218570562228,
+      0.30885521493697654
+     ],
+     "valueMultipleLow": 0.9517671540031328,
+     "roiLow": 0.6186486501020363,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "2",
+      "1",
+      "1X2",
+      "1X2",
+      "2",
+      "X2"
+     ],
+     "added": {
+      "match": 12,
+      "sign": "X"
+     }
+    },
+    {
+     "rows": 36,
+     "costEur": 3.6,
+     "evEur": 4.00986882818524,
+     "roi": 1.113852452273678,
+     "valueMultiple": 1.7136191573441197,
+     "pAtLeast": [
+      0.003629892788491059,
+      0.034834734704761554,
+      0.14693816729541168,
+      0.36817417900103044
+     ],
+     "valueMultipleLow": 0.9145003729063034,
+     "roiLow": 0.5944252423890972,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "12",
+      "1",
+      "1X2",
+      "1X2",
+      "2",
+      "X2"
+     ],
+     "added": {
+      "match": 7,
+      "sign": "1"
+     }
+    },
+    {
+     "rows": 72,
+     "costEur": 7.2,
+     "evEur": 7.564387796512154,
+     "roi": 1.0506094161822437,
+     "valueMultiple": 1.6163221787419133,
+     "pAtLeast": [
+      0.008325713487562815,
+      0.06528716503513365,
+      0.227657055481693,
+      0.4839289655419198
+     ],
+     "valueMultipleLow": 0.8952353083216267,
+     "roiLow": 0.5819029504090573,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "12",
+      "12",
+      "1",
+      "1X2",
+      "1X2",
+      "2",
+      "X2"
+     ],
+     "added": {
+      "match": 6,
+      "sign": "2"
+     }
+    },
+    {
+     "rows": 108,
+     "costEur": 10.8,
+     "evEur": 10.911736625851916,
+     "roi": 1.0103459838751774,
+     "valueMultiple": 1.554378436731042,
+     "pAtLeast": [
+      0.01129485438733489,
+      0.08454206469713292,
+      0.27869515247406695,
+      0.5571200631344815
+     ],
+     "valueMultipleLow": 0.8751075732591054,
+     "roiLow": 0.5688199226184185,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1X2",
+      "12",
+      "1",
+      "1X2",
+      "1X2",
+      "2",
+      "X2"
+     ],
+     "added": {
+      "match": 6,
+      "sign": "X"
+     }
+    },
+    {
+     "rows": 216,
+     "costEur": 21.6,
+     "evEur": 20.352579365295753,
+     "roi": 0.9422490446896181,
+     "valueMultiple": 1.449613914907105,
+     "pAtLeast": [
+      0.02033647952719033,
+      0.12657194403608957,
+      0.35692761374985776,
+      0.6363260636405588
+     ],
+     "valueMultipleLow": 0.8430869192466524,
+     "roiLow": 0.548006497510324,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1X2",
+      "12",
+      "1",
+      "1X2",
+      "1X2",
+      "X2",
+      "X2"
+     ],
+     "added": {
+      "match": 11,
+      "sign": "X"
+     }
+    },
+    {
+     "rows": 324,
+     "costEur": 32.4,
+     "evEur": 29.09578680977892,
+     "roi": 0.8980181114129298,
+     "valueMultiple": 1.3815663252506611,
+     "pAtLeast": [
+      0.0563369109848311,
+      0.2509047465698965,
+      0.5446134399889314,
+      0.7986793370847859
+     ],
+     "valueMultipleLow": 0.847941419570821,
+     "roiLow": 0.5511619227210337,
+     "selection": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1X2",
+      "12",
+      "1",
+      "1X2",
+      "1X2",
+      "X2",
+      "1X2"
+     ],
+     "added": {
+      "match": 12,
+      "sign": "1"
+     }
+    }
+   ],
    "prizes": null,
    "calibration": null,
-   "oddsFetchedAt": null
+   "oddsFetchedAt": "2026-11-23T16:21:22.454Z"
   },
   {
    "id": "2026-11-23-futisvakio-5",
    "label": "Futisvakio 5 (krs 48)",
    "date": "2026-11-23",
    "status": "open",
-   "turnoverEur": 2664,
+   "turnoverEur": 28170,
    "turnoverEstimated": false,
    "guaranteeEur": null,
    "bonusPoolEur": null,
@@ -641,7 +4268,7 @@
    "source": "Yle Teksti-TV 479 (pelijakauma 17.15)",
    "note": null,
    "links": [],
-   "hasEdge": false,
+   "hasEdge": true,
    "noPathReason": "Kierroksella on 12 ottelua. Rivisuositusta ei lasketa, koska tämän pelin palkintoluokkia ei tunneta (moottori osaa vain 13 ottelun Vakion). Ottelukohtaiset selitykset löytyvät silti alta.",
    "matches": [
     {
@@ -649,32 +4276,38 @@
      "home": "Brentford",
      "away": "Everton",
      "crowd": [
-      0.36,
+      0.38,
       0.33,
-      0.31
+      0.29
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.41410198347968624,
+      0.27566319721375004,
+      0.3102348193065636
+     ],
      "model": null,
      "p": [
-      0.36,
-      0.33,
-      0.31
+      0.4091606342768302,
+      0.2834550189346172,
+      0.3073843467885526
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      1.0767385112548162,
+      0.8589546028321734,
+      1.059946023408802
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 36 %, tasapeli 33 %, vierasvoitto 31 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 41 %, tasapeli 28 %, vierasvoitto 31 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Brentford - Everton). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 38 %, tasapeli 33 %, vierasvoitto 29 %.",
+       "Tasapeli: 33 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 28 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -683,9 +4316,56 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, england / premier-league",
+        "url": "https://www.betexplorer.com/football/england/premier-league/brentford-everton/CSnuq6U8/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (41 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 41 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 41 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [],
+         "cons": [
+          "33 % pelaajista veikkaa tätä (oma arvio 28 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [
+          "Oma arvio: 31 %"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -693,32 +4373,38 @@
      "home": "Monza",
      "away": "Fiorentina",
      "crowd": [
-      0.16,
-      0.18,
-      0.66
+      0.2,
+      0.24,
+      0.56
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.2462852778715166,
+      0.25985471466884535,
+      0.49386000745963804
+     ],
      "model": null,
      "p": [
-      0.16,
-      0.18,
-      0.66
+      0.23901297286019363,
+      0.25709698709716877,
+      0.5038900400426376
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      1.195064864300968,
+      1.0712374462382033,
+      0.8998036429332813
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 16 %, tasapeli 18 %, vierasvoitto 66 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 24 %, tasapeli 26 %, vierasvoitto 50 %. Todennäköisin tulos on vierasvoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Monza - Fiorentina). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 20 %, tasapeli 24 %, vierasvoitto 56 %.",
+       "Kotivoitto: vain 20 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 24 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -727,9 +4413,55 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, italy / serie-a",
+        "url": "https://www.betexplorer.com/football/italy/serie-a/monza-fiorentina/xQYBZbDG/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (50 %). Pelaajat aliarvostavat: kotivoitto (arvio 24 %, pelaajat 20 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 20 % pelaajista veikkaa tätä (oma arvio 24 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 26 %, pelaajista 24 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 50 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 49 %"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -737,32 +4469,39 @@
      "home": "Levante",
      "away": "Elche",
      "crowd": [
-      0.7,
-      0.16,
-      0.14
+      0.5842,
+      0.2475,
+      0.1683
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.4478789745168989,
+      0.2627223034875664,
+      0.28939872199553474
+     ],
      "model": null,
      "p": [
-      0.7,
-      0.16,
-      0.14
+      0.4692486414487725,
+      0.2621445900051798,
+      0.2686067685460476
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      0.8032328679369607,
+      1.0591700606269892,
+      1.5959998131078288
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 70 %, tasapeli 16 %, vierasvoitto 14 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 47 %, tasapeli 26 %, vierasvoitto 27 %. Todennäköisin tulos on kotivoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Levante - Elche). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 58 %, tasapeli 25 %, vierasvoitto 17 %.",
+       "Vierasvoitto: vain 17 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 27 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Kotivoitto: 58 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 47 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -771,9 +4510,61 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, spain / laliga",
+        "url": "https://www.betexplorer.com/football/spain/laliga/levante-elche/MNFmr4wR/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (47 %). Pelaajat aliarvostavat: vierasvoitto (arvio 27 %, pelaajat 17 %). Ylipelattu: kotivoitto (58 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 47 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 45 %"
+         ],
+         "cons": [
+          "58 % pelaajista veikkaa tätä (oma arvio 47 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 26 %, pelaajista 25 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 17 % pelaajista veikkaa tätä (oma arvio 27 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -781,17 +4572,17 @@
      "home": "Hammarby",
      "away": "IFK Götebor",
      "crowd": [
-      0.8515,
-      0.0891,
-      0.0594
+      0.8687,
+      0.0909,
+      0.0404
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.8515,
-      0.0891,
-      0.0594
+      0.8687,
+      0.0909,
+      0.0404
      ],
      "basis": "crowd",
      "ratio": [
@@ -804,7 +4595,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 85 %, tasapeli 9 %, vierasvoitto 6 %.",
+       "Pelaajat veikkaavat: kotivoitto 87 %, tasapeli 9 %, vierasvoitto 4 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -825,17 +4616,17 @@
      "home": "Örgryte IS",
      "away": "Kalmar FF",
      "crowd": [
-      0.19,
-      0.34,
-      0.47
+      0.24,
+      0.31,
+      0.45
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.19,
-      0.34,
-      0.47
+      0.24,
+      0.31,
+      0.45
      ],
      "basis": "crowd",
      "ratio": [
@@ -848,7 +4639,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 19 %, tasapeli 34 %, vierasvoitto 47 %.",
+       "Pelaajat veikkaavat: kotivoitto 24 %, tasapeli 31 %, vierasvoitto 45 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -869,32 +4660,39 @@
      "home": "Bröndby",
      "away": "FC Midtjyll",
      "crowd": [
-      0.18,
-      0.3,
-      0.52
+      0.26,
+      0.27,
+      0.47
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.3690367362127966,
+      0.24667707566478714,
+      0.3842861881224163
+     ],
      "model": null,
      "p": [
-      0.18,
-      0.3,
-      0.52
+      0.35146432388636867,
+      0.2509805819986115,
+      0.3975550941150199
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      1.351785861101418,
+      0.9295577111059685,
+      0.8458619023723828
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 18 %, tasapeli 30 %, vierasvoitto 52 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 35 %, tasapeli 25 %, vierasvoitto 40 %. Todennäköisin tulos on vierasvoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Brondby - Midtjylland). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 26 %, tasapeli 27 %, vierasvoitto 47 %.",
+       "Kotivoitto: vain 26 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 35 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: 47 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 40 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -903,9 +4701,62 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, denmark / superliga",
+        "url": "https://www.betexplorer.com/football/denmark/superliga/brondby-midtjylland/xMzLdmMh/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (40 %). Pelaajat aliarvostavat: kotivoitto (arvio 35 %, pelaajat 26 %). Ylipelattu: vierasvoitto (47 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 35 %",
+          "Vain 26 % pelaajista veikkaa tätä (oma arvio 35 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [
+          "Joukkueet ovat arviossamme lähes yhtä vahvat"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 40 % — ottelun todennäköisin lopputulos"
+         ],
+         "cons": [
+          "47 % pelaajista veikkaa tätä (oma arvio 40 %), joten voitto jaetaan monen kanssa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -913,32 +4764,40 @@
      "home": "AD Ceuta",
      "away": "Almeria",
      "crowd": [
-      0.05,
-      0.06,
-      0.89
+      0.0891,
+      0.1089,
+      0.802
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.25712149532710277,
+      0.2557009345794392,
+      0.48717757009345786
+     ],
      "model": null,
      "p": [
-      0.05,
-      0.06,
-      0.89
+      0.22627665462485325,
+      0.23209571172686488,
+      0.5416276336482819
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      2.5395808599871295,
+      2.1312737532310826,
+      0.6753461766188054
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: kotivoitto",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 5 %, tasapeli 6 %, vierasvoitto 89 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 23 %, tasapeli 23 %, vierasvoitto 54 %. Todennäköisin tulos on vierasvoitto, noin 5 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Ceuta - Almeria). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 9 %, tasapeli 11 %, vierasvoitto 80 %.",
+       "Kotivoitto: vain 9 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 23 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 11 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 23 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Vierasvoitto: 80 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 54 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -947,9 +4806,67 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, spain / laliga2",
+        "url": "https://www.betexplorer.com/football/spain/laliga2/ad-ceuta-almeria/Yi4DT56b/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: vierasvoitto (54 %). Pelaajat aliarvostavat: kotivoitto (arvio 23 %, pelaajat 9 %) ja tasapeli (arvio 23 %, pelaajat 11 %). Ylipelattu: vierasvoitto (80 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 9 % pelaajista veikkaa tätä (oma arvio 23 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 11 % pelaajista veikkaa tätä (oma arvio 23 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 54 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 49 %"
+         ],
+         "cons": [
+          "80 % pelaajista veikkaa tätä (oma arvio 54 %), joten voitto jaetaan monen kanssa"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -957,32 +4874,39 @@
      "home": "Nantes",
      "away": "Grenoble",
      "crowd": [
-      0.76,
-      0.14,
-      0.1
+      0.75,
+      0.16,
+      0.09
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.6361231181994337,
+      0.23073483380533613,
+      0.1331420479952303
+     ],
      "model": null,
      "p": [
-      0.76,
-      0.14,
-      0.1
+      0.6546611160780945,
+      0.21928632129344555,
+      0.12605256262845985
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      0.872881488104126,
+      1.3705395080840346,
+      1.4005840292051095
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 76 %, tasapeli 14 %, vierasvoitto 10 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 65 %, tasapeli 22 %, vierasvoitto 13 %. Todennäköisin tulos on kotivoitto, noin 7 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Nantes - Grenoble). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 75 %, tasapeli 16 %, vierasvoitto 9 %.",
+       "Vierasvoitto: vain 9 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 13 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tasapeli: vain 16 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 22 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -991,9 +4915,66 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, france / ligue-2",
+        "url": "https://www.betexplorer.com/football/france/ligue-2/nantes-grenoble/Yi0ChSdS/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (65 %). Pelaajat aliarvostavat: tasapeli (arvio 22 %, pelaajat 16 %) ja vierasvoitto (arvio 13 %, pelaajat 9 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 65 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 64 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 16 % pelaajista veikkaa tätä (oma arvio 22 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Toinen joukkue on selvä suosikki, tasapeli on epätodennäköisempi"
+         ]
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Vain 9 % pelaajista veikkaa tätä (oma arvio 13 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": [
+          "Oma arvio vain 13 %",
+          "Kertoimet antavat vain 13 %"
+         ]
+        }
+       ]
+      }
      }
     },
     {
@@ -1001,17 +4982,17 @@
      "home": "Sochaux",
      "away": "USL Dunkerq",
      "crowd": [
-      0.3636,
-      0.3131,
-      0.3232
+      0.37,
+      0.3,
+      0.33
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.3636,
-      0.3131,
-      0.3232
+      0.37,
+      0.3,
+      0.33
      ],
      "basis": "crowd",
      "ratio": [
@@ -1024,7 +5005,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 36 %, tasapeli 31 %, vierasvoitto 32 %.",
+       "Pelaajat veikkaavat: kotivoitto 37 %, tasapeli 30 %, vierasvoitto 33 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1045,32 +5026,39 @@
      "home": "Jong Ajax",
      "away": "Jong AZ",
      "crowd": [
-      0.5248,
-      0.2277,
-      0.2475
+      0.53,
+      0.23,
+      0.24
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.4299581923153494,
+      0.2317658769659566,
+      0.338275930718694
+     ],
      "model": null,
      "p": [
-      0.5248,
-      0.2277,
-      0.2475
+      0.4452375490148788,
+      0.23232147422646646,
+      0.3224409767586548
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      0.8400708471978844,
+      1.010093366202028,
+      1.3435040698277283
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
-      "tone": "neutral",
+      "headline": "Pelaajat aliarvostavat tässä: vierasvoitto",
+      "tone": "good",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 52 %, tasapeli 23 %, vierasvoitto 25 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 45 %, tasapeli 23 %, vierasvoitto 32 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Jong Ajax - Jong AZ). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 53 %, tasapeli 23 %, vierasvoitto 24 %.",
+       "Vierasvoitto: vain 24 % pelaajista veikkaa sitä, vaikka sen mahdollisuus on meidän arviomme mukaan 32 %. Jos tämä tulee ja koko rivisi osuu, voitto jaetaan harvempien kesken.",
+       "Kotivoitto: 53 % pelaajista veikkaa sitä, mutta meidän arviomme on vain 45 %. Jos tämä tulee ja rivisi osuu, joudut jakamaan voiton monen kanssa.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -1079,9 +5067,62 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, netherlands / eerste-divisie",
+        "url": "https://www.betexplorer.com/football/netherlands/eerste-divisie/jong-ajax-jong-az-alkmaar/8b44XUOp/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (45 %). Pelaajat aliarvostavat: vierasvoitto (arvio 32 %, pelaajat 24 %). Ylipelattu: kotivoitto (53 % pelaajista veikkaa).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          },
+          {
+           "text": "ylipelattu",
+           "tone": "warn"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 45 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 43 %"
+         ],
+         "cons": [
+          "53 % pelaajista veikkaa tätä (oma arvio 45 %), joten voitto jaetaan monen kanssa"
+         ]
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 23 %, pelaajista 23 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [
+          {
+           "text": "pelaajat aliarvostavat",
+           "tone": "good"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 32 %",
+          "Vain 24 % pelaajista veikkaa tätä (oma arvio 32 %), joten voitto jaetaan harvempien kesken"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     },
     {
@@ -1089,17 +5130,17 @@
      "home": "Jong PSV",
      "away": "Jong FCUtre",
      "crowd": [
-      0.67,
-      0.18,
-      0.15
+      0.65,
+      0.19,
+      0.16
      ],
      "crowdEstimated": false,
      "market": null,
      "model": null,
      "p": [
-      0.67,
-      0.18,
-      0.15
+      0.65,
+      0.19,
+      0.16
      ],
      "basis": "crowd",
      "ratio": [
@@ -1112,7 +5153,7 @@
       "headline": "Ei omaa tietoa tästä ottelusta",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 67 %, tasapeli 18 %, vierasvoitto 15 %.",
+       "Pelaajat veikkaavat: kotivoitto 65 %, tasapeli 19 %, vierasvoitto 16 %.",
        "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
        "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
       ],
@@ -1133,32 +5174,38 @@
      "home": "Vitesse",
      "away": "De Graafsch",
      "crowd": [
-      0.41,
-      0.25,
-      0.34
+      0.47,
+      0.26,
+      0.27
      ],
      "crowdEstimated": false,
-     "market": null,
+     "market": [
+      0.4402108900801915,
+      0.25001107615967394,
+      0.3097780337601347
+     ],
      "model": null,
      "p": [
-      0.41,
-      0.25,
-      0.34
+      0.44477925593022594,
+      0.251610954235278,
+      0.303609789834496
      ],
-     "basis": "crowd",
+     "basis": "market",
      "ratio": [
-      1,
-      1,
-      1
+      0.9463388424047361,
+      0.9677344393664539,
+      1.1244807030907258
      ],
      "result": null,
      "explain": {
-      "headline": "Ei omaa tietoa tästä ottelusta",
+      "headline": "Pelaajat ja meidän arvio ovat samaa mieltä",
       "tone": "neutral",
       "lines": [
-       "Pelaajat veikkaavat: kotivoitto 41 %, tasapeli 25 %, vierasvoitto 34 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Meidän arvio: kotivoitto 44 %, tasapeli 25 %, vierasvoitto 30 %. Todennäköisin tulos on kotivoitto, noin 4 kertaa kymmenestä.",
+       "Arvio on laskettu vedonvälittäjien kertoimista (haettu ottelu: Vitesse - De Graafschap). Varmuuden vuoksi sitä on vedetty kohti pelaajien arviota, koska yksittäinen lähde voi olla väärässä.",
+       "Pelaajat veikkaavat: kotivoitto 47 %, tasapeli 26 %, vierasvoitto 27 %.",
+       "Erot ovat pieniä, joten tästä ottelusta ei synny erityistä etua. Se on silti mukana, koska kuponki tarvitsee merkin jokaiseen otteluun.",
+       "Tämä on arvio, ei lupaus: ottelu voi päättyä miten tahansa."
       ],
       "facts": [],
       "sources": [
@@ -1167,22 +5214,63 @@
         "url": "https://yle.fi/tekstitv/txt/479_0001.htm",
         "what": "pelaajien osuudet (peliprosentit)",
         "note": "Eri kierrokset ovat sivun alasivuilla."
+       },
+       {
+        "label": "BetExplorer, netherlands / eerste-divisie",
+        "url": "https://www.betexplorer.com/football/netherlands/eerste-divisie/vitesse-de-graafschap/ELn1Fyn2/",
+        "what": "vedonvälittäjän kertoimet"
        }
       ],
-      "quick": null
+      "quick": {
+       "summary": "Todennäköisin: kotivoitto (44 %).",
+       "signs": [
+        {
+         "sign": "1",
+         "label": "Kotivoitto",
+         "tags": [
+          {
+           "text": "todennäköisin",
+           "tone": "neutral"
+          }
+         ],
+         "pros": [
+          "Oma arvio: 44 % — ottelun todennäköisin lopputulos",
+          "Kertoimet antavat 44 %"
+         ],
+         "cons": []
+        },
+        {
+         "sign": "X",
+         "label": "Tasapeli",
+         "tags": [],
+         "pros": [],
+         "cons": [],
+         "note": "Ei erityistä puolesta tai vastaan: oma arvio 25 %, pelaajista 26 % veikkaa tätä"
+        },
+        {
+         "sign": "2",
+         "label": "Vierasvoitto",
+         "tags": [],
+         "pros": [
+          "Oma arvio: 30 %"
+         ],
+         "cons": []
+        }
+       ]
+      }
      }
     }
    ],
    "path": [],
    "prizes": null,
    "calibration": null,
-   "oddsFetchedAt": null
+   "oddsFetchedAt": "2026-11-23T16:21:22.406Z"
   },
   {
    "id": "2026-11-22-sunnuntaivakio-3",
    "label": "Sunnuntaivakio 3 (krs 47)",
    "date": "2026-11-22",
-   "status": "open",
+   "status": "closed",
    "turnoverEur": 76374,
    "turnoverEstimated": false,
    "guaranteeEur": 50000,
@@ -1610,8 +5698,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 10 %, tasapeli 21 %, vierasvoitto 69 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -1654,8 +5741,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 64 %, tasapeli 22 %, vierasvoitto 14 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -1904,8 +5990,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 28 %, tasapeli 29 %, vierasvoitto 43 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -1948,8 +6033,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 72 %, tasapeli 18 %, vierasvoitto 10 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -1992,8 +6076,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 33 %, tasapeli 30 %, vierasvoitto 37 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2036,8 +6119,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 32 %, tasapeli 25 %, vierasvoitto 43 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2061,7 +6143,7 @@
    "id": "2026-11-22-sunnuntaivakio-2",
    "label": "Sunnuntaivakio 2 (krs 47)",
    "date": "2026-11-22",
-   "status": "open",
+   "status": "closed",
    "turnoverEur": 68659,
    "turnoverEstimated": false,
    "guaranteeEur": 50000,
@@ -2607,8 +6689,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 33 %, tasapeli 30 %, vierasvoitto 37 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2752,8 +6833,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 87 %, tasapeli 9 %, vierasvoitto 4 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2892,8 +6972,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 47 %, tasapeli 32 %, vierasvoitto 21 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2936,8 +7015,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 8 %, tasapeli 14 %, vierasvoitto 78 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [
@@ -2980,8 +7058,7 @@
       "tone": "neutral",
       "lines": [
        "Pelaajat veikkaavat: kotivoitto 39 %, tasapeli 30 %, vierasvoitto 31 %.",
-       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua.",
-       "Kertoimet haetaan automaattisesti kierroksen päivän aamuna ja vielä tuntia ennen sulkeutumista. Kun ne löytyvät, tähän ilmestyy oma arvio."
+       "Tästä ottelusta ei ole kertoimia eikä omaa taulukkoa, joten emme tiedä ovatko pelaajat oikeassa. Laskenta pitää heidän arviotaan oikeana, eikä tästä ottelusta etsitä etua."
       ],
       "facts": [],
       "sources": [

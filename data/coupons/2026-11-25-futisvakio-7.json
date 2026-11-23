@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-25-futisvakio-7",
+  "label": "Futisvakio 7 (krs 48)",
+  "date": "2026-11-25",
+  "turnoverEur": 1417,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-25T19:43:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 18.15)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Club Brugge",
+      "away": "Liverpool",
+      "crowd": [
+        0.22,
+        0.2,
+        0.58
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Sporting CP",
+      "away": "Mancheste.U",
+      "crowd": [
+        0.46,
+        0.3,
+        0.24
+      ]
+    },
+    {
+      "n": 3,
+      "home": "PSG",
+      "away": "Roma",
+      "crowd": [
+        0.7677,
+        0.1919,
+        0.0404
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Lille",
+      "away": "Bayer.Münch",
+      "crowd": [
+        0.17,
+        0.21,
+        0.62
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Inter",
+      "away": "VfB Stuttga",
+      "crowd": [
+        0.72,
+        0.17,
+        0.11
+      ]
+    },
+    {
+      "n": 6,
+      "home": "At. Madrid",
+      "away": "Viking",
+      "crowd": [
+        0.899,
+        0.0707,
+        0.0303
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Shahtar D",
+      "away": "Fenerbahce",
+      "crowd": [
+        0.29,
+        0.33,
+        0.38
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Burnley",
+      "away": "Birmingham",
+      "crowd": [
+        0.17,
+        0.32,
+        0.51
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Bolton",
+      "away": "West Bromwi",
+      "crowd": [
+        0.11,
+        0.22,
+        0.67
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Stoke",
+      "away": "Millwall",
+      "crowd": [
+        0.75,
+        0.13,
+        0.12
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Watford",
+      "away": "Blackburn",
+      "crowd": [
+        0.2929,
+        0.3434,
+        0.3636
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Harrogate T",
+      "away": "Kidderminst",
+      "crowd": [
+        0.7172,
+        0.1616,
+        0.1212
+      ]
+    }
+  ]
+}
