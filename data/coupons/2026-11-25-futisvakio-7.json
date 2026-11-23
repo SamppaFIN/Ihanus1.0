@@ -2,7 +2,7 @@
   "id": "2026-11-25-futisvakio-7",
   "label": "Futisvakio 7 (krs 48)",
   "date": "2026-11-25",
-  "turnoverEur": 1417,
+  "turnoverEur": 1571,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Club Brugge",
       "away": "Liverpool",
       "crowd": [
-        0.22,
-        0.2,
-        0.58
+        0.21,
+        0.19,
+        0.6
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "PSG",
       "away": "Roma",
       "crowd": [
-        0.7677,
-        0.1919,
-        0.0404
+        0.76,
+        0.19,
+        0.05
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Lille",
       "away": "Bayer.Münch",
       "crowd": [
-        0.17,
-        0.21,
-        0.62
+        0.1616,
+        0.202,
+        0.6364
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "At. Madrid",
       "away": "Viking",
       "crowd": [
-        0.899,
-        0.0707,
-        0.0303
+        0.8812,
+        0.0792,
+        0.0396
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Burnley",
       "away": "Birmingham",
       "crowd": [
-        0.17,
-        0.32,
-        0.51
+        0.1717,
+        0.3232,
+        0.5051
       ]
     },
     {
@@ -95,8 +95,8 @@
       "away": "West Bromwi",
       "crowd": [
         0.11,
-        0.22,
-        0.67
+        0.23,
+        0.66
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Stoke",
       "away": "Millwall",
       "crowd": [
-        0.75,
+        0.74,
         0.13,
-        0.12
+        0.13
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Watford",
       "away": "Blackburn",
       "crowd": [
-        0.2929,
-        0.3434,
-        0.3636
+        0.3,
+        0.34,
+        0.36
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Harrogate T",
       "away": "Kidderminst",
       "crowd": [
-        0.7172,
-        0.1616,
-        0.1212
+        0.73,
+        0.16,
+        0.11
       ]
     }
   ]

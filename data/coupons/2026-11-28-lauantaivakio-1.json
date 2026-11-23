@@ -2,7 +2,7 @@
   "id": "2026-11-28-lauantaivakio-1",
   "label": "Lauantaivakio 1 (krs 48)",
   "date": "2026-11-28",
-  "turnoverEur": 9110,
+  "turnoverEur": 10036,
   "guaranteeEur": 300000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.25,
@@ -14,9 +14,9 @@
       "home": "Mancheste.U",
       "away": "Brentford",
       "crowd": [
-        0.49,
-        0.27,
-        0.24
+        0.4949,
+        0.2626,
+        0.2424
       ]
     },
     {
@@ -24,8 +24,8 @@
       "home": "Leeds U",
       "away": "Coventry C",
       "crowd": [
-        0.72,
-        0.18,
+        0.73,
+        0.17,
         0.1
       ]
     },
@@ -54,9 +54,9 @@
       "home": "West Ham",
       "away": "Stoke",
       "crowd": [
-        0.4,
-        0.25,
-        0.35
+        0.3939,
+        0.2525,
+        0.3535
       ]
     },
     {
@@ -65,8 +65,8 @@
       "away": "Bristol C",
       "crowd": [
         0.72,
-        0.13,
-        0.15
+        0.14,
+        0.14
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Millwall",
       "away": "Burnley",
       "crowd": [
-        0.39,
+        0.4,
         0.33,
-        0.28
+        0.27
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "QPR",
       "away": "Sheffield U",
       "crowd": [
-        0.4,
+        0.41,
         0.3,
-        0.3
+        0.29
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Luton",
       "away": "Oxford U",
       "crowd": [
-        0.49,
-        0.23,
-        0.28
+        0.4949,
+        0.2323,
+        0.2727
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Leicester",
       "away": "Mansfield",
       "crowd": [
-        0.64,
+        0.65,
         0.18,
-        0.18
+        0.17
       ]
     },
     {
@@ -134,9 +134,9 @@
       "home": "Sheffield W",
       "away": "Reading FC",
       "crowd": [
-        0.59,
-        0.23,
-        0.18
+        0.5842,
+        0.2277,
+        0.1881
       ]
     }
   ]
