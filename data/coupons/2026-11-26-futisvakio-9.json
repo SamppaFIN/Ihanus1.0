@@ -2,7 +2,7 @@
   "id": "2026-11-26-futisvakio-9",
   "label": "Futisvakio 9 (krs 48)",
   "date": "2026-11-26",
-  "turnoverEur": null,
+  "turnoverEur": 964,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "SC Braga",
       "away": "KuPS",
       "crowd": [
-        0.55,
-        0.45,
-        0
+        0.899,
+        0.0606,
+        0.0404
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "SC Freiburg",
       "away": "FC Twente",
       "crowd": [
-        0.0505,
-        0.2626,
-        0.6869
+        0.36,
+        0.3,
+        0.34
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Nordsjaella",
       "away": "Panathinaik",
       "crowd": [
-        0.4455,
-        0.4455,
-        0.1089
+        0.3,
+        0.28,
+        0.42
       ]
     },
     {
@@ -44,9 +44,29 @@
       "home": "Crystal P",
       "away": "Real Socied",
       "crowd": [
-        0.1089,
-        0.4455,
-        0.4455
+        0.28,
+        0.33,
+        0.39
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Sunderland",
+      "away": "Jagiello.B.",
+      "crowd": [
+        0.8182,
+        0.1111,
+        0.0707
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Juventus",
+      "away": "Omonoia",
+      "crowd": [
+        0.88,
+        0.07,
+        0.05
       ]
     },
     {
@@ -54,9 +74,9 @@
       "home": "Hoffenheim",
       "away": "Sturm Graz",
       "crowd": [
-        0.11,
-        0.26,
-        0.63
+        0.5644,
+        0.2871,
+        0.1485
       ]
     },
     {
@@ -64,9 +84,9 @@
       "home": "N.E.C.",
       "away": "Rennes",
       "crowd": [
-        0.84,
-        0,
-        0.16
+        0.21,
+        0.27,
+        0.52
       ]
     },
     {
@@ -74,9 +94,9 @@
       "home": "Spart.Praha",
       "away": "AZ",
       "crowd": [
-        0.0505,
-        0.4747,
-        0.4747
+        0.34,
+        0.32,
+        0.34
       ]
     },
     {
@@ -84,9 +104,9 @@
       "home": "SCU Torreen",
       "away": "Celtic",
       "crowd": [
-        0.95,
-        0,
-        0.05
+        0.17,
+        0.11,
+        0.72
       ]
     },
     {
@@ -94,9 +114,19 @@
       "home": "OFI",
       "away": "RSC Anderle",
       "crowd": [
-        0.11,
-        0.21,
-        0.68
+        0.1386,
+        0.2178,
+        0.6436
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Ferencvaros",
+      "away": "NK Celje",
+      "crowd": [
+        0.8687,
+        0.0808,
+        0.0505
       ]
     }
   ]
