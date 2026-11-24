@@ -2,7 +2,7 @@
   "id": "2026-11-25-futisvakio-7",
   "label": "Futisvakio 7 (krs 48)",
   "date": "2026-11-25",
-  "turnoverEur": 1571,
+  "turnoverEur": 1808,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -24,9 +24,9 @@
       "home": "Sporting CP",
       "away": "Mancheste.U",
       "crowd": [
-        0.46,
-        0.3,
-        0.24
+        0.48,
+        0.29,
+        0.23
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "PSG",
       "away": "Roma",
       "crowd": [
-        0.76,
-        0.19,
-        0.05
+        0.7576,
+        0.1919,
+        0.0505
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Lille",
       "away": "Bayer.Münch",
       "crowd": [
-        0.1616,
-        0.202,
-        0.6364
+        0.15,
+        0.2,
+        0.65
       ]
     },
     {
@@ -54,8 +54,8 @@
       "home": "Inter",
       "away": "VfB Stuttga",
       "crowd": [
-        0.72,
-        0.17,
+        0.71,
+        0.18,
         0.11
       ]
     },
@@ -64,9 +64,9 @@
       "home": "At. Madrid",
       "away": "Viking",
       "crowd": [
-        0.8812,
-        0.0792,
-        0.0396
+        0.89,
+        0.07,
+        0.04
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Shahtar D",
       "away": "Fenerbahce",
       "crowd": [
-        0.29,
-        0.33,
-        0.38
+        0.2929,
+        0.3232,
+        0.3838
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Burnley",
       "away": "Birmingham",
       "crowd": [
-        0.1717,
-        0.3232,
-        0.5051
+        0.17,
+        0.33,
+        0.5
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Stoke",
       "away": "Millwall",
       "crowd": [
-        0.74,
-        0.13,
-        0.13
+        0.7576,
+        0.1212,
+        0.1212
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Harrogate T",
       "away": "Kidderminst",
       "crowd": [
-        0.73,
-        0.16,
-        0.11
+        0.7228,
+        0.1584,
+        0.1188
       ]
     }
   ]

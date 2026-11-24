@@ -2,7 +2,7 @@
   "id": "2026-11-24-futisvakio-6",
   "label": "Futisvakio 6 (krs 48)",
   "date": "2026-11-24",
-  "turnoverEur": 9349,
+  "turnoverEur": 12218,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,8 +14,8 @@
       "home": "Arsenal",
       "away": "Bor. Dortmu",
       "crowd": [
-        0.64,
-        0.23,
+        0.63,
+        0.24,
         0.13
       ]
     },
@@ -24,9 +24,9 @@
       "home": "Mancheste.C",
       "away": "Napoli",
       "crowd": [
-        0.79,
-        0.15,
-        0.06
+        0.77,
+        0.16,
+        0.07
       ]
     },
     {
@@ -34,8 +34,8 @@
       "home": "Real Madrid",
       "away": "PSV",
       "crowd": [
-        0.87,
-        0.09,
+        0.88,
+        0.08,
         0.04
       ]
     },
@@ -54,9 +54,9 @@
       "home": "Como",
       "away": "A.E.K.",
       "crowd": [
-        0.86,
-        0.09,
-        0.05
+        0.8687,
+        0.0909,
+        0.0404
       ]
     },
     {
@@ -65,8 +65,8 @@
       "away": "Betis",
       "crowd": [
         0.06,
-        0.17,
-        0.77
+        0.16,
+        0.78
       ]
     },
     {
@@ -74,8 +74,8 @@
       "home": "Feyenoord",
       "away": "FC Porto",
       "crowd": [
-        0.27,
-        0.28,
+        0.26,
+        0.29,
         0.45
       ]
     },
@@ -84,9 +84,9 @@
       "home": "Portsmouth",
       "away": "West Ham",
       "crowd": [
-        0.2323,
-        0.2929,
-        0.4747
+        0.23,
+        0.29,
+        0.48
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Middlesbrou",
       "away": "Swansea",
       "crowd": [
-        0.69,
+        0.71,
         0.19,
-        0.12
+        0.1
       ]
     },
     {
@@ -104,8 +104,8 @@
       "home": "Sheffield U",
       "away": "Southampton",
       "crowd": [
-        0.34,
-        0.29,
+        0.35,
+        0.28,
         0.37
       ]
     },
@@ -114,9 +114,9 @@
       "home": "Bristol C",
       "away": "Wrexham",
       "crowd": [
-        0.38,
-        0.29,
-        0.33
+        0.36,
+        0.28,
+        0.36
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Charlton",
       "away": "Lincoln C",
       "crowd": [
-        0.47,
+        0.49,
         0.26,
-        0.27
+        0.25
       ]
     },
     {

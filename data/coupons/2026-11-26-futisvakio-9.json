@@ -1,0 +1,103 @@
+{
+  "id": "2026-11-26-futisvakio-9",
+  "label": "Futisvakio 9 (krs 48)",
+  "date": "2026-11-26",
+  "turnoverEur": null,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-26T19:58:00.000Z",
+  "source": "Yle Teksti-TV 479",
+  "matches": [
+    {
+      "n": 1,
+      "home": "SC Braga",
+      "away": "KuPS",
+      "crowd": [
+        0.55,
+        0.45,
+        0
+      ]
+    },
+    {
+      "n": 2,
+      "home": "SC Freiburg",
+      "away": "FC Twente",
+      "crowd": [
+        0.0505,
+        0.2626,
+        0.6869
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Nordsjaella",
+      "away": "Panathinaik",
+      "crowd": [
+        0.4455,
+        0.4455,
+        0.1089
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Crystal P",
+      "away": "Real Socied",
+      "crowd": [
+        0.1089,
+        0.4455,
+        0.4455
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Hoffenheim",
+      "away": "Sturm Graz",
+      "crowd": [
+        0.11,
+        0.26,
+        0.63
+      ]
+    },
+    {
+      "n": 8,
+      "home": "N.E.C.",
+      "away": "Rennes",
+      "crowd": [
+        0.84,
+        0,
+        0.16
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Spart.Praha",
+      "away": "AZ",
+      "crowd": [
+        0.0505,
+        0.4747,
+        0.4747
+      ]
+    },
+    {
+      "n": 10,
+      "home": "SCU Torreen",
+      "away": "Celtic",
+      "crowd": [
+        0.95,
+        0,
+        0.05
+      ]
+    },
+    {
+      "n": 11,
+      "home": "OFI",
+      "away": "RSC Anderle",
+      "crowd": [
+        0.11,
+        0.21,
+        0.68
+      ]
+    }
+  ]
+}
