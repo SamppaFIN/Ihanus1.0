@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-29-sunnuntaivakio-2",
+  "label": "Sunnuntaivakio 2 (krs 48)",
+  "date": "2026-11-29",
+  "turnoverEur": 1055,
+  "guaranteeEur": 50000,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-29T11:58:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 19.55)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Everton",
+      "away": "Liverpool",
+      "crowd": [
+        0.198,
+        0.1782,
+        0.6238
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Brighton",
+      "away": "Newcastle U",
+      "crowd": [
+        0.7228,
+        0.1683,
+        0.1089
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Fulham",
+      "away": "Bournemouth",
+      "crowd": [
+        0.18,
+        0.35,
+        0.47
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Sunderland",
+      "away": "Tottenham",
+      "crowd": [
+        0.13,
+        0.27,
+        0.6
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Crystal P",
+      "away": "Hull",
+      "crowd": [
+        0.35,
+        0.32,
+        0.33
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Valencia",
+      "away": "Osasuna",
+      "crowd": [
+        0.5743,
+        0.2673,
+        0.1584
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Deportivo",
+      "away": "Barcelona",
+      "crowd": [
+        0.07,
+        0.09,
+        0.84
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Sassuolo",
+      "away": "Napoli",
+      "crowd": [
+        0.0808,
+        0.1717,
+        0.7475
+      ]
+    },
+    {
+      "n": 9,
+      "home": "SC Freiburg",
+      "away": "RB Leipzig",
+      "crowd": [
+        0.36,
+        0.38,
+        0.26
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Auxerre",
+      "away": "Marseille",
+      "crowd": [
+        0.1188,
+        0.1683,
+        0.7129
+      ]
+    },
+    {
+      "n": 11,
+      "home": "Feyenoord",
+      "away": "Ajax",
+      "crowd": [
+        0.17,
+        0.28,
+        0.55
+      ]
+    },
+    {
+      "n": 12,
+      "home": "Swansea",
+      "away": "Cardiff C",
+      "crowd": [
+        0.75,
+        0.19,
+        0.06
+      ]
+    }
+  ]
+}

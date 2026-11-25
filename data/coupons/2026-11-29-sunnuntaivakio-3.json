@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-29-sunnuntaivakio-3",
+  "label": "Sunnuntaivakio 3 (krs 48)",
+  "date": "2026-11-29",
+  "turnoverEur": 937,
+  "guaranteeEur": 50000,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-29T16:13:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 19.55)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Arsenal",
+      "away": "Mancheste.C",
+      "crowd": [
+        0.44,
+        0.27,
+        0.29
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Celta",
+      "away": "Villarreal",
+      "crowd": [
+        0.16,
+        0.33,
+        0.51
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Real Socied",
+      "away": "Sevilla",
+      "crowd": [
+        0.5842,
+        0.3168,
+        0.099
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Roma",
+      "away": "Monza",
+      "crowd": [
+        0.89,
+        0.07,
+        0.04
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Como",
+      "away": "Juventus",
+      "crowd": [
+        0.35,
+        0.44,
+        0.21
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Hoffenheim",
+      "away": "FC Augsburg",
+      "crowd": [
+        0.64,
+        0.23,
+        0.13
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Bor. Dortmu",
+      "away": "Leverkusen",
+      "crowd": [
+        0.5545,
+        0.2376,
+        0.2079
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Toulouse",
+      "away": "Rennes",
+      "crowd": [
+        0.27,
+        0.31,
+        0.42
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Lyon",
+      "away": "Monaco",
+      "crowd": [
+        0.67,
+        0.2,
+        0.13
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Union SG",
+      "away": "KAA Gent",
+      "crowd": [
+        0.5556,
+        0.303,
+        0.1414
+      ]
+    },
+    {
+      "n": 11,
+      "home": "N.E.C.",
+      "away": "FC Twente",
+      "crowd": [
+        0.03,
+        0.13,
+        0.84
+      ]
+    },
+    {
+      "n": 12,
+      "home": "FC Porto",
+      "away": "Sporting CP",
+      "crowd": [
+        0.6667,
+        0.2323,
+        0.101
+      ]
+    }
+  ]
+}
