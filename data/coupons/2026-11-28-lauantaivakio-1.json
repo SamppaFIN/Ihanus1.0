@@ -2,7 +2,7 @@
   "id": "2026-11-28-lauantaivakio-1",
   "label": "Lauantaivakio 1 (krs 48)",
   "date": "2026-11-28",
-  "turnoverEur": 21060,
+  "turnoverEur": 21739,
   "guaranteeEur": 300000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.25,
@@ -54,9 +54,9 @@
       "home": "West Ham",
       "away": "Stoke",
       "crowd": [
-        0.41,
-        0.26,
-        0.33
+        0.4059,
+        0.2574,
+        0.3366
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "West Bromwi",
       "away": "Bristol C",
       "crowd": [
-        0.703,
-        0.1584,
-        0.1386
+        0.71,
+        0.15,
+        0.14
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Millwall",
       "away": "Burnley",
       "crowd": [
-        0.404,
-        0.3232,
-        0.2727
+        0.41,
+        0.32,
+        0.27
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "QPR",
       "away": "Sheffield U",
       "crowd": [
-        0.42,
+        0.41,
         0.3,
-        0.28
+        0.29
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Luton",
       "away": "Oxford U",
       "crowd": [
-        0.48,
-        0.25,
-        0.27
+        0.4851,
+        0.2475,
+        0.2673
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Leicester",
       "away": "Mansfield",
       "crowd": [
-        0.6869,
-        0.1717,
-        0.1414
+        0.69,
+        0.17,
+        0.14
       ]
     },
     {
