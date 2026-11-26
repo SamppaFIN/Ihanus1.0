@@ -1,0 +1,113 @@
+{
+  "id": "2026-11-27-valioliiga-vakio-12",
+  "label": "Valioliiga-Vakio 12 (krs 48)",
+  "date": "2026-11-27",
+  "turnoverEur": 863,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-27T19:58:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 03.35)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Nottingham",
+      "away": "Chelsea",
+      "crowd": [
+        0.24,
+        0.25,
+        0.51
+      ]
+    },
+    {
+      "n": 2,
+      "home": "Mancheste.U",
+      "away": "Brentford",
+      "crowd": [
+        0.3564,
+        0.3465,
+        0.297
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Leeds U",
+      "away": "Coventry C",
+      "crowd": [
+        0.81,
+        0.13,
+        0.06
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Ipswich T",
+      "away": "Aston Villa",
+      "crowd": [
+        0.17,
+        0.28,
+        0.55
+      ]
+    },
+    {
+      "n": 5,
+      "home": "Everton",
+      "away": "Liverpool",
+      "crowd": [
+        0.12,
+        0.19,
+        0.69
+      ]
+    },
+    {
+      "n": 6,
+      "home": "Brighton",
+      "away": "Newcastle U",
+      "crowd": [
+        0.78,
+        0.11,
+        0.11
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Fulham",
+      "away": "Bournemouth",
+      "crowd": [
+        0.17,
+        0.18,
+        0.65
+      ]
+    },
+    {
+      "n": 8,
+      "home": "Sunderland",
+      "away": "Tottenham",
+      "crowd": [
+        0.2222,
+        0.2828,
+        0.4949
+      ]
+    },
+    {
+      "n": 9,
+      "home": "Crystal P",
+      "away": "Hull",
+      "crowd": [
+        0.3861,
+        0.2871,
+        0.3267
+      ]
+    },
+    {
+      "n": 10,
+      "home": "Arsenal",
+      "away": "Mancheste.C",
+      "crowd": [
+        0.42,
+        0.37,
+        0.21
+      ]
+    }
+  ]
+}

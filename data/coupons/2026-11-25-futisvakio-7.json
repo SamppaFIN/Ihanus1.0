@@ -2,7 +2,7 @@
   "id": "2026-11-25-futisvakio-7",
   "label": "Futisvakio 7 (krs 48)",
   "date": "2026-11-25",
-  "turnoverEur": 40950,
+  "turnoverEur": 52878,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -15,8 +15,8 @@
       "away": "Liverpool",
       "crowd": [
         0.19,
-        0.25,
-        0.56
+        0.24,
+        0.57
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "Sporting CP",
       "away": "Mancheste.U",
       "crowd": [
-        0.46,
+        0.43,
         0.27,
-        0.27
+        0.3
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "PSG",
       "away": "Roma",
       "crowd": [
-        0.77,
+        0.75,
         0.16,
-        0.07
+        0.09
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Lille",
       "away": "Bayer.Münch",
       "crowd": [
-        0.09,
-        0.19,
-        0.72
+        0.1089,
+        0.198,
+        0.6931
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Inter",
       "away": "VfB Stuttga",
       "crowd": [
-        0.73,
-        0.19,
-        0.08
+        0.7228,
+        0.1881,
+        0.0891
       ]
     },
     {
@@ -64,8 +64,8 @@
       "home": "At. Madrid",
       "away": "Viking",
       "crowd": [
-        0.89,
-        0.08,
+        0.9,
+        0.07,
         0.03
       ]
     },
@@ -74,9 +74,9 @@
       "home": "Shahtar D",
       "away": "Fenerbahce",
       "crowd": [
-        0.3168,
-        0.3168,
-        0.3663
+        0.33,
+        0.31,
+        0.36
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Burnley",
       "away": "Birmingham",
       "crowd": [
-        0.19,
-        0.29,
-        0.52
+        0.23,
+        0.28,
+        0.49
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Bolton",
       "away": "West Bromwi",
       "crowd": [
-        0.13,
+        0.15,
         0.24,
-        0.63
+        0.61
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Stoke",
       "away": "Millwall",
       "crowd": [
-        0.71,
-        0.17,
-        0.12
+        0.6566,
+        0.1919,
+        0.1515
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Watford",
       "away": "Blackburn",
       "crowd": [
-        0.3267,
-        0.3168,
-        0.3564
+        0.34,
+        0.31,
+        0.35
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Harrogate T",
       "away": "Kidderminst",
       "crowd": [
-        0.73,
-        0.18,
-        0.09
+        0.7129,
+        0.1881,
+        0.099
       ]
     }
   ]
