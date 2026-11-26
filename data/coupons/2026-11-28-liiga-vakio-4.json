@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-28-liiga-vakio-4",
+  "label": "Liiga-Vakio 4 (krs 48)",
+  "date": "2026-11-28",
+  "turnoverEur": 367,
+  "guaranteeEur": null,
+  "bonusPoolEur": null,
+  "rowPriceEur": 0.1,
+  "closesAt": "2026-11-28T14:58:00.000Z",
+  "source": "Yle Teksti-TV 479 (pelijakauma 19.35)",
+  "matches": [
+    {
+      "n": 1,
+      "home": "Ilves",
+      "away": "HIFK",
+      "crowd": [
+        0.6,
+        0.2,
+        0.2
+      ]
+    },
+    {
+      "n": 2,
+      "home": "SaiPa",
+      "away": "Jokerit",
+      "crowd": [
+        0.8,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "n": 3,
+      "home": "Jukurit",
+      "away": "Lukko",
+      "crowd": [
+        0.37,
+        0.23,
+        0.4
+      ]
+    },
+    {
+      "n": 4,
+      "home": "Ässät",
+      "away": "Kärpät",
+      "crowd": [
+        0.48,
+        0.24,
+        0.28
+      ]
+    },
+    {
+      "n": 5,
+      "home": "JYP",
+      "away": "KalPa",
+      "crowd": [
+        0.7426,
+        0.1683,
+        0.0891
+      ]
+    },
+    {
+      "n": 6,
+      "home": "TPS",
+      "away": "K-Espoo",
+      "crowd": [
+        0.46,
+        0.21,
+        0.33
+      ]
+    },
+    {
+      "n": 7,
+      "home": "Pelicans",
+      "away": "KooKoo",
+      "crowd": [
+        0.57,
+        0.2,
+        0.23
+      ]
+    }
+  ]
+}
