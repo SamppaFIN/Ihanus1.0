@@ -2,7 +2,7 @@
   "id": "2026-11-27-futisvakio-11",
   "label": "Futisvakio 11 (krs 48)",
   "date": "2026-11-27",
-  "turnoverEur": 2412,
+  "turnoverEur": 3251,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Nottingham",
       "away": "Chelsea",
       "crowd": [
+        0.22,
         0.24,
-        0.2,
-        0.56
+        0.54
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "Levante",
       "away": "Racin.Sant.",
       "crowd": [
-        0.41,
-        0.33,
-        0.26
+        0.404,
+        0.3232,
+        0.2727
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Venezia",
       "away": "Bologna",
       "crowd": [
-        0.11,
-        0.14,
-        0.75
+        0.099,
+        0.1287,
+        0.7723
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Southampton",
       "away": "Middlesbrou",
       "crowd": [
-        0.38,
+        0.37,
         0.34,
-        0.28
+        0.29
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Werde.Breme",
       "away": "Mönchenglad",
       "crowd": [
-        0.8687,
-        0.0808,
-        0.0505
+        0.87,
+        0.08,
+        0.05
       ]
     },
     {
@@ -64,8 +64,8 @@
       "home": "Brest",
       "away": "Paris FC",
       "crowd": [
-        0.2,
-        0.28,
+        0.23,
+        0.25,
         0.52
       ]
     },
@@ -74,9 +74,9 @@
       "home": "FC Groninge",
       "away": "Willem II",
       "crowd": [
-        0.8485,
+        0.8586,
         0.0909,
-        0.0606
+        0.0505
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Maritimo",
       "away": "CD Nacional",
       "crowd": [
-        0.51,
+        0.5,
         0.27,
-        0.22
+        0.23
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "OH Leuven",
       "away": "KV Kortrijk",
       "crowd": [
-        0.84,
-        0.1,
-        0.06
+        0.78,
+        0.14,
+        0.08
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Gorni.Zabrz",
       "away": "Wisla Plock",
       "crowd": [
-        0.8218,
-        0.1089,
-        0.0693
+        0.79,
+        0.1,
+        0.11
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Leganes",
       "away": "Sabadell",
       "crowd": [
-        0.62,
-        0.23,
-        0.15
+        0.6,
+        0.22,
+        0.18
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Scunthorpe",
       "away": "Wealdstone",
       "crowd": [
-        0.303,
-        0.3131,
-        0.3838
+        0.3168,
+        0.2871,
+        0.396
       ]
     }
   ]

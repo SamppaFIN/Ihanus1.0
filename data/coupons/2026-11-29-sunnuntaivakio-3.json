@@ -2,7 +2,7 @@
   "id": "2026-11-29-sunnuntaivakio-3",
   "label": "Sunnuntaivakio 3 (krs 48)",
   "date": "2026-11-29",
-  "turnoverEur": 1792,
+  "turnoverEur": 1890,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Arsenal",
       "away": "Mancheste.C",
       "crowd": [
-        0.4545,
-        0.2727,
-        0.2727
+        0.45,
+        0.28,
+        0.27
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Real Socied",
       "away": "Sevilla",
       "crowd": [
-        0.58,
-        0.3,
-        0.12
+        0.5743,
+        0.297,
+        0.1287
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Roma",
       "away": "Monza",
       "crowd": [
-        0.9,
-        0.05,
-        0.05
+        0.8911,
+        0.0594,
+        0.0495
       ]
     },
     {
@@ -54,8 +54,8 @@
       "home": "Como",
       "away": "Juventus",
       "crowd": [
-        0.37,
-        0.38,
+        0.36,
+        0.39,
         0.25
       ]
     },
@@ -64,8 +64,8 @@
       "home": "Hoffenheim",
       "away": "FC Augsburg",
       "crowd": [
-        0.63,
-        0.22,
+        0.62,
+        0.23,
         0.15
       ]
     },
@@ -104,9 +104,9 @@
       "home": "Union SG",
       "away": "KAA Gent",
       "crowd": [
-        0.6566,
-        0.2323,
-        0.1111
+        0.65,
+        0.24,
+        0.11
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "N.E.C.",
       "away": "FC Twente",
       "crowd": [
-        0.06,
+        0.07,
         0.12,
-        0.82
+        0.81
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "FC Porto",
       "away": "Sporting CP",
       "crowd": [
-        0.69,
+        0.68,
         0.21,
-        0.1
+        0.11
       ]
     }
   ]

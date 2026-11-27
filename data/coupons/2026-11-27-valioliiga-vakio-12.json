@@ -2,7 +2,7 @@
   "id": "2026-11-27-valioliiga-vakio-12",
   "label": "Valioliiga-Vakio 12 (krs 48)",
   "date": "2026-11-27",
-  "turnoverEur": 863,
+  "turnoverEur": 2191,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -15,8 +15,8 @@
       "away": "Chelsea",
       "crowd": [
         0.24,
-        0.25,
-        0.51
+        0.26,
+        0.5
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "Mancheste.U",
       "away": "Brentford",
       "crowd": [
-        0.3564,
-        0.3465,
-        0.297
+        0.36,
+        0.32,
+        0.32
       ]
     },
     {
@@ -34,8 +34,8 @@
       "home": "Leeds U",
       "away": "Coventry C",
       "crowd": [
-        0.81,
-        0.13,
+        0.83,
+        0.11,
         0.06
       ]
     },
@@ -44,9 +44,9 @@
       "home": "Ipswich T",
       "away": "Aston Villa",
       "crowd": [
-        0.17,
-        0.28,
-        0.55
+        0.1683,
+        0.3069,
+        0.5248
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Everton",
       "away": "Liverpool",
       "crowd": [
-        0.12,
+        0.11,
         0.19,
-        0.69
+        0.7
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "Brighton",
       "away": "Newcastle U",
       "crowd": [
-        0.78,
-        0.11,
-        0.11
+        0.802,
+        0.1089,
+        0.0891
       ]
     },
     {
@@ -75,8 +75,8 @@
       "away": "Bournemouth",
       "crowd": [
         0.17,
-        0.18,
-        0.65
+        0.19,
+        0.64
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Sunderland",
       "away": "Tottenham",
       "crowd": [
-        0.2222,
-        0.2828,
-        0.4949
+        0.1881,
+        0.297,
+        0.5149
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Crystal P",
       "away": "Hull",
       "crowd": [
-        0.3861,
-        0.2871,
-        0.3267
+        0.4,
+        0.29,
+        0.31
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Arsenal",
       "away": "Mancheste.C",
       "crowd": [
-        0.42,
-        0.37,
-        0.21
+        0.47,
+        0.33,
+        0.2
       ]
     }
   ]
