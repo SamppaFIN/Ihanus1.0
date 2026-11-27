@@ -2,7 +2,7 @@
   "id": "2026-11-28-liiga-vakio-4",
   "label": "Liiga-Vakio 4 (krs 48)",
   "date": "2026-11-28",
-  "turnoverEur": 429,
+  "turnoverEur": 1039,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Ilves",
       "away": "HIFK",
       "crowd": [
-        0.58,
+        0.61,
         0.19,
-        0.23
+        0.2
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "SaiPa",
       "away": "Jokerit",
       "crowd": [
-        0.77,
-        0.09,
-        0.14
+        0.7879,
+        0.101,
+        0.1111
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Jukurit",
       "away": "Lukko",
       "crowd": [
-        0.3434,
-        0.2525,
-        0.404
+        0.33,
+        0.26,
+        0.41
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Ässät",
       "away": "Kärpät",
       "crowd": [
-        0.48,
-        0.22,
-        0.3
+        0.49,
+        0.23,
+        0.28
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "JYP",
       "away": "KalPa",
       "crowd": [
-        0.7374,
-        0.1414,
-        0.1212
+        0.76,
+        0.12,
+        0.12
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "TPS",
       "away": "K-Espoo",
       "crowd": [
-        0.45,
-        0.21,
-        0.34
+        0.44,
+        0.23,
+        0.33
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Pelicans",
       "away": "KooKoo",
       "crowd": [
-        0.5743,
-        0.1782,
-        0.2475
+        0.59,
+        0.19,
+        0.22
       ]
     }
   ]

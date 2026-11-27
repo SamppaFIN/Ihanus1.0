@@ -2,7 +2,7 @@
   "id": "2026-11-28-lauantaivakio-1",
   "label": "Lauantaivakio 1 (krs 48)",
   "date": "2026-11-28",
-  "turnoverEur": 93577,
+  "turnoverEur": 167538,
   "guaranteeEur": 300000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.25,
@@ -14,9 +14,9 @@
       "home": "Mancheste.U",
       "away": "Brentford",
       "crowd": [
-        0.45,
-        0.26,
-        0.29
+        0.4356,
+        0.2574,
+        0.3069
       ]
     },
     {
@@ -24,9 +24,9 @@
       "home": "Leeds U",
       "away": "Coventry C",
       "crowd": [
-        0.7071,
+        0.7172,
         0.1818,
-        0.1111
+        0.101
       ]
     },
     {
@@ -34,8 +34,8 @@
       "home": "Ipswich T",
       "away": "Aston Villa",
       "crowd": [
-        0.24,
-        0.26,
+        0.23,
+        0.27,
         0.5
       ]
     },
@@ -44,9 +44,9 @@
       "home": "Birmingham",
       "away": "Bolton",
       "crowd": [
-        0.67,
-        0.18,
-        0.15
+        0.73,
+        0.16,
+        0.11
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "West Ham",
       "away": "Stoke",
       "crowd": [
-        0.5347,
-        0.2178,
-        0.2475
+        0.5051,
+        0.2323,
+        0.2626
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "West Bromwi",
       "away": "Bristol C",
       "crowd": [
-        0.62,
-        0.21,
-        0.17
+        0.65,
+        0.2,
+        0.15
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Millwall",
       "away": "Burnley",
       "crowd": [
-        0.45,
-        0.28,
-        0.27
+        0.4554,
+        0.2772,
+        0.2673
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Wrexham",
       "away": "Portsmouth",
       "crowd": [
-        0.46,
-        0.29,
-        0.25
+        0.4545,
+        0.303,
+        0.2424
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Derby",
       "away": "Watford",
       "crowd": [
-        0.42,
-        0.28,
-        0.3
+        0.4059,
+        0.2871,
+        0.3069
       ]
     },
     {
@@ -104,8 +104,8 @@
       "home": "QPR",
       "away": "Sheffield U",
       "crowd": [
-        0.47,
-        0.27,
+        0.46,
+        0.28,
         0.26
       ]
     },
@@ -114,9 +114,9 @@
       "home": "Luton",
       "away": "Oxford U",
       "crowd": [
-        0.53,
+        0.54,
         0.24,
-        0.23
+        0.22
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Leicester",
       "away": "Mansfield",
       "crowd": [
-        0.66,
-        0.19,
-        0.15
+        0.68,
+        0.18,
+        0.14
       ]
     },
     {
@@ -134,9 +134,9 @@
       "home": "Sheffield W",
       "away": "Reading FC",
       "crowd": [
-        0.4747,
-        0.2525,
-        0.2727
+        0.49,
+        0.25,
+        0.26
       ]
     }
   ]
