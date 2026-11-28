@@ -2,7 +2,7 @@
   "id": "2026-11-29-sunnuntaivakio-2",
   "label": "Sunnuntaivakio 2 (krs 48)",
   "date": "2026-11-29",
-  "turnoverEur": 4586,
+  "turnoverEur": 5142,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Everton",
       "away": "Liverpool",
       "crowd": [
-        0.1515,
-        0.2121,
-        0.6364
+        0.15,
+        0.21,
+        0.64
       ]
     },
     {
@@ -35,8 +35,8 @@
       "away": "Bournemouth",
       "crowd": [
         0.2,
-        0.34,
-        0.46
+        0.33,
+        0.47
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Crystal P",
       "away": "Hull",
       "crowd": [
-        0.3663,
-        0.3168,
-        0.3168
+        0.37,
+        0.31,
+        0.32
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "Valencia",
       "away": "Osasuna",
       "crowd": [
-        0.5657,
-        0.2626,
-        0.1717
+        0.57,
+        0.26,
+        0.17
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Sassuolo",
       "away": "Napoli",
       "crowd": [
-        0.08,
-        0.15,
-        0.77
+        0.0808,
+        0.1515,
+        0.7677
       ]
     },
     {
@@ -95,8 +95,8 @@
       "away": "RB Leipzig",
       "crowd": [
         0.37,
-        0.36,
-        0.27
+        0.35,
+        0.28
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Auxerre",
       "away": "Marseille",
       "crowd": [
-        0.12,
-        0.16,
-        0.72
+        0.1212,
+        0.1616,
+        0.7172
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "Feyenoord",
       "away": "Ajax",
       "crowd": [
-        0.22,
-        0.27,
-        0.51
+        0.24,
+        0.26,
+        0.5
       ]
     },
     {
@@ -124,9 +124,9 @@
       "home": "Swansea",
       "away": "Cardiff C",
       "crowd": [
-        0.75,
+        0.74,
         0.17,
-        0.08
+        0.09
       ]
     }
   ]

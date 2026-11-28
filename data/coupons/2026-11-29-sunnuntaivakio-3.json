@@ -2,7 +2,7 @@
   "id": "2026-11-29-sunnuntaivakio-3",
   "label": "Sunnuntaivakio 3 (krs 48)",
   "date": "2026-11-29",
-  "turnoverEur": 3266,
+  "turnoverEur": 3548,
   "guaranteeEur": 50000,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -24,9 +24,9 @@
       "home": "Celta",
       "away": "Villarreal",
       "crowd": [
-        0.1683,
-        0.3366,
-        0.495
+        0.16,
+        0.33,
+        0.51
       ]
     },
     {
@@ -34,9 +34,9 @@
       "home": "Real Socied",
       "away": "Sevilla",
       "crowd": [
-        0.57,
-        0.29,
-        0.14
+        0.5657,
+        0.2929,
+        0.1414
       ]
     },
     {
@@ -54,8 +54,8 @@
       "home": "Como",
       "away": "Juventus",
       "crowd": [
-        0.37,
         0.38,
+        0.37,
         0.25
       ]
     },
@@ -64,9 +64,9 @@
       "home": "Hoffenheim",
       "away": "FC Augsburg",
       "crowd": [
-        0.6364,
-        0.2323,
-        0.1313
+        0.63,
+        0.24,
+        0.13
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Bor. Dortmu",
       "away": "Leverkusen",
       "crowd": [
-        0.6465,
-        0.202,
-        0.1515
+        0.64,
+        0.21,
+        0.15
       ]
     },
     {
@@ -84,9 +84,9 @@
       "home": "Toulouse",
       "away": "Rennes",
       "crowd": [
-        0.25,
+        0.26,
         0.34,
-        0.41
+        0.4
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Lyon",
       "away": "Monaco",
       "crowd": [
-        0.65,
-        0.22,
-        0.13
+        0.6337,
+        0.2277,
+        0.1386
       ]
     },
     {
@@ -104,9 +104,9 @@
       "home": "Union SG",
       "away": "KAA Gent",
       "crowd": [
-        0.6768,
-        0.2222,
-        0.101
+        0.68,
+        0.22,
+        0.1
       ]
     },
     {
@@ -114,9 +114,9 @@
       "home": "N.E.C.",
       "away": "FC Twente",
       "crowd": [
-        0.07,
-        0.11,
-        0.82
+        0.08,
+        0.12,
+        0.8
       ]
     },
     {
@@ -124,8 +124,8 @@
       "home": "FC Porto",
       "away": "Sporting CP",
       "crowd": [
-        0.69,
-        0.21,
+        0.68,
+        0.22,
         0.1
       ]
     }

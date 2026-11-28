@@ -2,7 +2,7 @@
   "id": "2026-11-27-valioliiga-vakio-12",
   "label": "Valioliiga-Vakio 12 (krs 48)",
   "date": "2026-11-27",
-  "turnoverEur": 9179,
+  "turnoverEur": 12092,
   "guaranteeEur": null,
   "bonusPoolEur": null,
   "rowPriceEur": 0.1,
@@ -14,9 +14,9 @@
       "home": "Nottingham",
       "away": "Chelsea",
       "crowd": [
-        0.28,
-        0.27,
-        0.45
+        0.3131,
+        0.2727,
+        0.4141
       ]
     },
     {
@@ -24,8 +24,8 @@
       "home": "Mancheste.U",
       "away": "Brentford",
       "crowd": [
-        0.38,
-        0.3,
+        0.4,
+        0.28,
         0.32
       ]
     },
@@ -34,9 +34,9 @@
       "home": "Leeds U",
       "away": "Coventry C",
       "crowd": [
-        0.84,
-        0.11,
-        0.05
+        0.79,
+        0.14,
+        0.07
       ]
     },
     {
@@ -44,9 +44,9 @@
       "home": "Ipswich T",
       "away": "Aston Villa",
       "crowd": [
-        0.17,
-        0.29,
-        0.54
+        0.19,
+        0.28,
+        0.53
       ]
     },
     {
@@ -54,9 +54,9 @@
       "home": "Everton",
       "away": "Liverpool",
       "crowd": [
-        0.12,
-        0.22,
-        0.66
+        0.1414,
+        0.2222,
+        0.6364
       ]
     },
     {
@@ -64,9 +64,9 @@
       "home": "Brighton",
       "away": "Newcastle U",
       "crowd": [
-        0.7879,
-        0.1313,
-        0.0808
+        0.75,
+        0.15,
+        0.1
       ]
     },
     {
@@ -74,9 +74,9 @@
       "home": "Fulham",
       "away": "Bournemouth",
       "crowd": [
-        0.18,
-        0.24,
-        0.58
+        0.2121,
+        0.2424,
+        0.5455
       ]
     },
     {
@@ -94,9 +94,9 @@
       "home": "Crystal P",
       "away": "Hull",
       "crowd": [
-        0.44,
+        0.46,
         0.26,
-        0.3
+        0.28
       ]
     },
     {
@@ -105,8 +105,8 @@
       "away": "Mancheste.C",
       "crowd": [
         0.48,
-        0.31,
-        0.21
+        0.3,
+        0.22
       ]
     }
   ]
